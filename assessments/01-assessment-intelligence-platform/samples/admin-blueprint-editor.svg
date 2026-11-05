@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" font-family="Inter, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Admin blueprint editor wireframe</title>
+  <desc id="d">Sample wireframe: quota table showing required versus available questions, with one short row. Illustrative only.</desc>
+  <rect width="800" height="420" fill="#ffffff"/>
+  <rect width="800" height="56" fill="#14263f"/>
+  <text x="24" y="35" fill="#fff" font-size="16" font-weight="700">Admin · Assessment blueprint</text>
+  <text x="24" y="92" fill="#14263f" font-size="18" font-weight="700">Sample Assessment (draft)</text>
+  <rect x="24" y="112" width="752" height="36" fill="#14263f"/>
+  <g fill="#fff" font-size="13" font-weight="700">
+    <text x="40" y="135">Category</text><text x="260" y="135">Difficulty</text><text x="400" y="135">Required</text><text x="500" y="135">Available</text><text x="620" y="135">Status</text>
+  </g>
+  <g font-size="14" fill="#14263f">
+    <rect x="24" y="148" width="752" height="40" fill="#fff" stroke="#d5dee6"/>
+    <text x="40" y="173">SQL</text><text x="260" y="173">Easy</text><text x="400" y="173">5</text><text x="500" y="173">12</text>
+    <rect x="620" y="158" width="90" height="22" rx="11" fill="#e3f4ea"/><text x="665" y="174" font-size="12" fill="#1a7f4b" text-anchor="middle">✓ Enough</text>
+    <rect x="24" y="188" width="752" height="40" fill="#eef3f7" stroke="#d5dee6"/>
+    <text x="40" y="213">SQL</text><text x="260" y="213">Hard</text><text x="400" y="213">2</text><text x="500" y="213">1</text>
+    <rect x="620" y="198" width="120" height="22" rx="11" fill="#fde8e6"/><text x="680" y="214" font-size="12" fill="#b42318" text-anchor="middle">✕ Short by 1</text>
+    <rect x="24" y="228" width="752" height="40" fill="#fff" stroke="#d5dee6"/>
+    <text x="40" y="253">Data Modeling</text><text x="260" y="253">Medium</text><text x="400" y="253">4</text><text x="500" y="253">9</text>
+    <rect x="620" y="238" width="90" height="22" rx="11" fill="#e3f4ea"/><text x="665" y="254" font-size="12" fill="#1a7f4b" text-anchor="middle">✓ Enough</text>
+  </g>
+  <text x="24" y="304" fill="#14263f" font-size="14" font-weight="700">Total required: 11 · Negative marking: 0.25 per wrong answer</text>
+  <rect x="24" y="320" width="752" height="40" rx="8" fill="#fff4e0" stroke="#b26a00"/>
+  <text x="40" y="345" fill="#b26a00" font-size="13">⚠ Cannot publish: 1 row has too few eligible questions. Add questions or reduce the quota.</text>
+  <rect x="24" y="372" width="140" height="36" rx="8" fill="#fff" stroke="#14263f"/><text x="94" y="395" fill="#14263f" font-size="14" text-anchor="middle">Save draft</text>
+  <rect x="176" y="372" width="140" height="36" rx="8" fill="#d5dee6"/><text x="246" y="395" fill="#5b6b7d" font-size="14" text-anchor="middle">Publish (disabled)</text>
+</svg>

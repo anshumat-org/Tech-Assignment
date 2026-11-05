@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" font-family="Inter, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Sync status states wireframe</title>
+  <desc id="d">Sample wireframe: five sync badge states with text labels. Meaning is carried by text and icon, not colour alone.</desc>
+  <rect width="800" height="300" fill="#ffffff"/>
+  <text x="24" y="40" fill="#14263f" font-size="18" font-weight="700">Sync status badge states</text>
+  <g font-size="13" fill="#14263f">
+    <rect x="24" y="64" width="360" height="40" rx="8" fill="#e3f4ea" stroke="#1a7f4b"/><text x="40" y="89">✓ Synced · up to date</text>
+    <rect x="24" y="116" width="360" height="40" rx="8" fill="#fff4e0" stroke="#b26a00"/><text x="40" y="141">● Pending · 3 changes waiting</text>
+    <rect x="24" y="168" width="360" height="40" rx="8" fill="#e8f0fe" stroke="#1d4fb0"/><text x="40" y="193">⟳ Syncing · sending 3 changes…</text>
+    <rect x="24" y="220" width="360" height="40" rx="8" fill="#eef3f7" stroke="#5b6b7d"/><text x="40" y="245">○ Offline · saved on this device</text>
+    <rect x="420" y="64" width="356" height="40" rx="8" fill="#fde8e6" stroke="#b42318"/><text x="436" y="89">✕ Sync error · will retry in 30s</text>
+  </g>
+  <text x="420" y="140" fill="#14263f" font-size="13" font-weight="700">Rules shown</text>
+  <g font-size="12" fill="#5b6b7d">
+    <text x="420" y="162">• Editing is never blocked by sync state</text>
+    <text x="420" y="182">• Pending count is always visible</text>
+    <text x="420" y="202">• Errors say what happens next</text>
+    <text x="420" y="222">• Announce changes to screen readers</text>
+  </g>
+</svg>

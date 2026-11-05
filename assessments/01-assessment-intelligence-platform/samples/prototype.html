@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sample Prototype · Candidate Attempt</title>
+<link rel="stylesheet" href="../../../shared/design-system/tokens.css">
+<style>
+  *{box-sizing:border-box}
+  body{margin:0;font-family:var(--font-sans);background:var(--color-bg);color:var(--color-text)}
+  header{background:var(--color-navy);color:#fff;padding:var(--space-3) var(--space-4);display:flex;justify-content:space-between;align-items:center;gap:var(--space-3);flex-wrap:wrap}
+  .timer{background:var(--color-primary);color:var(--color-primary-contrast);padding:var(--space-1) var(--space-3);border-radius:99px;font-size:var(--text-sm)}
+  .timer.warn{background:var(--color-warning);color:#fff}
+  main{display:grid;grid-template-columns:200px 1fr;gap:var(--space-4);padding:var(--space-4);max-width:960px;margin:auto}
+  @media(max-width:700px){main{grid-template-columns:1fr}}
+  nav,.card{background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-md);padding:var(--space-4)}
+  .card{background:var(--color-bg)}
+  .chips{display:flex;gap:var(--space-2);flex-wrap:wrap}
+  .chip{width:36px;height:36px;border-radius:var(--radius-sm);border:1px solid var(--color-border);background:var(--color-bg);color:var(--color-text);cursor:pointer}
+  .chip.answered{border-color:var(--color-primary);border-width:2px}
+  .chip.current{background:var(--color-primary);color:var(--color-primary-contrast)}
+  .opt{display:flex;gap:var(--space-3);align-items:center;padding:var(--space-3);border:1px solid var(--color-border);border-radius:var(--radius-md);margin:var(--space-2) 0;cursor:pointer}
+  .opt:has(input:checked){border:2px solid var(--color-primary)}
+  .opt input{width:18px;height:18px}
+  .likert{display:flex;gap:var(--space-2);flex-wrap:wrap}
+  .likert label{flex:1;min-width:90px;text-align:center}
+  button{font:inherit;padding:var(--space-2) var(--space-4);border-radius:var(--radius-md);border:1px solid var(--color-navy);background:var(--color-bg);color:var(--color-text);cursor:pointer}
+  button.primary{background:var(--color-primary);border-color:var(--color-primary);color:var(--color-primary-contrast)}
+  button:disabled{opacity:.5;cursor:not-allowed}
+  :focus-visible{outline:2px solid var(--color-focus);outline-offset:2px}
+  .muted{color:var(--color-text-muted);font-size:var(--text-sm)}
+  .ok{color:var(--color-success);font-size:var(--text-sm)}
+  .bar{display:flex;justify-content:space-between;margin-top:var(--space-4);gap:var(--space-2);flex-wrap:wrap}
+  dialog{border:1px solid var(--color-border);border-radius:var(--radius-lg);background:var(--color-bg);color:var(--color-text);max-width:420px}
+  .banner{background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-md);padding:var(--space-3);margin:var(--space-4);text-align:center}
+</style>
+</head>
+<body>
+<header>
+  <strong>Sample Assessment (prototype, mock data)</strong>
+  <span class="timer" id="timer" role="timer" aria-live="off">Time left 10:00</span>
+</header>
+<div id="app"></div>
+
+<dialog id="confirm" aria-labelledby="ct">
+  <h2 id="ct">Submit your attempt?</h2>
+  <p id="cmsg" class="muted"></p>
+  <div class="bar"><button id="cancel">Keep working</button><button class="primary" id="go">Submit</button></div>
+</dialog>
+
+<script>
+// Mock questions. A real system loads them from a persisted attempt and never ships answer keys to the browser.
+const Q = [
+  {id:1, type:'single', text:'Single choice sample question (placeholder)', opts:['Option A','Option B','Option C','Option D']},
+  {id:2, type:'multi',  text:'Multiple choice sample, select all that apply (placeholder)', opts:['Option A','Option B','Option C','Option D']},
+  {id:3, type:'likert',text:'Likert sample statement (placeholder). There is no right or wrong answer.', opts:['Strongly disagree','Disagree','Neutral','Agree','Strongly agree']}
+];
+const state = {i:0, answers:{}, submitted:false, left:600};
+const $ = s => document.querySelector(s);
+
+function render(){
+  if(state.submitted){
+    $('#app').innerHTML = '<div class="banner"><h2>Submitted</h2><p class="muted">Your attempt is final. Results are shown separately. Any psychometric summary is illustrative only.</p></div>';
+    return;
+  }
+  const q = Q[state.i], a = state.answers[q.id] || [];
+  const chips = Q.map((x,n)=>`<button class="chip ${n===state.i?'current':''} ${(state.answers[x.id]||[]).length?'answered':''}" data-n="${n}" aria-label="Question ${n+1}">${n+1}</button>`).join('');
+  let body;
+  if(q.type==='likert'){
+    body = '<div class="likert">'+q.opts.map((o,n)=>`<label class="opt"><input type="radio" name="q" value="${n}" ${a[0]==n?'checked':''}>${o}</label>`).join('')+'</div>';
+  } else {
+    const t = q.type==='multi'?'checkbox':'radio';
+    body = q.opts.map((o,n)=>`<label class="opt"><input type="${t}" name="q" value="${n}" ${a.includes(String(n))?'checked':''}>${o}</label>`).join('');
+  }
+  $('#app').innerHTML = `<main>
+    <nav aria-label="Question navigator"><strong>Questions</strong><div class="chips" style="margin-top:8px">${chips}</div>
+      <p class="muted">Outline = answered · filled = current</p></nav>
+    <section class="card"><p class="muted">Question ${state.i+1} of ${Q.length} · ${q.type==='multi'?'Select all that apply':q.type==='likert'?'Rate your agreement':'Select one'}</p>
+      <h2>${q.text}</h2><div id="opts">${body}</div><p class="ok" id="saved" aria-live="polite"></p>
+      <div class="bar"><button id="prev" ${state.i===0?'disabled':''}>Previous</button>
+        <button id="next" ${state.i===Q.length-1?'disabled':''}>Next</button>
+        <button class="primary" id="review">Review &amp; submit</button></div></section></main>`;
+  document.querySelectorAll('.chip').forEach(b=>b.onclick=()=>{state.i=+b.dataset.n;render()});
+  $('#prev').onclick=()=>{state.i--;render()}; $('#next').onclick=()=>{state.i++;render()};
+  $('#opts').onchange=()=>{ // simulate autosave
+    state.answers[q.id]=[...document.querySelectorAll('#opts input:checked')].map(i=>i.value);
+    $('#saved').textContent='✓ Saved'; render0chips();
+  };
+  $('#review').onclick=()=>{
+    const un=Q.filter(x=>!(state.answers[x.id]||[]).length).length;
+    $('#cmsg').textContent = un? `${un} question(s) unanswered. You cannot change answers after submitting.` : 'All questions answered. You cannot change answers after submitting.';
+    $('#confirm').showModal();
+  };
+}
+function render0chips(){ document.querySelectorAll('.chip').forEach((b,n)=>b.classList.toggle('answered',(state.answers[Q[n].id]||[]).length>0)); }
+$('#cancel').onclick=()=>$('#confirm').close();
+$('#go').onclick=()=>{ $('#go').disabled=true; state.submitted=true; $('#confirm').close(); render(); }; // second click is impossible: idempotent submit
+setInterval(()=>{ if(state.submitted) return; state.left=Math.max(0,state.left-1);
+  const m=String(Math.floor(state.left/60)).padStart(2,'0'), s=String(state.left%60).padStart(2,'0');
+  const t=$('#timer'); t.textContent=`Time left ${m}:${s}`+(state.left<=300?' · running low':''); t.classList.toggle('warn',state.left<=300);
+  if(state.left===0){state.submitted=true;render();} },1000);
+render();
+</script>
+</body>
+</html>

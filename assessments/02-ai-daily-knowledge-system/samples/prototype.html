@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sample Prototype · Daily Outliner</title>
+<link rel="stylesheet" href="../../../shared/design-system/tokens.css">
+<style>
+  *{box-sizing:border-box}
+  body{margin:0;font-family:var(--font-sans);background:var(--color-bg);color:var(--color-text)}
+  header{background:var(--color-navy);color:#fff;padding:var(--space-3) var(--space-4);display:flex;justify-content:space-between;gap:var(--space-3);flex-wrap:wrap;align-items:center}
+  main{max-width:960px;margin:auto;padding:var(--space-4);display:grid;grid-template-columns:1fr 320px;gap:var(--space-4)}
+  @media(max-width:760px){main{grid-template-columns:1fr}}
+  .row{display:flex;align-items:center;gap:var(--space-2);padding:2px 0}
+  .dot{width:8px;height:8px;border-radius:50%;background:var(--color-text);flex:none}
+  .txt{flex:1;border:0;background:transparent;color:inherit;font:inherit;padding:var(--space-1);border-radius:var(--radius-sm)}
+  .type{font-size:var(--text-xs);padding:2px var(--space-2);border:1px solid var(--color-border);border-radius:99px;background:var(--color-surface);color:var(--color-text)}
+  .done .txt{text-decoration:line-through;color:var(--color-text-muted)}
+  button,select{font:inherit;padding:var(--space-1) var(--space-3);border-radius:var(--radius-md);border:1px solid var(--color-navy);background:var(--color-bg);color:var(--color-text);cursor:pointer}
+  button.primary{background:var(--color-primary);border-color:var(--color-primary);color:var(--color-primary-contrast)}
+  :focus-visible{outline:2px solid var(--color-focus);outline-offset:2px}
+  aside{background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-md);padding:var(--space-4)}
+  .sug{background:var(--color-bg);border:1px solid var(--color-border);border-radius:var(--radius-md);padding:var(--space-3);margin:var(--space-2) 0}
+  .sug input{width:100%;font:inherit;padding:var(--space-1);background:var(--color-surface);color:var(--color-text);border:1px solid var(--color-border);border-radius:var(--radius-sm)}
+  .muted{color:var(--color-text-muted);font-size:var(--text-sm)}
+  #status{background:var(--color-surface);border-top:1px solid var(--color-border);padding:var(--space-2) var(--space-4);position:sticky;bottom:0;display:flex;gap:var(--space-3);align-items:center;flex-wrap:wrap}
+  .banner{background:var(--color-surface);border:1px solid var(--color-warning);border-radius:var(--radius-md);padding:var(--space-2) var(--space-3);margin-bottom:var(--space-3)}
+</style>
+</head>
+<body>
+<header>
+  <strong>Daily Notes (prototype, mock data)</strong>
+  <span><button id="prev">‹ Prev</button> <button id="today" class="primary">Today</button> <button id="next">Next ›</button></span>
+</header>
+<main>
+  <section aria-label="Outliner">
+    <h1 id="date" style="margin-top:0"></h1>
+    <div id="offbanner" class="banner" hidden>You're offline. Changes are saved on this device and will sync later.</div>
+    <div id="tree"></div>
+    <p class="muted">Enter: new bullet · Tab: indent · Shift+Tab: outdent · Backspace on empty: delete</p>
+  </section>
+  <aside aria-label="AI assistant">
+    <strong>AI assistant (mock provider)</strong>
+    <p class="muted">Suggested by AI. Review before applying. Your original text is never changed.</p>
+    <button id="extract" class="primary">Extract from note</button>
+    <div id="sugs"></div>
+  </aside>
+</main>
+<div id="status"><label><input type="checkbox" id="net" checked> Online</label> <span id="sync">✓ Synced</span></div>
+
+<script>
+// In-memory mock. A real app persists nodes in IndexedDB with stable client-generated IDs and a sync queue.
+let day = new Date('2026-11-06T00:00:00');
+const store = {}; // dateKey -> nodes[]
+const key = d => d.toISOString().slice(0,10);
+const uid = () => (crypto.randomUUID ? crypto.randomUUID() : String(Math.random()));
+let pending = 0, online = true;
+const seed = () => [
+  {id:uid(),depth:0,type:'text',text:'ON Labs'},
+  {id:uid(),depth:1,type:'meeting',text:'Discussed with the engineering team.'},
+  {id:uid(),depth:1,type:'task',text:'Finish the assessment database schema by Friday. Rahul will handle backend APIs.',done:false},
+  {id:uid(),depth:0,type:'text',text:'Personal'},
+  {id:uid(),depth:1,type:'idea',text:'Follow up on pending tasks'}
+];
+const nodes = () => store[key(day)] ||= seed();
+const $ = s => document.querySelector(s);
+
+function touch(){ pending++; syncUI(); if(online) setTimeout(()=>{pending=0;syncUI();},800); }
+function syncUI(){
+  $('#offbanner').hidden = online;
+  $('#sync').textContent = !online ? `○ Offline · ${pending} change(s) pending` : pending ? '⟳ Syncing…' : '✓ Synced';
+}
+$('#net').onchange = e => { online = e.target.checked; syncUI(); if(online && pending) setTimeout(()=>{pending=0;syncUI();},800); };
+
+function render(focusId){
+  $('#date').textContent = day.toLocaleDateString('en-US',{year:'numeric',month:'long',day:'numeric'});
+  const ns = nodes();
+  $('#tree').innerHTML = '';
+  ns.forEach((n,i)=>{
+    const r = document.createElement('div'); r.className='row'+(n.done?' done':''); r.style.paddingLeft=(n.depth*24)+'px';
+    r.innerHTML = `<span class="dot"></span>${n.type==='task'?`<input type="checkbox" aria-label="Done" ${n.done?'checked':''}>`:''}
+      <input class="txt" value="${n.text.replace(/"/g,'&quot;')}" aria-label="Bullet">
+      <select class="type" aria-label="Node type">${['text','task','meeting','idea','decision','link'].map(t=>`<option ${t===n.type?'selected':''}>${t}</option>`).join('')}</select>`;
+    const inp = r.querySelector('.txt');
+    inp.oninput = () => { n.text = inp.value; touch(); };
+    inp.onkeydown = e => {
+      if(e.key==='Enter'){ e.preventDefault(); const m={id:uid(),depth:n.depth,type:'text',text:''}; ns.splice(i+1,0,m); touch(); render(m.id); }
+      else if(e.key==='Tab'){ e.preventDefault(); const prev=ns[i-1]; if(e.shiftKey){ n.depth=Math.max(0,n.depth-1);} else if(prev && n.depth<=prev.depth){ n.depth++; } touch(); render(n.id); }
+      else if(e.key==='Backspace' && inp.value==='' && ns.length>1){ e.preventDefault(); ns.splice(i,1); touch(); render(ns[Math.max(0,i-1)].id); }
+    };
+    r.querySelector('select').onchange = e => { n.type=e.target.value; touch(); render(n.id); };
+    const cb = r.querySelector('input[type=checkbox]'); if(cb) cb.onchange = () => { n.done=cb.checked; touch(); render(n.id); };
+    r.dataset.id=n.id; $('#tree').appendChild(r);
+  });
+  if(focusId){ const el=document.querySelector(`[data-id="${focusId}"] .txt`); if(el) el.focus(); }
+}
+$('#prev').onclick=()=>{day.setDate(day.getDate()-1);$('#sugs').innerHTML='';render()};
+$('#next').onclick=()=>{day.setDate(day.getDate()+1);$('#sugs').innerHTML='';render()};
+$('#today').onclick=()=>{day=new Date('2026-11-06T00:00:00');$('#sugs').innerHTML='';render()};
+
+// Mock AI provider: fixed, schema-shaped output. Real providers run on the server; keys never reach the browser.
+$('#extract').onclick = () => {
+  const src = nodes().map(n=>n.text).join(' ');
+  if(!/Friday/.test(src)){ $('#sugs').innerHTML='<p class="muted">Nothing to extract in this note.</p>'; return; }
+  const out = [{kind:'Task',value:'Finish assessment database schema'},{kind:'Owner',value:'Rahul'},{kind:'Due',value:'Friday'},{kind:'Follow-up',value:'Backend API development'}];
+  $('#sugs').innerHTML = out.map((o,i)=>`<div class="sug"><label class="muted">${o.kind}<input value="${o.value}" data-i="${i}"></label>
+    <label><input type="checkbox" checked style="width:auto"> Include</label></div>`).join('') +
+    '<button class="primary" id="apply">Apply selected</button> <button id="dismiss">Dismiss all</button>';
+  $('#dismiss').onclick=()=>$('#sugs').innerHTML='';
+  $('#apply').onclick=()=>{ // applying adds NEW nodes; original bullets stay untouched
+    const picked=[...document.querySelectorAll('.sug')].filter(s=>s.querySelector('input[type=checkbox]').checked)
+      .map(s=>s.querySelector('label input').value);
+    const ns=nodes(); picked.forEach(p=>ns.push({id:uid(),depth:1,type:'task',text:p+' (from AI, edited)',done:false}));
+    touch(); $('#sugs').innerHTML='<p class="muted">Applied. Original note unchanged.</p>'; render();
+  };
+};
+render();
+</script>
+</body>
+</html>
