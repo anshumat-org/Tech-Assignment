@@ -1,8 +1,10 @@
-# Assignment 05 — Requirements
+# Assignment 05 — Requirements & Directives
 
 **v1.0 — 2026-11-06**
 
-## A. Core workflows
+## Part 1 — Requirements
+
+### A. Core workflows
 
 | Workflow | Requirement | Example |
 |---|---|---|
@@ -15,7 +17,7 @@
 | Daily sales report | Gross sales, discounts, tax, net sales, order count, average order value, top products, payment split, refunds, outstanding dues | "Show today's sales report" |
 | Export / share | Readable tables in chat. Hindi or English CSV/PDF summary | "Kal ke sales ka report English mein bhejo" |
 
-## B. Bilingual requirements
+### B. Bilingual requirements
 
 | Capability | Expected behaviour |
 |---|---|
@@ -26,7 +28,7 @@
 | Reports | Headings, labels, filters, status messages and exports in both languages |
 | Fallback | Focused clarification in the same language. Never guess product, customer or quantity |
 
-## C. Chat-to-action pipeline
+### C. Chat-to-action pipeline
 
 | Step | Expected behaviour |
 |---|---|
@@ -39,7 +41,7 @@
 | 7 Execute | Deterministic business services in DB transactions. Retries are idempotent |
 | 8 Report | Return persisted order or invoice references, or database-backed report results |
 
-## D. Database (suggested)
+### D. Database (suggested)
 
 | Entity | Purpose |
 |---|---|
@@ -54,7 +56,7 @@
 | pending_actions | Parsed intent, typed payload, validation and confirmation state, expiry |
 | audit_events | Actor, action, entity, before/after reference, timestamp |
 
-## E. API scope (adjustable if documented)
+### E. API scope (adjustable if documented)
 
 | Method | Endpoint |
 |---|---|
@@ -66,14 +68,14 @@
 | GET | /reports/stock/daily · /reports/sales/daily |
 | GET | /reports/{id}/export?format=csv\|pdf |
 
-## F. Reporting logic
+### F. Reporting logic
 - Closing stock = opening + inward + returns-in − sold − returns-to-supplier − damage and other outward adjustments.
 - Define gross sales, discounts, tax, net sales, refunds, collected amount and outstanding credit separately.
 - Use the shop timezone and an explicit business-day boundary.
 - Calculate from persisted orders, payments and inventory movements, not the chat transcript or LLM arithmetic.
 - Explain live reports versus end-of-day snapshots, and how late corrections and refunds affect reports.
 
-## G. Engineering scenarios to address
+### G. Engineering scenarios to address
 - Two products have similar Hindi or English names. How do you avoid the wrong SKU?
 - A customer orders 5 units but only 3 are available. What does the order flow do?
 - The user says "pachaas" or "50" but the parser extracts 15. How is it caught before saving?
@@ -82,5 +84,39 @@
 - A shop has two branches. How do you scope stock and reports by branch?
 - The AI provider is unavailable. Do structured product search, order entry and reports still work?
 
-## H. Live follow-up
+### H. Live follow-up
 Add a return or refund flow so the order, payment adjustment, inventory restock and daily reports stay consistent and auditable. Switch the same conversation from Hindi to English without losing context.
+
+## Part 2 — Directives
+
+| ✅ Do | ❌ Don't |
+|---|---|
+| Treat model output as untrusted. Validate against typed schemas and server-side rules | Execute whatever the model returns |
+| Calculate stock, prices, tax, totals, payment status and reports deterministically | Let the AI invent or compute figures |
+| Require confirmation for order confirmation, invoice, payment, refund and stock adjustment | Mutate data straight from a chat message |
+| Use DB transactions and idempotency keys for order, invoice, payment and stock | Allow duplicate orders or stock deductions on retry |
+| Keep an inventory ledger and derive balances from it | Overwrite a stock number with no history |
+| Enforce shop and role scope on every query | Trust a shop ID sent by the client |
+| Ask a focused clarification in the same language when ambiguous | Guess product, customer or quantity |
+| Send the AI provider only what it needs | Send customer personal data unnecessarily |
+| Provide a mock or deterministic parser if no AI key is supplied, and document the boundary | Make the app unusable without an AI key |
+| Use synthetic data only | Use real shop or customer data |
+
+### Deliverables
+
+| Item | Format reference |
+|---|---|
+| Working chat-first app with Hindi, English and Hinglish examples | Meaningful commit history |
+| Product and customer management, orders, confirmation, ledger, daily stock and sales reports | |
+| Schema or migrations, one-page HLD, API docs, README | [SUBMISSION_FORMATS.md](../../SUBMISSION_FORMATS.md) Sections 1, 2, 4, 7 |
+| At least 8 tests: bilingual parsing, ambiguity, report calculations, stock validation, duplicate retries, transaction failures | Section 6 |
+| Demo: one Hindi order, one English order, a daily stock report, a daily sales report | Section 8 |
+
+### Constraints
+- TypeScript preferred. PostgreSQL preferred.
+- Mock chat or LLM integration is acceptable without credentials.
+- Separate presentation, business logic, data access, external integrations.
+- Runs locally.
+
+### Technical discussion (30–45 min)
+Walk through the pipeline from message to persisted action, the ledger and report formulas, retry safety, and the live return or refund change.

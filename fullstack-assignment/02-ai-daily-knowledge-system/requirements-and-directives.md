@@ -1,8 +1,10 @@
-# Assignment 02 — Requirements
+# Assignment 02 — Requirements & Directives
 
 **v1.0 — 2026-11-06**
 
-## A. Daily notes and outliner
+## Part 1 — Requirements
+
+### A. Daily notes and outliner
 - Automatically create or open a daily page.
 - Create, edit, delete, indent, outdent, reorder nested bullets.
 - Basic Markdown and navigation between dates.
@@ -21,7 +23,7 @@ November 6, 2026
   - Follow up on pending tasks
 ```
 
-## B. Structured knowledge
+### B. Structured knowledge
 
 | Node type | Example |
 |---|---|
@@ -34,7 +36,7 @@ November 6, 2026
 
 Each node has a stable identifier, parent-child relationship, type, content, ordering.
 
-## C. AI assistant (implement at least three)
+### C. AI assistant (implement at least three)
 - **Summarization:** concise summary from a long daily note.
 - **Structured extraction:** tasks, owners, dates, decisions, follow-ups.
 - **Tagging and classification:** categories such as Product, Engineering, Meeting, Ideas, Tasks, Personal.
@@ -43,12 +45,12 @@ Example input: "Discussed with the engineering team. Finish the assessment datab
 
 AI suggestions must be reviewable and editable before they change stored data. Preserve the original note.
 
-## D. Search and retrieval
+### D. Search and retrieval
 - Keyword search across notes.
 - Filter by date, node type, tags.
 - Bonus: semantic search.
 
-## E. Local-first behaviour
+### E. Local-first behaviour
 - Persist locally in IndexedDB or equivalent.
 - Create, edit, delete, browse offline.
 - Data survives refresh and browser restart.
@@ -57,7 +59,7 @@ AI suggestions must be reviewable and editable before they change stored data. P
 
 AI may need internet. Core note-taking must not.
 
-## Database (mandatory)
+### Database (mandatory)
 
 | Entity | Purpose |
 |---|---|
@@ -73,7 +75,7 @@ AI may need internet. Core note-taking must not.
 
 Provide ER diagram, schema, indexes, constraints, sample queries. Explain hierarchy, ordering, deletion, AI-output provenance, local/remote sync.
 
-## AI architecture
+### AI architecture
 
 ```ts
 interface AIProvider {
@@ -90,7 +92,7 @@ interface AIProvider {
 - Provider credentials stay on the server, never in the frontend.
 - A mock provider is acceptable if clearly documented.
 
-## Sync and offline scenarios
+### Sync and offline scenarios
 - Create and edit offline, refresh, verify persistence.
 - Reconnect and sync pending changes.
 - Open the same account in another browser or device; verify updates.
@@ -99,9 +101,45 @@ interface AIProvider {
 
 A full CRDT is not required. A clearly explained basic strategy is enough.
 
-## API scope
+### API scope
 - Create and fetch daily notes.
 - Create, update, delete nodes.
 - Search; filter by date, type, tag.
 - Generate summary, extraction, tags.
 - Push pending sync changes; pull remote changes.
+
+## Part 2 — Directives
+
+| ✅ Do | ❌ Don't |
+|---|---|
+| Write locally first, then sync | Block editing on network calls |
+| Give every node a stable ID generated on the client | Rely on server-assigned IDs for offline creates |
+| Make sync operations idempotent, with retry | Apply the same operation twice |
+| Use a cursor or version for pull | Re-download everything every time |
+| Keep AI output separate from the original note | Overwrite the user's text with AI output |
+| Show AI suggestions for review and edit before applying | Auto-apply extraction |
+| Validate AI output against a schema; handle timeout and failure | Trust raw model output |
+| Keep AI keys on the server | Put keys in the frontend or the repo |
+| Show online/offline and sync state | Fail silently |
+| Document the conflict strategy for edits and deletes | Leave conflicts undefined |
+
+### Deliverables
+
+| Item | Format reference |
+|---|---|
+| Working PWA or web app and GitHub repo | Meaningful commit history |
+| HLD diagram | [SUBMISSION_FORMATS.md](../../SUBMISSION_FORMATS.md) Section 1 |
+| ER diagram, schema, indexes | Section 2 |
+| API documentation and AI integration notes | Section 4 |
+| Sitemap of screens | Section 11 |
+| Local setup and test cases | Section 6 and 7 |
+| Demo of offline edit and sync | Section 8 |
+
+### Constraints
+- TypeScript where practical. Justify major choices.
+- Separate UI, business logic, local storage, remote storage, AI, sync.
+- Runs locally without mandatory paid infrastructure.
+- Synthetic data only.
+
+### Technical discussion (30–45 min)
+Expect to demo offline edit then reconnect, explain conflict handling, walk through the AI review flow, and explain what changes before production.

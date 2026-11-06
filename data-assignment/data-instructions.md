@@ -1,6 +1,6 @@
 # Data Instructions
 
-**v0.1 DRAFT — 2026-11-06** · Mandatory engineering principles for all Data assignments. Assignments for this track are not yet defined.
+**v0.1 DRAFT — 2026-11-06** · Mandatory engineering principles for all Data assignments. Assignments: see the track README.
 
 | # | Principle | Rule |
 |---|---|---|

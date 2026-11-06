@@ -32,7 +32,7 @@
 | File / folder | Purpose |
 |---|---|
 | `README.md` | Overview, scope, what is evaluated |
-| `requirements.md` | Functional requirements, entities, API scope, scenarios |
-| `directives.md` | Do / don't rules, deliverables, constraints |
+| `requirements-and-directives.md` | Part 1 requirements and scenarios. Part 2 do / don't rules, deliverables, constraints, discussion |
+| `resources.md` | Reference links for the topic. Starting points, not solutions |
 | `design-system/` | UI guidance specific to this assignment |
 | `samples/` | Wireframe images showing the expected look and feel (not solutions). Present for 01 and 02 only |

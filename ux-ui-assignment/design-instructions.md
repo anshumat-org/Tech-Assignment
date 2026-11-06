@@ -1,6 +1,6 @@
 # UX/UI Design Instructions
 
-**v0.1 DRAFT — 2026-11-06** · Mandatory design principles for all UX/UI assignments. Assignments for this track are not yet defined.
+**v0.1 DRAFT — 2026-11-06** · Mandatory design principles for all UX/UI assignments. Assignments: see the track README.
 
 | # | Principle | Rule |
 |---|---|---|

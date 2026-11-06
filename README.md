@@ -12,19 +12,19 @@
 │   ├── README.md
 │   ├── 01-assessment-intelligence-platform/
 │   │   ├── README.md                # overview
-│   │   ├── requirements.md          # scope, entities, API, scenarios
-│   │   ├── directives.md            # do / don't, deliverables
+│   │   ├── requirements-and-directives.md   # scope, scenarios, do / don't, deliverables
+│   │   ├── resources.md             # reference links
 │   │   ├── design-system/README.md
 │   │   └── samples/                 # wireframe SVGs + prototype.html
 │   ├── 02-ai-daily-knowledge-system/
 │   │   ├── README.md
-│   │   ├── requirements.md
-│   │   ├── directives.md
+│   │   ├── requirements-and-directives.md
+│   │   ├── resources.md
 │   │   ├── design-system/README.md
 │   │   └── samples/                 # wireframe SVGs + prototype.html
-│   ├── 03-mini-workflow-engine/             # README, requirements, directives, design-system
-│   ├── 04-passport-application-tracking/    # README, requirements, directives, design-system
-│   ├── 05-chat-first-inventory-billing/     # README, requirements, directives, design-system
+│   ├── 03-mini-workflow-engine/             # README, requirements-and-directives, resources, design-system
+│   ├── 04-passport-application-tracking/    # README, requirements-and-directives, resources, design-system
+│   ├── 05-chat-first-inventory-billing/     # README, requirements-and-directives, resources, design-system
 │   └── developer-instructions.md       # mandatory for all five
 ├── shared/design-system/            # tokens.css + shared guidance
 ├── qa/RUBRIC.md                     # scoring rubric (hiring team)

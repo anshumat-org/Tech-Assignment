@@ -1,8 +1,10 @@
-# Assignment 04 — Requirements
+# Assignment 04 — Requirements & Directives
 
 **v1.0 — 2026-11-06**
 
-## A. Core requirements
+## Part 1 — Requirements
+
+### A. Core requirements
 
 | Area | Requirement |
 |---|---|
@@ -15,7 +17,7 @@
 | Notifications | In-app notification or email mock on status change or when applicant action is required |
 | Audit trail | Record consent events, document access/retrieval, checklist decisions, status changes |
 
-## B. Architecture expectations
+### B. Architecture expectations
 - HLD showing applicant UI, operator dashboard, backend API, relational database, secure document storage (if used), notification adapter, DigiLocker adapter, simulated passport tracking adapter.
 - Provider-specific code behind interfaces so mock and authorised sandbox implementations swap without rewriting application logic.
 - Status state machine. Reject invalid transitions. State which roles may perform each transition.
@@ -24,7 +26,7 @@
 - Consent is purpose-specific, visible, revocable where applicable and auditable. Explain retention and deletion choices.
 - No access tokens, identity numbers, document contents or other sensitive values in URLs, analytics events or logs.
 
-## C. Database (suggested)
+### C. Database (suggested)
 
 | Entity | Purpose |
 |---|---|
@@ -39,7 +41,7 @@
 | notifications | Recipient, event, channel, delivery state, created_at |
 | audit_events | Actor, action, resource, timestamp, correlation ID. No document contents or secrets |
 
-## D. API scope (adjustable if documented)
+### D. API scope (adjustable if documented)
 
 | Method | Endpoint |
 |---|---|
@@ -54,7 +56,7 @@
 | POST | /applications/{id}/status-transitions |
 | GET | /applications/{id}/timeline |
 
-## E. Engineering scenarios to address
+### E. Engineering scenarios to address
 - The user withdraws DigiLocker consent after linking documents. What becomes inaccessible, and how is the application represented?
 - The provider callback is received twice. How is the flow idempotent?
 - A document is retrieved but fails the checklist rules. How is that communicated?
@@ -63,9 +65,47 @@
 - The provider is unavailable. Can the applicant continue with another permitted upload route?
 - How do you prevent one applicant or reviewer from accessing another applicant's documents?
 
-## F. Reviewer prompts
+### F. Reviewer prompts
 1. How did you model status transitions and prevent invalid ones?
 2. Show how consent is captured, checked and revoked.
 3. Show how the mock adapter could be replaced by an authorised provider.
 4. What sensitive data did you deliberately choose not to persist?
 5. Show how you tested duplicate callbacks, provider failures and access-control boundaries.
+
+## Part 2 — Directives
+
+| ✅ Do | ❌ Don't |
+|---|---|
+| Put DigiLocker and tracking behind adapter interfaces | Call a provider directly from business logic |
+| Label mock and simulated data in the UI and README | Present simulated status as real Passport Seva data |
+| Enforce transitions in one state machine, server-side | Trust the client to send a valid next status |
+| Sign and expire the callback state/nonce. Make the callback idempotent | Accept a replayed or unsigned callback |
+| Record consent, document access, review decisions and status changes in the audit trail | Log document contents, identity numbers or tokens |
+| Check ownership and role on every document and application query | Rely on hidden UI buttons for access control |
+| Store the minimum: references and metadata | Keep document copies or identity numbers you do not need |
+| Offer another permitted upload route when the provider is down | Block the applicant completely |
+| Use synthetic data only | Use real personal data or real credentials |
+| Never scrape government portals or ask for DigiLocker passwords or OTPs | Handle user authentication secrets in any form |
+
+### Deliverables
+
+| Item | Format reference |
+|---|---|
+| Working app and GitHub repo | Meaningful commit history |
+| HLD diagram | [SUBMISSION_FORMATS.md](../../SUBMISSION_FORMATS.md) Section 1 |
+| ER diagram, schema, indexes, seed data | Section 2 |
+| API documentation | Section 4 |
+| State machine diagram with roles per transition | In README or `docs/` |
+| Consent, retention and deletion explanation | In README or `docs/` |
+| Tests: invalid transitions, duplicate callbacks, provider failure, access control | Section 6 |
+| README with setup, assumptions, trade-offs | Section 7 |
+| Demo video or screenshots | Section 8 |
+
+### Constraints
+- TypeScript preferred. PostgreSQL preferred.
+- Mock provider is acceptable and expected if no authorised credentials are supplied.
+- Separate presentation, business logic, data access, external integrations.
+- Runs locally.
+
+### Technical discussion (30–45 min)
+Walk through the state machine, consent capture and revocation, adapter replacement, what you chose not to persist, and how you tested callbacks, failures and access boundaries.

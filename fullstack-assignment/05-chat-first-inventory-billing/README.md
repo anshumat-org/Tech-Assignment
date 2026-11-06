@@ -30,7 +30,7 @@ The assistant converts instructions into structured actions, reads figures from 
 
 ## Read next
 
-- [requirements.md](requirements.md)
-- [directives.md](directives.md)
+- [requirements-and-directives.md](requirements-and-directives.md)
+- [resources.md](resources.md)
 - [design-system/README.md](design-system/README.md)
 - [../developer-instructions.md](../developer-instructions.md) (mandatory for every assignment)
