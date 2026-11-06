@@ -2,7 +2,7 @@
 
 **v1.0 — 2026-11-06**
 
-Starting point for both assessments. Tokens live in [tokens.css](tokens.css). Candidates may extend or replace them, but must document the result in their own `docs/design-system.md` (format: [../../SUBMISSION_FORMATS.md](../../SUBMISSION_FORMATS.md), Section 5).
+Starting point for all assignments. Tokens live in [tokens.css](tokens.css). Candidates may extend or replace them, but must document the result in their own `docs/design-system.md` (format: [../../SUBMISSION_FORMATS.md](../../SUBMISSION_FORMATS.md), Section 5).
 
 | Part | Guidance |
 |---|---|

@@ -38,3 +38,4 @@
 - [directives.md](directives.md)
 - [design-system/README.md](design-system/README.md)
 - [samples/](samples/)
+- [../developer-instructions.md](../developer-instructions.md) (mandatory for every assignment)

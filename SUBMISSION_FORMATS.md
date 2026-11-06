@@ -1,7 +1,7 @@
-# OnRole Assessment — Submission Format Guide
+# FullStack Assignment — Submission Format Guide
 
-**v1.2 — 2026-11-06** · Applies to Assignment 01 and Assignment 02
-**Changelog:** v1.2 — added Section 11 (diagram standards: Mermaid, Excalidraw, text sitemap, charts). v1.1 — added Section 10 (how to submit) with the Google Form link. v1.0 — first version: HLD, Database, SQL, API, Design System, Tests, README, Demo formats.
+**v1.3 — 2026-11-06** · Applies to Assignments 01–05 (FullStack track)
+**Changelog:** v1.3 — scope extended to Assignments 03, 04, 05. v1.2 — added Section 11 (diagram standards: Mermaid, Excalidraw, text sitemap, charts). v1.1 — added Section 10 (how to submit) with the Google Form link. v1.0 — first version: HLD, Database, SQL, API, Design System, Tests, README, Demo formats.
 
 > This guide defines **how** to present deliverables. It contains **no solutions**. Use synthetic data only.
 

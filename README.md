@@ -1,6 +1,6 @@
 # Tech-Assignment
 
-**v1.1 — 2026-11-06** · Full-stack product engineer assessments. Complete only the assignment selected for you.
+**v1.1 — 2026-11-06** · Full-stack product engineer assignments. Complete only the assignment selected for you.
 
 ## Repo structure
 
@@ -8,7 +8,7 @@
 .
 ├── README.md
 ├── SUBMISSION_FORMATS.md            # HLD, DB, SQL, API, design system, test, README, demo formats
-├── assessments/
+├── fullstack-assignment/
 │   ├── README.md
 │   ├── 01-assessment-intelligence-platform/
 │   │   ├── README.md                # overview
@@ -16,12 +16,16 @@
 │   │   ├── directives.md            # do / don't, deliverables
 │   │   ├── design-system/README.md
 │   │   └── samples/                 # wireframe SVGs + prototype.html
-│   └── 02-ai-daily-knowledge-system/
-│       ├── README.md
-│       ├── requirements.md
-│       ├── directives.md
-│       ├── design-system/README.md
-│       └── samples/                 # wireframe SVGs + prototype.html
+│   ├── 02-ai-daily-knowledge-system/
+│   │   ├── README.md
+│   │   ├── requirements.md
+│   │   ├── directives.md
+│   │   ├── design-system/README.md
+│   │   └── samples/                 # wireframe SVGs + prototype.html
+│   ├── 03-mini-workflow-engine/             # README, requirements, directives, design-system
+│   ├── 04-passport-application-tracking/    # README, requirements, directives, design-system
+│   ├── 05-chat-first-inventory-billing/     # README, requirements, directives, design-system
+│   └── developer-instructions.md       # mandatory for all five
 ├── shared/design-system/            # tokens.css + shared guidance
 ├── qa/RUBRIC.md                     # scoring rubric (hiring team)
 └── .claude/agents/qa-assessor.md    # QA agent (hiring team)
@@ -31,7 +35,8 @@
 
 | Doc | Purpose |
 |---|---|
-| [assessments/README.md](assessments/README.md) | Compare the two assignments |
+| [fullstack-assignment/README.md](fullstack-assignment/README.md) | Compare the five assignments |
+| [fullstack-assignment/developer-instructions.md](fullstack-assignment/developer-instructions.md) | Mandatory developer principles |
 | [SUBMISSION_FORMATS.md](SUBMISSION_FORMATS.md) | Required format for every deliverable and diagram |
 | [shared/design-system/README.md](shared/design-system/README.md) | Shared tokens and components |
 | [Submission form](https://forms.gle/U7Hzh3P6ZMDEqxcw7) | Where candidates submit (see Section 10 of the format guide) |
