@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Inter, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Archive confirm dialog wireframe</title>
+  <desc id="d">Sample wireframe: confirm dialog to archive a question over the dimmed question bank, plus the done confirmation. Illustrative only.</desc>
+  <rect width="800" height="480" fill="#ffffff"/>
+  <rect width="800" height="56" fill="#14263f"/>
+  <text x="24" y="35" fill="#fff" font-size="16" font-weight="700">Admin · Question bank</text>
+  <rect x="24" y="80" width="752" height="36" fill="#14263f"/>
+  <text x="40" y="103" fill="#fff" font-size="13" font-weight="700">Question</text>
+  <text x="360" y="103" fill="#fff" font-size="13" font-weight="700">Category</text>
+  <text x="580" y="103" fill="#fff" font-size="13" font-weight="700">Status</text>
+  <rect x="24" y="116" width="752" height="40" fill="#fff" stroke="#d5dee6"/>
+  <text x="40" y="141" fill="#14263f" font-size="14">Placeholder question 1</text>
+  <text x="360" y="141" fill="#14263f" font-size="14">SQL</text>
+  <text x="580" y="141" fill="#14263f" font-size="14">Active</text>
+  <rect x="24" y="156" width="752" height="40" fill="#eef3f7" stroke="#d5dee6"/>
+  <text x="40" y="181" fill="#14263f" font-size="14">Placeholder question 2</text>
+  <text x="360" y="181" fill="#14263f" font-size="14">Data Modeling</text>
+  <text x="580" y="181" fill="#14263f" font-size="14">Active</text>
+  <rect width="800" height="480" fill="#14263f" fill-opacity="0.45"/>
+  <rect x="180" y="120" width="440" height="220" rx="12" fill="#fff" stroke="#d5dee6"/>
+  <text x="204" y="160" fill="#14263f" font-size="18" font-weight="700">Archive this question?</text>
+  <text x="204" y="192" fill="#14263f" font-size="14">“Placeholder question 2”</text>
+  <text x="204" y="222" fill="#5b6b7d" font-size="13">It will no longer be picked for new attempts.</text>
+  <text x="204" y="242" fill="#5b6b7d" font-size="13">Past attempts keep it unchanged.</text>
+  <rect x="340" y="280" width="120" height="36" rx="8" fill="#fff" stroke="#14263f"/><text x="400" y="303" fill="#14263f" font-size="14" text-anchor="middle">Cancel</text>
+  <rect x="476" y="280" width="120" height="36" rx="8" fill="#b42318"/><text x="536" y="303" fill="#fff" font-size="14" text-anchor="middle">Archive</text>
+  <rect x="180" y="400" width="440" height="40" rx="8" fill="#e3f4ea" stroke="#1a7f4b"/><text x="196" y="425" fill="#1a7f4b" font-size="13">✓ Done · Question archived. Shown after confirm.</text>
+</svg>

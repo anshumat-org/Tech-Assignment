@@ -1,6 +1,6 @@
 # Assignment 05 — Chat-First Inventory & Billing Platform
 
-**v1.0 — 2026-11-06**
+**v1.2 — 2026-11-23**
 
 | WH | Answer |
 |---|---|
@@ -30,7 +30,9 @@ The assistant converts instructions into structured actions, reads figures from 
 
 ## Read next
 
+- [product-brief.md](product-brief.md) (start here: product, personas, capabilities, user stories with acceptance criteria)
 - [requirements-and-directives.md](requirements-and-directives.md)
 - [resources.md](resources.md)
 - [design-system/README.md](design-system/README.md)
 - [../developer-instructions.md](../developer-instructions.md) (mandatory for every assignment)
+- [developer-guide.md](developer-guide.md) (build order, directions, before / during / after checklists)

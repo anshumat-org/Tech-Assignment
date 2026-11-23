@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Inter, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Staging layer table</title>
+  <desc id="d">Staging table preview with typed columns and placeholder dedupe outcome. Illustrative only.</desc>
+  <rect width="800" height="480" fill="#ffffff"/>
+  <rect width="800" height="56" fill="#14263f"/>
+  <text x="24" y="35" font-size="16" fill="#ffffff" font-weight="700">staging.orders (preview)</text>
+  <rect x="714" y="14" width="62" height="28" rx="14" fill="#e7f5ee" stroke="#1a7f4b"/>
+  <text x="745.0" y="33" font-size="12" fill="#1a7f4b" font-weight="700" text-anchor="middle">READY</text>
+  <rect x="24" y="76" width="752" height="170" rx="6" fill="#ffffff" stroke="#d5dee6"/>
+  <rect x="24" y="76" width="752" height="34" rx="6" fill="#eef3f7" stroke="#d5dee6"/>
+  <text x="34" y="97.0" font-size="11" fill="#5b6b7d" font-weight="700">order_id</text>
+  <text x="197.47826086956522" y="97.0" font-size="11" fill="#5b6b7d" font-weight="700">col_a</text>
+  <text x="360.95652173913044" y="97.0" font-size="11" fill="#5b6b7d" font-weight="700">col_b</text>
+  <text x="524.4347826086956" y="97.0" font-size="11" fill="#5b6b7d" font-weight="700">dedupe outcome</text>
+  <text x="34" y="131.0" font-size="12" fill="#14263f">text</text>
+  <text x="197.47826086956522" y="131.0" font-size="12" fill="#14263f">date</text>
+  <text x="360.95652173913044" y="131.0" font-size="12" fill="#14263f">numeric</text>
+  <text x="524.4347826086956" y="131.0" font-size="12" fill="#14263f">-</text>
+  <line x1="24" y1="144" x2="776" y2="144" stroke="#d5dee6"/>
+  <text x="34" y="165.0" font-size="12" fill="#14263f">id_001</text>
+  <text x="197.47826086956522" y="165.0" font-size="12" fill="#14263f">YYYY-MM-DD</text>
+  <text x="360.95652173913044" y="165.0" font-size="12" fill="#14263f">n.nn</text>
+  <text x="524.4347826086956" y="165.0" font-size="12" fill="#14263f">kept</text>
+  <line x1="24" y1="178" x2="776" y2="178" stroke="#d5dee6"/>
+  <text x="34" y="199.0" font-size="12" fill="#14263f">id_002</text>
+  <text x="197.47826086956522" y="199.0" font-size="12" fill="#14263f">YYYY-MM-DD</text>
+  <text x="360.95652173913044" y="199.0" font-size="12" fill="#14263f">n.nn</text>
+  <text x="524.4347826086956" y="199.0" font-size="12" fill="#14263f">kept</text>
+  <line x1="24" y1="212" x2="776" y2="212" stroke="#d5dee6"/>
+  <text x="34" y="233.0" font-size="12" fill="#14263f">id_002</text>
+  <text x="197.47826086956522" y="233.0" font-size="12" fill="#14263f">YYYY-MM-DD</text>
+  <text x="360.95652173913044" y="233.0" font-size="12" fill="#14263f">n.nn</text>
+  <text x="524.4347826086956" y="233.0" font-size="12" fill="#14263f">dropped (rule placeholder)</text>
+  <text x="24" y="262" font-size="12" fill="#5b6b7d">Row 1 shows column types. Dedupe rule is yours to choose and document.</text>
+  <text x="24" y="466" font-size="11" fill="#5b6b7d">Sample layout · all names and values are placeholders · Illustrative only.</text>
+</svg>

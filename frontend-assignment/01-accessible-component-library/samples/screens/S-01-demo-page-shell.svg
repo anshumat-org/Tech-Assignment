@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Inter, Arial, sans-serif" font-size="12" fill="#14263f" role="img" aria-labelledby="t d">
+  <title id="t">Demo page shell wireframe</title>
+  <desc id="d">Sample wireframe: demo page heading, in-page section links with one focused, light/dark theme toggle and a dark theme preview. Illustrative only.</desc>
+  <rect width="800" height="480" fill="#ffffff"/>
+  <rect x="0" y="0" width="800" height="44" fill="#14263f"/>
+  <text x="24" y="28" fill="#fff" font-size="15" font-weight="700">Component library demo (sample)</text>
+  <text x="560" y="28" fill="#fff">Theme</text>
+  <rect x="604" y="10" width="172" height="24" rx="12" fill="#fff"/>
+  <rect x="606" y="12" width="84" height="20" rx="10" fill="#0e9384"/>
+  <text x="648" y="26" fill="#fff" font-weight="700" text-anchor="middle">☀ Light</text>
+  <text x="733" y="26" text-anchor="middle">☾ Dark</text>
+  <rect x="24" y="64" width="196" height="392" rx="8" fill="#eef3f7" stroke="#d5dee6"/>
+  <text x="40" y="90" font-size="13" font-weight="700">On this page</text>
+  <text x="48" y="114" fill="#0e9384" font-size="13">Tokens</text><line x1="48" y1="117" x2="86" y2="117" stroke="#0e9384"/>
+  <rect x="36" y="127" width="172" height="24" rx="4" fill="#fff"/><rect x="33" y="124" width="178" height="30" rx="7" fill="none" stroke="#1d6fe0" stroke-width="2"/>
+  <text x="48" y="144" fill="#0e9384" font-size="13">Button</text><line x1="48" y1="147" x2="86" y2="147" stroke="#0e9384"/>
+  <text x="48" y="174" fill="#0e9384" font-size="13">Input</text><line x1="48" y1="177" x2="80" y2="177" stroke="#0e9384"/>
+  <text x="48" y="204" fill="#0e9384" font-size="13">Select</text><line x1="48" y1="207" x2="86" y2="207" stroke="#0e9384"/>
+  <text x="48" y="234" fill="#0e9384" font-size="13">Checkbox / Radio</text><line x1="48" y1="237" x2="150" y2="237" stroke="#0e9384"/>
+  <text x="48" y="264" fill="#0e9384" font-size="13">Modal</text><line x1="48" y1="267" x2="80" y2="267" stroke="#0e9384"/>
+  <text x="48" y="294" fill="#0e9384" font-size="13">Tabs</text><line x1="48" y1="297" x2="73" y2="297" stroke="#0e9384"/>
+  <text x="48" y="324" fill="#0e9384" font-size="13">Toast</text><line x1="48" y1="327" x2="80" y2="327" stroke="#0e9384"/>
+  <text x="48" y="354" fill="#0e9384" font-size="13">Tooltip / Badge</text><line x1="48" y1="357" x2="144" y2="357" stroke="#0e9384"/>
+  <text x="48" y="384" fill="#0e9384" font-size="13">Follow-up</text><line x1="48" y1="387" x2="105" y2="387" stroke="#0e9384"/>
+  <text x="40" y="432" fill="#5b6b7d" font-size="11">In-page links · focused: Button</text>
+  <text x="244" y="86" font-size="22" font-weight="700">Accessible component library</text>
+  <text x="244" y="108" fill="#5b6b7d">Each section shows one component in every variant and state. Placeholder content.</text>
+  <rect x="244" y="128" width="300" height="52" rx="8" fill="#fff" stroke="#d5dee6"/>
+  <text x="260" y="150" font-size="14" font-weight="700">Tokens</text>
+  <text x="260" y="168" fill="#5b6b7d" font-size="11">Colour, spacing, radius, type, focus</text>
+  <rect x="244" y="192" width="300" height="52" rx="8" fill="#fff" stroke="#d5dee6"/>
+  <text x="260" y="214" font-size="14" font-weight="700">Button</text>
+  <text x="260" y="232" fill="#5b6b7d" font-size="11">4 variants · 5 states</text>
+  <rect x="244" y="256" width="300" height="52" rx="8" fill="#fff" stroke="#d5dee6"/>
+  <text x="260" y="278" font-size="14" font-weight="700">Input</text>
+  <text x="260" y="296" fill="#5b6b7d" font-size="11">Label, hint, error, disabled</text>
+  <rect x="568" y="128" width="208" height="180" rx="8" fill="#0e1726" stroke="#2a3a55"/>
+  <text x="584" y="150" fill="#e8eef6" font-weight="700">Dark theme preview</text>
+  <rect x="584" y="164" width="176" height="28" rx="6" fill="#16233a" stroke="#2a3a55"/>
+  <text x="594" y="182" fill="#9fb0c4" font-size="11">Surface card</text>
+  <rect x="584" y="202" width="84" height="28" rx="6" fill="#2dc4b2"/>
+  <text x="626" y="220" fill="#06231f" font-weight="700" text-anchor="middle">Primary</text>
+  <rect x="676" y="202" width="84" height="28" rx="6" fill="#16233a" stroke="#2a3a55"/>
+  <text x="718" y="220" fill="#e8eef6" text-anchor="middle">Secondary</text>
+  <rect x="584" y="240" width="84" height="28" rx="6" fill="#16233a" stroke="#6aa8ff" stroke-width="2"/>
+  <text x="626" y="258" fill="#e8eef6" text-anchor="middle">Focus</text>
+  <text x="584" y="292" fill="#9fb0c4" font-size="11">Same components, dark tokens</text>
+  <rect x="244" y="330" width="188" height="20" rx="10" fill="#fff" stroke="#0e9384"/><text x="338.0" y="344" fill="#0e9384" font-size="11" font-weight="700" text-anchor="middle">☀ State: light theme active</text>
+  <rect x="244" y="358" width="162" height="20" rx="10" fill="#fff" stroke="#5b6b7d"/><text x="325.0" y="372" fill="#5b6b7d" font-size="11" font-weight="700" text-anchor="middle">Toggle switches to dark</text>
+</svg>

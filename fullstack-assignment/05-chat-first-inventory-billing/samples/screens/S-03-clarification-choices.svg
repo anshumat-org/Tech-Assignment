@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Inter, Arial, 'Noto Sans Devanagari', 'Nirmala UI', Mangal, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Clarification choices wireframe</title>
+  <desc id="d">Assistant asks a short question in Hindi with tappable product chips; one chip selected. Illustrative only.</desc>
+  <rect width="800" height="480" fill="#ffffff"/>
+  <rect x="0" y="0" width="800" height="56" rx="0" fill="#14263f"/><text x="24" y="35" fill="#ffffff" font-size="16" font-weight="700">नमूना किराना स्टोर (डेमो)</text><rect x="640" y="14" width="136" height="28" rx="14" fill="none" stroke="#ffffff"/>
+  <rect x="640" y="14" width="68" height="28" rx="14" fill="#0e9384"/>
+  <text x="674" y="33" fill="#ffffff" font-size="12" font-weight="700" text-anchor="middle">हिंदी</text>
+  <text x="742" y="33" fill="#ffffff" font-size="12" text-anchor="middle">English</text>
+  <rect x="24" y="72" width="400" height="392" rx="8" fill="#ffffff" stroke="#d5dee6"/>
+  <rect x="277" y="86" width="135" height="32" rx="10" fill="#0e9384"/><text x="289" y="108" fill="#ffffff" font-size="13">राहुल को 2 चावल</text>
+  <rect x="36" y="128" width="177" height="50" rx="10" fill="#eef3f7" stroke="#d5dee6"/><text x="48" y="150" fill="#14263f" font-size="13">कौन सा चावल?</text><text x="48" y="168" fill="#14263f" font-size="13">तीन उत्पाद मिलते हैं।</text>
+  <rect x="36" y="412" width="300" height="40" rx="20" fill="#ffffff" stroke="#d5dee6"/>
+  <text x="54" y="437" fill="#5b6b7d" font-size="13">संदेश लिखें…</text>
+  <rect x="346" y="412" width="66" height="40" rx="20" fill="#0e9384"/>
+  <text x="379" y="437" fill="#ffffff" font-size="13" font-weight="700" text-anchor="middle">भेजें</text>
+  <text x="36" y="210" fill="#5b6b7d" font-size="12" font-weight="700">एक चुनें:</text>
+  <rect x="36" y="220" width="90" height="22" rx="11" fill="#ffffff" stroke="#0e9384"/><text x="81.0" y="235" fill="#0e9384" font-size="11" font-weight="700" text-anchor="middle">चावल 1 किलो</text>
+  <rect x="36" y="252" width="103" height="22" rx="11" fill="#0e9384" stroke="#0e9384"/><text x="87.5" y="267" fill="#ffffff" font-size="11" font-weight="700" text-anchor="middle">✓ चावल 5 किलो</text>
+  <rect x="36" y="284" width="136" height="22" rx="11" fill="#ffffff" stroke="#0e9384"/><text x="104.0" y="299" fill="#0e9384" font-size="11" font-weight="700" text-anchor="middle">बासमती चावल 5 किलो</text>
+  <text x="36" y="330" fill="#1a7f4b" font-size="12" font-weight="700">चुना गया: चावल 5 किलो · SKU RICE-05</text>
+  <rect x="444" y="72" width="332" height="392" rx="8" fill="#ffffff" stroke="#d5dee6"/><text x="460" y="98" fill="#14263f" font-size="14" font-weight="700">प्रीव्यू</text>
+  <text x="460" y="130" fill="#5b6b7d" font-size="12">ग्राहक चुनना भी हो सकता है:</text>
+  <rect x="460" y="140" width="136" height="22" rx="11" fill="#ffffff" stroke="#14263f"/><text x="528.0" y="155" fill="#14263f" font-size="11" font-weight="700" text-anchor="middle">राहुल (98XXXXXX10)</text>
+  <rect x="460" y="172" width="176" height="22" rx="11" fill="#ffffff" stroke="#14263f"/><text x="548.0" y="187" fill="#14263f" font-size="11" font-weight="700" text-anchor="middle">राहुल शर्मा (97XXXXXX22)</text>
+  <rect x="460" y="220" width="300" height="80" rx="8" fill="#eef3f7" stroke="#d5dee6"/>
+  <text x="476" y="248" fill="#14263f" font-size="13" font-weight="700">अभी कुछ सेव नहीं हुआ।</text>
+  <text x="476" y="272" fill="#5b6b7d" font-size="12">चुनाव के बाद प्रीव्यू कार्ड दिखेगा।</text>
+  <text x="460" y="440" fill="#5b6b7d" font-size="11">State shown: selected · language: Hindi</text>
+</svg>

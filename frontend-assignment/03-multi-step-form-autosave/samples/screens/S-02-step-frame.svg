@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Inter, Arial, sans-serif" font-size="12" fill="#14263f" role="img" aria-labelledby="t d">
+  <title id="t">Step frame wireframe</title>
+  <desc id="d">Sample wireframe: shared step frame with progress indicator, step heading, autosave status shown Offline, Back and focused Next, plus a legend of Saving, Saved, Failed and Offline. Illustrative only.</desc>
+  <rect width="800" height="480" fill="#ffffff"/>
+  <rect x="0" y="0" width="800" height="56" fill="#14263f"/>
+  <text x="24" y="34" fill="#fff" font-size="15" font-weight="700">Sample application form (synthetic)</text>
+  <rect x="559" y="15" width="217" height="26" rx="13" fill="#fff" stroke="#b26a00"/><text x="667.5" y="33" fill="#b26a00" font-weight="700" text-anchor="middle">Offline · kept on this device</text>
+  <circle cx="38" cy="88" r="13" fill="#0e9384" stroke="#0e9384" stroke-width="1.5"/>
+  <text x="38" y="93" fill="#fff" font-weight="700" text-anchor="middle">✓</text>
+  <text x="58" y="93" fill="#5b6b7d">Personal</text>
+  <rect x="180" y="87" width="26" height="2" fill="#0e9384"/>
+  <circle cx="228" cy="88" r="13" fill="#0e9384" stroke="#0e9384" stroke-width="1.5"/>
+  <text x="228" y="93" fill="#fff" font-weight="700" text-anchor="middle">2</text>
+  <text x="248" y="93" font-weight="700">Contact (current)</text>
+  <rect x="370" y="87" width="26" height="2" fill="#d5dee6"/>
+  <circle cx="418" cy="88" r="13" fill="#fff" stroke="#5b6b7d" stroke-width="1.5"/>
+  <text x="418" y="93" fill="#5b6b7d" font-weight="700" text-anchor="middle">3</text>
+  <text x="438" y="93" fill="#5b6b7d">Details</text>
+  <rect x="560" y="87" width="26" height="2" fill="#d5dee6"/>
+  <circle cx="608" cy="88" r="13" fill="#fff" stroke="#5b6b7d" stroke-width="1.5"/>
+  <text x="608" y="93" fill="#5b6b7d" font-weight="700" text-anchor="middle">4</text>
+  <text x="628" y="93" fill="#5b6b7d">Review</text>
+  <rect x="24" y="116" width="752" height="304" rx="8" fill="#fff" stroke="#d5dee6"/>
+  <text x="48" y="148" font-size="18" font-weight="700">Step 2 of 4 · Contact</text>
+  <rect x="24" y="434" width="100" height="32" rx="6" fill="#fff" stroke="#d5dee6"/><text x="74.0" y="455.0" font-size="13" font-weight="700" text-anchor="middle">‹ Back</text>
+  <rect x="640" y="434" width="136" height="32" rx="6" fill="#0e9384"/><text x="708.0" y="455.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">Next</text>
+  <rect x="18" y="64" width="764" height="48" rx="10" fill="none" stroke="#0e9384" stroke-width="2" stroke-dasharray="6 4"/>
+  <rect x="524" y="8" width="264" height="42" rx="10" fill="none" stroke="#0e9384" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="48" y="176" fill="#5b6b7d">Fields for this step go here (placeholder).</text>
+  <rect x="48" y="196" width="420" height="28" rx="6" fill="#eef3f7" stroke="#d5dee6"/>
+  <rect x="48" y="236" width="420" height="28" rx="6" fill="#eef3f7" stroke="#d5dee6"/>
+  <rect x="48" y="276" width="420" height="28" rx="6" fill="#eef3f7" stroke="#d5dee6"/>
+  <rect x="500" y="196" width="252" height="196" rx="8" fill="#eef3f7" stroke="#d5dee6"/>
+  <text x="516" y="220" font-weight="700">Autosave status (all states)</text>
+  <rect x="650" y="234" width="86" height="26" rx="13" fill="#fff" stroke="#5b6b7d"/><circle cx="664" cy="247" r="6" fill="none" stroke="#5b6b7d" stroke-width="2" stroke-dasharray="22 16"/><text x="704.0" y="252" fill="#5b6b7d" font-weight="700" text-anchor="middle">Saving…</text>
+  <rect x="630" y="272" width="106" height="26" rx="13" fill="#fff" stroke="#1a7f4b"/><text x="683.0" y="290" fill="#1a7f4b" font-weight="700" text-anchor="middle">✓ Saved 10:42</text>
+  <rect x="574" y="310" width="162" height="26" rx="13" fill="#fff" stroke="#b42318"/><text x="655.0" y="328" fill="#b42318" font-weight="700" text-anchor="middle">⚠ Save failed · Retry</text>
+  <rect x="519" y="348" width="217" height="26" rx="13" fill="#fff" stroke="#b26a00"/><text x="627.5" y="366" fill="#b26a00" font-weight="700" text-anchor="middle">Offline · kept on this device</text>
+  <text x="516" y="384" fill="#5b6b7d" font-size="10">↑ status text in a polite live region</text>
+  <rect x="370" y="18" width="111" height="20" rx="4" fill="#b26a00"/><text x="425.5" y="32" fill="#fff" font-size="11" font-weight="700" text-anchor="middle">Active: Offline</text>
+  <rect x="637" y="431" width="142" height="38" rx="9" fill="none" stroke="#1d6fe0" stroke-width="2"/>
+  <text x="140" y="455" fill="#5b6b7d" font-size="11">Dashed = shared frame parts (progress, status)</text>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Inter, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Generate data command</title>
+  <desc id="d">Terminal generating daily raw files with a placeholder bad-data summary. Illustrative only.</desc>
+  <rect width="800" height="480" fill="#ffffff"/>
+  <rect width="800" height="56" fill="#14263f"/>
+  <text x="24" y="35" font-size="16" fill="#ffffff" font-weight="700">Generate data (CLI)</text>
+  <rect x="722" y="14" width="54" height="28" rx="14" fill="#e7f5ee" stroke="#1a7f4b"/>
+  <text x="749.0" y="33" font-size="12" fill="#1a7f4b" font-weight="700" text-anchor="middle">DONE</text>
+  <rect x="24" y="76" width="752" height="300" rx="8" fill="#14263f"/>
+  <circle cx="42" cy="92" r="5" fill="#b42318"/>
+  <circle cx="58" cy="92" r="5" fill="#b26a00"/>
+  <circle cx="74" cy="92" r="5" fill="#1a7f4b"/>
+  <text x="42" y="124" font-size="13" fill="#e8eef6" font-family="Menlo, Consolas, monospace" xml:space="preserve">$ &lt;generate command&gt; --seed &lt;n&gt; --days &lt;n&gt; --out &lt;folder&gt;</text>
+  <text x="42" y="146" font-size="13" fill="#e8eef6" font-family="Menlo, Consolas, monospace" xml:space="preserve">wrote customers_YYYY-MM-DD.csv     n rows</text>
+  <text x="42" y="168" font-size="13" fill="#e8eef6" font-family="Menlo, Consolas, monospace" xml:space="preserve">wrote orders_YYYY-MM-DD.csv        n rows</text>
+  <text x="42" y="190" font-size="13" fill="#e8eef6" font-family="Menlo, Consolas, monospace" xml:space="preserve">wrote events_YYYY-MM-DD.json       n rows</text>
+  <text x="42" y="212" font-size="13" fill="#e8eef6" font-family="Menlo, Consolas, monospace" xml:space="preserve">bad-data summary (placeholder):</text>
+  <text x="42" y="234" font-size="13" fill="#e8eef6" font-family="Menlo, Consolas, monospace" xml:space="preserve">  duplicates ...... n    bad dates ..... n</text>
+  <text x="42" y="256" font-size="13" fill="#e8eef6" font-family="Menlo, Consolas, monospace" xml:space="preserve">  missing keys .... n    late file ..... n</text>
+  <text x="42" y="278" font-size="13" fill="#8fd6b4" font-family="Menlo, Consolas, monospace" xml:space="preserve">done in n.ns</text>
+  <text x="42" y="300" font-size="13" fill="#e8eef6" font-family="Menlo, Consolas, monospace" xml:space="preserve">$ _</text>
+  <text x="24" y="466" font-size="11" fill="#5b6b7d">Sample layout · all names and values are placeholders · Illustrative only.</text>
+</svg>

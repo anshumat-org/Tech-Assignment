@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Inter, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Plan command output</title>
+  <desc id="d">Sample terminal running a placeholder plan for one environment with summarised resource changes and counts. Illustrative only.</desc>
+  <rect width="800" height="480" fill="#ffffff"/>
+  <rect width="800" height="56" fill="#14263f"/>
+  <text x="24" y="35" font-size="16" fill="#ffffff" font-weight="700">Plan · staging</text>
+  <rect x="24" y="76" width="752" height="310" rx="8" fill="#14263f"/>
+  <text x="40" y="98" font-size="11" fill="#9fb0c4">Terminal</text>
+  <text x="40" y="124" font-size="13" fill="#e8eef6" font-family="ui-monospace, Menlo, monospace">$ (plan command placeholder) -env staging</text>
+  <text x="40" y="146" font-size="13" fill="#9fb0c4" font-family="ui-monospace, Menlo, monospace">Target environment: staging</text>
+  <text x="40" y="168" font-size="13" fill="#4cc38a" font-family="ui-monospace, Menlo, monospace">  + resource_a.(placeholder)   will be created</text>
+  <text x="40" y="190" font-size="13" fill="#f0b35a" font-family="ui-monospace, Menlo, monospace">  ~ resource_b.(placeholder)   will be updated in place</text>
+  <text x="40" y="212" font-size="13" fill="#ff7b72" font-family="ui-monospace, Menlo, monospace">  - resource_c.(placeholder)   will be destroyed</text>
+  <text x="40" y="256" font-size="13" fill="#e8eef6" font-family="ui-monospace, Menlo, monospace">Plan: N to add, N to change, N to destroy (placeholder)</text>
+  <text x="40" y="278" font-size="13" fill="#f0b35a" font-family="ui-monospace, Menlo, monospace">! Destroy flagged — review before apply</text>
+  <text x="24" y="416" font-size="12" fill="#5b6b7d">Other states: running · no changes · error</text>
+  <text x="24" y="470" font-size="10" fill="#5b6b7d">Sample only · placeholder values · not a solution</text>
+</svg>

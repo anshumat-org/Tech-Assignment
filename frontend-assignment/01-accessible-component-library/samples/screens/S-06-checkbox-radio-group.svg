@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Inter, Arial, sans-serif" font-size="12" fill="#14263f" role="img" aria-labelledby="t d">
+  <title id="t">Checkbox and Radio group specimen board</title>
+  <desc id="d">Sample specimen board: Checkbox and Radio in unchecked, checked, focus and disabled states, plus labelled groups. Illustrative only.</desc>
+  <rect width="800" height="480" fill="#ffffff"/>
+  <rect x="0" y="0" width="800" height="44" fill="#14263f"/>
+  <text x="24" y="28" fill="#fff" font-size="15" font-weight="700">Component library demo (sample)</text>
+  <rect x="640" y="10" width="136" height="24" rx="12" fill="#fff"/>
+  <text x="708" y="26" font-weight="700" text-anchor="middle">Theme: Light ▾</text>
+  <text x="24" y="76" font-size="18" font-weight="700">Checkbox and Radio group</text>
+  <text x="24" y="96" fill="#5b6b7d">Groups have a visible group label (fieldset and legend).</text>
+  <text x="180" y="124" fill="#5b6b7d" font-size="11" font-weight="700">Unchecked</text><text x="330" y="124" fill="#5b6b7d" font-size="11" font-weight="700">Checked</text><text x="480" y="124" fill="#5b6b7d" font-size="11" font-weight="700">Focus</text><text x="630" y="124" fill="#5b6b7d" font-size="11" font-weight="700">Disabled</text>
+  <text x="24" y="162" font-weight="700">Checkbox</text>
+  <rect x="180" y="148" width="16" height="16" rx="3" fill="#fff" stroke="#14263f" stroke-width="1.5"/><text x="206" y="161" font-size="13">Email</text>
+  <rect x="330" y="148" width="16" height="16" rx="3" fill="#0e9384"/><path d="M334 156l3 3 6-6" fill="none" stroke="#fff" stroke-width="2"/><text x="356" y="161" font-size="13">Email</text>
+  <rect x="480" y="148" width="16" height="16" rx="3" fill="#fff" stroke="#14263f" stroke-width="1.5"/><rect x="477" y="145" width="22" height="22" rx="6" fill="none" stroke="#1d6fe0" stroke-width="2"/><text x="506" y="161" font-size="13">Email</text>
+  <rect x="630" y="148" width="16" height="16" rx="3" fill="#5b6b7d"/><path d="M634 156l3 3 6-6" fill="none" stroke="#fff" stroke-width="2"/><text x="656" y="161" fill="#5b6b7d" font-size="13">Email</text>
+  <text x="24" y="212" font-weight="700">Radio</text>
+  <circle cx="188" cy="206" r="8" fill="#fff" stroke="#14263f" stroke-width="1.5"/><text x="206" y="211" font-size="13">Weekly</text>
+  <circle cx="338" cy="206" r="8" fill="#fff" stroke="#14263f" stroke-width="1.5"/><circle cx="338" cy="206" r="4" fill="#0e9384"/><text x="356" y="211" font-size="13">Weekly</text>
+  <circle cx="488" cy="206" r="8" fill="#fff" stroke="#14263f" stroke-width="1.5"/><circle cx="488" cy="206" r="4" fill="#0e9384"/><circle cx="488" cy="206" r="12" fill="none" stroke="#1d6fe0" stroke-width="2"/><text x="506" y="211" font-size="13">Weekly</text>
+  <circle cx="638" cy="206" r="8" fill="#eef3f7" stroke="#5b6b7d" stroke-width="1.5"/><text x="656" y="211" fill="#5b6b7d" font-size="13">Weekly</text>
+  <rect x="24" y="248" width="360" height="176" rx="8" fill="#fff" stroke="#d5dee6"/>
+  <text x="40" y="274" font-size="13" font-weight="700">Notify me by (group label)</text>
+  <rect x="40" y="290" width="16" height="16" rx="3" fill="#0e9384"/><path d="M44 298l3 3 6-6" fill="none" stroke="#fff" stroke-width="2"/><text x="66" y="303" font-size="13">Email</text>
+  <rect x="40" y="320" width="16" height="16" rx="3" fill="#fff" stroke="#14263f" stroke-width="1.5"/><rect x="37" y="317" width="22" height="22" rx="6" fill="none" stroke="#1d6fe0" stroke-width="2"/><text x="66" y="333" font-size="13">SMS</text>
+  <rect x="40" y="350" width="16" height="16" rx="3" fill="#eef3f7" stroke="#5b6b7d" stroke-width="1.5"/><text x="66" y="363" fill="#5b6b7d" font-size="13">Post (unavailable)</text>
+  <text x="40" y="400" fill="#5b6b7d" font-size="11">Tab into group · Space toggles</text>
+  <rect x="416" y="248" width="360" height="176" rx="8" fill="#fff" stroke="#d5dee6"/>
+  <text x="432" y="274" font-size="13" font-weight="700">Summary frequency (group label)</text>
+  <rect x="432" y="290" width="16" height="16" rx="3" fill="#fff" stroke="#14263f" stroke-width="1.5"/><text x="458" y="303" font-size="13">Daily</text>
+  <circle cx="440" cy="328" r="8" fill="#fff" stroke="#14263f" stroke-width="1.5"/><circle cx="440" cy="328" r="4" fill="#0e9384"/><circle cx="440" cy="328" r="12" fill="none" stroke="#1d6fe0" stroke-width="2"/><text x="458" y="333" font-size="13">Weekly</text>
+  <circle cx="440" cy="358" r="8" fill="#fff" stroke="#14263f" stroke-width="1.5"/><text x="458" y="363" font-size="13">Monthly</text>
+  <text x="432" y="400" fill="#5b6b7d" font-size="11">Arrow keys move and select within group</text>
+  <rect x="24" y="440" width="328" height="20" rx="10" fill="#fff" stroke="#0e9384"/><text x="188.0" y="454" fill="#0e9384" font-size="11" font-weight="700" text-anchor="middle">✓ Checked shown by tick and dot, not colour alone</text>
+</svg>

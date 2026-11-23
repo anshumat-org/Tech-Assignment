@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Inter, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Sign in wireframe</title>
+  <desc id="d">Sign in for applicant or operator with an error banner after a failed attempt. Illustrative only.</desc>
+  <rect width="800" height="480" fill="#ffffff"/>
+  <rect x="0" y="0" width="800" height="56" rx="0" fill="#14263f"/>
+  <text x="24" y="35" fill="#ffffff" font-size="16" font-weight="700">Passport assistance (demo)</text>
+  <rect x="220" y="80" width="360" height="370" rx="8" fill="#ffffff" stroke="#d5dee6"/>
+  <text x="400" y="120" fill="#14263f" font-size="20" font-weight="700" text-anchor="middle">Sign in</text>
+  <text x="400" y="142" fill="#5b6b7d" font-size="12" text-anchor="middle">Applicant or operator · local demo accounts</text>
+  <rect x="244" y="160" width="312" height="36" rx="6" fill="#ffffff" stroke="#b42318" stroke-width="1.5"/><rect x="244" y="160" width="5" height="36" rx="2" fill="#b42318"/><text x="260" y="183.0" fill="#b42318" font-size="13" font-weight="700">✕ Error</text><text x="319.0" y="183.0" fill="#14263f" font-size="12">Email or password is incorrect.</text>
+  <text x="244" y="222" fill="#5b6b7d" font-size="12">Email</text><rect x="244" y="230" width="312" height="34" rx="6" fill="#ffffff" stroke="#d5dee6"/><text x="256" y="252" fill="#14263f" font-size="13">applicant@example.test</text>
+  <text x="244" y="288" fill="#5b6b7d" font-size="12">Password</text><rect x="244" y="296" width="312" height="34" rx="6" fill="#ffffff" stroke="#1d6fe0" stroke-width="2"/><text x="256" y="318" fill="#14263f" font-size="13">••••••••</text>
+  <rect x="244" y="354" width="312" height="36" rx="8" fill="#0e9384"/><text x="400.0" y="377.0" fill="#ffffff" font-size="14" font-weight="700" text-anchor="middle">Sign in</text>
+  <text x="400" y="420" fill="#5b6b7d" font-size="11" text-anchor="middle">State shown: error</text>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Inter, Arial, sans-serif" font-size="12" fill="#14263f" role="img" aria-labelledby="t d">
+  <title id="t">Tabs section specimen board</title>
+  <desc id="d">Sample specimen board: Tabs with active and focused tabs, a short and a tall panel in a stable-height area. Illustrative only.</desc>
+  <rect width="800" height="480" fill="#ffffff"/>
+  <rect x="0" y="0" width="800" height="44" fill="#14263f"/>
+  <text x="24" y="28" fill="#fff" font-size="15" font-weight="700">Component library demo (sample)</text>
+  <rect x="640" y="10" width="136" height="24" rx="12" fill="#fff"/>
+  <text x="708" y="26" font-weight="700" text-anchor="middle">Theme: Light ▾</text>
+  <text x="24" y="76" font-size="18" font-weight="700">Tabs</text>
+  <text x="24" y="96" fill="#5b6b7d">Arrow keys move between tabs. Panel area keeps a stable height when switching.</text>
+  <text x="24" y="124" fill="#5b6b7d" font-size="11" font-weight="700">Active (short panel)</text>
+  <rect x="24" y="168" width="340" height="1" fill="#d5dee6"/><text x="70" y="154" font-size="13" font-weight="700" text-anchor="middle">Overview</text><rect x="30" y="165" width="80" height="3" fill="#0e9384"/><text x="170" y="154" fill="#5b6b7d" font-size="13" text-anchor="middle">Details</text><text x="270" y="154" fill="#5b6b7d" font-size="13" text-anchor="middle">History</text>
+  <rect x="24" y="176" width="340" height="140" rx="6" fill="#fff" stroke="#d5dee6"/>
+  <text x="40" y="200" fill="#5b6b7d">Short panel text (placeholder).</text>
+  <rect x="40" y="280" width="300" height="20" rx="4" fill="none" stroke="#5b6b7d" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="48" y="294" fill="#5b6b7d" font-size="10">reserved space, no layout jump</text>
+  <text x="412" y="124" fill="#5b6b7d" font-size="11" font-weight="700">Focused → switching (tall panel)</text>
+  <rect x="412" y="168" width="340" height="1" fill="#d5dee6"/><text x="458" y="154" fill="#5b6b7d" font-size="13" text-anchor="middle">Overview</text><text x="558" y="154" font-size="13" font-weight="700" text-anchor="middle">Details</text><rect x="518" y="165" width="80" height="3" fill="#0e9384"/><rect x="511" y="133" width="94" height="34" rx="7" fill="none" stroke="#1d6fe0" stroke-width="2"/><text x="658" y="154" fill="#5b6b7d" font-size="13" text-anchor="middle">History</text>
+  <rect x="412" y="176" width="364" height="140" rx="6" fill="#fff" stroke="#d5dee6"/>
+  <rect x="428" y="192" width="300" height="8" rx="4" fill="#d5dee6"/>
+  <rect x="428" y="210" width="260" height="8" rx="4" fill="#d5dee6"/>
+  <rect x="428" y="228" width="220" height="8" rx="4" fill="#d5dee6"/>
+  <rect x="428" y="246" width="300" height="8" rx="4" fill="#d5dee6"/>
+  <rect x="428" y="264" width="260" height="8" rx="4" fill="#d5dee6"/>
+  <rect x="428" y="282" width="220" height="8" rx="4" fill="#d5dee6"/>
+  <text x="24" y="352" fill="#5b6b7d">Keys: ← → move · Home / End jump · Tab leaves the tablist into the panel</text>
+  <rect x="24" y="372" width="194" height="20" rx="10" fill="#fff" stroke="#0e9384"/><text x="121.0" y="386" fill="#0e9384" font-size="11" font-weight="700" text-anchor="middle">Active tab: bold + underline</text>
+  <rect x="240" y="372" width="156" height="20" rx="10" fill="#fff" stroke="#1d6fe0"/><text x="318.0" y="386" fill="#1d6fe0" font-size="11" font-weight="700" text-anchor="middle">Focused tab: blue ring</text>
+  <rect x="430" y="372" width="137" height="20" rx="10" fill="#fff" stroke="#14263f"/><text x="498.5" y="386" font-size="11" font-weight="700" text-anchor="middle">Panel height stable</text>
+</svg>

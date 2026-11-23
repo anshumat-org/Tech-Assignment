@@ -1,6 +1,6 @@
 # Assignment 01 — SQL Analytics & Metrics
 
-**v0.1 DRAFT — 2026-11-06**
+**v0.3 DRAFT — 2026-11-23**
 
 | WH | Answer |
 |---|---|
@@ -28,7 +28,9 @@ Clever SQL is secondary to correct, explained numbers.
 
 ## Read next
 
+- [product-brief.md](product-brief.md) (start here: product, personas, capabilities, user stories with acceptance criteria)
 - [requirements-and-directives.md](requirements-and-directives.md)
 - [resources.md](resources.md)
+- [developer-guide.md](developer-guide.md) (build order, directions, before / during / after checklists)
 - [../README.md](../README.md)
 - [../data-instructions.md](../data-instructions.md) (mandatory for every assignment)

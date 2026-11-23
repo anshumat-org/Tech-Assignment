@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Inter, Arial, sans-serif" font-size="12" fill="#14263f" role="img" aria-labelledby="t d">
+  <title id="t">Empty result wireframe</title>
+  <desc id="d">Sample wireframe: records page with the empty result panel highlighted, a message naming the query and filter, and a Clear filters action. Illustrative only.</desc>
+  <rect width="800" height="480" fill="#ffffff"/>
+  <rect x="0" y="0" width="800" height="28" fill="#eef3f7"/>
+  <rect x="12" y="5" width="776" height="18" rx="9" fill="#fff" stroke="#d5dee6"/>
+  <text x="24" y="18" fill="#5b6b7d" font-size="11">localhost/records?q=zzqx&amp;status=archived</text>
+  <rect x="0" y="28" width="800" height="44" fill="#14263f"/>
+  <text x="24" y="56" fill="#fff" font-size="16" font-weight="700">Records (sample data)</text>
+  <text x="24" y="92" font-weight="700">Search records</text><rect x="24" y="100" width="250" height="32" rx="6" fill="#fff" stroke="#5b6b7d"/><text x="34" y="121.0" font-size="13">zzqx</text>
+  <text x="290" y="92" font-weight="700">Status (multi-select)</text><rect x="290" y="100" width="170" height="32" rx="6" fill="#fff" stroke="#5b6b7d"/><text x="300" y="121.0" font-size="13">Archived</text>
+  <text x="444" y="121" font-size="13">▾</text>
+  <text x="476" y="92" font-weight="700">Category</text><rect x="476" y="100" width="140" height="32" rx="6" fill="#fff" stroke="#5b6b7d"/><text x="486" y="121.0" font-size="13">Any</text>
+  <text x="600" y="121" font-size="13">▾</text>
+  <rect x="632" y="100" width="144" height="32" rx="6" fill="#fff" stroke="#d5dee6"/><text x="704.0" y="121.0" font-size="13" font-weight="700" text-anchor="middle">Clear filters</text>
+  <text x="24" y="162" font-size="13" font-weight="700">0 records</text>
+  <text x="24" y="452" fill="#5b6b7d">Page 0 of 0</text>
+  <rect x="560" y="436" width="90" height="32" rx="6" fill="#eef3f7" stroke="#d5dee6"/><text x="605.0" y="457.0" fill="#5b6b7d" font-size="13" font-weight="700" text-anchor="middle">‹ Previous</text>
+  <rect x="660" y="436" width="116" height="32" rx="6" fill="#eef3f7" stroke="#d5dee6"/><text x="718.0" y="457.0" fill="#5b6b7d" font-size="13" font-weight="700" text-anchor="middle">Next ›</text>
+  <rect x="24" y="172" width="752" height="252" rx="8" fill="#eef3f7" stroke="#d5dee6"/>
+  <circle cx="400" cy="232" r="24" fill="#fff" stroke="#5b6b7d" stroke-width="2"/>
+  <text x="400" y="240" fill="#5b6b7d" font-size="20" font-weight="700" text-anchor="middle">∅</text>
+  <text x="400" y="290" font-size="15" font-weight="700" text-anchor="middle">No records match “zzqx” with Status: Archived</text>
+  <text x="400" y="312" fill="#5b6b7d" text-anchor="middle">Try a shorter search or remove a filter.</text>
+  <rect x="330" y="330" width="140" height="32" rx="6" fill="#0e9384"/><text x="400.0" y="351.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">Clear filters</text>
+  <rect x="327" y="327" width="146" height="38" rx="9" fill="none" stroke="#1d6fe0" stroke-width="2"/>
+  <rect x="18" y="166" width="764" height="264" rx="10" fill="none" stroke="#0e9384" stroke-width="2" stroke-dasharray="6 4"/><rect x="600" y="143" width="137" height="20" rx="4" fill="#0e9384"/><text x="668.5" y="157" fill="#fff" font-size="11" font-weight="700" text-anchor="middle">S-06 · Empty result</text>
+  <rect x="110" y="146" width="92" height="20" rx="10" fill="#fff" stroke="#5b6b7d"/><text x="156.0" y="160" fill="#5b6b7d" font-size="11" font-weight="700" text-anchor="middle">State: empty</text>
+</svg>

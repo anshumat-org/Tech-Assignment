@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Inter, Arial, sans-serif" font-size="12" fill="#14263f" role="img" aria-labelledby="t d">
+  <title id="t">Modal section specimen board</title>
+  <desc id="d">Sample specimen board: Modal closed, open with focus on the close control and page scroll locked, then closed with focus back on the trigger. Illustrative only.</desc>
+  <rect width="800" height="480" fill="#ffffff"/>
+  <rect x="0" y="0" width="800" height="44" fill="#14263f"/>
+  <text x="24" y="28" fill="#fff" font-size="15" font-weight="700">Component library demo (sample)</text>
+  <rect x="640" y="10" width="136" height="24" rx="12" fill="#fff"/>
+  <text x="708" y="26" font-weight="700" text-anchor="middle">Theme: Light ▾</text>
+  <text x="24" y="76" font-size="18" font-weight="700">Modal</text>
+  <text x="24" y="96" fill="#5b6b7d">Focus moves into the dialog, stays trapped, and returns to the trigger on close.</text>
+  <text x="24" y="124" fill="#5b6b7d" font-size="11" font-weight="700">1 · Closed</text>
+  <rect x="24" y="134" width="200" height="300" rx="8" fill="#eef3f7" stroke="#d5dee6"/>
+  <rect x="48" y="160" width="152" height="32" rx="6" fill="#fff" stroke="#d5dee6"/><text x="124.0" y="181.0" font-size="13" font-weight="700" text-anchor="middle">Open settings</text>
+  <text x="48" y="220" fill="#5b6b7d" font-size="11">Page content (placeholder)</text>
+  <rect x="48" y="232" width="152" height="8" rx="4" fill="#d5dee6"/>
+  <rect x="48" y="248" width="120" height="8" rx="4" fill="#d5dee6"/>
+  <text x="248" y="124" fill="#5b6b7d" font-size="11" font-weight="700">2 · Open</text>
+  <rect x="248" y="134" width="304" height="300" rx="8" fill="#eef3f7" stroke="#d5dee6"/>
+  <rect x="248" y="134" width="304" height="300" rx="8" fill="#14263f" opacity="0.55"/>
+  <rect x="268" y="176" width="264" height="200" rx="8" fill="#fff" stroke="#d5dee6"/>
+  <text x="284" y="204" font-size="15" font-weight="700">Settings</text>
+  <rect x="500" y="188" width="22" height="22" rx="4" fill="#fff"/>
+  <text x="511" y="204" font-size="13" font-weight="700" text-anchor="middle">✕</text>
+  <rect x="497" y="185" width="28" height="28" rx="7" fill="none" stroke="#1d6fe0" stroke-width="2"/>
+  <text x="284" y="232" fill="#5b6b7d">Dialog content (placeholder).</text>
+  <text x="284" y="256" font-weight="700">Display name</text><rect x="284" y="264" width="232" height="32" rx="6" fill="#fff" stroke="#5b6b7d"/><text x="294" y="285.0" font-size="13">Sample name</text>
+  <rect x="372" y="332" width="72" height="32" rx="6" fill="#fff" stroke="#d5dee6"/><text x="408.0" y="353.0" font-size="13" font-weight="700" text-anchor="middle">Cancel</text>
+  <rect x="452" y="332" width="64" height="32" rx="6" fill="#0e9384"/><text x="484.0" y="353.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">Save</text>
+  <rect x="258" y="144" width="130" height="20" rx="10" fill="#fff" stroke="#14263f"/><text x="323.0" y="158" font-size="11" font-weight="700" text-anchor="middle">Page scroll locked</text>
+  <rect x="268" y="396" width="181" height="20" rx="10" fill="#fff" stroke="#1d6fe0"/><text x="358.5" y="410" fill="#1d6fe0" font-size="11" font-weight="700" text-anchor="middle">Focus inside: close button</text>
+  <text x="576" y="124" fill="#5b6b7d" font-size="11" font-weight="700">3 · Closed again</text>
+  <rect x="576" y="134" width="200" height="300" rx="8" fill="#eef3f7" stroke="#d5dee6"/>
+  <rect x="600" y="160" width="152" height="32" rx="6" fill="#fff" stroke="#d5dee6"/><text x="676.0" y="181.0" font-size="13" font-weight="700" text-anchor="middle">Open settings</text><rect x="597" y="157" width="158" height="38" rx="9" fill="none" stroke="#1d6fe0" stroke-width="2"/>
+  <text x="600" y="220" font-weight="700">Focus returned</text>
+  <text x="600" y="238" font-weight="700">to the trigger</text>
+  <text x="600" y="266" fill="#5b6b7d" font-size="11">Esc, ✕ or Cancel close</text>
+  <text x="24" y="462" fill="#5b6b7d">Dialog has a title, role=dialog and aria-modal. Tab cycles inside.</text>
+</svg>

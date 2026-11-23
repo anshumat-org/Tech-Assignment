@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Inter, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Shared KPI views</title>
+  <desc id="d">View per KPI with query output vs tile value and one view in error. Illustrative only.</desc>
+  <rect width="800" height="480" fill="#ffffff"/>
+  <rect width="800" height="56" fill="#14263f"/>
+  <text x="24" y="35" font-size="16" fill="#ffffff" font-weight="700">Shared KPI views</text>
+  <rect x="698" y="14" width="78" height="28" rx="14" fill="#fdecea" stroke="#b42318"/>
+  <text x="737.0" y="33" font-size="12" fill="#b42318" font-weight="700" text-anchor="middle">1 ERROR</text>
+  <rect x="24" y="76" width="752" height="136" rx="6" fill="#ffffff" stroke="#d5dee6"/>
+  <rect x="24" y="76" width="752" height="34" rx="6" fill="#eef3f7" stroke="#d5dee6"/>
+  <text x="34" y="97.0" font-size="11" fill="#5b6b7d" font-weight="700">View</text>
+  <text x="197.47826086956522" y="97.0" font-size="11" fill="#5b6b7d" font-weight="700">KPI</text>
+  <text x="328.2608695652174" y="97.0" font-size="11" fill="#5b6b7d" font-weight="700">Query output</text>
+  <text x="491.7391304347826" y="97.0" font-size="11" fill="#5b6b7d" font-weight="700">Tile value</text>
+  <text x="655.2173913043479" y="97.0" font-size="11" fill="#5b6b7d" font-weight="700">Status</text>
+  <text x="34" y="131.0" font-size="12" fill="#14263f">v_kpi_a</text>
+  <text x="197.47826086956522" y="131.0" font-size="12" fill="#14263f">KPI A</text>
+  <text x="328.2608695652174" y="131.0" font-size="12" fill="#14263f">n,nnn</text>
+  <text x="491.7391304347826" y="131.0" font-size="12" fill="#14263f">n,nnn</text>
+  <rect x="655.2173913043479" y="118.0" width="47" height="18" rx="9" fill="#e7f5ee" stroke="#1a7f4b"/>
+  <text x="678.7173913043479" y="131.0" font-size="10" fill="#1a7f4b" font-weight="700" text-anchor="middle">MATCH</text>
+  <line x1="24" y1="144" x2="776" y2="144" stroke="#d5dee6"/>
+  <text x="34" y="165.0" font-size="12" fill="#14263f">v_kpi_b</text>
+  <text x="197.47826086956522" y="165.0" font-size="12" fill="#14263f">KPI B</text>
+  <text x="328.2608695652174" y="165.0" font-size="12" fill="#14263f">x.x%</text>
+  <text x="491.7391304347826" y="165.0" font-size="12" fill="#14263f">x.x%</text>
+  <rect x="655.2173913043479" y="152.0" width="47" height="18" rx="9" fill="#e7f5ee" stroke="#1a7f4b"/>
+  <text x="678.7173913043479" y="165.0" font-size="10" fill="#1a7f4b" font-weight="700" text-anchor="middle">MATCH</text>
+  <line x1="24" y1="178" x2="776" y2="178" stroke="#d5dee6"/>
+  <text x="34" y="199.0" font-size="12" fill="#14263f">v_kpi_c</text>
+  <text x="197.47826086956522" y="199.0" font-size="12" fill="#14263f">KPI C</text>
+  <text x="328.2608695652174" y="199.0" font-size="12" fill="#14263f">-</text>
+  <text x="491.7391304347826" y="199.0" font-size="12" fill="#14263f">-</text>
+  <rect x="655.2173913043479" y="186.0" width="47" height="18" rx="9" fill="#fdecea" stroke="#b42318"/>
+  <text x="678.7173913043479" y="199.0" font-size="10" fill="#b42318" font-weight="700" text-anchor="middle">ERROR</text>
+  <rect x="24" y="232" width="752" height="34" rx="6" fill="#fdecea" stroke="#b42318"/>
+  <text x="38" y="254" font-size="12" fill="#b42318" font-weight="700">Error:</text>
+  <text x="91.6" y="254" font-size="12" fill="#14263f">v_kpi_c failed to build. Its tile shows an error, not a stale number.</text>
+  <text x="24" y="466" font-size="11" fill="#5b6b7d">Sample layout · all names and values are placeholders · Illustrative only.</text>
+</svg>

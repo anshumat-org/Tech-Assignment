@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Inter, Arial, 'Noto Sans Devanagari', 'Nirmala UI', Mangal, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Reverse entry dialog wireframe</title>
+  <desc id="d">Reverse-and-repost dialog over the khata with the original entry and a required reason error. Illustrative only.</desc>
+  <rect width="800" height="480" fill="#ffffff"/>
+  <rect x="0" y="0" width="800" height="56" rx="0" fill="#14263f"/><text x="24" y="35" fill="#ffffff" font-size="16" font-weight="700">Sample Aadhat Firm (demo)</text><rect x="640" y="14" width="136" height="28" rx="14" fill="none" stroke="#ffffff"/>
+  <rect x="708" y="14" width="68" height="28" rx="14" fill="#0e9384"/>
+  <text x="674" y="33" fill="#ffffff" font-size="12" text-anchor="middle">हिंदी</text>
+  <text x="742" y="33" fill="#ffffff" font-size="12" font-weight="700" text-anchor="middle">English</text>
+  <rect x="0" y="56" width="800" height="424" rx="0" fill="#14263f" opacity="0.35"/>
+  <rect x="170" y="88" width="460" height="360" rx="8" fill="#ffffff" stroke="#d5dee6"/>
+  <text x="194" y="122" fill="#14263f" font-size="16" font-weight="700">Reverse this entry? Reason is required.</text>
+  <text x="194" y="144" fill="#5b6b7d" font-size="13">यह एंट्री उलटें? कारण ज़रूरी है।</text>
+  <rect x="194" y="160" width="412" height="72" rx="6" fill="#eef3f7" stroke="#d5dee6"/>
+  <text x="210" y="184" fill="#14263f" font-size="13" font-weight="700">Receipt #102 · 15 Nov 2026</text>
+  <text x="210" y="204" fill="#14263f" font-size="12">Ramesh Traders (sample) · Cr ₹26,544.00</text>
+  <text x="210" y="222" fill="#5b6b7d" font-size="11">Posted by Munshi M</text>
+  <text x="194" y="258" fill="#5b6b7d" font-size="12">Reason · कारण</text>
+  <rect x="194" y="266" width="412" height="60" rx="6" fill="#ffffff" stroke="#b42318" stroke-width="2"/>
+  <text x="194" y="344" fill="#b42318" font-size="12">✕ Enter a reason · कारण लिखें</text>
+  <text x="194" y="372" fill="#5b6b7d" font-size="11">A reversal entry is added. The original stays visible.</text>
+  <rect x="194" y="396" width="190" height="36" rx="8" fill="#ffffff" stroke="#14263f"/><text x="289.0" y="419.0" fill="#14263f" font-size="14" text-anchor="middle">Cancel</text>
+  <rect x="400" y="396" width="206" height="36" rx="8" fill="#b42318"/><text x="503.0" y="419.0" fill="#ffffff" font-size="14" font-weight="700" text-anchor="middle">Reverse entry</text>
+</svg>

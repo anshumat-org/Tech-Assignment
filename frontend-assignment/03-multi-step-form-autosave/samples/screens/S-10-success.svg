@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Inter, Arial, sans-serif" font-size="12" fill="#14263f" role="img" aria-labelledby="t d">
+  <title id="t">Success wireframe</title>
+  <desc id="d">Sample wireframe: submission success with a check icon, heading, synthetic reference id and a start-new action. Illustrative only.</desc>
+  <rect width="800" height="480" fill="#ffffff"/>
+  <rect x="0" y="0" width="800" height="56" fill="#14263f"/>
+  <text x="24" y="34" fill="#fff" font-size="15" font-weight="700">Sample application form (synthetic)</text>
+  <rect x="160" y="96" width="480" height="300" rx="10" fill="#fff" stroke="#d5dee6"/>
+  <circle cx="400" cy="160" r="30" fill="#fff" stroke="#1a7f4b" stroke-width="3"/>
+  <path d="M386 160l10 10 18-20" fill="none" stroke="#1a7f4b" stroke-width="4"/>
+  <text x="400" y="228" font-size="22" font-weight="700" text-anchor="middle">Application submitted</text>
+  <text x="400" y="256" fill="#5b6b7d" font-size="13" text-anchor="middle">Keep this reference for your records:</text>
+  <rect x="270" y="272" width="260" height="40" rx="6" fill="#eef3f7" stroke="#d5dee6"/>
+  <text x="400" y="298" font-size="15" font-weight="700" text-anchor="middle">REF-2026-000123 (sample)</text>
+  <rect x="330" y="334" width="140" height="32" rx="6" fill="#fff" stroke="#d5dee6"/><text x="400.0" y="355.0" font-size="13" font-weight="700" text-anchor="middle">Start a new form</text>
+  <rect x="160" y="412" width="220" height="20" rx="10" fill="#fff" stroke="#1a7f4b"/><text x="270.0" y="426" fill="#1a7f4b" font-size="11" font-weight="700" text-anchor="middle">✓ State: success · draft cleared</text>
+</svg>

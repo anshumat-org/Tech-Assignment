@@ -1,6 +1,6 @@
 # Assignment 06 — Mandi Munshi: Digital Hal Khata
 
-**v1.0 — 2026-11-23**
+**v1.2 — 2026-11-23** · added developer guide and product brief
 
 | WH | Answer |
 |---|---|
@@ -44,7 +44,9 @@ The brief is a deliberate simplification. If you assume a different rule from re
 
 ## Read next
 
+- [product-brief.md](product-brief.md) (start here: product, personas, capabilities, user stories with acceptance criteria)
 - [requirements-and-directives.md](requirements-and-directives.md)
 - [resources.md](resources.md)
+- [developer-guide.md](developer-guide.md) (build order, directions, before / during / after checklists)
 - [design-system/README.md](design-system/README.md)
 - [../developer-instructions.md](../developer-instructions.md) (mandatory for every assignment)

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 720" font-family="Inter, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Tester / debug screen wireframe</title>
+  <desc id="d">Sample wireframe: debug-only controls for latency and failure rate, plus the pending queue contents. Illustrative only.</desc>
+  <rect width="360" height="720" fill="#ffffff"/>
+  <rect width="360" height="80" fill="#14263f"/>
+  <text x="16" y="17" font-size="11" fill="#ffffff">9:41</text><text x="344" y="17" font-size="11" fill="#ffffff" text-anchor="end">LTE 80%</text>
+  <text x="16" y="58" font-size="20" fill="#ffffff">←</text><text x="48" y="57" font-size="17" fill="#ffffff" font-weight="700">Tester settings</text>
+  <rect x="16" y="96" width="328" height="40" rx="8" fill="#eef3f7" stroke="#b26a00"/><rect x="16" y="96" width="6" height="40" rx="3" fill="#b26a00"/><text x="32" y="121.0" font-size="12" fill="#14263f" font-weight="600">Debug build only · not in release</text>
+  <text x="16" y="176" font-size="14" fill="#14263f" font-weight="600">Latency (ms)</text>
+  <rect x="220" y="158" width="124" height="32" rx="8" fill="#ffffff" stroke="#d5dee6"/><text x="232" y="179" font-size="13" fill="#14263f">1500</text>
+  <line x1="16" y1="198" x2="344" y2="198" stroke="#d5dee6"/>
+  <text x="16" y="228" font-size="14" fill="#14263f" font-weight="600">Failure rate</text>
+  <rect x="220" y="210" width="124" height="32" rx="8" fill="#ffffff" stroke="#d5dee6"/><text x="232" y="231" font-size="13" fill="#14263f">30 %</text>
+  <line x1="16" y1="250" x2="344" y2="250" stroke="#d5dee6"/>
+  <text x="16" y="280" font-size="14" fill="#14263f" font-weight="600">Go offline</text>
+  <rect x="220" y="262" width="124" height="32" rx="8" fill="#ffffff" stroke="#d5dee6"/><text x="232" y="283" font-size="13" fill="#14263f">On</text>
+  <line x1="16" y1="302" x2="344" y2="302" stroke="#d5dee6"/>
+  <text x="16" y="340" font-size="13" fill="#5b6b7d" font-weight="700">Sync queue (3)</text>
+  <rect x="16" y="352" width="328" height="88" rx="8" fill="#eef3f7" stroke="#d5dee6"/>
+  <text x="28" y="378" font-size="12" fill="#14263f" font-family="ui-monospace, Menlo, monospace">#41 create  Ideas</text>
+  <text x="28" y="400" font-size="12" fill="#14263f" font-family="ui-monospace, Menlo, monospace">#42 update  Meeting notes</text>
+  <text x="28" y="422" font-size="12" fill="#14263f" font-family="ui-monospace, Menlo, monospace">#43 delete  Old draft</text>
+  <rect x="16" y="458" width="156" height="40" rx="8" fill="#ffffff" stroke="#d5dee6"/><text x="94.0" y="483.0" font-size="14" fill="#14263f" font-weight="600" text-anchor="middle">Reset</text><rect x="188" y="458" width="156" height="40" rx="8" fill="#0e9384"/><text x="266.0" y="483.0" font-size="14" fill="#ffffff" font-weight="600" text-anchor="middle">Save</text>
+  <text x="16" y="522" font-size="12" fill="#1a7f4b" font-weight="600">✓ Saved · applies to next request</text>
+  <rect x="130" y="704" width="100" height="4" rx="2" fill="#d5dee6"/>
+</svg>

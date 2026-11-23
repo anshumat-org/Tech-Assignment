@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Inter, Arial, 'Noto Sans Devanagari', 'Nirmala UI', Mangal, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Customers wireframe</title>
+  <desc id="d">Customer search by name or phone with orders, payments and outstanding credit. Illustrative only.</desc>
+  <rect width="800" height="480" fill="#ffffff"/>
+  <rect x="0" y="0" width="800" height="56" rx="0" fill="#14263f"/><text x="24" y="35" fill="#ffffff" font-size="16" font-weight="700">Sample Kirana Store (demo)</text><rect x="640" y="14" width="136" height="28" rx="14" fill="none" stroke="#ffffff"/>
+  <rect x="708" y="14" width="68" height="28" rx="14" fill="#0e9384"/>
+  <text x="674" y="33" fill="#ffffff" font-size="12" text-anchor="middle">हिंदी</text>
+  <text x="742" y="33" fill="#ffffff" font-size="12" font-weight="700" text-anchor="middle">English</text>
+  <text x="24" y="92" fill="#14263f" font-size="16" font-weight="700">Customers</text>
+  <rect x="24" y="104" width="300" height="36" rx="6" fill="#ffffff" stroke="#d5dee6"/>
+  <text x="36" y="127" fill="#5b6b7d" font-size="13">🔍 Name or phone</text>
+  <rect x="24" y="152" width="300" height="52" rx="8" fill="#eef3f7" stroke="#0e9384"/>
+  <text x="40" y="174" fill="#14263f" font-size="13" font-weight="700">Rahul</text>
+  <text x="40" y="194" fill="#5b6b7d" font-size="12">98XXXXXX10</text>
+  <text x="308" y="184" fill="#b26a00" font-size="12" font-weight="700" text-anchor="end">₹1,250.00 due</text>
+  <rect x="24" y="212" width="300" height="52" rx="8" fill="#ffffff" stroke="#d5dee6"/>
+  <text x="40" y="234" fill="#14263f" font-size="13" font-weight="700">Rahul Sharma</text>
+  <text x="40" y="254" fill="#5b6b7d" font-size="12">97XXXXXX22</text>
+  <text x="308" y="244" fill="#5b6b7d" font-size="12" font-weight="700" text-anchor="end">No dues</text>
+  <rect x="24" y="272" width="300" height="52" rx="8" fill="#ffffff" stroke="#d5dee6"/>
+  <text x="40" y="294" fill="#14263f" font-size="13" font-weight="700">Customer C</text>
+  <text x="40" y="314" fill="#5b6b7d" font-size="12">96XXXXXX33</text>
+  <text x="308" y="304" fill="#b26a00" font-size="12" font-weight="700" text-anchor="end">₹400.00 due</text>
+  <rect x="344" y="76" width="432" height="384" rx="8" fill="#ffffff" stroke="#d5dee6"/><text x="360" y="102" fill="#14263f" font-size="14" font-weight="700">Rahul · 98XXXXXX10</text>
+  <rect x="360" y="116" width="400" height="50" rx="8" fill="#eef3f7" stroke="#b26a00"/>
+  <text x="376" y="146" fill="#b26a00" font-size="14" font-weight="700">⚠ Outstanding credit: ₹1,250.00</text>
+  <text x="360" y="194" fill="#5b6b7d" font-size="12" font-weight="700">Recent orders</text>
+  <rect x="360" y="202" width="400" height="84" rx="8" fill="#ffffff" stroke="#d5dee6"/>
+  <rect x="360" y="202" width="400" height="28" rx="8" fill="#eef3f7" stroke="#d5dee6"/>
+  <text x="370" y="220.0" fill="#5b6b7d" font-size="12" font-weight="700">Order</text><text x="490" y="220.0" fill="#5b6b7d" font-size="12" font-weight="700">Date</text><text x="750" y="220.0" fill="#5b6b7d" font-size="12" font-weight="700" text-anchor="end">Amount</text>
+  <line x1="360" y1="230" x2="760" y2="230" stroke="#d5dee6" stroke-width="1"/>
+  <text x="370" y="248.0" fill="#14263f" font-size="12">ORD-0102</text><text x="490" y="248.0" fill="#14263f" font-size="12">23 Nov</text><text x="750" y="248.0" fill="#14263f" font-size="12" text-anchor="end">₹748.13</text>
+  <line x1="360" y1="258" x2="760" y2="258" stroke="#d5dee6" stroke-width="1"/>
+  <text x="370" y="276.0" fill="#14263f" font-size="12">ORD-0088</text><text x="490" y="276.0" fill="#14263f" font-size="12">18 Nov</text><text x="750" y="276.0" fill="#14263f" font-size="12" text-anchor="end">₹1,250.00 · credit</text>
+  <text x="360" y="310" fill="#5b6b7d" font-size="12" font-weight="700">Payments</text>
+  <rect x="360" y="318" width="400" height="56" rx="8" fill="#ffffff" stroke="#d5dee6"/>
+  <rect x="360" y="318" width="400" height="28" rx="8" fill="#eef3f7" stroke="#d5dee6"/>
+  <text x="370" y="336.0" fill="#5b6b7d" font-size="12" font-weight="700">Date</text><text x="490" y="336.0" fill="#5b6b7d" font-size="12" font-weight="700">Mode</text><text x="750" y="336.0" fill="#5b6b7d" font-size="12" font-weight="700" text-anchor="end">Amount</text>
+  <line x1="360" y1="346" x2="760" y2="346" stroke="#d5dee6" stroke-width="1"/>
+  <text x="370" y="364.0" fill="#14263f" font-size="12">23 Nov</text><text x="490" y="364.0" fill="#14263f" font-size="12">UPI</text><text x="750" y="364.0" fill="#14263f" font-size="12" text-anchor="end">₹748.13</text>
+  <rect x="600" y="410" width="160" height="36" rx="8" fill="#0e9384"/><text x="680.0" y="433.0" fill="#ffffff" font-size="14" font-weight="700" text-anchor="middle">Record payment</text>
+</svg>

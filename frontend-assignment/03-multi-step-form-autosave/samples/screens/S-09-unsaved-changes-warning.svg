@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Inter, Arial, sans-serif" font-size="12" fill="#14263f" role="img" aria-labelledby="t d">
+  <title id="t">Unsaved-changes warning wireframe</title>
+  <desc id="d">Sample wireframe: browser leave-page prompt shown while the last edit is still saving, with Cancel focused and Leave. Illustrative only.</desc>
+  <rect width="800" height="480" fill="#ffffff"/>
+  <rect x="0" y="0" width="800" height="56" fill="#14263f"/>
+  <text x="24" y="34" fill="#fff" font-size="15" font-weight="700">Sample application form (synthetic)</text>
+  <rect x="690" y="15" width="86" height="26" rx="13" fill="#fff" stroke="#5b6b7d"/><circle cx="704" cy="28" r="6" fill="none" stroke="#5b6b7d" stroke-width="2" stroke-dasharray="22 16"/><text x="744.0" y="33" fill="#5b6b7d" font-weight="700" text-anchor="middle">Saving…</text>
+  <circle cx="38" cy="88" r="13" fill="#0e9384" stroke="#0e9384" stroke-width="1.5"/>
+  <text x="38" y="93" fill="#fff" font-weight="700" text-anchor="middle">✓</text>
+  <text x="58" y="93" fill="#5b6b7d">Personal</text>
+  <rect x="180" y="87" width="26" height="2" fill="#0e9384"/>
+  <circle cx="228" cy="88" r="13" fill="#0e9384" stroke="#0e9384" stroke-width="1.5"/>
+  <text x="228" y="93" fill="#fff" font-weight="700" text-anchor="middle">✓</text>
+  <text x="248" y="93" fill="#5b6b7d">Contact</text>
+  <rect x="370" y="87" width="26" height="2" fill="#0e9384"/>
+  <circle cx="418" cy="88" r="13" fill="#0e9384" stroke="#0e9384" stroke-width="1.5"/>
+  <text x="418" y="93" fill="#fff" font-weight="700" text-anchor="middle">3</text>
+  <text x="438" y="93" font-weight="700">Details (current)</text>
+  <rect x="560" y="87" width="26" height="2" fill="#d5dee6"/>
+  <circle cx="608" cy="88" r="13" fill="#fff" stroke="#5b6b7d" stroke-width="1.5"/>
+  <text x="608" y="93" fill="#5b6b7d" font-weight="700" text-anchor="middle">4</text>
+  <text x="628" y="93" fill="#5b6b7d">Review</text>
+  <rect x="24" y="116" width="752" height="304" rx="8" fill="#fff" stroke="#d5dee6"/>
+  <text x="48" y="148" font-size="18" font-weight="700">Step 3 of 4 · Details</text>
+  <rect x="24" y="434" width="100" height="32" rx="6" fill="#fff" stroke="#d5dee6"/><text x="74.0" y="455.0" font-size="13" font-weight="700" text-anchor="middle">‹ Back</text>
+  <rect x="640" y="434" width="136" height="32" rx="6" fill="#0e9384"/><text x="708.0" y="455.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">Next</text>
+  <text x="48" y="186" font-weight="700">Item 1 · Role title</text><rect x="48" y="194" width="330" height="32" rx="6" fill="#fff" stroke="#14263f"/><rect x="45" y="191" width="336" height="38" rx="9" fill="none" stroke="#1d6fe0" stroke-width="2"/><text x="58" y="215.0" font-size="13">Sample role A (edited|</text>
+  <rect x="0" y="0" width="800" height="480" fill="#14263f" opacity="0.45"/>
+  <rect x="220" y="150" width="360" height="150" rx="10" fill="#fff" stroke="#d5dee6"/>
+  <text x="244" y="184" font-size="16" font-weight="700">Leave site?</text>
+  <text x="244" y="210" fill="#5b6b7d" font-size="13">Changes you made may not be saved.</text>
+  <text x="244" y="230" fill="#5b6b7d" font-size="11">(browser’s own beforeunload prompt)</text>
+  <rect x="368" y="252" width="92" height="32" rx="6" fill="#fff" stroke="#d5dee6"/><text x="414.0" y="273.0" font-size="13" font-weight="700" text-anchor="middle">Cancel</text>
+  <rect x="365" y="249" width="98" height="38" rx="9" fill="none" stroke="#1d6fe0" stroke-width="2"/>
+  <rect x="472" y="252" width="84" height="32" rx="6" fill="#b42318"/><text x="514.0" y="273.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">Leave</text>
+  <rect x="220" y="318" width="201" height="20" rx="4" fill="#b26a00"/><text x="320.5" y="332" fill="#fff" font-size="11" font-weight="700" text-anchor="middle">Shown: last edit still saving</text>
+</svg>

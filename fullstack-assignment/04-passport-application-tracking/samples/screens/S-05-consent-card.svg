@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Inter, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Consent card wireframe</title>
+  <desc id="d">Consent card with purpose, scopes, retention, Agree and a visible Withdraw action. Illustrative only.</desc>
+  <rect width="800" height="480" fill="#ffffff"/>
+  <rect x="0" y="0" width="800" height="56" rx="0" fill="#14263f"/>
+  <text x="24" y="35" fill="#ffffff" font-size="16" font-weight="700">Passport assistance (demo)</text>
+  <rect x="477" y="15" width="299" height="26" rx="13" fill="#ffffff"/>
+  <text x="626.5" y="32" fill="#b26a00" font-size="12" font-weight="700" text-anchor="middle">Simulated. Not the official passport system</text>
+  <rect x="160" y="76" width="480" height="384" rx="8" fill="#ffffff" stroke="#d5dee6"/>
+  <text x="184" y="108" fill="#14263f" font-size="17" font-weight="700">Share documents from DigiLocker (mock)</text>
+  <rect x="184" y="120" width="123" height="22" rx="11" fill="#ffffff" stroke="#1a7f4b"/><text x="245.5" y="135" fill="#1a7f4b" font-size="11" font-weight="700" text-anchor="middle">● Consent active</text>
+  <text x="184" y="170" fill="#5b6b7d" font-size="12" font-weight="700">Purpose</text>
+  <text x="184" y="190" fill="#14263f" font-size="13">Fetch documents for your checklist in this demo application.</text>
+  <text x="184" y="222" fill="#5b6b7d" font-size="12" font-weight="700">What we can read</text>
+  <text x="196" y="242" fill="#14263f" font-size="13">• Document list and metadata (type, issuer, date)</text>
+  <text x="196" y="262" fill="#14263f" font-size="13">• Selected documents only, on your instruction</text>
+  <text x="184" y="294" fill="#5b6b7d" font-size="12" font-weight="700">How long</text>
+  <text x="184" y="314" fill="#14263f" font-size="13">Until you withdraw or 30 days, whichever is first (placeholder).</text>
+  <rect x="184" y="332" width="432" height="46" rx="6" fill="#eef3f7" stroke="#d5dee6"/>
+  <text x="196" y="352" fill="#14263f" font-size="12">You can withdraw consent at any time. Linked documents will</text>
+  <text x="196" y="368" fill="#14263f" font-size="12">no longer be accessible to this application.</text>
+  <text x="184" y="394" fill="#1d6fe0" font-size="13">What happens after withdrawal →</text>
+  <rect x="184" y="404" width="150" height="36" rx="8" fill="#eef3f7" stroke="#d5dee6"/><text x="259.0" y="427.0" fill="#5b6b7d" font-size="14" text-anchor="middle">Agree</text>
+  <text x="259" y="454" fill="#5b6b7d" font-size="11" text-anchor="middle">Already agreed</text>
+  <rect x="456" y="404" width="160" height="36" rx="8" fill="#b42318"/><text x="536.0" y="427.0" fill="#ffffff" font-size="14" font-weight="700" text-anchor="middle">Withdraw consent</text>
+</svg>

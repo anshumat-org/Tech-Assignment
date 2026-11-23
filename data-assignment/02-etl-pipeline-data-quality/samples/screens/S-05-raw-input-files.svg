@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Inter, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Raw input files</title>
+  <desc id="d">Folder listing of per-day raw files with one file missing. Illustrative only.</desc>
+  <rect width="800" height="480" fill="#ffffff"/>
+  <rect width="800" height="56" fill="#14263f"/>
+  <text x="24" y="35" font-size="16" fill="#ffffff" font-weight="700">Raw input files</text>
+  <rect x="682" y="14" width="94" height="28" rx="14" fill="#fff4e0" stroke="#b26a00"/>
+  <text x="729.0" y="33" font-size="12" fill="#b26a00" font-weight="700" text-anchor="middle">1 MISSING</text>
+  <rect x="24" y="76" width="752" height="250" rx="8" fill="#ffffff" stroke="#d5dee6"/>
+  <text x="40" y="102" font-size="13" fill="#5b6b7d" font-weight="700" font-family="Menlo, Consolas, monospace" xml:space="preserve">raw/</text>
+  <text x="60" y="132" font-size="13" fill="#14263f" font-family="Menlo, Consolas, monospace" xml:space="preserve">customers_YYYY-MM-01.csv</text>
+  <rect x="360" y="119" width="47" height="18" rx="9" fill="#e7f5ee" stroke="#1a7f4b"/>
+  <text x="383.5" y="132" font-size="10" fill="#1a7f4b" font-weight="700" text-anchor="middle">READY</text>
+  <text x="60" y="162" font-size="13" fill="#14263f" font-family="Menlo, Consolas, monospace" xml:space="preserve">orders_YYYY-MM-01.csv</text>
+  <rect x="360" y="149" width="47" height="18" rx="9" fill="#e7f5ee" stroke="#1a7f4b"/>
+  <text x="383.5" y="162" font-size="10" fill="#1a7f4b" font-weight="700" text-anchor="middle">READY</text>
+  <text x="60" y="192" font-size="13" fill="#14263f" font-family="Menlo, Consolas, monospace" xml:space="preserve">events_YYYY-MM-01.json</text>
+  <rect x="360" y="179" width="47" height="18" rx="9" fill="#e7f5ee" stroke="#1a7f4b"/>
+  <text x="383.5" y="192" font-size="10" fill="#1a7f4b" font-weight="700" text-anchor="middle">READY</text>
+  <text x="60" y="222" font-size="13" fill="#14263f" font-family="Menlo, Consolas, monospace" xml:space="preserve">customers_YYYY-MM-02.csv</text>
+  <rect x="360" y="209" width="47" height="18" rx="9" fill="#e7f5ee" stroke="#1a7f4b"/>
+  <text x="383.5" y="222" font-size="10" fill="#1a7f4b" font-weight="700" text-anchor="middle">READY</text>
+  <text x="60" y="252" font-size="13" fill="#14263f" font-family="Menlo, Consolas, monospace" xml:space="preserve">orders_YYYY-MM-02.csv</text>
+  <rect x="360" y="239" width="47" height="18" rx="9" fill="#e7f5ee" stroke="#1a7f4b"/>
+  <text x="383.5" y="252" font-size="10" fill="#1a7f4b" font-weight="700" text-anchor="middle">READY</text>
+  <text x="60" y="282" font-size="13" fill="#5b6b7d" font-family="Menlo, Consolas, monospace" xml:space="preserve">events_YYYY-MM-02.json</text>
+  <rect x="360" y="269" width="61" height="18" rx="9" fill="#fff4e0" stroke="#b26a00"/>
+  <text x="390.5" y="282" font-size="10" fill="#b26a00" font-weight="700" text-anchor="middle">MISSING</text>
+  <rect x="24" y="340" width="752" height="34" rx="6" fill="#fff4e0" stroke="#b26a00"/>
+  <text x="38" y="362" font-size="12" fill="#b26a00" font-weight="700">Missing:</text>
+  <text x="106.8" y="362" font-size="12" fill="#14263f">expected file not found for day 02. Freshness test will flag it.</text>
+  <text x="24" y="466" font-size="11" fill="#5b6b7d">Sample layout · all names and values are placeholders · Illustrative only.</text>
+</svg>

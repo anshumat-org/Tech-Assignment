@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Inter, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Log search</title>
+  <desc id="d">Sample log aggregator search by request ID and severity with time range and matching placeholder lines. Illustrative only.</desc>
+  <rect width="800" height="480" fill="#ffffff"/>
+  <rect width="800" height="56" fill="#14263f"/>
+  <text x="24" y="35" font-size="16" fill="#ffffff" font-weight="700">Log search (generic aggregator)</text>
+  <rect x="24" y="72" width="560" height="40" rx="8" fill="#fff" stroke="#0e9384" stroke-width="2"/>
+  <text x="40" y="97" font-size="13" fill="#14263f" font-family="ui-monospace, Menlo, monospace">request_id="(placeholder)" AND level=error</text>
+  <rect x="596" y="72" width="180" height="40" rx="8" fill="#eef3f7" stroke="#d5dee6"/>
+  <text x="612" y="97" font-size="13" fill="#14263f">Last N min (placeholder)</text>
+  <text x="24" y="138" font-size="13" fill="#5b6b7d">3 matching lines (placeholder)</text>
+  <rect x="24" y="150" width="752" height="170" rx="8" fill="#14263f"/>
+  <text x="40" y="172" font-size="11" fill="#9fb0c4">Results</text>
+  <text x="40" y="198" font-size="13" fill="#e8eef6" font-family="ui-monospace, Menlo, monospace">(time) INFO  request received id=(placeholder)</text>
+  <text x="40" y="220" font-size="13" fill="#f0b35a" font-family="ui-monospace, Menlo, monospace">(time) WARN  upstream slow id=(placeholder)</text>
+  <text x="40" y="242" font-size="13" fill="#ff7b72" font-family="ui-monospace, Menlo, monospace">(time) ERROR request failed id=(placeholder) cause=(placeholder)</text>
+  <text x="24" y="350" font-size="12" fill="#5b6b7d">Other state: no results</text>
+  <text x="24" y="470" font-size="10" fill="#5b6b7d">Sample only · placeholder values · not a solution</text>
+</svg>

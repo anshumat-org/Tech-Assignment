@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Inter, Arial, 'Noto Sans Devanagari', 'Nirmala UI', Mangal, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Mandi sign in wireframe</title>
+  <desc id="d">Sign in in Hindi with phone or email, password, language toggle and an error message. Illustrative only.</desc>
+  <rect width="800" height="480" fill="#ffffff"/>
+  <rect x="0" y="0" width="800" height="56" rx="0" fill="#14263f"/><text x="24" y="35" fill="#ffffff" font-size="16" font-weight="700">नमूना आढ़त फ़र्म (डेमो)</text><rect x="640" y="14" width="136" height="28" rx="14" fill="none" stroke="#ffffff"/>
+  <rect x="640" y="14" width="68" height="28" rx="14" fill="#0e9384"/>
+  <text x="674" y="33" fill="#ffffff" font-size="12" font-weight="700" text-anchor="middle">हिंदी</text>
+  <text x="742" y="33" fill="#ffffff" font-size="12" text-anchor="middle">English</text>
+  <rect x="220" y="76" width="360" height="384" rx="8" fill="#ffffff" stroke="#d5dee6"/>
+  <text x="400" y="114" fill="#14263f" font-size="20" font-weight="700" text-anchor="middle">साइन इन करें</text>
+  <rect x="244" y="132" width="312" height="36" rx="6" fill="#ffffff" stroke="#b42318" stroke-width="1.5"/><rect x="244" y="132" width="5" height="36" rx="2" fill="#b42318"/><text x="260" y="155.0" fill="#b42318" font-size="13" font-weight="700">✕ त्रुटि</text><text x="326.4" y="155.0" fill="#14263f" font-size="12">पासवर्ड गलत है। फिर से कोशिश करें।</text>
+  <text x="244" y="192" fill="#5b6b7d" font-size="12">फ़ोन या ईमेल</text><rect x="244" y="200" width="312" height="34" rx="6" fill="#ffffff" stroke="#d5dee6"/><text x="256" y="222" fill="#14263f" font-size="13">98XXXXXX10</text>
+  <text x="244" y="258" fill="#5b6b7d" font-size="12">पासवर्ड</text><rect x="244" y="266" width="312" height="34" rx="6" fill="#ffffff" stroke="#1d6fe0" stroke-width="2"/><text x="256" y="288" fill="#14263f" font-size="13">••••••••</text>
+  <text x="244" y="326" fill="#5b6b7d" font-size="12">भाषा · Language</text>
+  <rect x="244" y="334" width="64" height="22" rx="11" fill="#0e9384" stroke="#0e9384"/><text x="276.0" y="349" fill="#ffffff" font-size="11" font-weight="700" text-anchor="middle">✓ हिंदी</text>
+  <rect x="312" y="334" width="64" height="22" rx="11" fill="#ffffff" stroke="#0e9384"/><text x="344.0" y="349" fill="#0e9384" font-size="11" font-weight="700" text-anchor="middle">English</text>
+  <rect x="244" y="376" width="312" height="36" rx="8" fill="#0e9384"/><text x="400.0" y="399.0" fill="#ffffff" font-size="14" font-weight="700" text-anchor="middle">साइन इन</text>
+  <text x="400" y="440" fill="#5b6b7d" font-size="11" text-anchor="middle">State shown: error · language: Hindi</text>
+</svg>

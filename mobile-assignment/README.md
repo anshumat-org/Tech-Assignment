@@ -1,6 +1,6 @@
 # Mobile App Assignments
 
-**v0.1 DRAFT — 2026-11-06**
+**v0.2 DRAFT — 2026-11-23**
 
 > DRAFT: content is under review and may change before use with candidates.
 
@@ -26,5 +26,7 @@
 | File | Purpose |
 |---|---|
 | `README.md` | Overview, WH table, evaluation weights |
+| `product-brief.md` | Start here. What you build: product, personas, journey, capabilities, user stories with acceptance criteria |
 | `requirements-and-directives.md` | Part 1 requirements and scenarios. Part 2 do / don't rules, deliverables, constraints, discussion |
 | `resources.md` | Reference links for the topic. Starting points, not solutions |
+| `developer-guide.md` | Build order, directions, and before / during / after checklists |

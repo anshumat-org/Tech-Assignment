@@ -1,6 +1,6 @@
 # Assignment 01 — Task Dashboard UX
 
-**v0.1 DRAFT — 2026-11-06**
+**v0.2 DRAFT — 2026-11-23**
 
 | WH | Answer |
 |---|---|
@@ -29,7 +29,9 @@ Visual flair is secondary to clear, well-reasoned, complete design.
 
 ## Read next
 
+- [product-brief.md](product-brief.md) (start here: product, personas, capabilities, user stories with acceptance criteria)
 - [requirements-and-directives.md](requirements-and-directives.md)
 - [resources.md](resources.md)
+- [developer-guide.md](developer-guide.md) (build order, directions, before / during / after checklists)
 - [../../shared/design-system/README.md](../../shared/design-system/README.md)
 - [../design-instructions.md](../design-instructions.md) (mandatory for every assignment)

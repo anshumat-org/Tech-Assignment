@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Inter, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">New rule demo</title>
+  <desc id="d">New rule test result with rows to rejects and unrelated tables unchanged. Illustrative only.</desc>
+  <rect width="800" height="480" fill="#ffffff"/>
+  <rect width="800" height="56" fill="#14263f"/>
+  <text x="24" y="35" font-size="16" fill="#ffffff" font-weight="700">New-rule demo</text>
+  <rect x="722" y="14" width="54" height="28" rx="14" fill="#e7f5ee" stroke="#1a7f4b"/>
+  <text x="749.0" y="33" font-size="12" fill="#1a7f4b" font-weight="700" text-anchor="middle">PASS</text>
+  <rect x="24" y="72" width="752" height="44" rx="8" fill="#eef3f7" stroke="#d5dee6"/>
+  <text x="38" y="99" font-size="13" fill="#14263f" font-weight="700">Rule: &lt;new rule&gt; (placeholder)</text>
+  <rect x="24" y="132" width="752" height="96" rx="6" fill="#ffffff" stroke="#d5dee6"/>
+  <rect x="24" y="132" width="752" height="32" rx="6" fill="#eef3f7" stroke="#d5dee6"/>
+  <text x="34" y="152.0" font-size="11" fill="#5b6b7d" font-weight="700">Item</text>
+  <text x="347.33333333333337" y="152.0" font-size="11" fill="#5b6b7d" font-weight="700">Result</text>
+  <text x="34" y="184.0" font-size="12" fill="#14263f">Test result</text>
+  <rect x="347.33333333333337" y="171.0" width="40" height="18" rx="9" fill="#e7f5ee" stroke="#1a7f4b"/>
+  <text x="367.33333333333337" y="184.0" font-size="10" fill="#1a7f4b" font-weight="700" text-anchor="middle">PASS</text>
+  <line x1="24" y1="196" x2="776" y2="196" stroke="#d5dee6"/>
+  <text x="34" y="216.0" font-size="12" fill="#14263f">Rows sent to rejects</text>
+  <text x="347.33333333333337" y="216.0" font-size="12" fill="#14263f">n (placeholder)</text>
+  <rect x="24" y="242" width="752" height="96" rx="6" fill="#ffffff" stroke="#d5dee6"/>
+  <rect x="24" y="242" width="752" height="32" rx="6" fill="#eef3f7" stroke="#d5dee6"/>
+  <text x="34" y="262.0" font-size="11" fill="#5b6b7d" font-weight="700">Unrelated table</text>
+  <text x="273.27272727272725" y="262.0" font-size="11" fill="#5b6b7d" font-weight="700">Before</text>
+  <text x="444.18181818181813" y="262.0" font-size="11" fill="#5b6b7d" font-weight="700">After</text>
+  <text x="615.090909090909" y="262.0" font-size="11" fill="#5b6b7d" font-weight="700">Changed?</text>
+  <text x="34" y="294.0" font-size="12" fill="#14263f">table_x</text>
+  <text x="273.27272727272725" y="294.0" font-size="12" fill="#14263f">n</text>
+  <text x="444.18181818181813" y="294.0" font-size="12" fill="#14263f">n</text>
+  <rect x="615.090909090909" y="281.0" width="26" height="18" rx="9" fill="#e7f5ee" stroke="#1a7f4b"/>
+  <text x="628.090909090909" y="294.0" font-size="10" fill="#1a7f4b" font-weight="700" text-anchor="middle">NO</text>
+  <line x1="24" y1="306" x2="776" y2="306" stroke="#d5dee6"/>
+  <text x="34" y="326.0" font-size="12" fill="#14263f">table_y</text>
+  <text x="273.27272727272725" y="326.0" font-size="12" fill="#14263f">n</text>
+  <text x="444.18181818181813" y="326.0" font-size="12" fill="#14263f">n</text>
+  <rect x="615.090909090909" y="313.0" width="26" height="18" rx="9" fill="#e7f5ee" stroke="#1a7f4b"/>
+  <text x="628.090909090909" y="326.0" font-size="10" fill="#1a7f4b" font-weight="700" text-anchor="middle">NO</text>
+  <text x="24" y="466" font-size="11" fill="#5b6b7d">Sample layout · all names and values are placeholders · Illustrative only.</text>
+</svg>

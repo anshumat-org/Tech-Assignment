@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Inter, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Operator queue wireframe</title>
+  <desc id="d">Operator queue of applications grouped by status with an open package action. Illustrative only.</desc>
+  <rect width="800" height="480" fill="#ffffff"/>
+  <rect x="0" y="0" width="800" height="56" rx="0" fill="#14263f"/>
+  <text x="24" y="35" fill="#ffffff" font-size="16" font-weight="700">Passport assistance (demo) · Operator</text>
+  <rect x="477" y="15" width="299" height="26" rx="13" fill="#ffffff"/>
+  <text x="626.5" y="32" fill="#b26a00" font-size="12" font-weight="700" text-anchor="middle">Simulated. Not the official passport system</text>
+  <text x="24" y="92" fill="#14263f" font-size="16" font-weight="700">Review queue</text>
+  <rect x="24" y="106" width="103" height="22" rx="11" fill="#0e9384" stroke="#0e9384"/><text x="75.5" y="121" fill="#ffffff" font-size="11" font-weight="700" text-anchor="middle">Submitted (3)</text>
+  <rect x="130" y="106" width="183" height="22" rx="11" fill="#ffffff" stroke="#14263f"/><text x="221.5" y="121" fill="#14263f" font-size="11" font-weight="700" text-anchor="middle">Corrections requested (1)</text>
+  <rect x="312" y="106" width="90" height="22" rx="11" fill="#ffffff" stroke="#14263f"/><text x="357.0" y="121" fill="#14263f" font-size="11" font-weight="700" text-anchor="middle">Decided (5)</text>
+  <rect x="24" y="144" width="752" height="160" rx="8" fill="#ffffff" stroke="#d5dee6"/>
+  <rect x="24" y="144" width="752" height="40" rx="8" fill="#eef3f7" stroke="#d5dee6"/>
+  <text x="34" y="168.0" fill="#5b6b7d" font-size="12" font-weight="700">Application</text><text x="184" y="168.0" fill="#5b6b7d" font-size="12" font-weight="700">Applicant</text><text x="404" y="168.0" fill="#5b6b7d" font-size="12" font-weight="700">Status</text><text x="574" y="168.0" fill="#5b6b7d" font-size="12" font-weight="700">Waiting</text><text x="704" y="168.0" fill="#5b6b7d" font-size="12" font-weight="700"></text>
+  <line x1="24" y1="184" x2="776" y2="184" stroke="#d5dee6" stroke-width="1"/>
+  <text x="34" y="208.0" fill="#14263f" font-size="12">APP-0003</text><text x="184" y="208.0" fill="#14263f" font-size="12">Applicant C (placeholder)</text><text x="404" y="208.0" fill="#14263f" font-size="12">◔ Submitted</text><text x="574" y="208.0" fill="#14263f" font-size="12">2 h</text><text x="704" y="208.0" fill="#14263f" font-size="12">Open →</text>
+  <line x1="24" y1="224" x2="776" y2="224" stroke="#d5dee6" stroke-width="1"/>
+  <text x="34" y="248.0" fill="#14263f" font-size="12">APP-0004</text><text x="184" y="248.0" fill="#14263f" font-size="12">Applicant D (placeholder)</text><text x="404" y="248.0" fill="#14263f" font-size="12">◔ Submitted</text><text x="574" y="248.0" fill="#14263f" font-size="12">5 h</text><text x="704" y="248.0" fill="#14263f" font-size="12">Open →</text>
+  <line x1="24" y1="264" x2="776" y2="264" stroke="#d5dee6" stroke-width="1"/>
+  <text x="34" y="288.0" fill="#14263f" font-size="12">APP-0007</text><text x="184" y="288.0" fill="#14263f" font-size="12">Applicant G (placeholder)</text><text x="404" y="288.0" fill="#14263f" font-size="12">◔ Submitted</text><text x="574" y="288.0" fill="#14263f" font-size="12">1 d</text><text x="704" y="288.0" fill="#14263f" font-size="12">Open →</text>
+  <text x="24" y="330" fill="#5b6b7d" font-size="12">Oldest first. Open a package to accept or reject each item.</text>
+  <text x="24" y="456" fill="#5b6b7d" font-size="11">All records are synthetic test data.</text>
+</svg>

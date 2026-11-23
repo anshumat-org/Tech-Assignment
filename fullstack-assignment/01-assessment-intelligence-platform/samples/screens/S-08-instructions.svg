@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Inter, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Candidate instructions wireframe</title>
+  <desc id="d">Sample wireframe: rules, duration and sections before starting, showing the resumed-attempt state. Illustrative only.</desc>
+  <rect width="800" height="480" fill="#ffffff"/>
+  <rect width="800" height="56" fill="#14263f"/>
+  <text x="24" y="35" fill="#fff" font-size="16" font-weight="700">Sample Technical Assessment</text>
+  <rect x="616" y="70" width="160" height="22" rx="11" fill="#e8f0fe"/><text x="696" y="86" font-size="12" fill="#1d4fb0" text-anchor="middle">State: resumed</text>
+  <rect x="24" y="104" width="752" height="40" rx="8" fill="#e8f0fe" stroke="#1d4fb0"/><text x="40" y="129" fill="#1d4fb0" font-size="13">↻ Resuming your attempt · 12 of 20 answered · the timer keeps running from where it was.</text>
+  <rect x="24" y="164" width="752" height="236" rx="12" fill="#fff" stroke="#d5dee6"/>
+  <text x="48" y="200" fill="#14263f" font-size="18" font-weight="700">Before you start</text>
+  <text x="48" y="236" fill="#14263f" font-size="14">• Duration: 45 minutes (placeholder)</text>
+  <text x="48" y="264" fill="#14263f" font-size="14">• Sections: 2 · 20 questions in total</text>
+  <text x="48" y="292" fill="#14263f" font-size="14">• Answers save as you go. You can flag and come back.</text>
+  <text x="48" y="320" fill="#14263f" font-size="14">• Submitting ends the attempt. You cannot change answers after.</text>
+  <text x="48" y="372" fill="#5b6b7d" font-size="13">Use a quiet place and a stable connection.</text>
+  <rect x="616" y="424" width="160" height="36" rx="8" fill="#0e9384"/><text x="696" y="447" fill="#fff" font-size="14" text-anchor="middle">Continue attempt</text>
+</svg>

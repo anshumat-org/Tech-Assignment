@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Inter, Arial, sans-serif" font-size="12" fill="#14263f" role="img" aria-labelledby="t d">
+  <title id="t">Results table wireframe</title>
+  <desc id="d">Sample wireframe: records page with the semantic results table highlighted in its loading skeleton state, with a sortable header showing direction by arrow and text. Illustrative only.</desc>
+  <rect width="800" height="480" fill="#ffffff"/>
+  <rect x="0" y="0" width="800" height="28" fill="#eef3f7"/>
+  <rect x="12" y="5" width="776" height="18" rx="9" fill="#fff" stroke="#d5dee6"/>
+  <text x="24" y="18" fill="#5b6b7d" font-size="11">localhost/records?q=&amp;status=active,pending&amp;sort=-updated&amp;page=1</text>
+  <rect x="0" y="28" width="800" height="44" fill="#14263f"/>
+  <text x="24" y="56" fill="#fff" font-size="16" font-weight="700">Records (sample data)</text>
+  <text x="24" y="92" font-weight="700">Search records</text><rect x="24" y="100" width="250" height="32" rx="6" fill="#fff" stroke="#5b6b7d"/><text x="34" y="121.0" fill="#5b6b7d" font-size="13">Name, ID or owner…</text>
+  <text x="290" y="92" font-weight="700">Status (multi-select)</text><rect x="290" y="100" width="170" height="32" rx="6" fill="#fff" stroke="#5b6b7d"/><text x="300" y="121.0" font-size="13">Active, Pending</text>
+  <text x="444" y="121" font-size="13">▾</text>
+  <text x="476" y="92" font-weight="700">Category</text><rect x="476" y="100" width="140" height="32" rx="6" fill="#fff" stroke="#5b6b7d"/><text x="486" y="121.0" font-size="13">Any</text>
+  <text x="600" y="121" font-size="13">▾</text>
+  <rect x="632" y="100" width="144" height="32" rx="6" fill="#fff" stroke="#d5dee6"/><text x="704.0" y="121.0" font-size="13" font-weight="700" text-anchor="middle">Clear filters</text>
+  <text x="24" y="162" font-size="13" font-weight="700">Loading records…</text>
+  <rect x="24" y="172" width="752" height="252" rx="6" fill="#fff" stroke="#d5dee6"/><rect x="24" y="172" width="752" height="28" rx="6" fill="#eef3f7" stroke="#d5dee6"/>
+  <text x="36" y="191" font-weight="700">ID</text>
+  <text x="110" y="191" font-weight="700">Name</text>
+  <text x="240" y="191" font-weight="700">Category</text>
+  <text x="340" y="191" font-weight="700">Status</text>
+  <text x="444" y="191" font-weight="700">Owner</text>
+  <text x="540" y="191" font-weight="700">Amount ▲</text>
+  <text x="636" y="191" font-weight="700">Updated</text>
+  <rect x="24" y="232" width="752" height="1" fill="#d5dee6"/>
+  <rect x="36" y="212" width="60" height="10" rx="5" fill="#d5dee6"/>
+  <rect x="110" y="212" width="80" height="10" rx="5" fill="#d5dee6"/>
+  <rect x="240" y="212" width="60" height="10" rx="5" fill="#d5dee6"/>
+  <rect x="340" y="212" width="60" height="10" rx="5" fill="#d5dee6"/>
+  <rect x="444" y="212" width="80" height="10" rx="5" fill="#d5dee6"/>
+  <rect x="540" y="212" width="60" height="10" rx="5" fill="#d5dee6"/>
+  <rect x="636" y="212" width="60" height="10" rx="5" fill="#d5dee6"/>
+  <rect x="24" y="264" width="752" height="1" fill="#d5dee6"/>
+  <rect x="36" y="244" width="60" height="10" rx="5" fill="#d5dee6"/>
+  <rect x="110" y="244" width="80" height="10" rx="5" fill="#d5dee6"/>
+  <rect x="240" y="244" width="60" height="10" rx="5" fill="#d5dee6"/>
+  <rect x="340" y="244" width="60" height="10" rx="5" fill="#d5dee6"/>
+  <rect x="444" y="244" width="80" height="10" rx="5" fill="#d5dee6"/>
+  <rect x="540" y="244" width="60" height="10" rx="5" fill="#d5dee6"/>
+  <rect x="636" y="244" width="60" height="10" rx="5" fill="#d5dee6"/>
+  <rect x="24" y="296" width="752" height="1" fill="#d5dee6"/>
+  <rect x="36" y="276" width="60" height="10" rx="5" fill="#d5dee6"/>
+  <rect x="110" y="276" width="80" height="10" rx="5" fill="#d5dee6"/>
+  <rect x="240" y="276" width="60" height="10" rx="5" fill="#d5dee6"/>
+  <rect x="340" y="276" width="60" height="10" rx="5" fill="#d5dee6"/>
+  <rect x="444" y="276" width="80" height="10" rx="5" fill="#d5dee6"/>
+  <rect x="540" y="276" width="60" height="10" rx="5" fill="#d5dee6"/>
+  <rect x="636" y="276" width="60" height="10" rx="5" fill="#d5dee6"/>
+  <rect x="24" y="328" width="752" height="1" fill="#d5dee6"/>
+  <rect x="36" y="308" width="60" height="10" rx="5" fill="#d5dee6"/>
+  <rect x="110" y="308" width="80" height="10" rx="5" fill="#d5dee6"/>
+  <rect x="240" y="308" width="60" height="10" rx="5" fill="#d5dee6"/>
+  <rect x="340" y="308" width="60" height="10" rx="5" fill="#d5dee6"/>
+  <rect x="444" y="308" width="80" height="10" rx="5" fill="#d5dee6"/>
+  <rect x="540" y="308" width="60" height="10" rx="5" fill="#d5dee6"/>
+  <rect x="636" y="308" width="60" height="10" rx="5" fill="#d5dee6"/>
+  <rect x="24" y="360" width="752" height="1" fill="#d5dee6"/>
+  <rect x="36" y="340" width="60" height="10" rx="5" fill="#d5dee6"/>
+  <rect x="110" y="340" width="80" height="10" rx="5" fill="#d5dee6"/>
+  <rect x="240" y="340" width="60" height="10" rx="5" fill="#d5dee6"/>
+  <rect x="340" y="340" width="60" height="10" rx="5" fill="#d5dee6"/>
+  <rect x="444" y="340" width="80" height="10" rx="5" fill="#d5dee6"/>
+  <rect x="540" y="340" width="60" height="10" rx="5" fill="#d5dee6"/>
+  <rect x="636" y="340" width="60" height="10" rx="5" fill="#d5dee6"/>
+  <rect x="24" y="392" width="752" height="1" fill="#d5dee6"/>
+  <rect x="36" y="372" width="60" height="10" rx="5" fill="#d5dee6"/>
+  <rect x="110" y="372" width="80" height="10" rx="5" fill="#d5dee6"/>
+  <rect x="240" y="372" width="60" height="10" rx="5" fill="#d5dee6"/>
+  <rect x="340" y="372" width="60" height="10" rx="5" fill="#d5dee6"/>
+  <rect x="444" y="372" width="80" height="10" rx="5" fill="#d5dee6"/>
+  <rect x="540" y="372" width="60" height="10" rx="5" fill="#d5dee6"/>
+  <rect x="636" y="372" width="60" height="10" rx="5" fill="#d5dee6"/>
+  <rect x="36" y="404" width="60" height="10" rx="5" fill="#d5dee6"/>
+  <rect x="110" y="404" width="80" height="10" rx="5" fill="#d5dee6"/>
+  <rect x="240" y="404" width="60" height="10" rx="5" fill="#d5dee6"/>
+  <rect x="340" y="404" width="60" height="10" rx="5" fill="#d5dee6"/>
+  <rect x="444" y="404" width="80" height="10" rx="5" fill="#d5dee6"/>
+  <rect x="540" y="404" width="60" height="10" rx="5" fill="#d5dee6"/>
+  <rect x="636" y="404" width="60" height="10" rx="5" fill="#d5dee6"/>
+  <text x="24" y="452" fill="#5b6b7d">Page 1 of 200</text>
+  <rect x="560" y="436" width="90" height="32" rx="6" fill="#eef3f7" stroke="#d5dee6"/><text x="605.0" y="457.0" fill="#5b6b7d" font-size="13" font-weight="700" text-anchor="middle">‹ Previous</text>
+  <rect x="660" y="436" width="116" height="32" rx="6" fill="#fff" stroke="#d5dee6"/><text x="718.0" y="457.0" font-size="13" font-weight="700" text-anchor="middle">Next ›</text>
+  <rect x="18" y="166" width="764" height="264" rx="10" fill="none" stroke="#0e9384" stroke-width="2" stroke-dasharray="6 4"/><rect x="400" y="143" width="143" height="20" rx="4" fill="#0e9384"/><text x="471.5" y="157" fill="#fff" font-size="11" font-weight="700" text-anchor="middle">S-03 · Results table</text>
+  <rect x="560" y="144" width="130" height="20" rx="4" fill="#5b6b7d"/><text x="625.0" y="158" fill="#fff" font-size="11" font-weight="700" text-anchor="middle">◌ Loading skeleton</text>
+  <rect x="24" y="436" width="232" height="20" rx="10" fill="#fff" stroke="#14263f"/><text x="140.0" y="450" font-size="11" font-weight="700" text-anchor="middle">Sort: Amount ascending (aria-sort)</text>
+</svg>

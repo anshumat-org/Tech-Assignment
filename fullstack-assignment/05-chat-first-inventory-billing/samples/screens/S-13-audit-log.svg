@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Inter, Arial, 'Noto Sans Devanagari', 'Nirmala UI', Mangal, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Audit log wireframe</title>
+  <desc id="d">Audit log filtered by actor, entity and date with before and after references. Illustrative only.</desc>
+  <rect width="800" height="480" fill="#ffffff"/>
+  <rect x="0" y="0" width="800" height="56" rx="0" fill="#14263f"/><text x="24" y="35" fill="#ffffff" font-size="16" font-weight="700">Sample Kirana Store (demo)</text><rect x="640" y="14" width="136" height="28" rx="14" fill="none" stroke="#ffffff"/>
+  <rect x="708" y="14" width="68" height="28" rx="14" fill="#0e9384"/>
+  <text x="674" y="33" fill="#ffffff" font-size="12" text-anchor="middle">हिंदी</text>
+  <text x="742" y="33" fill="#ffffff" font-size="12" font-weight="700" text-anchor="middle">English</text>
+  <text x="24" y="92" fill="#14263f" font-size="16" font-weight="700">Audit log</text>
+  <text x="24" y="110" fill="#5b6b7d" font-size="12">Actor</text><rect x="24" y="118" width="220" height="34" rx="6" fill="#ffffff" stroke="#d5dee6"/><text x="36" y="140" fill="#14263f" font-size="13">All ▾</text>
+  <text x="260" y="110" fill="#5b6b7d" font-size="12">Entity</text><rect x="260" y="118" width="220" height="34" rx="6" fill="#ffffff" stroke="#d5dee6"/><text x="272" y="140" fill="#14263f" font-size="13">Order ▾</text>
+  <text x="496" y="110" fill="#5b6b7d" font-size="12">Date</text><rect x="496" y="118" width="280" height="34" rx="6" fill="#ffffff" stroke="#d5dee6"/><text x="508" y="140" fill="#14263f" font-size="13">23 Nov 2026</text>
+  <rect x="24" y="170" width="752" height="170" rx="8" fill="#ffffff" stroke="#d5dee6"/>
+  <rect x="24" y="170" width="752" height="34" rx="8" fill="#eef3f7" stroke="#d5dee6"/>
+  <text x="34" y="191.0" fill="#5b6b7d" font-size="12" font-weight="700">Time</text><text x="134" y="191.0" fill="#5b6b7d" font-size="12" font-weight="700">Actor</text><text x="244" y="191.0" fill="#5b6b7d" font-size="12" font-weight="700">Action</text><text x="384" y="191.0" fill="#5b6b7d" font-size="12" font-weight="700">Entity</text><text x="584" y="191.0" fill="#5b6b7d" font-size="12" font-weight="700">Before → After</text>
+  <line x1="24" y1="204" x2="776" y2="204" stroke="#d5dee6" stroke-width="1"/>
+  <text x="34" y="225.0" fill="#14263f" font-size="12">10:42</text><text x="134" y="225.0" fill="#14263f" font-size="12">Staff S</text><text x="244" y="225.0" fill="#14263f" font-size="12">order.confirmed</text><text x="384" y="225.0" fill="#14263f" font-size="12">ORD-0102</text><text x="584" y="225.0" fill="#14263f" font-size="12">— → v1</text>
+  <line x1="24" y1="238" x2="776" y2="238" stroke="#d5dee6" stroke-width="1"/>
+  <text x="34" y="259.0" fill="#14263f" font-size="12">11:05</text><text x="134" y="259.0" fill="#14263f" font-size="12">Owner</text><text x="244" y="259.0" fill="#14263f" font-size="12">refund.confirmed</text><text x="384" y="259.0" fill="#14263f" font-size="12">RET-0007 / ORD-0102</text><text x="584" y="259.0" fill="#14263f" font-size="12">v1 → v2</text>
+  <line x1="24" y1="272" x2="776" y2="272" stroke="#d5dee6" stroke-width="1"/>
+  <text x="34" y="293.0" fill="#14263f" font-size="12">11:20</text><text x="134" y="293.0" fill="#14263f" font-size="12">Owner</text><text x="244" y="293.0" fill="#14263f" font-size="12">product.price</text><text x="384" y="293.0" fill="#14263f" font-size="12">OIL-01</text><text x="584" y="293.0" fill="#14263f" font-size="12">₹145.00 → ₹150.00</text>
+  <line x1="24" y1="306" x2="776" y2="306" stroke="#d5dee6" stroke-width="1"/>
+  <text x="34" y="327.0" fill="#14263f" font-size="12">12:02</text><text x="134" y="327.0" fill="#14263f" font-size="12">Staff S</text><text x="244" y="327.0" fill="#14263f" font-size="12">action.cancelled</text><text x="384" y="327.0" fill="#14263f" font-size="12">Pending card #318</text><text x="584" y="327.0" fill="#14263f" font-size="12">proposed → cancelled</text>
+  <text x="24" y="360" fill="#5b6b7d" font-size="12">References only. Open a row to compare versions.</text>
+</svg>

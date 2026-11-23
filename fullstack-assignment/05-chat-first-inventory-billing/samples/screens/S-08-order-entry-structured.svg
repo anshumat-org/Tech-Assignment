@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Inter, Arial, 'Noto Sans Devanagari', 'Nirmala UI', Mangal, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Structured order entry wireframe</title>
+  <desc id="d">Order entry without the AI: customer, product search, quantities and a preview before Confirm. Illustrative only.</desc>
+  <rect width="800" height="480" fill="#ffffff"/>
+  <rect x="0" y="0" width="800" height="56" rx="0" fill="#14263f"/><text x="24" y="35" fill="#ffffff" font-size="16" font-weight="700">Sample Kirana Store (demo)</text><rect x="640" y="14" width="136" height="28" rx="14" fill="none" stroke="#ffffff"/>
+  <rect x="708" y="14" width="68" height="28" rx="14" fill="#0e9384"/>
+  <text x="674" y="33" fill="#ffffff" font-size="12" text-anchor="middle">हिंदी</text>
+  <text x="742" y="33" fill="#ffffff" font-size="12" font-weight="700" text-anchor="middle">English</text>
+  <text x="24" y="92" fill="#14263f" font-size="16" font-weight="700">New order (structured)</text>
+  <rect x="200" y="77" width="64" height="22" rx="11" fill="#ffffff" stroke="#b26a00"/><text x="232.0" y="92" fill="#b26a00" font-size="11" font-weight="700" text-anchor="middle">Preview</text>
+  <text x="24" y="114" fill="#5b6b7d" font-size="12">Customer</text><rect x="24" y="122" width="340" height="34" rx="6" fill="#ffffff" stroke="#d5dee6"/><text x="36" y="144" fill="#14263f" font-size="13">Rahul · 98XXXXXX10</text>
+  <text x="24" y="178" fill="#5b6b7d" font-size="12">Add product</text><rect x="24" y="186" width="340" height="34" rx="6" fill="#ffffff" stroke="#d5dee6"/><text x="36" y="208" fill="#5b6b7d" font-size="13">Search product…</text>
+  <rect x="24" y="236" width="340" height="102" rx="8" fill="#ffffff" stroke="#d5dee6"/>
+  <rect x="24" y="236" width="340" height="34" rx="8" fill="#eef3f7" stroke="#d5dee6"/>
+  <text x="34" y="257.0" fill="#5b6b7d" font-size="12" font-weight="700">Product</text><text x="214" y="257.0" fill="#5b6b7d" font-size="12" font-weight="700">Qty</text><text x="354" y="257.0" fill="#5b6b7d" font-size="12" font-weight="700" text-anchor="end">Amount</text>
+  <line x1="24" y1="270" x2="364" y2="270" stroke="#d5dee6" stroke-width="1"/>
+  <text x="34" y="291.0" fill="#14263f" font-size="12">Rice 5 kg</text><text x="214" y="291.0" fill="#14263f" font-size="12">− 2 +</text><text x="354" y="291.0" fill="#14263f" font-size="12" text-anchor="end">₹600.00</text>
+  <line x1="24" y1="304" x2="364" y2="304" stroke="#d5dee6" stroke-width="1"/>
+  <text x="34" y="325.0" fill="#14263f" font-size="12">Oil 1 L</text><text x="214" y="325.0" fill="#14263f" font-size="12">− 1 +</text><text x="354" y="325.0" fill="#14263f" font-size="12" text-anchor="end">₹150.00</text>
+  <rect x="396" y="76" width="380" height="330" rx="8" fill="#ffffff" stroke="#d5dee6"/><text x="412" y="102" fill="#14263f" font-size="14" font-weight="700">Preview</text>
+  <text x="412" y="130" fill="#5b6b7d" font-size="13">Subtotal</text>
+  <text x="760" y="130" fill="#14263f" font-size="13" text-anchor="end">₹750.00</text>
+  <text x="412" y="156" fill="#5b6b7d" font-size="13">Discount</text>
+  <text x="760" y="156" fill="#14263f" font-size="13" text-anchor="end">₹0.00</text>
+  <text x="412" y="182" fill="#5b6b7d" font-size="13">Tax</text>
+  <text x="760" y="182" fill="#14263f" font-size="13" text-anchor="end">₹37.50</text>
+  <line x1="412" y1="194" x2="760" y2="194" stroke="#d5dee6" stroke-width="1"/>
+  <text x="412" y="218" fill="#14263f" font-size="15" font-weight="700">Total</text>
+  <text x="760" y="218" fill="#14263f" font-size="15" font-weight="700" text-anchor="end">₹787.50</text>
+  <text x="412" y="256" fill="#5b6b7d" font-size="12">Stock: Rice 5 kg 14 → 12 · Oil 1 L 6 → 5</text>
+  <text x="412" y="290" fill="#5b6b7d" font-size="12">Payment</text>
+  <rect x="412" y="298" width="44" height="22" rx="11" fill="#ffffff" stroke="#14263f"/><text x="434.0" y="313" fill="#14263f" font-size="11" font-weight="700" text-anchor="middle">Cash</text>
+  <rect x="466" y="298" width="51" height="22" rx="11" fill="#0e9384" stroke="#0e9384"/><text x="491.5" y="313" fill="#ffffff" font-size="11" font-weight="700" text-anchor="middle">✓ UPI</text>
+  <rect x="526" y="298" width="57" height="22" rx="11" fill="#ffffff" stroke="#14263f"/><text x="554.5" y="313" fill="#14263f" font-size="11" font-weight="700" text-anchor="middle">Credit</text>
+  <rect x="412" y="354" width="160" height="36" rx="8" fill="#ffffff" stroke="#14263f"/><text x="492.0" y="377.0" fill="#14263f" font-size="14" text-anchor="middle">Back to edit</text>
+  <rect x="584" y="354" width="176" height="36" rx="8" fill="#0e9384"/><text x="672.0" y="377.0" fill="#ffffff" font-size="14" font-weight="700" text-anchor="middle">Confirm</text>
+</svg>

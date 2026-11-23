@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Inter, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Run log table</title>
+  <desc id="d">Run log rows with success, failed and running status. Illustrative only.</desc>
+  <rect width="800" height="480" fill="#ffffff"/>
+  <rect width="800" height="56" fill="#14263f"/>
+  <text x="24" y="35" font-size="16" fill="#ffffff" font-weight="700">run_log (preview)</text>
+  <rect x="24" y="76" width="752" height="136" rx="6" fill="#ffffff" stroke="#d5dee6"/>
+  <rect x="24" y="76" width="752" height="34" rx="6" fill="#eef3f7" stroke="#d5dee6"/>
+  <text x="34" y="97.0" font-size="11" fill="#5b6b7d" font-weight="700">Run id</text>
+  <text x="163.6551724137931" y="97.0" font-size="11" fill="#5b6b7d" font-weight="700">Start</text>
+  <text x="267.3793103448276" y="97.0" font-size="11" fill="#5b6b7d" font-weight="700">End</text>
+  <text x="371.1034482758621" y="97.0" font-size="11" fill="#5b6b7d" font-weight="700">Read</text>
+  <text x="461.86206896551727" y="97.0" font-size="11" fill="#5b6b7d" font-weight="700">Loaded</text>
+  <text x="552.6206896551724" y="97.0" font-size="11" fill="#5b6b7d" font-weight="700">Rejected</text>
+  <text x="656.344827586207" y="97.0" font-size="11" fill="#5b6b7d" font-weight="700">Status</text>
+  <text x="34" y="131.0" font-size="12" fill="#14263f">run-0000</text>
+  <text x="163.6551724137931" y="131.0" font-size="12" fill="#14263f">hh:mm</text>
+  <text x="267.3793103448276" y="131.0" font-size="12" fill="#14263f">hh:mm</text>
+  <text x="371.1034482758621" y="131.0" font-size="12" fill="#14263f">n</text>
+  <text x="461.86206896551727" y="131.0" font-size="12" fill="#14263f">n</text>
+  <text x="552.6206896551724" y="131.0" font-size="12" fill="#14263f">n</text>
+  <rect x="656.344827586207" y="118.0" width="61" height="18" rx="9" fill="#e7f5ee" stroke="#1a7f4b"/>
+  <text x="686.844827586207" y="131.0" font-size="10" fill="#1a7f4b" font-weight="700" text-anchor="middle">SUCCESS</text>
+  <line x1="24" y1="144" x2="776" y2="144" stroke="#d5dee6"/>
+  <text x="34" y="165.0" font-size="12" fill="#14263f">run-0001</text>
+  <text x="163.6551724137931" y="165.0" font-size="12" fill="#14263f">hh:mm</text>
+  <text x="267.3793103448276" y="165.0" font-size="12" fill="#14263f">hh:mm</text>
+  <text x="371.1034482758621" y="165.0" font-size="12" fill="#14263f">n</text>
+  <text x="461.86206896551727" y="165.0" font-size="12" fill="#14263f">0</text>
+  <text x="552.6206896551724" y="165.0" font-size="12" fill="#14263f">n</text>
+  <rect x="656.344827586207" y="152.0" width="54" height="18" rx="9" fill="#fdecea" stroke="#b42318"/>
+  <text x="683.344827586207" y="165.0" font-size="10" fill="#b42318" font-weight="700" text-anchor="middle">FAILED</text>
+  <line x1="24" y1="178" x2="776" y2="178" stroke="#d5dee6"/>
+  <text x="34" y="199.0" font-size="12" fill="#14263f">run-0002</text>
+  <text x="163.6551724137931" y="199.0" font-size="12" fill="#14263f">hh:mm</text>
+  <text x="267.3793103448276" y="199.0" font-size="12" fill="#14263f">-</text>
+  <text x="371.1034482758621" y="199.0" font-size="12" fill="#14263f">n</text>
+  <text x="461.86206896551727" y="199.0" font-size="12" fill="#14263f">-</text>
+  <text x="552.6206896551724" y="199.0" font-size="12" fill="#14263f">-</text>
+  <rect x="656.344827586207" y="186.0" width="61" height="18" rx="9" fill="#e6f6f4" stroke="#0e9384"/>
+  <text x="686.844827586207" y="199.0" font-size="10" fill="#0e9384" font-weight="700" text-anchor="middle">RUNNING</text>
+  <text x="24" y="466" font-size="11" fill="#5b6b7d">Sample layout · all names and values are placeholders · Illustrative only.</text>
+</svg>

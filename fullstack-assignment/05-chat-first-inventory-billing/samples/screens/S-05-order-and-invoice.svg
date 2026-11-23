@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Inter, Arial, 'Noto Sans Devanagari', 'Nirmala UI', Mangal, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Order and invoice wireframe</title>
+  <desc id="d">Confirmed order with order and invoice numbers, items, totals, payment mode and status. Illustrative only.</desc>
+  <rect width="800" height="480" fill="#ffffff"/>
+  <rect x="0" y="0" width="800" height="56" rx="0" fill="#14263f"/><text x="24" y="35" fill="#ffffff" font-size="16" font-weight="700">Sample Kirana Store (demo)</text><rect x="640" y="14" width="136" height="28" rx="14" fill="none" stroke="#ffffff"/>
+  <rect x="708" y="14" width="68" height="28" rx="14" fill="#0e9384"/>
+  <text x="674" y="33" fill="#ffffff" font-size="12" text-anchor="middle">हिंदी</text>
+  <text x="742" y="33" fill="#ffffff" font-size="12" font-weight="700" text-anchor="middle">English</text>
+  <rect x="24" y="72" width="400" height="392" rx="8" fill="#ffffff" stroke="#d5dee6"/>
+  <rect x="144" y="86" width="268" height="32" rx="10" fill="#0e9384"/><text x="156" y="108" fill="#ffffff" font-size="13">Rahul 2 rice 5kg, 1 oil 1L, 5% off</text>
+  <rect x="36" y="128" width="268" height="32" rx="10" fill="#ffffff" stroke="#d5dee6" stroke-dasharray="4 3"/><text x="48" y="150" fill="#5b6b7d" font-size="13">Order confirmed by Staff S · 10:42</text>
+  <rect x="36" y="170" width="261" height="50" rx="10" fill="#eef3f7" stroke="#d5dee6"/><text x="48" y="192" fill="#14263f" font-size="13">Order ORD-0102 saved.</text><text x="48" y="210" fill="#14263f" font-size="13">Invoice INV-0098 is on the right.</text>
+  <rect x="36" y="412" width="300" height="40" rx="20" fill="#ffffff" stroke="#d5dee6"/>
+  <text x="54" y="437" fill="#5b6b7d" font-size="13">Type a message…</text>
+  <rect x="346" y="412" width="66" height="40" rx="20" fill="#0e9384"/>
+  <text x="379" y="437" fill="#ffffff" font-size="13" font-weight="700" text-anchor="middle">Send</text>
+  <rect x="444" y="72" width="332" height="392" rx="8" fill="#ffffff" stroke="#d5dee6"/>
+  <text x="460" y="98" fill="#14263f" font-size="15" font-weight="700">Invoice INV-0098</text>
+  <rect x="660" y="82" width="57" height="22" rx="11" fill="#ffffff" stroke="#1a7f4b"/><text x="688.5" y="97" fill="#1a7f4b" font-size="11" font-weight="700" text-anchor="middle">✓ Paid</text>
+  <text x="460" y="118" fill="#5b6b7d" font-size="12">Order ORD-0102 · 23 Nov 2026 · Rahul</text>
+  <rect x="456" y="130" width="308" height="78" rx="8" fill="#ffffff" stroke="#d5dee6"/>
+  <rect x="456" y="130" width="308" height="26" rx="8" fill="#eef3f7" stroke="#d5dee6"/>
+  <text x="466" y="147.0" fill="#5b6b7d" font-size="12" font-weight="700">Item</text><text x="616" y="147.0" fill="#5b6b7d" font-size="12" font-weight="700" text-anchor="end">Qty</text><text x="686" y="147.0" fill="#5b6b7d" font-size="12" font-weight="700" text-anchor="end">Rate</text><text x="754" y="147.0" fill="#5b6b7d" font-size="12" font-weight="700" text-anchor="end">Amount</text>
+  <line x1="456" y1="156" x2="764" y2="156" stroke="#d5dee6" stroke-width="1"/>
+  <text x="466" y="173.0" fill="#14263f" font-size="12">Rice 5 kg</text><text x="616" y="173.0" fill="#14263f" font-size="12" text-anchor="end">2</text><text x="686" y="173.0" fill="#14263f" font-size="12" text-anchor="end">₹300.00</text><text x="754" y="173.0" fill="#14263f" font-size="12" text-anchor="end">₹600.00</text>
+  <line x1="456" y1="182" x2="764" y2="182" stroke="#d5dee6" stroke-width="1"/>
+  <text x="466" y="199.0" fill="#14263f" font-size="12">Oil 1 L</text><text x="616" y="199.0" fill="#14263f" font-size="12" text-anchor="end">1</text><text x="686" y="199.0" fill="#14263f" font-size="12" text-anchor="end">₹150.00</text><text x="754" y="199.0" fill="#14263f" font-size="12" text-anchor="end">₹150.00</text>
+  <text x="460" y="232" fill="#5b6b7d" font-size="12">Discount</text>
+  <text x="760" y="232" fill="#14263f" font-size="12" text-anchor="end">− ₹37.50</text>
+  <text x="460" y="252" fill="#5b6b7d" font-size="12">Tax</text>
+  <text x="760" y="252" fill="#14263f" font-size="12" text-anchor="end">₹35.63</text>
+  <line x1="456" y1="262" x2="764" y2="262" stroke="#d5dee6" stroke-width="1"/>
+  <text x="460" y="284" fill="#14263f" font-size="14" font-weight="700">Total</text>
+  <text x="760" y="284" fill="#14263f" font-size="14" font-weight="700" text-anchor="end">₹748.13</text>
+  <rect x="456" y="300" width="308" height="56" rx="6" fill="#eef3f7" stroke="#d5dee6"/>
+  <text x="468" y="322" fill="#14263f" font-size="12">Payment mode: UPI</text>
+  <text x="468" y="342" fill="#1a7f4b" font-size="12" font-weight="700">Status: ✓ Paid in full</text>
+  <rect x="460" y="380" width="140" height="36" rx="8" fill="#ffffff" stroke="#14263f"/><text x="530.0" y="403.0" fill="#14263f" font-size="14" text-anchor="middle">Share</text>
+  <rect x="616" y="380" width="144" height="36" rx="8" fill="#0e9384"/><text x="688.0" y="403.0" fill="#ffffff" font-size="14" font-weight="700" text-anchor="middle">Print</text>
+</svg>

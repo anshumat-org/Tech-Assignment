@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Inter, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Submit confirm dialog wireframe</title>
+  <desc id="d">Sample wireframe: confirm dialog stating the unanswered count before final submit. Illustrative only.</desc>
+  <rect width="800" height="480" fill="#ffffff"/>
+  <rect width="800" height="56" fill="#14263f"/>
+  <text x="24" y="35" fill="#fff" font-size="16" font-weight="700">Sample Technical Assessment</text>
+  <text x="776" y="35" fill="#9fb0c4" font-size="13" text-anchor="end">Time left 06:12</text>
+  <rect width="800" height="480" fill="#14263f" fill-opacity="0.45"/>
+  <rect x="180" y="110" width="440" height="260" rx="12" fill="#fff" stroke="#d5dee6"/>
+  <text x="204" y="150" fill="#14263f" font-size="18" font-weight="700">Submit your attempt?</text>
+  <rect x="204" y="170" width="392" height="40" rx="8" fill="#fff4e0" stroke="#b26a00"/><text x="220" y="195" fill="#b26a00" font-size="13">⚠ 3 questions are unanswered.</text>
+  <text x="204" y="240" fill="#5b6b7d" font-size="13">After you submit you cannot change any answer.</text>
+  <text x="204" y="262" fill="#5b6b7d" font-size="13">Unanswered questions score nothing.</text>
+  <rect x="340" y="306" width="120" height="36" rx="8" fill="#fff" stroke="#14263f"/><text x="400" y="329" fill="#14263f" font-size="14" text-anchor="middle">Cancel</text>
+  <rect x="476" y="306" width="120" height="36" rx="8" fill="#0e9384"/><text x="536" y="329" fill="#fff" font-size="14" text-anchor="middle">Submit</text>
+  <rect x="180" y="400" width="440" height="40" rx="8" fill="#e8f0fe" stroke="#1d4fb0"/><text x="196" y="425" fill="#1d4fb0" font-size="13">⟳ Submitting… · buttons disabled until done</text>
+</svg>

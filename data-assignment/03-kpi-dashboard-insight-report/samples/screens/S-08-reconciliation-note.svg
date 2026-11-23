@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Inter, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Reconciliation note</title>
+  <desc id="d">Reconciliation table with placeholder totals and a gap unexplained banner. Illustrative only.</desc>
+  <rect width="800" height="480" fill="#ffffff"/>
+  <rect width="800" height="56" fill="#14263f"/>
+  <text x="24" y="35" font-size="16" fill="#ffffff" font-weight="700">Reconciliation note</text>
+  <rect x="634" y="14" width="142" height="28" rx="14" fill="#fdecea" stroke="#b42318"/>
+  <text x="705.0" y="33" font-size="12" fill="#b42318" font-weight="700" text-anchor="middle">GAP UNEXPLAINED</text>
+  <rect x="24" y="76" width="752" height="72" rx="6" fill="#ffffff" stroke="#d5dee6"/>
+  <rect x="24" y="76" width="752" height="36" rx="6" fill="#eef3f7" stroke="#d5dee6"/>
+  <text x="34" y="98.0" font-size="11" fill="#5b6b7d" font-weight="700">Dashboard total</text>
+  <text x="175.88679245283018" y="98.0" font-size="11" fill="#5b6b7d" font-weight="700">Known figure</text>
+  <text x="317.77358490566036" y="98.0" font-size="11" fill="#5b6b7d" font-weight="700">Difference</text>
+  <text x="459.66037735849056" y="98.0" font-size="11" fill="#5b6b7d" font-weight="700">Cause</text>
+  <text x="658.3018867924528" y="98.0" font-size="11" fill="#5b6b7d" font-weight="700">Acceptable?</text>
+  <text x="34" y="134.0" font-size="12" fill="#14263f">n,nnn</text>
+  <text x="175.88679245283018" y="134.0" font-size="12" fill="#14263f">n,nnn</text>
+  <text x="317.77358490566036" y="134.0" font-size="12" fill="#14263f">n (placeholder)</text>
+  <text x="459.66037735849056" y="134.0" font-size="12" fill="#14263f">&lt;cause&gt; (placeholder)</text>
+  <rect x="658.3018867924528" y="121.0" width="61" height="18" rx="9" fill="#fdecea" stroke="#b42318"/>
+  <text x="688.8018867924528" y="134.0" font-size="10" fill="#b42318" font-weight="700" text-anchor="middle">UNKNOWN</text>
+  <rect x="24" y="160" width="752" height="34" rx="6" fill="#fdecea" stroke="#b42318"/>
+  <text x="38" y="182" font-size="12" fill="#b42318" font-weight="700">Gap unexplained:</text>
+  <text x="167.6" y="182" font-size="12" fill="#14263f">do not publish totals until the cause is found or stated as a caveat.</text>
+  <text x="24" y="228" font-size="12" fill="#5b6b7d">Other states: matched · gap explained</text>
+  <text x="24" y="466" font-size="11" fill="#5b6b7d">Sample layout · all names and values are placeholders · Illustrative only.</text>
+</svg>

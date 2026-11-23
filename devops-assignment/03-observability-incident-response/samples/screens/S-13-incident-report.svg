@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Inter, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Incident report preview</title>
+  <desc id="d">Sample blameless incident report preview with headings for timeline, impact, root cause, detection gap, what went well and badly, and actions. Illustrative only.</desc>
+  <rect width="800" height="480" fill="#ffffff"/>
+  <rect width="800" height="56" fill="#14263f"/>
+  <text x="24" y="35" font-size="16" fill="#ffffff" font-weight="700">Incident report · INC-(placeholder)</text>
+  <text x="776" y="35" font-size="12" fill="#c9d6e3" text-anchor="end">draft</text>
+  <rect x="24" y="72" width="360" height="380" rx="8" fill="#fff" stroke="#d5dee6"/>
+  <text x="44" y="104" font-size="14" fill="#14263f" font-weight="700">Timeline</text>
+  <rect x="44" y="118" width="320" height="7" rx="3" fill="#eef3f7"/>
+  <rect x="44" y="132" width="320" height="7" rx="3" fill="#eef3f7"/>
+  <rect x="44" y="146" width="260" height="7" rx="3" fill="#eef3f7"/>
+  <text x="44" y="176" font-size="14" fill="#14263f" font-weight="700">Impact</text>
+  <rect x="44" y="190" width="320" height="7" rx="3" fill="#eef3f7"/>
+  <rect x="44" y="204" width="260" height="7" rx="3" fill="#eef3f7"/>
+  <text x="44" y="234" font-size="14" fill="#14263f" font-weight="700">Root cause</text>
+  <rect x="44" y="248" width="320" height="7" rx="3" fill="#eef3f7"/>
+  <rect x="44" y="262" width="260" height="7" rx="3" fill="#eef3f7"/>
+  <text x="44" y="292" font-size="14" fill="#14263f" font-weight="700">Detection gap</text>
+  <rect x="44" y="306" width="320" height="7" rx="3" fill="#eef3f7"/>
+  <rect x="44" y="320" width="260" height="7" rx="3" fill="#eef3f7"/>
+  <rect x="416" y="72" width="360" height="380" rx="8" fill="#fff" stroke="#d5dee6"/>
+  <text x="436" y="104" font-size="14" fill="#14263f" font-weight="700">Went well / went badly</text>
+  <rect x="436" y="118" width="300" height="7" rx="3" fill="#eef3f7"/>
+  <rect x="436" y="132" width="240" height="7" rx="3" fill="#eef3f7"/>
+  <text x="436" y="170" font-size="14" fill="#14263f" font-weight="700">Actions</text>
+  <rect x="436" y="184" width="320" height="34" rx="6" fill="#eef3f7" stroke="#d5dee6"/>
+  <text x="446" y="206" font-size="12" fill="#5b6b7d" font-weight="700">Action</text>
+  <text x="596" y="206" font-size="12" fill="#5b6b7d" font-weight="700">Owner</text>
+  <text x="686" y="206" font-size="12" fill="#5b6b7d" font-weight="700">Due</text>
+  <rect x="436" y="224" width="320" height="34" rx="6" fill="#fff" stroke="#d5dee6"/>
+  <text x="446" y="246" font-size="13" fill="#14263f">(placeholder)</text>
+  <text x="596" y="246" font-size="13" fill="#14263f">(name)</text>
+  <text x="686" y="246" font-size="13" fill="#14263f">(date)</text>
+  <rect x="436" y="264" width="320" height="34" rx="6" fill="#fff" stroke="#d5dee6"/>
+  <text x="446" y="286" font-size="13" fill="#14263f">(placeholder)</text>
+  <text x="596" y="286" font-size="13" fill="#14263f">(name)</text>
+  <text x="686" y="286" font-size="13" fill="#14263f">(date)</text>
+  <text x="24" y="470" font-size="10" fill="#5b6b7d">Sample only · placeholder values · not a solution</text>
+</svg>

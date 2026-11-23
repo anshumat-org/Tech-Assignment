@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Inter, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Query 4 cohort grid</title>
+  <desc id="d">Cohort retention grid with placeholder percentages and retention definition line. Illustrative only.</desc>
+  <rect width="800" height="480" fill="#ffffff"/>
+  <rect width="800" height="56" fill="#14263f"/>
+  <text x="24" y="35" font-size="16" fill="#ffffff" font-weight="700">Query 4 · Cohort retention</text>
+  <rect x="714" y="14" width="62" height="28" rx="14" fill="#fff4e0" stroke="#b26a00"/>
+  <text x="745.0" y="33" font-size="12" fill="#b26a00" font-weight="700" text-anchor="middle">STALE</text>
+  <rect x="24" y="72" width="752" height="34" rx="6" fill="#fff4e0" stroke="#b26a00"/>
+  <text x="38" y="94" font-size="12" fill="#b26a00" font-weight="700">Stale:</text>
+  <text x="91.6" y="94" font-size="12" fill="#14263f">a definition changed since this grid was built. Rebuild.</text>
+  <rect x="24" y="122" width="752" height="150" rx="6" fill="#ffffff" stroke="#d5dee6"/>
+  <rect x="24" y="122" width="752" height="30" rx="6" fill="#eef3f7" stroke="#d5dee6"/>
+  <text x="34" y="141.0" font-size="11" fill="#5b6b7d" font-weight="700">Cohort</text>
+  <text x="134.26666666666665" y="141.0" font-size="11" fill="#5b6b7d" font-weight="700">Size</text>
+  <text x="201.11111111111111" y="141.0" font-size="11" fill="#5b6b7d" font-weight="700">M0</text>
+  <text x="284.6666666666667" y="141.0" font-size="11" fill="#5b6b7d" font-weight="700">M1</text>
+  <text x="368.22222222222223" y="141.0" font-size="11" fill="#5b6b7d" font-weight="700">M2</text>
+  <text x="451.77777777777777" y="141.0" font-size="11" fill="#5b6b7d" font-weight="700">M3</text>
+  <text x="535.3333333333334" y="141.0" font-size="11" fill="#5b6b7d" font-weight="700">M4</text>
+  <text x="618.8888888888889" y="141.0" font-size="11" fill="#5b6b7d" font-weight="700">M5</text>
+  <text x="702.4444444444445" y="141.0" font-size="11" fill="#5b6b7d" font-weight="700">M6</text>
+  <text x="34" y="171.0" font-size="12" fill="#14263f">YYYY-01</text>
+  <text x="134.26666666666665" y="171.0" font-size="12" fill="#14263f">nnn</text>
+  <text x="201.11111111111111" y="171.0" font-size="12" fill="#14263f">100%</text>
+  <text x="284.6666666666667" y="171.0" font-size="12" fill="#14263f">x%</text>
+  <text x="368.22222222222223" y="171.0" font-size="12" fill="#14263f">x%</text>
+  <text x="451.77777777777777" y="171.0" font-size="12" fill="#14263f">x%</text>
+  <text x="535.3333333333334" y="171.0" font-size="12" fill="#14263f">x%</text>
+  <text x="618.8888888888889" y="171.0" font-size="12" fill="#14263f">x%</text>
+  <text x="702.4444444444445" y="171.0" font-size="12" fill="#14263f">x%</text>
+  <line x1="24" y1="182" x2="776" y2="182" stroke="#d5dee6"/>
+  <text x="34" y="201.0" font-size="12" fill="#14263f">YYYY-02</text>
+  <text x="134.26666666666665" y="201.0" font-size="12" fill="#14263f">nnn</text>
+  <text x="201.11111111111111" y="201.0" font-size="12" fill="#14263f">100%</text>
+  <text x="284.6666666666667" y="201.0" font-size="12" fill="#14263f">x%</text>
+  <text x="368.22222222222223" y="201.0" font-size="12" fill="#14263f">x%</text>
+  <text x="451.77777777777777" y="201.0" font-size="12" fill="#14263f">x%</text>
+  <text x="535.3333333333334" y="201.0" font-size="12" fill="#14263f">x%</text>
+  <text x="618.8888888888889" y="201.0" font-size="12" fill="#14263f">x%</text>
+  <text x="702.4444444444445" y="201.0" font-size="12" fill="#14263f">-</text>
+  <line x1="24" y1="212" x2="776" y2="212" stroke="#d5dee6"/>
+  <text x="34" y="231.0" font-size="12" fill="#14263f">YYYY-03</text>
+  <text x="134.26666666666665" y="231.0" font-size="12" fill="#14263f">nnn</text>
+  <text x="201.11111111111111" y="231.0" font-size="12" fill="#14263f">100%</text>
+  <text x="284.6666666666667" y="231.0" font-size="12" fill="#14263f">x%</text>
+  <text x="368.22222222222223" y="231.0" font-size="12" fill="#14263f">x%</text>
+  <text x="451.77777777777777" y="231.0" font-size="12" fill="#14263f">x%</text>
+  <text x="535.3333333333334" y="231.0" font-size="12" fill="#14263f">x%</text>
+  <text x="618.8888888888889" y="231.0" font-size="12" fill="#14263f">-</text>
+  <text x="702.4444444444445" y="231.0" font-size="12" fill="#14263f">-</text>
+  <line x1="24" y1="242" x2="776" y2="242" stroke="#d5dee6"/>
+  <text x="34" y="261.0" font-size="12" fill="#14263f">YYYY-04</text>
+  <text x="134.26666666666665" y="261.0" font-size="12" fill="#14263f">nnn</text>
+  <text x="201.11111111111111" y="261.0" font-size="12" fill="#14263f">100%</text>
+  <text x="284.6666666666667" y="261.0" font-size="12" fill="#14263f">x%</text>
+  <text x="368.22222222222223" y="261.0" font-size="12" fill="#14263f">x%</text>
+  <text x="451.77777777777777" y="261.0" font-size="12" fill="#14263f">x%</text>
+  <text x="535.3333333333334" y="261.0" font-size="12" fill="#14263f">-</text>
+  <text x="618.8888888888889" y="261.0" font-size="12" fill="#14263f">-</text>
+  <text x="702.4444444444445" y="261.0" font-size="12" fill="#14263f">-</text>
+  <text x="24" y="300" font-size="12" fill="#14263f" font-weight="700">Retention definition: &lt;write yours in metrics.md&gt; (placeholder)</text>
+  <text x="24" y="322" font-size="12" fill="#5b6b7d">"-" = month not reached yet, not zero.</text>
+  <text x="24" y="466" font-size="11" fill="#5b6b7d">Sample layout · all names and values are placeholders · Illustrative only.</text>
+</svg>

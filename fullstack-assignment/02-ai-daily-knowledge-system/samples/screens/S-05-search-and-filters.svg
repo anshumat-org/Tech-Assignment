@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Inter, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Search and filters wireframe</title>
+  <desc id="d">Sample wireframe: search box with date range, node type and tag filters, showing the empty-results state. Illustrative only.</desc>
+  <rect width="800" height="480" fill="#ffffff"/>
+  <rect width="800" height="56" fill="#14263f"/>
+  <text x="24" y="35" fill="#fff" font-size="16" font-weight="700">Daily Notes · Search</text>
+  <rect x="616" y="70" width="160" height="22" rx="11" fill="#e8f0fe"/><text x="696" y="86" font-size="12" fill="#1d4fb0" text-anchor="middle">State: empty</text>
+  <text x="24" y="108" fill="#14263f" font-size="13" font-weight="700">Search</text>
+  <rect x="24" y="116" width="752" height="36" rx="8" fill="#fff" stroke="#d5dee6"/>
+  <text x="36" y="138" fill="#14263f" font-size="14">placeholder query</text>
+  <text x="24" y="178" fill="#14263f" font-size="13" font-weight="700">Date range</text>
+  <rect x="24" y="186" width="220" height="36" rx="8" fill="#fff" stroke="#d5dee6"/>
+  <text x="36" y="208" fill="#14263f" font-size="14">1–23 Nov 2026 ▾</text>
+  <text x="260" y="178" fill="#14263f" font-size="13" font-weight="700">Node type</text>
+  <rect x="260" y="186" width="180" height="36" rx="8" fill="#fff" stroke="#d5dee6"/>
+  <text x="272" y="208" fill="#14263f" font-size="14">Decision ▾</text>
+  <text x="456" y="178" fill="#14263f" font-size="13" font-weight="700">Tags</text>
+  <rect x="456" y="186" width="200" height="36" rx="8" fill="#fff" stroke="#d5dee6"/>
+  <text x="468" y="208" fill="#14263f" font-size="14">#sample-tag ▾</text>
+  <rect x="672" y="186" width="104" height="36" rx="8" fill="#fff" stroke="#14263f"/><text x="724" y="209" fill="#14263f" font-size="14" text-anchor="middle">Clear</text>
+  <rect x="24" y="248" width="752" height="190" rx="12" fill="#eef3f7" stroke="#d5dee6"/>
+  <text x="400" y="316" fill="#14263f" font-size="16" font-weight="700" text-anchor="middle">No notes match</text>
+  <text x="400" y="342" fill="#5b6b7d" font-size="13" text-anchor="middle">Try a wider date range or remove a filter.</text>
+  <rect x="320" y="364" width="160" height="36" rx="8" fill="#fff" stroke="#14263f"/><text x="400" y="387" fill="#14263f" font-size="14" text-anchor="middle">Clear filters</text>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Inter, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Forced failure demo</title>
+  <desc id="d">Before and after model counts unchanged with run status failed. Illustrative only.</desc>
+  <rect width="800" height="480" fill="#ffffff"/>
+  <rect width="800" height="56" fill="#14263f"/>
+  <text x="24" y="35" font-size="16" fill="#ffffff" font-weight="700">Forced-failure demo</text>
+  <rect x="706" y="14" width="70" height="28" rx="14" fill="#fdecea" stroke="#b42318"/>
+  <text x="741.0" y="33" font-size="12" fill="#b42318" font-weight="700" text-anchor="middle">FAILED</text>
+  <rect x="24" y="72" width="752" height="34" rx="6" fill="#fdecea" stroke="#b42318"/>
+  <text x="38" y="94" font-size="12" fill="#b42318" font-weight="700">Run failed:</text>
+  <text x="129.6" y="94" font-size="12" fill="#14263f">run-0000 (placeholder). Model must be unchanged.</text>
+  <rect x="24" y="124" width="752" height="102" rx="6" fill="#ffffff" stroke="#d5dee6"/>
+  <rect x="24" y="124" width="752" height="34" rx="6" fill="#eef3f7" stroke="#d5dee6"/>
+  <text x="34" y="145.0" font-size="11" fill="#5b6b7d" font-weight="700">Model table</text>
+  <text x="273.27272727272725" y="145.0" font-size="11" fill="#5b6b7d" font-weight="700">Rows before</text>
+  <text x="444.18181818181813" y="145.0" font-size="11" fill="#5b6b7d" font-weight="700">Rows after</text>
+  <text x="615.090909090909" y="145.0" font-size="11" fill="#5b6b7d" font-weight="700">Changed?</text>
+  <text x="34" y="179.0" font-size="12" fill="#14263f">dim_customer</text>
+  <text x="273.27272727272725" y="179.0" font-size="12" fill="#14263f">n</text>
+  <text x="444.18181818181813" y="179.0" font-size="12" fill="#14263f">n</text>
+  <rect x="615.090909090909" y="166.0" width="26" height="18" rx="9" fill="#e7f5ee" stroke="#1a7f4b"/>
+  <text x="628.090909090909" y="179.0" font-size="10" fill="#1a7f4b" font-weight="700" text-anchor="middle">NO</text>
+  <line x1="24" y1="192" x2="776" y2="192" stroke="#d5dee6"/>
+  <text x="34" y="213.0" font-size="12" fill="#14263f">fact_orders</text>
+  <text x="273.27272727272725" y="213.0" font-size="12" fill="#14263f">n</text>
+  <text x="444.18181818181813" y="213.0" font-size="12" fill="#14263f">n</text>
+  <rect x="615.090909090909" y="200.0" width="26" height="18" rx="9" fill="#e7f5ee" stroke="#1a7f4b"/>
+  <text x="628.090909090909" y="213.0" font-size="10" fill="#1a7f4b" font-weight="700" text-anchor="middle">NO</text>
+  <text x="24" y="466" font-size="11" fill="#5b6b7d">Sample layout · all names and values are placeholders · Illustrative only.</text>
+</svg>

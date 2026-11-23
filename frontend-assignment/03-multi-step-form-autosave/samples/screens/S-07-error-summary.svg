@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Inter, Arial, sans-serif" font-size="12" fill="#14263f" role="img" aria-labelledby="t d">
+  <title id="t">Error summary wireframe</title>
+  <desc id="d">Sample wireframe: error summary at the top of the step, focused, listing field errors as links and a form-level message for an unknown field. Illustrative only.</desc>
+  <rect width="800" height="480" fill="#ffffff"/>
+  <rect x="0" y="0" width="800" height="56" fill="#14263f"/>
+  <text x="24" y="34" fill="#fff" font-size="15" font-weight="700">Sample application form (synthetic)</text>
+  <rect x="670" y="15" width="106" height="26" rx="13" fill="#fff" stroke="#1a7f4b"/><text x="723.0" y="33" fill="#1a7f4b" font-weight="700" text-anchor="middle">✓ Saved 10:42</text>
+  <circle cx="38" cy="88" r="13" fill="#0e9384" stroke="#0e9384" stroke-width="1.5"/>
+  <text x="38" y="93" fill="#fff" font-weight="700" text-anchor="middle">1</text>
+  <text x="58" y="93" font-weight="700">Personal (current)</text>
+  <rect x="180" y="87" width="26" height="2" fill="#d5dee6"/>
+  <circle cx="228" cy="88" r="13" fill="#fff" stroke="#5b6b7d" stroke-width="1.5"/>
+  <text x="228" y="93" fill="#5b6b7d" font-weight="700" text-anchor="middle">2</text>
+  <text x="248" y="93" fill="#5b6b7d">Contact</text>
+  <rect x="370" y="87" width="26" height="2" fill="#d5dee6"/>
+  <circle cx="418" cy="88" r="13" fill="#fff" stroke="#5b6b7d" stroke-width="1.5"/>
+  <text x="418" y="93" fill="#5b6b7d" font-weight="700" text-anchor="middle">3</text>
+  <text x="438" y="93" fill="#5b6b7d">Details</text>
+  <rect x="560" y="87" width="26" height="2" fill="#d5dee6"/>
+  <circle cx="608" cy="88" r="13" fill="#fff" stroke="#5b6b7d" stroke-width="1.5"/>
+  <text x="608" y="93" fill="#5b6b7d" font-weight="700" text-anchor="middle">4</text>
+  <text x="628" y="93" fill="#5b6b7d">Review</text>
+  <rect x="24" y="116" width="752" height="304" rx="8" fill="#fff" stroke="#d5dee6"/>
+  <text x="48" y="148" font-size="18" font-weight="700">Step 1 of 4 · Personal</text>
+  <rect x="640" y="434" width="136" height="32" rx="6" fill="#0e9384"/><text x="708.0" y="455.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">Next</text>
+  <rect x="48" y="160" width="704" height="112" rx="6" fill="#fff" stroke="#b42318" stroke-width="2"/>
+  <rect x="45" y="157" width="710" height="118" rx="9" fill="none" stroke="#1d6fe0" stroke-width="2"/>
+  <text x="64" y="184" fill="#b42318" font-size="15" font-weight="700">⚠ There is a problem (3)</text>
+  <text x="64" y="208" fill="#0e9384" font-weight="700">Date of birth: enter a real date</text>
+  <line x1="64" y1="211" x2="265" y2="211" stroke="#0e9384"/>
+  <text x="64" y="228" fill="#0e9384" font-weight="700">Reference number: use format ABC-0001</text>
+  <line x1="64" y1="231" x2="297" y2="231" stroke="#0e9384"/>
+  <text x="64" y="248">Form: “referral_code” was rejected (not a field on this form)</text>
+  <text x="48" y="300" font-weight="700">Date of birth</text><rect x="48" y="308" width="330" height="32" rx="6" fill="#fff" stroke="#b42318" stroke-width="2"/><text x="58" y="329.0" font-size="13">31/02/1990</text><text x="48" y="356" fill="#b42318" font-size="11" font-weight="700">⚠ Enter a real date</text>
+  <text x="400" y="300" font-weight="700">Reference number</text><rect x="400" y="308" width="330" height="32" rx="6" fill="#fff" stroke="#b42318" stroke-width="2"/><text x="410" y="329.0" font-size="13">AB-1</text><text x="400" y="356" fill="#b42318" font-size="11" font-weight="700">⚠ Use format ABC-0001</text>
+  <rect x="42" y="154" width="716" height="124" rx="10" fill="none" stroke="#0e9384" stroke-width="2" stroke-dasharray="6 4"/><rect x="420" y="126" width="264" height="20" rx="4" fill="#0e9384"/><text x="552.0" y="140" fill="#fff" font-size="11" font-weight="700" text-anchor="middle">S-07 · Error summary · shown with focus</text>
+</svg>

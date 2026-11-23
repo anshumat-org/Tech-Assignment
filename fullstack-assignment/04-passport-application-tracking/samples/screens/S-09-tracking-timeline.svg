@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Inter, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Tracking timeline wireframe</title>
+  <desc id="d">Vertical timeline with status, actor, time and reason, current step highlighted and simulated badge. Illustrative only.</desc>
+  <rect width="800" height="480" fill="#ffffff"/>
+  <rect x="0" y="0" width="800" height="56" rx="0" fill="#14263f"/>
+  <text x="24" y="35" fill="#ffffff" font-size="16" font-weight="700">Passport assistance (demo)</text>
+  <rect x="477" y="15" width="299" height="26" rx="13" fill="#ffffff"/>
+  <text x="626.5" y="32" fill="#b26a00" font-size="12" font-weight="700" text-anchor="middle">Simulated. Not the official passport system</text>
+  <text x="24" y="92" fill="#14263f" font-size="16" font-weight="700">Application APP-0001 (placeholder) · tracking</text>
+  <line x1="60" y1="138" x2="60" y2="202" stroke="#d5dee6" stroke-width="2"/>
+  <circle cx="60" cy="128" r="7" fill="#1a7f4b" stroke="#1a7f4b" stroke-width="2"/>
+  <text x="100" y="132" fill="#14263f" font-size="14">Profile submitted</text>
+  <text x="100" y="150" fill="#5b6b7d" font-size="12">Applicant A · 20 Nov 10:12</text>
+  <line x1="60" y1="202" x2="60" y2="266" stroke="#d5dee6" stroke-width="2"/>
+  <circle cx="60" cy="192" r="7" fill="#1a7f4b" stroke="#1a7f4b" stroke-width="2"/>
+  <text x="100" y="196" fill="#14263f" font-size="14">Documents pending</text>
+  <text x="100" y="214" fill="#5b6b7d" font-size="12">System · 20 Nov 10:13 · 2 items missing</text>
+  <line x1="60" y1="266" x2="60" y2="330" stroke="#d5dee6" stroke-width="2"/>
+  <circle cx="60" cy="256" r="10" fill="#0e9384" stroke="#0e9384" stroke-width="2"/>
+  <rect x="84" y="234" width="480" height="56" rx="8" fill="#eef3f7" stroke="#0e9384"/>
+  <text x="100" y="260" fill="#14263f" font-size="14" font-weight="700">Corrections requested  · Current</text>
+  <text x="100" y="278" fill="#5b6b7d" font-size="12">Operator O · 22 Nov 15:40 · Reason: photo identity blurred</text>
+  <line x1="60" y1="330" x2="60" y2="394" stroke="#d5dee6" stroke-width="2"/>
+  <circle cx="60" cy="320" r="7" fill="#ffffff" stroke="#d5dee6" stroke-width="2"/>
+  <text x="100" y="324" fill="#5b6b7d" font-size="14">Operator review</text>
+  <text x="100" y="342" fill="#5b6b7d" font-size="12">Not started · pending</text>
+  <circle cx="60" cy="384" r="7" fill="#ffffff" stroke="#d5dee6" stroke-width="2"/>
+  <text x="100" y="388" fill="#5b6b7d" font-size="14">Ready for appointment (simulated)</text>
+  <text x="100" y="406" fill="#5b6b7d" font-size="12">Not started · pending</text>
+  <rect x="596" y="108" width="180" height="140" rx="8" fill="#ffffff" stroke="#d5dee6"/>
+  <text x="612" y="134" fill="#5b6b7d" font-size="12" font-weight="700">Legend</text>
+  <text x="612" y="160" fill="#14263f" font-size="12">● filled = past</text>
+  <text x="612" y="184" fill="#14263f" font-size="12">◉ boxed = current</text>
+  <text x="612" y="208" fill="#14263f" font-size="12">○ hollow = future</text>
+  <text x="24" y="456" fill="#b26a00" font-size="12" font-weight="700">Simulated submission. No real application has been filed.</text>
+</svg>

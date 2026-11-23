@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Inter, Arial, sans-serif" font-size="12" fill="#14263f" role="img" aria-labelledby="t d">
+  <title id="t">Select section specimen board</title>
+  <desc id="d">Sample specimen board: labelled Select closed, open with an active option, selected and disabled. Illustrative only.</desc>
+  <rect width="800" height="480" fill="#ffffff"/>
+  <rect x="0" y="0" width="800" height="44" fill="#14263f"/>
+  <text x="24" y="28" fill="#fff" font-size="15" font-weight="700">Component library demo (sample)</text>
+  <rect x="640" y="10" width="136" height="24" rx="12" fill="#fff"/>
+  <text x="708" y="26" font-weight="700" text-anchor="middle">Theme: Light ▾</text>
+  <text x="24" y="76" font-size="18" font-weight="700">Select</text>
+  <text x="24" y="96" fill="#5b6b7d">Native or custom. Custom listbox opens with keyboard and marks the active option.</text>
+  <text x="24" y="124" fill="#5b6b7d" font-size="11" font-weight="700">Closed</text><text x="216" y="124" fill="#5b6b7d" font-size="11" font-weight="700">Open (custom only)</text><text x="408" y="124" fill="#5b6b7d" font-size="11" font-weight="700">Selected</text><text x="600" y="124" fill="#5b6b7d" font-size="11" font-weight="700">Disabled</text>
+  <text x="24" y="156" font-weight="700">Category</text><rect x="24" y="164" width="176" height="32" rx="6" fill="#fff" stroke="#5b6b7d"/><text x="34" y="185.0" fill="#5b6b7d" font-size="13">Choose…</text><text x="184" y="186" font-size="13">▾</text>
+  <text x="216" y="156" font-weight="700">Category</text><rect x="216" y="164" width="176" height="32" rx="6" fill="#fff" stroke="#14263f"/><rect x="213" y="161" width="182" height="38" rx="9" fill="none" stroke="#1d6fe0" stroke-width="2"/><text x="226" y="185.0" fill="#5b6b7d" font-size="13">Choose…</text><text x="376" y="186" font-size="13">▾</text>
+  <rect x="216" y="202" width="176" height="120" rx="6" fill="#fff" stroke="#5b6b7d"/>
+  <text x="232" y="224" font-size="13">Option A</text>
+  <rect x="220" y="234" width="168" height="26" rx="4" fill="#eef3f7"/><text x="370" y="252" fill="#0e9384" font-weight="700">✓</text>
+  <text x="232" y="252" font-size="13" font-weight="700">Option B</text>
+  <text x="232" y="280" font-size="13">Option C</text>
+  <text x="232" y="308" font-size="13">Option D</text>
+  <text x="216" y="340" fill="#5b6b7d" font-size="11">Active option: Option B</text>
+  <text x="408" y="156" font-weight="700">Category</text><rect x="408" y="164" width="176" height="32" rx="6" fill="#fff" stroke="#5b6b7d"/><text x="418" y="185.0" font-size="13">Option B</text><text x="568" y="186" font-size="13">▾</text>
+  <text x="408" y="226" fill="#5b6b7d" font-size="11">Value kept after close</text>
+  <text x="600" y="156" fill="#5b6b7d" font-weight="700">Category</text><rect x="600" y="164" width="176" height="32" rx="6" fill="#eef3f7" stroke="#d5dee6"/><text x="610" y="185.0" fill="#5b6b7d" font-size="13">Option A</text><text x="760" y="186" fill="#5b6b7d" font-size="13">▾</text>
+  <text x="600" y="226" fill="#5b6b7d" font-size="11">Not focusable</text>
+  <text x="24" y="380" fill="#5b6b7d">Keys: Enter / Space open · ↑ ↓ move · Enter select · Esc close</text>
+  <rect x="24" y="410" width="188" height="20" rx="10" fill="#fff" stroke="#0e9384"/><text x="118.0" y="424" fill="#0e9384" font-size="11" font-weight="700" text-anchor="middle">▾ State shown: open listbox</text>
+</svg>

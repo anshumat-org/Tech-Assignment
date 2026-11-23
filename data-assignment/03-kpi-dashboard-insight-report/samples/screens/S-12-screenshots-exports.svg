@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Inter, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Screenshots and exports</title>
+  <desc id="d">Grid of exported screenshot thumbnails per page and state plus a report export. Illustrative only.</desc>
+  <rect width="800" height="480" fill="#ffffff"/>
+  <rect width="800" height="56" fill="#14263f"/>
+  <text x="24" y="35" font-size="16" fill="#ffffff" font-weight="700">Screenshots and exports</text>
+  <rect x="714" y="14" width="62" height="28" rx="14" fill="#e7f5ee" stroke="#1a7f4b"/>
+  <text x="745.0" y="33" font-size="12" fill="#1a7f4b" font-weight="700" text-anchor="middle">READY</text>
+  <rect x="24" y="80" width="176" height="130" rx="8" fill="#eef3f7" stroke="#d5dee6"/>
+  <rect x="36" y="92" width="152" height="14" rx="3" fill="#d5dee6"/>
+  <rect x="36" y="114" width="70" height="40" rx="4" fill="#ffffff" stroke="#d5dee6"/>
+  <rect x="118" y="114" width="70" height="40" rx="4" fill="#ffffff" stroke="#d5dee6"/>
+  <rect x="36" y="162" width="152" height="36" rx="4" fill="#ffffff" stroke="#d5dee6"/>
+  <text x="24" y="232" font-size="12" fill="#14263f" font-family="Menlo, Consolas, monospace" xml:space="preserve">page1-ready.png</text>
+  <rect x="24" y="243" width="47" height="18" rx="9" fill="#e7f5ee" stroke="#1a7f4b"/>
+  <text x="47.5" y="256" font-size="10" fill="#1a7f4b" font-weight="700" text-anchor="middle">READY</text>
+  <rect x="214" y="80" width="176" height="130" rx="8" fill="#eef3f7" stroke="#d5dee6"/>
+  <rect x="226" y="92" width="152" height="14" rx="3" fill="#d5dee6"/>
+  <rect x="226" y="114" width="70" height="40" rx="4" fill="#ffffff" stroke="#d5dee6"/>
+  <rect x="308" y="114" width="70" height="40" rx="4" fill="#ffffff" stroke="#d5dee6"/>
+  <rect x="226" y="162" width="152" height="36" rx="4" fill="#ffffff" stroke="#d5dee6"/>
+  <text x="214" y="232" font-size="12" fill="#14263f" font-family="Menlo, Consolas, monospace" xml:space="preserve">page1-empty.png</text>
+  <rect x="214" y="243" width="47" height="18" rx="9" fill="#eef3f7" stroke="#5b6b7d"/>
+  <text x="237.5" y="256" font-size="10" fill="#5b6b7d" font-weight="700" text-anchor="middle">EMPTY</text>
+  <rect x="404" y="80" width="176" height="130" rx="8" fill="#eef3f7" stroke="#d5dee6"/>
+  <rect x="416" y="92" width="152" height="14" rx="3" fill="#d5dee6"/>
+  <rect x="416" y="114" width="70" height="40" rx="4" fill="#ffffff" stroke="#d5dee6"/>
+  <rect x="498" y="114" width="70" height="40" rx="4" fill="#ffffff" stroke="#d5dee6"/>
+  <rect x="416" y="162" width="152" height="36" rx="4" fill="#ffffff" stroke="#d5dee6"/>
+  <text x="404" y="232" font-size="12" fill="#14263f" font-family="Menlo, Consolas, monospace" xml:space="preserve">page1-incomplete.png</text>
+  <rect x="404" y="243" width="82" height="18" rx="9" fill="#fff4e0" stroke="#b26a00"/>
+  <text x="445.0" y="256" font-size="10" fill="#b26a00" font-weight="700" text-anchor="middle">INCOMPLETE</text>
+  <rect x="594" y="80" width="176" height="130" rx="8" fill="#eef3f7" stroke="#d5dee6"/>
+  <rect x="606" y="92" width="152" height="14" rx="3" fill="#d5dee6"/>
+  <rect x="606" y="114" width="70" height="40" rx="4" fill="#ffffff" stroke="#d5dee6"/>
+  <rect x="688" y="114" width="70" height="40" rx="4" fill="#ffffff" stroke="#d5dee6"/>
+  <rect x="606" y="162" width="152" height="36" rx="4" fill="#ffffff" stroke="#d5dee6"/>
+  <text x="594" y="232" font-size="12" fill="#14263f" font-family="Menlo, Consolas, monospace" xml:space="preserve">report.pdf</text>
+  <rect x="594" y="243" width="54" height="18" rx="9" fill="#e6f6f4" stroke="#0e9384"/>
+  <text x="621.0" y="256" font-size="10" fill="#0e9384" font-weight="700" text-anchor="middle">EXPORT</text>
+  <text x="24" y="300" font-size="12" fill="#5b6b7d">One screenshot per page and state, so a reviewer can check without running.</text>
+  <text x="24" y="466" font-size="11" fill="#5b6b7d">Sample layout · all names and values are placeholders · Illustrative only.</text>
+</svg>

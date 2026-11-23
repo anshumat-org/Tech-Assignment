@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Inter, Arial, 'Noto Sans Devanagari', 'Nirmala UI', Mangal, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Lot detail wireframe</title>
+  <desc id="d">One lot with sales, advances and remaining quantity, in the settled state. Illustrative only.</desc>
+  <rect width="800" height="480" fill="#ffffff"/>
+  <rect x="0" y="0" width="800" height="56" rx="0" fill="#14263f"/><text x="24" y="35" fill="#ffffff" font-size="16" font-weight="700">Sample Aadhat Firm (demo)</text><rect x="640" y="14" width="136" height="28" rx="14" fill="none" stroke="#ffffff"/>
+  <rect x="708" y="14" width="68" height="28" rx="14" fill="#0e9384"/>
+  <text x="674" y="33" fill="#ffffff" font-size="12" text-anchor="middle">हिंदी</text>
+  <text x="742" y="33" fill="#ffffff" font-size="12" font-weight="700" text-anchor="middle">English</text>
+  <text x="24" y="90" fill="#14263f" font-size="16" font-weight="700">Lot L-0011 · Wheat · Ramesh (sample)</text>
+  <rect x="360" y="75" width="77" height="22" rx="11" fill="#ffffff" stroke="#1a7f4b"/><text x="398.5" y="90" fill="#1a7f4b" font-size="11" font-weight="700" text-anchor="middle">✓ Settled</text>
+  <text x="24" y="112" fill="#5b6b7d" font-size="12">In 60 qtl · Sold 60 qtl · Remaining 0 qtl</text>
+  <text x="24" y="140" fill="#14263f" font-size="13" font-weight="700">Sales</text>
+  <rect x="24" y="150" width="600" height="90" rx="8" fill="#ffffff" stroke="#d5dee6"/>
+  <rect x="24" y="150" width="600" height="30" rx="8" fill="#eef3f7" stroke="#d5dee6"/>
+  <text x="34" y="169.0" fill="#5b6b7d" font-size="12" font-weight="700">Date</text><text x="124" y="169.0" fill="#5b6b7d" font-size="12" font-weight="700">Buyer</text><text x="374" y="169.0" fill="#5b6b7d" font-size="12" font-weight="700" text-anchor="end">Qty</text><text x="484" y="169.0" fill="#5b6b7d" font-size="12" font-weight="700" text-anchor="end">Rate</text><text x="614" y="169.0" fill="#5b6b7d" font-size="12" font-weight="700" text-anchor="end">Amount</text>
+  <line x1="24" y1="180" x2="624" y2="180" stroke="#d5dee6" stroke-width="1"/>
+  <text x="34" y="199.0" fill="#14263f" font-size="12">14 Nov</text><text x="124" y="199.0" fill="#14263f" font-size="12">Buyer B (sample)</text><text x="374" y="199.0" fill="#14263f" font-size="12" text-anchor="end">40 qtl</text><text x="484" y="199.0" fill="#14263f" font-size="12" text-anchor="end">₹2,500.00</text><text x="614" y="199.0" fill="#14263f" font-size="12" text-anchor="end">₹1,00,000.00</text>
+  <line x1="24" y1="210" x2="624" y2="210" stroke="#d5dee6" stroke-width="1"/>
+  <text x="34" y="229.0" fill="#14263f" font-size="12">15 Nov</text><text x="124" y="229.0" fill="#14263f" font-size="12">Buyer C (sample)</text><text x="374" y="229.0" fill="#14263f" font-size="12" text-anchor="end">20 qtl</text><text x="484" y="229.0" fill="#14263f" font-size="12" text-anchor="end">₹2,600.00</text><text x="614" y="229.0" fill="#14263f" font-size="12" text-anchor="end">₹52,000.00</text>
+  <text x="24" y="270" fill="#14263f" font-size="13" font-weight="700">Advances</text>
+  <rect x="24" y="280" width="600" height="60" rx="8" fill="#ffffff" stroke="#d5dee6"/>
+  <rect x="24" y="280" width="600" height="30" rx="8" fill="#eef3f7" stroke="#d5dee6"/>
+  <text x="34" y="299.0" fill="#5b6b7d" font-size="12" font-weight="700">Date</text><text x="124" y="299.0" fill="#5b6b7d" font-size="12" font-weight="700">Mode</text><text x="614" y="299.0" fill="#5b6b7d" font-size="12" font-weight="700" text-anchor="end">Amount</text>
+  <line x1="24" y1="310" x2="624" y2="310" stroke="#d5dee6" stroke-width="1"/>
+  <text x="34" y="329.0" fill="#14263f" font-size="12">10 Nov</text><text x="124" y="329.0" fill="#14263f" font-size="12">Cash</text><text x="614" y="329.0" fill="#14263f" font-size="12" text-anchor="end">₹20,000.00</text>
+  <rect x="644" y="140" width="132" height="200" rx="8" fill="#ffffff" stroke="#d5dee6"/>
+  <text x="660" y="166" fill="#5b6b7d" font-size="12" font-weight="700">Settlement</text>
+  <text x="660" y="192" fill="#14263f" font-size="13" font-weight="700">Patti P-0007</text>
+  <text x="660" y="214" fill="#5b6b7d" font-size="12">Net paid</text>
+  <text x="660" y="234" fill="#14263f" font-size="13" font-weight="700">₹1,26,540.00</text>
+  <text x="660" y="256" fill="#5b6b7d" font-size="12">Posted 16 Nov</text>
+  <rect x="24" y="420" width="140" height="36" rx="8" fill="#0e9384"/><text x="94.0" y="443.0" fill="#ffffff" font-size="14" font-weight="700" text-anchor="middle">View patti</text>
+  <rect x="176" y="420" width="140" height="36" rx="8" fill="#eef3f7" stroke="#d5dee6"/><text x="246.0" y="443.0" fill="#5b6b7d" font-size="14" text-anchor="middle">Settle</text>
+  <text x="330" y="444" fill="#5b6b7d" font-size="12">Already settled. Use reverse to correct.</text>
+</svg>

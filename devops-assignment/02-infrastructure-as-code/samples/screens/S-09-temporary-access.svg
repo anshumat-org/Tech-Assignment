@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Inter, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Temporary access grant</title>
+  <desc id="d">Sample access request card showing request, grant, expiry and revoke steps for time-bound production access. Illustrative only.</desc>
+  <rect width="800" height="480" fill="#ffffff"/>
+  <rect width="800" height="56" fill="#14263f"/>
+  <text x="24" y="35" font-size="16" fill="#ffffff" font-weight="700">Temporary production access</text>
+  <rect x="24" y="80" width="170" height="72" rx="8" fill="#fff" stroke="#b26a00" stroke-width="2"/>
+  <text x="36" y="106" font-size="13" fill="#14263f" font-weight="700">Requested</text>
+  <text x="36" y="132" font-size="11" fill="#b26a00" font-weight="700">◐ requested</text>
+  <path d="M196 116 H214 M210 111 L215 116 L210 121" fill="none" stroke="#5b6b7d" stroke-width="2"/>
+  <rect x="218" y="80" width="170" height="72" rx="8" fill="#fff" stroke="#1a7f4b" stroke-width="2"/>
+  <text x="230" y="106" font-size="13" fill="#14263f" font-weight="700">Granted</text>
+  <text x="230" y="132" font-size="11" fill="#1a7f4b" font-weight="700">✓ granted</text>
+  <path d="M390 116 H408 M404 111 L409 116 L404 121" fill="none" stroke="#5b6b7d" stroke-width="2"/>
+  <rect x="412" y="80" width="170" height="72" rx="8" fill="#fff" stroke="#5b6b7d" stroke-width="2"/>
+  <text x="424" y="106" font-size="13" fill="#14263f" font-weight="700">Expired</text>
+  <text x="424" y="132" font-size="11" fill="#5b6b7d" font-weight="700">○ expired</text>
+  <path d="M584 116 H602 M598 111 L603 116 L598 121" fill="none" stroke="#5b6b7d" stroke-width="2"/>
+  <rect x="606" y="80" width="170" height="72" rx="8" fill="#fff" stroke="#b42318" stroke-width="2"/>
+  <text x="618" y="106" font-size="13" fill="#14263f" font-weight="700">Revoked</text>
+  <text x="618" y="132" font-size="11" fill="#b42318" font-weight="700">⊘ revoked</text>
+  <rect x="24" y="180" width="752" height="170" rx="8" fill="#eef3f7" stroke="#d5dee6"/>
+  <text x="44" y="208" font-size="13" fill="#5b6b7d" font-weight="700">Operator</text>
+  <text x="180" y="208" font-size="13" fill="#14263f">(name placeholder)</text>
+  <text x="44" y="236" font-size="13" fill="#5b6b7d" font-weight="700">Reason</text>
+  <text x="180" y="236" font-size="13" fill="#14263f">(incident or task placeholder)</text>
+  <text x="44" y="264" font-size="13" fill="#5b6b7d" font-weight="700">Scope</text>
+  <text x="180" y="264" font-size="13" fill="#14263f">(role placeholder) · prod</text>
+  <text x="44" y="292" font-size="13" fill="#5b6b7d" font-weight="700">Expires</text>
+  <text x="180" y="292" font-size="13" fill="#14263f">(time placeholder) · N h</text>
+  <text x="44" y="320" font-size="13" fill="#5b6b7d" font-weight="700">Approver</text>
+  <text x="180" y="320" font-size="13" fill="#14263f">(name placeholder)</text>
+  <rect x="24" y="370" width="150" height="36" rx="8" fill="#b42318"/>
+  <text x="99.0" y="393" font-size="14" fill="#fff" text-anchor="middle">Revoke now</text>
+  <text x="24" y="470" font-size="10" fill="#5b6b7d">Sample only · placeholder values · not a solution</text>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Inter, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Local commands</title>
+  <desc id="d">Sample terminal with placeholder local build, test and Docker Compose up and down commands and summarised output. Illustrative only.</desc>
+  <rect width="800" height="480" fill="#ffffff"/>
+  <rect width="800" height="56" fill="#14263f"/>
+  <text x="24" y="35" font-size="16" fill="#ffffff" font-weight="700">Local development</text>
+  <rect x="24" y="76" width="752" height="320" rx="8" fill="#14263f"/>
+  <text x="40" y="98" font-size="11" fill="#9fb0c4">Terminal</text>
+  <text x="40" y="124" font-size="13" fill="#e8eef6" font-family="ui-monospace, Menlo, monospace">$ (setup command placeholder)</text>
+  <text x="40" y="146" font-size="13" fill="#4cc38a" font-family="ui-monospace, Menlo, monospace">Dependencies installed (placeholder)</text>
+  <text x="40" y="168" font-size="13" fill="#e8eef6" font-family="ui-monospace, Menlo, monospace">$ (test command placeholder)</text>
+  <text x="40" y="190" font-size="13" fill="#4cc38a" font-family="ui-monospace, Menlo, monospace">N passed, 0 failed (placeholder)</text>
+  <text x="40" y="212" font-size="13" fill="#e8eef6" font-family="ui-monospace, Menlo, monospace">$ docker compose up -d</text>
+  <text x="40" y="234" font-size="13" fill="#4cc38a" font-family="ui-monospace, Menlo, monospace">Started N services (placeholder)</text>
+  <text x="40" y="256" font-size="13" fill="#e8eef6" font-family="ui-monospace, Menlo, monospace">$ docker compose down</text>
+  <text x="40" y="278" font-size="13" fill="#9fb0c4" font-family="ui-monospace, Menlo, monospace">Stopped and removed (placeholder)</text>
+  <text x="24" y="470" font-size="10" fill="#5b6b7d">Sample only · placeholder values · not a solution</text>
+</svg>

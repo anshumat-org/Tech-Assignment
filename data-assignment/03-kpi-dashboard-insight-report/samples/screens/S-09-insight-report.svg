@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Inter, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Insight report preview</title>
+  <desc id="d">Report page with question, three placeholder findings each with a caveat beside it, and recommendations. Illustrative only.</desc>
+  <rect width="800" height="480" fill="#ffffff"/>
+  <rect width="800" height="56" fill="#14263f"/>
+  <text x="24" y="35" font-size="16" fill="#ffffff" font-weight="700">Insight report</text>
+  <rect x="714" y="14" width="62" height="28" rx="14" fill="#fff4e0" stroke="#b26a00"/>
+  <text x="745.0" y="33" font-size="12" fill="#b26a00" font-weight="700" text-anchor="middle">DRAFT</text>
+  <rect x="24" y="72" width="752" height="380" rx="8" fill="#ffffff" stroke="#d5dee6"/>
+  <text x="44" y="100" font-size="14" fill="#14263f" font-weight="700">Question: &lt;decision question&gt; (placeholder)</text>
+  <text x="44" y="142" font-size="13" fill="#14263f" font-weight="700">Finding 1 (placeholder)</text>
+  <rect x="44" y="152" width="400" height="8" rx="4" fill="#d5dee6"/>
+  <rect x="44" y="168" width="320" height="8" rx="4" fill="#d5dee6"/>
+  <rect x="470" y="126" width="286" height="56" rx="6" fill="#fff4e0" stroke="#b26a00"/>
+  <text x="482" y="148" font-size="11" fill="#b26a00" font-weight="700">Caveat:</text>
+  <text x="482" y="166" font-size="11" fill="#14263f">&lt;limit beside this claim&gt;</text>
+  <text x="44" y="220" font-size="13" fill="#14263f" font-weight="700">Finding 2 (placeholder)</text>
+  <rect x="44" y="230" width="400" height="8" rx="4" fill="#d5dee6"/>
+  <rect x="44" y="246" width="320" height="8" rx="4" fill="#d5dee6"/>
+  <rect x="470" y="204" width="286" height="56" rx="6" fill="#fff4e0" stroke="#b26a00"/>
+  <text x="482" y="226" font-size="11" fill="#b26a00" font-weight="700">Caveat:</text>
+  <text x="482" y="244" font-size="11" fill="#14263f">&lt;limit beside this claim&gt;</text>
+  <text x="44" y="298" font-size="13" fill="#14263f" font-weight="700">Finding 3 (placeholder)</text>
+  <rect x="44" y="308" width="400" height="8" rx="4" fill="#d5dee6"/>
+  <rect x="44" y="324" width="320" height="8" rx="4" fill="#d5dee6"/>
+  <rect x="470" y="282" width="286" height="56" rx="6" fill="#fff4e0" stroke="#b26a00"/>
+  <text x="482" y="304" font-size="11" fill="#b26a00" font-weight="700">Caveat:</text>
+  <text x="482" y="322" font-size="11" fill="#14263f">&lt;limit beside this claim&gt;</text>
+  <text x="44" y="372" font-size="13" fill="#14263f" font-weight="700">Recommendations</text>
+  <rect x="44" y="384" width="560" height="8" rx="4" fill="#d5dee6"/>
+  <rect x="44" y="400" width="420" height="8" rx="4" fill="#d5dee6"/>
+  <text x="24" y="466" font-size="11" fill="#5b6b7d">Sample layout · all names and values are placeholders · Illustrative only.</text>
+</svg>

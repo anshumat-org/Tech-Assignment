@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Inter, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Raw tables overview</title>
+  <desc id="d">Five raw tables with placeholder row counts and mess counts. Illustrative only.</desc>
+  <rect width="800" height="480" fill="#ffffff"/>
+  <rect width="800" height="56" fill="#14263f"/>
+  <text x="24" y="35" font-size="16" fill="#ffffff" font-weight="700">Raw tables</text>
+  <rect x="714" y="14" width="62" height="28" rx="14" fill="#e7f5ee" stroke="#1a7f4b"/>
+  <text x="745.0" y="33" font-size="12" fill="#1a7f4b" font-weight="700" text-anchor="middle">READY</text>
+  <text x="24" y="88" font-size="13" fill="#5b6b7d">Dataset loaded from seed &lt;n&gt; (placeholder)</text>
+  <rect x="24" y="104" width="752" height="180" rx="6" fill="#ffffff" stroke="#d5dee6"/>
+  <rect x="24" y="104" width="752" height="30" rx="6" fill="#eef3f7" stroke="#d5dee6"/>
+  <text x="34" y="123.0" font-size="11" fill="#5b6b7d" font-weight="700">Table</text>
+  <text x="193.51515151515153" y="123.0" font-size="11" fill="#5b6b7d" font-weight="700">Rows</text>
+  <text x="307.4545454545455" y="123.0" font-size="11" fill="#5b6b7d" font-weight="700">Duplicates</text>
+  <text x="421.39393939393943" y="123.0" font-size="11" fill="#5b6b7d" font-weight="700">NULL discounts</text>
+  <text x="558.1212121212121" y="123.0" font-size="11" fill="#5b6b7d" font-weight="700">Cancelled</text>
+  <text x="672.0606060606061" y="123.0" font-size="11" fill="#5b6b7d" font-weight="700">Empty orders</text>
+  <text x="34" y="153.0" font-size="12" fill="#14263f">customers</text>
+  <text x="193.51515151515153" y="153.0" font-size="12" fill="#14263f">n,nnn</text>
+  <text x="307.4545454545455" y="153.0" font-size="12" fill="#14263f">n</text>
+  <text x="421.39393939393943" y="153.0" font-size="12" fill="#14263f">-</text>
+  <text x="558.1212121212121" y="153.0" font-size="12" fill="#14263f">-</text>
+  <text x="672.0606060606061" y="153.0" font-size="12" fill="#14263f">-</text>
+  <line x1="24" y1="164" x2="776" y2="164" stroke="#d5dee6"/>
+  <text x="34" y="183.0" font-size="12" fill="#14263f">products</text>
+  <text x="193.51515151515153" y="183.0" font-size="12" fill="#14263f">nnn</text>
+  <text x="307.4545454545455" y="183.0" font-size="12" fill="#14263f">n</text>
+  <text x="421.39393939393943" y="183.0" font-size="12" fill="#14263f">-</text>
+  <text x="558.1212121212121" y="183.0" font-size="12" fill="#14263f">-</text>
+  <text x="672.0606060606061" y="183.0" font-size="12" fill="#14263f">-</text>
+  <line x1="24" y1="194" x2="776" y2="194" stroke="#d5dee6"/>
+  <text x="34" y="213.0" font-size="12" fill="#14263f">orders</text>
+  <text x="193.51515151515153" y="213.0" font-size="12" fill="#14263f">nn,nnn</text>
+  <text x="307.4545454545455" y="213.0" font-size="12" fill="#14263f">n</text>
+  <text x="421.39393939393943" y="213.0" font-size="12" fill="#14263f">-</text>
+  <text x="558.1212121212121" y="213.0" font-size="12" fill="#14263f">n</text>
+  <text x="672.0606060606061" y="213.0" font-size="12" fill="#14263f">n</text>
+  <line x1="24" y1="224" x2="776" y2="224" stroke="#d5dee6"/>
+  <text x="34" y="243.0" font-size="12" fill="#14263f">order_items</text>
+  <text x="193.51515151515153" y="243.0" font-size="12" fill="#14263f">nn,nnn</text>
+  <text x="307.4545454545455" y="243.0" font-size="12" fill="#14263f">n</text>
+  <text x="421.39393939393943" y="243.0" font-size="12" fill="#14263f">n</text>
+  <text x="558.1212121212121" y="243.0" font-size="12" fill="#14263f">-</text>
+  <text x="672.0606060606061" y="243.0" font-size="12" fill="#14263f">-</text>
+  <line x1="24" y1="254" x2="776" y2="254" stroke="#d5dee6"/>
+  <text x="34" y="273.0" font-size="12" fill="#14263f">returns</text>
+  <text x="193.51515151515153" y="273.0" font-size="12" fill="#14263f">nnn</text>
+  <text x="307.4545454545455" y="273.0" font-size="12" fill="#14263f">n</text>
+  <text x="421.39393939393943" y="273.0" font-size="12" fill="#14263f">-</text>
+  <text x="558.1212121212121" y="273.0" font-size="12" fill="#14263f">-</text>
+  <text x="672.0606060606061" y="273.0" font-size="12" fill="#14263f">-</text>
+  <rect x="24" y="304" width="752" height="34" rx="6" fill="#fff4e0" stroke="#b26a00"/>
+  <text x="38" y="326" font-size="12" fill="#b26a00" font-weight="700">Empty state:</text>
+  <text x="137.2" y="326" font-size="12" fill="#14263f">if a table has 0 rows, show it here and stop before queries run.</text>
+  <text x="24" y="372" font-size="12" fill="#5b6b7d">Mess counts tell the reader what the handling rules must cover.</text>
+  <text x="24" y="466" font-size="11" fill="#5b6b7d">Sample layout · all names and values are placeholders · Illustrative only.</text>
+</svg>

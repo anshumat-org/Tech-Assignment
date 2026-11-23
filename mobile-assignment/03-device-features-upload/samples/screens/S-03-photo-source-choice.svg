@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 720" font-family="Inter, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Photo source choice wireframe</title>
+  <desc id="d">Sample wireframe: bottom sheet to take a photo or choose from the gallery, with camera-denied note. Illustrative only.</desc>
+  <rect width="360" height="720" fill="#ffffff"/>
+  <rect width="360" height="80" fill="#14263f"/>
+  <text x="16" y="17" font-size="11" fill="#ffffff">9:41</text><text x="344" y="17" font-size="11" fill="#ffffff" text-anchor="end">LTE 80%</text>
+  <text x="16" y="58" font-size="20" fill="#ffffff">←</text><text x="48" y="57" font-size="17" fill="#ffffff" font-weight="700">New report</text>
+  <rect width="360" height="720" fill="#14263f" fill-opacity="0.45"/><rect x="0" y="452" width="360" height="288" rx="16" fill="#ffffff"/><rect x="156" y="462" width="48" height="4" rx="2" fill="#d5dee6"/>
+  <text x="24" y="496" font-size="18" fill="#14263f" font-weight="700">Add a photo</text>
+  <rect x="16" y="512" width="328" height="52" rx="8" fill="#ffffff" stroke="#d5dee6"/><text x="32" y="544" font-size="15" fill="#5b6b7d" font-weight="600">◉  Take photo</text><text x="332" y="544" font-size="11" fill="#5b6b7d" text-anchor="end">Unavailable</text>
+  <text x="24" y="584" font-size="11" fill="#5b6b7d">Camera access is off. Use the gallery instead.</text>
+  <rect x="16" y="596" width="328" height="52" rx="8" fill="#ffffff" stroke="#0e9384" stroke-width="2"/><text x="32" y="628" font-size="15" fill="#14263f" font-weight="600">▦  Choose from gallery</text>
+  <text x="180.0" y="681.0" font-size="14" fill="#0e9384" font-weight="600" text-anchor="middle">Cancel</text>
+  <rect x="130" y="704" width="100" height="4" rx="2" fill="#d5dee6"/>
+</svg>

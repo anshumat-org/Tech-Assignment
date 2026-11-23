@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 720" font-family="Inter, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Feed wireframe</title>
+  <desc id="d">Sample wireframe: cached feed items shown while revalidating, pull to refresh, next-page loader and Sign out. Illustrative only.</desc>
+  <rect width="360" height="720" fill="#ffffff"/>
+  <rect width="360" height="80" fill="#14263f"/>
+  <text x="16" y="17" font-size="11" fill="#ffffff">9:41</text><text x="344" y="17" font-size="11" fill="#ffffff" text-anchor="end">LTE 80%</text>
+  <text x="16" y="57" font-size="18" fill="#ffffff" font-weight="700">Feed</text>
+  <text x="344" y="57" font-size="13" fill="#ffffff" font-weight="600" text-anchor="end">Sign out</text>
+  <rect x="108" y="92" width="144" height="26" rx="13" fill="#eef3f7" stroke="#d5dee6"/><text x="180" y="110" font-size="12" fill="#14263f" font-weight="600" text-anchor="middle">↻ Refreshing…</text>
+  <text x="16" y="140" font-size="12" fill="#5b6b7d">Updated 5 min ago (cached)</text>
+  <rect x="16" y="152" width="328" height="96" rx="8" fill="#ffffff" stroke="#d5dee6"/><rect x="28" y="164" width="72" height="72" rx="6" fill="#eef3f7"/><text x="64" y="205" font-size="11" fill="#5b6b7d" text-anchor="middle">img</text><text x="112" y="184" font-size="14" fill="#14263f" font-weight="700">Post title 1 (placeholder)</text><text x="112" y="204" font-size="12" fill="#5b6b7d">Short summary text</text><text x="112" y="224" font-size="11" fill="#5b6b7d">Author A · 2h</text>
+  <rect x="16" y="260" width="328" height="96" rx="8" fill="#ffffff" stroke="#d5dee6"/><rect x="28" y="272" width="72" height="72" rx="6" fill="#eef3f7"/><text x="64" y="313" font-size="11" fill="#5b6b7d" text-anchor="middle">img</text><text x="112" y="292" font-size="14" fill="#14263f" font-weight="700">Post title 2 (placeholder)</text><text x="112" y="312" font-size="12" fill="#5b6b7d">Short summary text</text><text x="112" y="332" font-size="11" fill="#5b6b7d">Author A · 2h</text>
+  <rect x="16" y="368" width="328" height="96" rx="8" fill="#ffffff" stroke="#d5dee6"/><rect x="28" y="380" width="72" height="72" rx="6" fill="#eef3f7"/><text x="64" y="421" font-size="11" fill="#5b6b7d" text-anchor="middle">img</text><text x="112" y="400" font-size="14" fill="#14263f" font-weight="700">Post title 3 (placeholder)</text><text x="112" y="420" font-size="12" fill="#5b6b7d">Short summary text</text><text x="112" y="440" font-size="11" fill="#5b6b7d">Author A · 2h</text>
+  <rect x="16" y="476" width="328" height="96" rx="8" fill="#ffffff" stroke="#d5dee6"/><rect x="28" y="488" width="72" height="72" rx="6" fill="#eef3f7"/><text x="64" y="529" font-size="11" fill="#5b6b7d" text-anchor="middle">img</text><text x="112" y="508" font-size="14" fill="#14263f" font-weight="700">Post title 4 (placeholder)</text><text x="112" y="528" font-size="12" fill="#5b6b7d">Short summary text</text><text x="112" y="548" font-size="11" fill="#5b6b7d">Author A · 2h</text>
+  <circle cx="164" cy="604" r="9" fill="none" stroke="#d5dee6" stroke-width="3"/><path d="M164 595 A9 9 0 0 1 173 604" fill="none" stroke="#0e9384" stroke-width="3"/>
+  <text x="182" y="609" font-size="12" fill="#5b6b7d">Loading more…</text>
+  <text x="180" y="660" font-size="11" fill="#5b6b7d" text-anchor="middle">Pull down to refresh</text>
+  <rect x="130" y="704" width="100" height="4" rx="2" fill="#d5dee6"/>
+</svg>

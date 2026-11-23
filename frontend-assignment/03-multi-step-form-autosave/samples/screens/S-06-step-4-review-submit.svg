@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Inter, Arial, sans-serif" font-size="12" fill="#14263f" role="img" aria-labelledby="t d">
+  <title id="t">Review and submit wireframe</title>
+  <desc id="d">Sample wireframe: Step 4 Review with every answer by step, Edit links, items from the repeating group and server 422 errors flagged with icon and text. Illustrative only.</desc>
+  <rect width="800" height="480" fill="#ffffff"/>
+  <rect x="0" y="0" width="800" height="56" fill="#14263f"/>
+  <text x="24" y="34" fill="#fff" font-size="15" font-weight="700">Sample application form (synthetic)</text>
+  <rect x="670" y="15" width="106" height="26" rx="13" fill="#fff" stroke="#1a7f4b"/><text x="723.0" y="33" fill="#1a7f4b" font-weight="700" text-anchor="middle">✓ Saved 10:42</text>
+  <circle cx="38" cy="88" r="13" fill="#0e9384" stroke="#0e9384" stroke-width="1.5"/>
+  <text x="38" y="93" fill="#fff" font-weight="700" text-anchor="middle">✓</text>
+  <text x="58" y="93" fill="#5b6b7d">Personal</text>
+  <rect x="180" y="87" width="26" height="2" fill="#0e9384"/>
+  <circle cx="228" cy="88" r="13" fill="#0e9384" stroke="#0e9384" stroke-width="1.5"/>
+  <text x="228" y="93" fill="#fff" font-weight="700" text-anchor="middle">✓</text>
+  <text x="248" y="93" fill="#5b6b7d">Contact</text>
+  <rect x="370" y="87" width="26" height="2" fill="#0e9384"/>
+  <circle cx="418" cy="88" r="13" fill="#0e9384" stroke="#0e9384" stroke-width="1.5"/>
+  <text x="418" y="93" fill="#fff" font-weight="700" text-anchor="middle">✓</text>
+  <text x="438" y="93" fill="#5b6b7d">Details</text>
+  <rect x="560" y="87" width="26" height="2" fill="#0e9384"/>
+  <circle cx="608" cy="88" r="13" fill="#0e9384" stroke="#0e9384" stroke-width="1.5"/>
+  <text x="608" y="93" fill="#fff" font-weight="700" text-anchor="middle">4</text>
+  <text x="628" y="93" font-weight="700">Review (current)</text>
+  <rect x="24" y="116" width="752" height="304" rx="8" fill="#fff" stroke="#d5dee6"/>
+  <text x="48" y="148" font-size="18" font-weight="700">Step 4 of 4 · Review</text>
+  <rect x="24" y="434" width="100" height="32" rx="6" fill="#fff" stroke="#d5dee6"/><text x="74.0" y="455.0" font-size="13" font-weight="700" text-anchor="middle">‹ Back</text>
+  <rect x="640" y="434" width="136" height="32" rx="6" fill="#0e9384"/><text x="708.0" y="455.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">Submit</text>
+  <rect x="48" y="160" width="704" height="30" rx="6" fill="#fff" stroke="#b42318" stroke-width="1.5"/><rect x="48" y="160" width="5" height="30" rx="2" fill="#b42318"/><text x="64" y="180.0" fill="#b42318" font-weight="700">⚠ 2 answers need attention before submitting. Server checked (422).</text>
+  <text x="48" y="218" font-size="13" font-weight="700">Personal</text>
+  <text x="752" y="218" fill="#0e9384" font-weight="700" text-anchor="end">Edit</text>
+  <line x1="726" y1="221" x2="752" y2="221" stroke="#0e9384"/>
+  <text x="64" y="238">Full name: Sample Person</text>
+  <text x="64" y="256">Date of birth: 01/02/1990</text>
+  <rect x="48" y="266" width="704" height="1" fill="#d5dee6"/>
+  <text x="48" y="288" font-size="13" font-weight="700">Contact</text>
+  <text x="752" y="288" fill="#0e9384" font-weight="700" text-anchor="end">Edit</text>
+  <line x1="726" y1="291" x2="752" y2="291" stroke="#0e9384"/>
+  <text x="64" y="308">Email: sam@example.test</text>
+  <text x="64" y="326" fill="#b42318" font-weight="700">⚠ Phone: number rejected by server</text>
+  <rect x="48" y="336" width="704" height="1" fill="#d5dee6"/>
+  <text x="48" y="358" font-size="13" font-weight="700">Details</text>
+  <text x="752" y="358" fill="#0e9384" font-weight="700" text-anchor="end">Edit</text>
+  <line x1="726" y1="361" x2="752" y2="361" stroke="#0e9384"/>
+  <text x="64" y="378">Item 1: Sample role A · 3 yrs</text>
+  <text x="64" y="396" fill="#b42318" font-weight="700">⚠ Item 2: role title missing</text>
+  <rect x="48" y="406" width="704" height="1" fill="#d5dee6"/>
+  <text x="624" y="455" fill="#5b6b7d" font-size="11" text-anchor="end">Submit re-checks with the server</text>
+</svg>

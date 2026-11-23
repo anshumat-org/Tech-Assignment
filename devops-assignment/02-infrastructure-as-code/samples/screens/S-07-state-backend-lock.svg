@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Inter, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">State backend and lock status</title>
+  <desc id="d">Sample panel showing state backend location, current lock holder and the unlock procedure with placeholder values. Illustrative only.</desc>
+  <rect width="800" height="480" fill="#ffffff"/>
+  <rect width="800" height="56" fill="#14263f"/>
+  <text x="24" y="35" font-size="16" fill="#ffffff" font-weight="700">State backend · staging</text>
+  <rect x="24" y="76" width="752" height="38" rx="6" fill="#eef3f7" stroke="#d5dee6"/>
+  <text x="40" y="98" font-size="12" fill="#5b6b7d" font-weight="700">Field</text>
+  <text x="244" y="98" font-size="12" fill="#5b6b7d" font-weight="700">Value</text>
+  <rect x="24" y="120" width="752" height="38" rx="6" fill="#fff" stroke="#d5dee6"/>
+  <text x="40" y="142" font-size="13" fill="#14263f">Backend location</text>
+  <text x="244" y="142" font-size="12" fill="#14263f" font-family="ui-monospace, Menlo, monospace">(remote backend placeholder)/staging</text>
+  <rect x="24" y="164" width="752" height="38" rx="6" fill="#fff" stroke="#d5dee6"/>
+  <text x="40" y="186" font-size="13" fill="#14263f">Lock status</text>
+  <text x="244" y="186" font-size="12" fill="#b26a00" font-weight="700">⏸ locked</text>
+  <rect x="24" y="208" width="752" height="38" rx="6" fill="#fff" stroke="#d5dee6"/>
+  <text x="40" y="230" font-size="13" fill="#14263f">Lock holder</text>
+  <text x="244" y="230" font-size="13" fill="#14263f">(identity placeholder) · since (time placeholder)</text>
+  <rect x="24" y="252" width="752" height="38" rx="6" fill="#fff" stroke="#d5dee6"/>
+  <text x="40" y="274" font-size="13" fill="#14263f">Versioning</text>
+  <text x="244" y="274" font-size="13" fill="#14263f">enabled (placeholder)</text>
+  <rect x="24" y="310" width="752" height="110" rx="8" fill="#eef3f7" stroke="#d5dee6"/>
+  <text x="44" y="338" font-size="13" fill="#14263f" font-weight="700">Unlock procedure (runbook link)</text>
+  <text x="44" y="364" font-size="13" fill="#14263f">1. Confirm no apply is running  2. Record reason  3. (unlock step placeholder)</text>
+  <text x="44" y="392" font-size="12" fill="#5b6b7d">Other states: unlocked · stale lock · lost or corrupted</text>
+  <text x="24" y="470" font-size="10" fill="#5b6b7d">Sample only · placeholder values · not a solution</text>
+</svg>

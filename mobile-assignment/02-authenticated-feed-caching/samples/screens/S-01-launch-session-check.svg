@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 720" font-family="Inter, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Launch and session check wireframe</title>
+  <desc id="d">Sample wireframe: splash while stored tokens are checked, routing to the cached feed or sign-in. Illustrative only.</desc>
+  <rect width="360" height="720" fill="#ffffff"/>
+  <rect width="360" height="80" fill="#14263f"/>
+  <text x="16" y="17" font-size="11" fill="#ffffff">9:41</text><text x="344" y="17" font-size="11" fill="#ffffff" text-anchor="end">LTE 80%</text>
+  <rect x="140" y="250" width="80" height="80" rx="20" fill="#0e9384"/><text x="180" y="300" font-size="18" fill="#ffffff" font-weight="700" text-anchor="middle">App</text>
+  <text x="180" y="368" font-size="18" fill="#14263f" font-weight="700" text-anchor="middle">Sample Feed (placeholder)</text>
+  <circle cx="180" cy="420" r="14" fill="none" stroke="#d5dee6" stroke-width="4"/><path d="M180 406 A14 14 0 0 1 194 420" fill="none" stroke="#0e9384" stroke-width="4"/>
+  <text x="180" y="462" font-size="13" fill="#5b6b7d" text-anchor="middle">Checking your session…</text>
+  <rect x="40" y="540" width="280" height="88" rx="8" fill="#eef3f7" stroke="#d5dee6"/>
+  <text x="56" y="566" font-size="12" fill="#5b6b7d" font-weight="700">Next step</text>
+  <text x="56" y="588" font-size="12" fill="#14263f">Tokens found → cached feed</text>
+  <text x="56" y="608" font-size="12" fill="#14263f">No tokens → Sign in</text>
+  <rect x="130" y="704" width="100" height="4" rx="2" fill="#d5dee6"/>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 720" font-family="Inter, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">OS permission dialog wireframe</title>
+  <desc id="d">Sample wireframe: generic system sheet asking for location with precise or approximate and Allow or Deny. Illustrative only.</desc>
+  <rect width="360" height="720" fill="#ffffff"/>
+  <rect width="360" height="80" fill="#14263f"/>
+  <text x="16" y="17" font-size="11" fill="#ffffff">9:41</text><text x="344" y="17" font-size="11" fill="#ffffff" text-anchor="end">LTE 80%</text>
+  <text x="16" y="58" font-size="20" fill="#ffffff">←</text><text x="48" y="57" font-size="17" fill="#ffffff" font-weight="700">New report</text>
+  <rect width="360" height="720" fill="#14263f" fill-opacity="0.45"/>
+  <rect x="32" y="190" width="296" height="330" rx="14" fill="#ffffff" stroke="#d5dee6"/>
+  <text x="180" y="214" font-size="11" fill="#5b6b7d" font-weight="600" text-anchor="middle">System dialog (illustrative)</text>
+  <text x="180" y="250" font-size="16" fill="#14263f" font-weight="700" text-anchor="middle">Allow “Sample App” to</text><text x="180" y="272" font-size="16" fill="#14263f" font-weight="700" text-anchor="middle">use your location?</text>
+  <rect x="56" y="292" width="116" height="84" rx="8" fill="#eef3f7" stroke="#0e9384" stroke-width="2"/><text x="114" y="340" font-size="13" fill="#14263f" font-weight="600" text-anchor="middle">✓ Precise</text>
+  <rect x="188" y="292" width="116" height="84" rx="8" fill="#eef3f7" stroke="#d5dee6"/><text x="246" y="340" font-size="13" fill="#14263f" font-weight="600" text-anchor="middle">Approximate</text>
+  <line x1="32" y1="396" x2="328" y2="396" stroke="#d5dee6"/><text x="180" y="422" font-size="14" fill="#1d6fe0" font-weight="600" text-anchor="middle">While using the app</text>
+  <line x1="32" y1="436" x2="328" y2="436" stroke="#d5dee6"/><text x="180" y="462" font-size="14" fill="#1d6fe0" font-weight="600" text-anchor="middle">Only this time</text>
+  <line x1="32" y1="476" x2="328" y2="476" stroke="#d5dee6"/><text x="180" y="502" font-size="14" fill="#1d6fe0" font-weight="600" text-anchor="middle">Don’t allow</text>
+  <text x="180" y="556" font-size="12" fill="#ffffff" text-anchor="middle">Wording and options vary by OS</text>
+  <rect x="130" y="704" width="100" height="4" rx="2" fill="#d5dee6"/>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Inter, Arial, 'Noto Sans Devanagari', 'Nirmala UI', Mangal, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Products and stock wireframe</title>
+  <desc id="d">Product search in both scripts with SKU, unit, prices, balance and a low-stock mark in text and icon. Illustrative only.</desc>
+  <rect width="800" height="480" fill="#ffffff"/>
+  <rect x="0" y="0" width="800" height="56" rx="0" fill="#14263f"/><text x="24" y="35" fill="#ffffff" font-size="16" font-weight="700">Sample Kirana Store (demo)</text><rect x="640" y="14" width="136" height="28" rx="14" fill="none" stroke="#ffffff"/>
+  <rect x="708" y="14" width="68" height="28" rx="14" fill="#0e9384"/>
+  <text x="674" y="33" fill="#ffffff" font-size="12" text-anchor="middle">हिंदी</text>
+  <text x="742" y="33" fill="#ffffff" font-size="12" font-weight="700" text-anchor="middle">English</text>
+  <text x="24" y="92" fill="#14263f" font-size="16" font-weight="700">Products and stock</text>
+  <rect x="24" y="104" width="420" height="36" rx="6" fill="#ffffff" stroke="#1d6fe0" stroke-width="2"/>
+  <text x="36" y="127" fill="#14263f" font-size="13">🔍 चावल / rice</text>
+  <rect x="460" y="111" width="123" height="22" rx="11" fill="#ffffff" stroke="#14263f"/><text x="521.5" y="126" fill="#14263f" font-size="11" font-weight="700" text-anchor="middle">All categories ▾</text>
+  <rect x="590" y="111" width="123" height="22" rx="11" fill="#ffffff" stroke="#b26a00"/><text x="651.5" y="126" fill="#b26a00" font-size="11" font-weight="700" text-anchor="middle">⚠ Low stock only</text>
+  <rect x="24" y="152" width="752" height="170" rx="8" fill="#ffffff" stroke="#d5dee6"/>
+  <rect x="24" y="152" width="752" height="34" rx="8" fill="#eef3f7" stroke="#d5dee6"/>
+  <text x="34" y="173.0" fill="#5b6b7d" font-size="12" font-weight="700">SKU</text><text x="144" y="173.0" fill="#5b6b7d" font-size="12" font-weight="700">Product</text><text x="334" y="173.0" fill="#5b6b7d" font-size="12" font-weight="700">Unit</text><text x="464" y="173.0" fill="#5b6b7d" font-size="12" font-weight="700" text-anchor="end">Buy</text><text x="554" y="173.0" fill="#5b6b7d" font-size="12" font-weight="700" text-anchor="end">Sell</text><text x="644" y="173.0" fill="#5b6b7d" font-size="12" font-weight="700" text-anchor="end">Balance</text><text x="664" y="173.0" fill="#5b6b7d" font-size="12" font-weight="700">Mark</text>
+  <line x1="24" y1="186" x2="776" y2="186" stroke="#d5dee6" stroke-width="1"/>
+  <text x="34" y="207.0" fill="#14263f" font-size="12">RICE-01</text><text x="144" y="207.0" fill="#14263f" font-size="12">Rice 1 kg · चावल</text><text x="334" y="207.0" fill="#14263f" font-size="12">pkt</text><text x="464" y="207.0" fill="#14263f" font-size="12" text-anchor="end">₹55.00</text><text x="554" y="207.0" fill="#14263f" font-size="12" text-anchor="end">₹65.00</text><text x="644" y="207.0" fill="#14263f" font-size="12" text-anchor="end">40</text><text x="664" y="207.0" fill="#14263f" font-size="12"></text>
+  <line x1="24" y1="220" x2="776" y2="220" stroke="#d5dee6" stroke-width="1"/>
+  <text x="34" y="241.0" fill="#14263f" font-size="12">RICE-05</text><text x="144" y="241.0" fill="#14263f" font-size="12">Rice 5 kg · चावल</text><text x="334" y="241.0" fill="#14263f" font-size="12">bag</text><text x="464" y="241.0" fill="#14263f" font-size="12" text-anchor="end">₹260.00</text><text x="554" y="241.0" fill="#14263f" font-size="12" text-anchor="end">₹300.00</text><text x="644" y="241.0" fill="#14263f" font-size="12" text-anchor="end">12</text><text x="664" y="241.0" fill="#14263f" font-size="12"></text>
+  <line x1="24" y1="254" x2="776" y2="254" stroke="#d5dee6" stroke-width="1"/>
+  <text x="34" y="275.0" fill="#14263f" font-size="12">BSMT-05</text><text x="144" y="275.0" fill="#14263f" font-size="12">Basmati 5 kg · बासमती</text><text x="334" y="275.0" fill="#14263f" font-size="12">bag</text><text x="464" y="275.0" fill="#14263f" font-size="12" text-anchor="end">₹520.00</text><text x="554" y="275.0" fill="#14263f" font-size="12" text-anchor="end">₹600.00</text><text x="644" y="275.0" fill="#14263f" font-size="12" text-anchor="end">3</text><text x="664" y="275.0" fill="#14263f" font-size="12">⚠ Low stock</text>
+  <line x1="24" y1="288" x2="776" y2="288" stroke="#d5dee6" stroke-width="1"/>
+  <text x="34" y="309.0" fill="#14263f" font-size="12">OIL-01</text><text x="144" y="309.0" fill="#14263f" font-size="12">Oil 1 L · तेल</text><text x="334" y="309.0" fill="#14263f" font-size="12">btl</text><text x="464" y="309.0" fill="#14263f" font-size="12" text-anchor="end">₹130.00</text><text x="554" y="309.0" fill="#14263f" font-size="12" text-anchor="end">₹150.00</text><text x="644" y="309.0" fill="#14263f" font-size="12" text-anchor="end">5</text><text x="664" y="309.0" fill="#14263f" font-size="12">⚠ Low stock</text>
+  <text x="24" y="352" fill="#14263f" font-size="13" font-weight="700">Movement history · Basmati 5 kg</text>
+  <text x="24" y="374" fill="#5b6b7d" font-size="12">22 Nov  Inward +10 · 23 Nov  Sold −6 · 23 Nov  Adjustment −1 (damaged)</text>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Inter, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Image registry entry</title>
+  <desc id="d">Sample image registry listing with image name, SHA tag, digest and push time. Illustrative only.</desc>
+  <rect width="800" height="480" fill="#ffffff"/>
+  <rect width="800" height="56" fill="#14263f"/>
+  <text x="24" y="35" font-size="16" fill="#ffffff" font-weight="700">Image registry (generic) · service (placeholder)</text>
+  <rect x="24" y="76" width="752" height="42" rx="6" fill="#eef3f7" stroke="#d5dee6"/>
+  <text x="40" y="98" font-size="12" fill="#5b6b7d" font-weight="700">Tag</text>
+  <text x="204" y="98" font-size="12" fill="#5b6b7d" font-weight="700">Digest</text>
+  <text x="444" y="98" font-size="12" fill="#5b6b7d" font-weight="700">Pushed</text>
+  <text x="624" y="98" font-size="12" fill="#5b6b7d" font-weight="700">State</text>
+  <rect x="24" y="124" width="752" height="42" rx="6" fill="#fff" stroke="#d5dee6"/>
+  <text x="40" y="146" font-size="12" fill="#14263f" font-family="ui-monospace, Menlo, monospace">abc1234</text>
+  <text x="204" y="146" font-size="12" fill="#14263f" font-family="ui-monospace, Menlo, monospace">sha256:(placeholder)</text>
+  <text x="444" y="146" font-size="13" fill="#14263f">(time placeholder)</text>
+  <text x="624" y="146" font-size="12" fill="#1a7f4b" font-weight="700">✓ present</text>
+  <rect x="24" y="172" width="752" height="42" rx="6" fill="#fff" stroke="#d5dee6"/>
+  <text x="40" y="194" font-size="12" fill="#14263f" font-family="ui-monospace, Menlo, monospace">def5678</text>
+  <text x="204" y="194" font-size="12" fill="#14263f" font-family="ui-monospace, Menlo, monospace">sha256:(placeholder)</text>
+  <text x="444" y="194" font-size="13" fill="#14263f">(time placeholder)</text>
+  <text x="624" y="194" font-size="12" fill="#1a7f4b" font-weight="700">✓ present</text>
+  <rect x="24" y="220" width="752" height="42" rx="6" fill="#fff" stroke="#d5dee6"/>
+  <text x="40" y="242" font-size="12" fill="#14263f" font-family="ui-monospace, Menlo, monospace">9a8b7c6</text>
+  <text x="204" y="242" font-size="12" fill="#14263f" font-family="ui-monospace, Menlo, monospace">—</text>
+  <text x="444" y="242" font-size="13" fill="#14263f">—</text>
+  <text x="624" y="242" font-size="12" fill="#b42318" font-weight="700">✗ missing</text>
+  <text x="24" y="300" font-size="12" fill="#5b6b7d">Tags are commit SHAs (placeholder values). No credentials shown.</text>
+  <text x="24" y="470" font-size="10" fill="#5b6b7d">Sample only · placeholder values · not a solution</text>
+</svg>

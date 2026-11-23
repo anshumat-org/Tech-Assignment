@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Inter, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Alert list</title>
+  <desc id="d">Sample alert manager style list with alert names, severity, labels, state and active-since, all placeholders. Illustrative only.</desc>
+  <rect width="800" height="480" fill="#ffffff"/>
+  <rect width="800" height="56" fill="#14263f"/>
+  <text x="24" y="35" font-size="16" fill="#ffffff" font-weight="700">Alerts (generic alert UI)</text>
+  <rect x="24" y="76" width="752" height="42" rx="6" fill="#eef3f7" stroke="#d5dee6"/>
+  <text x="40" y="98" font-size="12" fill="#5b6b7d" font-weight="700">Alert</text>
+  <text x="244" y="98" font-size="12" fill="#5b6b7d" font-weight="700">Severity</text>
+  <text x="354" y="98" font-size="12" fill="#5b6b7d" font-weight="700">Labels</text>
+  <text x="544" y="98" font-size="12" fill="#5b6b7d" font-weight="700">State</text>
+  <text x="664" y="98" font-size="12" fill="#5b6b7d" font-weight="700">Since</text>
+  <rect x="24" y="124" width="752" height="42" rx="6" fill="#fff" stroke="#d5dee6"/>
+  <text x="40" y="146" font-size="13" fill="#14263f">AlertName-A (placeholder)</text>
+  <text x="244" y="146" font-size="13" fill="#14263f">page</text>
+  <text x="354" y="146" font-size="12" fill="#14263f" font-family="ui-monospace, Menlo, monospace">service=(placeholder)</text>
+  <text x="544" y="146" font-size="12" fill="#b42318" font-weight="700">▲ firing</text>
+  <text x="664" y="146" font-size="13" fill="#14263f">(time)</text>
+  <rect x="24" y="172" width="752" height="42" rx="6" fill="#fff" stroke="#d5dee6"/>
+  <text x="40" y="194" font-size="13" fill="#14263f">AlertName-B (placeholder)</text>
+  <text x="244" y="194" font-size="13" fill="#14263f">ticket</text>
+  <text x="354" y="194" font-size="12" fill="#14263f" font-family="ui-monospace, Menlo, monospace">service=(placeholder)</text>
+  <text x="544" y="194" font-size="12" fill="#b26a00" font-weight="700">◐ pending</text>
+  <text x="664" y="194" font-size="13" fill="#14263f">(time)</text>
+  <rect x="24" y="220" width="752" height="42" rx="6" fill="#fff" stroke="#d5dee6"/>
+  <text x="40" y="242" font-size="13" fill="#14263f">AlertName-C (placeholder)</text>
+  <text x="244" y="242" font-size="13" fill="#14263f">ticket</text>
+  <text x="354" y="242" font-size="12" fill="#14263f" font-family="ui-monospace, Menlo, monospace">service=(placeholder)</text>
+  <text x="544" y="242" font-size="12" fill="#5b6b7d" font-weight="700">◌ silenced</text>
+  <text x="664" y="242" font-size="13" fill="#14263f">(time)</text>
+  <rect x="24" y="268" width="752" height="42" rx="6" fill="#fff" stroke="#d5dee6"/>
+  <text x="40" y="290" font-size="13" fill="#14263f">AlertName-D (placeholder)</text>
+  <text x="244" y="290" font-size="13" fill="#14263f">page</text>
+  <text x="354" y="290" font-size="12" fill="#14263f" font-family="ui-monospace, Menlo, monospace">service=(placeholder)</text>
+  <text x="544" y="290" font-size="12" fill="#1a7f4b" font-weight="700">✓ resolved</text>
+  <text x="664" y="290" font-size="13" fill="#14263f">(time)</text>
+  <text x="24" y="340" font-size="12" fill="#5b6b7d">Rule expressions intentionally not shown.</text>
+  <text x="24" y="470" font-size="10" fill="#5b6b7d">Sample only · placeholder values · not a solution</text>
+</svg>

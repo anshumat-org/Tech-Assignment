@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Inter, Arial, sans-serif" font-size="12" fill="#14263f" role="img" aria-labelledby="t d">
+  <title id="t">Follow-up section specimen board</title>
+  <desc id="d">Sample specimen board: Combobox idle, loading, results and no results, and a destructive confirm Modal built from Modal and danger Button. Illustrative only.</desc>
+  <rect width="800" height="480" fill="#ffffff"/>
+  <rect x="0" y="0" width="800" height="44" fill="#14263f"/>
+  <text x="24" y="28" fill="#fff" font-size="15" font-weight="700">Component library demo (sample)</text>
+  <rect x="640" y="10" width="136" height="24" rx="12" fill="#fff"/>
+  <text x="708" y="26" font-weight="700" text-anchor="middle">Theme: Light ▾</text>
+  <text x="24" y="76" font-size="18" font-weight="700">Follow-up: reuse existing parts</text>
+  <text x="24" y="96" fill="#5b6b7d">Option A Combobox (Input + listbox) or Option B confirm Modal (Modal + danger Button).</text>
+  <text x="24" y="124" font-size="13" font-weight="700">Option A · Combobox</text>
+  <text x="24" y="146" fill="#5b6b7d" font-size="11" font-weight="700">Idle</text>
+  <rect x="24" y="154" width="128" height="32" rx="6" fill="#fff" stroke="#5b6b7d"/>
+  <text x="34" y="175" fill="#5b6b7d" font-size="13">Search city…</text>
+  <text x="164" y="146" fill="#5b6b7d" font-size="11" font-weight="700">Loading</text>
+  <rect x="164" y="154" width="128" height="32" rx="6" fill="#fff" stroke="#14263f"/>
+  <rect x="161" y="151" width="134" height="38" rx="9" fill="none" stroke="#1d6fe0" stroke-width="2"/>
+  <text x="174" y="175" font-size="13">sam</text>
+  <circle cx="276" cy="170" r="6" fill="none" stroke="#0e9384" stroke-width="2" stroke-dasharray="22 16"/>
+  <rect x="164" y="192" width="128" height="36" rx="6" fill="#fff" stroke="#d5dee6"/>
+  <text x="174" y="214" fill="#5b6b7d">Searching…</text>
+  <text x="304" y="146" fill="#5b6b7d" font-size="11" font-weight="700">Results</text>
+  <rect x="304" y="154" width="128" height="32" rx="6" fill="#fff" stroke="#14263f"/>
+  <rect x="301" y="151" width="134" height="38" rx="9" fill="none" stroke="#1d6fe0" stroke-width="2"/>
+  <text x="314" y="175" font-size="13">sam</text>
+  <rect x="304" y="192" width="128" height="92" rx="6" fill="#fff" stroke="#d5dee6"/>
+  <rect x="308" y="196" width="120" height="26" rx="4" fill="#eef3f7"/>
+  <text x="316" y="214" font-weight="700">Sample City</text>
+  <text x="316" y="242">Samport</text>
+  <text x="316" y="270">Samvale</text>
+  <text x="444" y="146" fill="#5b6b7d" font-size="11" font-weight="700">No results</text>
+  <rect x="444" y="154" width="128" height="32" rx="6" fill="#fff" stroke="#14263f"/>
+  <rect x="441" y="151" width="134" height="38" rx="9" fill="none" stroke="#1d6fe0" stroke-width="2"/>
+  <text x="454" y="175" font-size="13">zzq</text>
+  <rect x="444" y="192" width="128" height="36" rx="6" fill="#fff" stroke="#d5dee6"/>
+  <text x="454" y="214" font-weight="700">No matches</text>
+  <text x="24" y="312" fill="#5b6b7d" font-size="11">“3 results” announced in a live region.</text>
+  <rect x="584" y="104" width="1" height="360" fill="#d5dee6"/>
+  <text x="604" y="124" font-size="13" font-weight="700">Option B · Confirm</text>
+  <rect x="604" y="136" width="172" height="196" rx="8" fill="#eef3f7" stroke="#d5dee6"/>
+  <rect x="616" y="152" width="148" height="164" rx="8" fill="#fff" stroke="#d5dee6"/>
+  <text x="628" y="176" font-size="14" font-weight="700">Delete item?</text>
+  <text x="628" y="198" fill="#5b6b7d" font-size="11">This cannot be</text>
+  <text x="628" y="212" fill="#5b6b7d" font-size="11">undone (sample).</text>
+  <rect x="628" y="232" width="124" height="32" rx="6" fill="#fff" stroke="#d5dee6"/><text x="690.0" y="253.0" font-size="13" font-weight="700" text-anchor="middle">Cancel</text><rect x="625" y="229" width="130" height="38" rx="9" fill="none" stroke="#1d6fe0" stroke-width="2"/>
+  <rect x="628" y="274" width="124" height="32" rx="6" fill="#b42318"/><text x="690.0" y="295.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">Delete</text>
+  <text x="604" y="352" fill="#5b6b7d" font-size="11">Focus starts on the safe</text>
+  <text x="604" y="366" fill="#5b6b7d" font-size="11">action (Cancel).</text>
+  <text x="604" y="392" fill="#5b6b7d" font-size="11" font-weight="700">States</text>
+  <rect x="604" y="400" width="98" height="20" rx="10" fill="#fff" stroke="#5b6b7d"/><text x="653.0" y="414" fill="#5b6b7d" font-size="11" font-weight="700" text-anchor="middle">closed · open</text>
+  <rect x="604" y="426" width="149" height="20" rx="10" fill="#fff" stroke="#5b6b7d"/><text x="678.5" y="440" fill="#5b6b7d" font-size="11" font-weight="700" text-anchor="middle">confirmed · cancelled</text>
+  <rect x="24" y="330" width="303" height="20" rx="10" fill="#fff" stroke="#0e9384"/><text x="175.5" y="344" fill="#0e9384" font-size="11" font-weight="700" text-anchor="middle">States: idle · loading · results · no results</text>
+</svg>

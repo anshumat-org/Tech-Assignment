@@ -1,6 +1,6 @@
 # Assignment 02 — Infrastructure as Code
 
-**v0.1 DRAFT — 2026-11-06**
+**v0.3 DRAFT — 2026-11-23**
 
 | WH | Answer |
 |---|---|
@@ -26,7 +26,9 @@
 
 ## Read next
 
+- [product-brief.md](product-brief.md) (start here: product, personas, capabilities, user stories with acceptance criteria)
 - [requirements-and-directives.md](requirements-and-directives.md)
 - [resources.md](resources.md)
+- [developer-guide.md](developer-guide.md) (build order, directions, before / during / after checklists)
 - [../README.md](../README.md) (track index)
 - [../devops-instructions.md](../devops-instructions.md) (mandatory for every assignment)

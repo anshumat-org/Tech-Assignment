@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Inter, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Review before submit wireframe</title>
+  <desc id="d">Sample wireframe: navigator summary with answered, flagged and unanswered chips and an unanswered count. Illustrative only.</desc>
+  <rect width="800" height="480" fill="#ffffff"/>
+  <rect width="800" height="56" fill="#14263f"/>
+  <text x="24" y="35" fill="#fff" font-size="16" font-weight="700">Sample Technical Assessment</text>
+  <text x="776" y="35" fill="#9fb0c4" font-size="13" text-anchor="end">Time left 06:40</text>
+  <rect x="616" y="70" width="160" height="22" rx="11" fill="#e8f0fe"/><text x="696" y="86" font-size="12" fill="#1d4fb0" text-anchor="middle">State: ready</text>
+  <rect x="24" y="104" width="752" height="40" rx="8" fill="#fff4e0" stroke="#b26a00"/><text x="40" y="129" fill="#b26a00" font-size="13">⚠ 3 questions unanswered · 1 flagged for review</text>
+  <text x="24" y="180" fill="#14263f" font-size="14" font-weight="700">Section 1 · SQL</text>
+  <rect x="24" y="196" width="52" height="52" rx="8" fill="#fff" stroke="#0e9384"/>
+  <text x="50" y="220" fill="#14263f" font-size="14" font-weight="700" text-anchor="middle">1</text>
+  <text x="50" y="238" fill="#5b6b7d" font-size="12" text-anchor="middle">✓</text>
+  <rect x="88" y="196" width="52" height="52" rx="8" fill="#fff" stroke="#0e9384"/>
+  <text x="114" y="220" fill="#14263f" font-size="14" font-weight="700" text-anchor="middle">2</text>
+  <text x="114" y="238" fill="#5b6b7d" font-size="12" text-anchor="middle">✓</text>
+  <rect x="152" y="196" width="52" height="52" rx="8" fill="#fff" stroke="#d5dee6"/>
+  <text x="178" y="220" fill="#14263f" font-size="14" font-weight="700" text-anchor="middle">3</text>
+  <text x="178" y="238" fill="#5b6b7d" font-size="12" text-anchor="middle">–</text>
+  <rect x="216" y="196" width="52" height="52" rx="8" fill="#fff" stroke="#0e9384"/>
+  <text x="242" y="220" fill="#14263f" font-size="14" font-weight="700" text-anchor="middle">4</text>
+  <text x="242" y="238" fill="#5b6b7d" font-size="12" text-anchor="middle">✓</text>
+  <rect x="280" y="196" width="52" height="52" rx="8" fill="#fff4e0" stroke="#b26a00"/>
+  <text x="306" y="220" fill="#14263f" font-size="14" font-weight="700" text-anchor="middle">5</text>
+  <text x="306" y="238" fill="#5b6b7d" font-size="12" text-anchor="middle">⚑</text>
+  <rect x="344" y="196" width="52" height="52" rx="8" fill="#fff" stroke="#0e9384"/>
+  <text x="370" y="220" fill="#14263f" font-size="14" font-weight="700" text-anchor="middle">6</text>
+  <text x="370" y="238" fill="#5b6b7d" font-size="12" text-anchor="middle">✓</text>
+  <rect x="24" y="260" width="52" height="52" rx="8" fill="#fff" stroke="#d5dee6"/>
+  <text x="50" y="284" fill="#14263f" font-size="14" font-weight="700" text-anchor="middle">7</text>
+  <text x="50" y="302" fill="#5b6b7d" font-size="12" text-anchor="middle">–</text>
+  <rect x="88" y="260" width="52" height="52" rx="8" fill="#fff" stroke="#0e9384"/>
+  <text x="114" y="284" fill="#14263f" font-size="14" font-weight="700" text-anchor="middle">8</text>
+  <text x="114" y="302" fill="#5b6b7d" font-size="12" text-anchor="middle">✓</text>
+  <rect x="152" y="260" width="52" height="52" rx="8" fill="#fff" stroke="#0e9384"/>
+  <text x="178" y="284" fill="#14263f" font-size="14" font-weight="700" text-anchor="middle">9</text>
+  <text x="178" y="302" fill="#5b6b7d" font-size="12" text-anchor="middle">✓</text>
+  <rect x="216" y="260" width="52" height="52" rx="8" fill="#fff" stroke="#0e9384"/>
+  <text x="242" y="284" fill="#14263f" font-size="14" font-weight="700" text-anchor="middle">10</text>
+  <text x="242" y="302" fill="#5b6b7d" font-size="12" text-anchor="middle">✓</text>
+  <rect x="280" y="260" width="52" height="52" rx="8" fill="#fff" stroke="#0e9384"/>
+  <text x="306" y="284" fill="#14263f" font-size="14" font-weight="700" text-anchor="middle">11</text>
+  <text x="306" y="302" fill="#5b6b7d" font-size="12" text-anchor="middle">✓</text>
+  <rect x="344" y="260" width="52" height="52" rx="8" fill="#fff" stroke="#d5dee6"/>
+  <text x="370" y="284" fill="#14263f" font-size="14" font-weight="700" text-anchor="middle">12</text>
+  <text x="370" y="302" fill="#5b6b7d" font-size="12" text-anchor="middle">–</text>
+  <rect x="440" y="180" width="336" height="180" rx="12" fill="#eef3f7" stroke="#d5dee6"/>
+  <text x="460" y="210" fill="#14263f" font-size="13" font-weight="700">Legend</text>
+  <text x="460" y="238" fill="#5b6b7d" font-size="13">✓ Answered</text>
+  <text x="460" y="264" fill="#5b6b7d" font-size="13">⚑ Flagged</text>
+  <text x="460" y="290" fill="#5b6b7d" font-size="13">– Unanswered</text>
+  <text x="460" y="316" fill="#5b6b7d" font-size="13">Select a number to go back to it</text>
+  <rect x="24" y="424" width="160" height="36" rx="8" fill="#fff" stroke="#14263f"/><text x="104" y="447" fill="#14263f" font-size="14" text-anchor="middle">‹ Back to questions</text>
+  <rect x="616" y="424" width="160" height="36" rx="8" fill="#0e9384"/><text x="696" y="447" fill="#fff" font-size="14" text-anchor="middle">Submit…</text>
+</svg>

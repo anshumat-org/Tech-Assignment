@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 720" font-family="Inter, Arial, sans-serif" font-size="12" fill="#14263f" role="img" aria-labelledby="t d">
+  <title id="t">Narrow and zoomed view wireframe</title>
+  <desc id="d">Sample narrow wireframe: the demo reflowed to one column at 320 px and 200% zoom with reduced motion, focus visible and no horizontal scroll. Illustrative only.</desc>
+  <rect width="360" height="720" fill="#ffffff"/>
+  <rect x="20" y="16" width="320" height="688" rx="12" fill="#fff" stroke="#d5dee6"/>
+  <rect x="20" y="16" width="320" height="40" rx="12" fill="#14263f"/>
+  <rect x="20" y="40" width="320" height="16" fill="#14263f"/>
+  <text x="36" y="42" fill="#fff" font-size="14" font-weight="700">Component demo</text>
+  <text x="324" y="42" fill="#fff" font-size="16" text-anchor="end">☰</text>
+  <rect x="32" y="68" width="54" height="20" rx="10" fill="#fff" stroke="#14263f"/><text x="59.0" y="82" font-size="11" font-weight="700" text-anchor="middle">320 px</text>
+  <rect x="104" y="68" width="73" height="20" rx="10" fill="#fff" stroke="#14263f"/><text x="140.5" y="82" font-size="11" font-weight="700" text-anchor="middle">200% zoom</text>
+  <rect x="198" y="68" width="124" height="20" rx="10" fill="#fff" stroke="#b26a00"/><text x="260.0" y="82" fill="#b26a00" font-size="11" font-weight="700" text-anchor="middle">Reduced motion on</text>
+  <text x="32" y="120" font-size="16" font-weight="700">Button</text>
+  <rect x="32" y="132" width="296" height="40" rx="6" fill="#0e9384"/><text x="180.0" y="157.0" fill="#fff" font-size="14" font-weight="700" text-anchor="middle">Save draft</text>
+  <rect x="32" y="182" width="296" height="40" rx="6" fill="#fff" stroke="#d5dee6"/><text x="180.0" y="207.0" font-size="14" font-weight="700" text-anchor="middle">Cancel</text><rect x="29" y="179" width="302" height="46" rx="9" fill="none" stroke="#1d6fe0" stroke-width="2"/>
+  <text x="32" y="254" font-size="16" font-weight="700">Input</text>
+  <text x="32" y="278" font-weight="700">Email</text><rect x="32" y="286" width="296" height="40" rx="6" fill="#fff" stroke="#b42318" stroke-width="2"/><text x="42" y="311.0" font-size="13">sam@</text><text x="32" y="342" fill="#b42318" font-size="11" font-weight="700">⚠ Enter a full email</text><text x="32" y="357" fill="#5b6b7d" font-size="11">Long hint text wraps onto a</text>
+  <text x="32" y="370" fill="#5b6b7d" font-size="11">second line instead of clipping.</text>
+  <text x="32" y="412" font-size="16" font-weight="700">Tabs</text>
+  <rect x="32" y="424" width="296" height="36" rx="6" fill="#fff" stroke="#d5dee6"/>
+  <text x="80" y="447" font-size="13" font-weight="700" text-anchor="middle">Overview</text>
+  <rect x="40" y="456" width="80" height="3" fill="#0e9384"/>
+  <text x="180" y="447" fill="#5b6b7d" font-size="13" text-anchor="middle">Details</text>
+  <text x="260" y="447" fill="#5b6b7d" font-size="13" text-anchor="middle">More ▾</text>
+  <text x="32" y="494" fill="#5b6b7d" font-size="11">Overflow tabs wrap or move to “More”.</text>
+  <text x="32" y="534" font-size="16" font-weight="700">Toast</text>
+  <rect x="32" y="546" width="296" height="56" rx="8" fill="#fff" stroke="#1a7f4b" stroke-width="1.5"/>
+  <text x="46" y="570" fill="#1a7f4b" font-size="13" font-weight="700">✓ Saved (sample)</text>
+  <text x="46" y="590" fill="#5b6b7d" font-size="11">Appears without slide animation</text>
+  <text x="314" y="572" font-size="13" font-weight="700" text-anchor="end">✕</text>
+  <rect x="32" y="626" width="296" height="60" rx="8" fill="#eef3f7" stroke="#d5dee6"/>
+  <text x="46" y="650" fill="#1a7f4b" font-weight="700">✓ No horizontal scroll</text>
+  <text x="46" y="670" fill="#1a7f4b" font-weight="700">✓ Focus ring visible on every control</text>
+</svg>

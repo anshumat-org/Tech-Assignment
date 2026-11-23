@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Inter, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">On-call dashboard</title>
+  <desc id="d">Sample on-call dashboard with placeholder rate, error, latency, saturation and SLO panels using simple line and bar shapes. Illustrative only.</desc>
+  <rect width="800" height="480" fill="#ffffff"/>
+  <rect width="800" height="56" fill="#14263f"/>
+  <text x="24" y="35" font-size="16" fill="#ffffff" font-weight="700">On-call dashboard · service (placeholder)</text>
+  <text x="776" y="35" font-size="12" fill="#c9d6e3" text-anchor="end">Last N min (placeholder)</text>
+  <text x="24" y="82" font-size="13" fill="#b26a00" font-weight="700">! degraded</text>
+  <text x="120" y="82" font-size="12" fill="#5b6b7d">· other states: loading · healthy · no data</text>
+  <rect x="24" y="96" width="244" height="170" rx="8" fill="#fff" stroke="#d5dee6"/>
+  <text x="36" y="116" font-size="12" fill="#14263f" font-weight="700">Request rate</text>
+  <path d="M68 128 V240 H256" fill="none" stroke="#d5dee6"/>
+  <text x="32" y="188.0" font-size="10" fill="#5b6b7d">req/s</text>
+  <text x="256" y="258" font-size="10" fill="#5b6b7d" text-anchor="end">time →</text>
+  <path d="M68 184 L99 178 L131 184 L162 173 L193 175 L225 171 L256 173" fill="none" stroke="#0e9384" stroke-width="2"/>
+  <rect x="278" y="96" width="244" height="170" rx="8" fill="#fff" stroke="#d5dee6"/>
+  <text x="290" y="116" font-size="12" fill="#14263f" font-weight="700">Error ratio</text>
+  <path d="M322 128 V240 H510" fill="none" stroke="#d5dee6"/>
+  <text x="286" y="188.0" font-size="10" fill="#5b6b7d">%</text>
+  <text x="510" y="258" font-size="10" fill="#5b6b7d" text-anchor="end">time →</text>
+  <path d="M322 229 L353 229 L385 227 L416 229 L447 178 L479 162 L510 167" fill="none" stroke="#b42318" stroke-width="2"/>
+  <path d="M322 206 H510" stroke="#b26a00" stroke-dasharray="4 3"/>
+  <rect x="532" y="96" width="244" height="170" rx="8" fill="#fff" stroke="#d5dee6"/>
+  <text x="544" y="116" font-size="12" fill="#14263f" font-weight="700">Latency p50 / p95</text>
+  <path d="M576 128 V240 H764" fill="none" stroke="#d5dee6"/>
+  <text x="540" y="188.0" font-size="10" fill="#5b6b7d">ms</text>
+  <text x="764" y="258" font-size="10" fill="#5b6b7d" text-anchor="end">time →</text>
+  <path d="M576 218 L607 212 L639 215 L670 206 L701 173 L733 162 L764 166" fill="none" stroke="#b26a00" stroke-width="2"/>
+  <path d="M576 184 H764" stroke="#b26a00" stroke-dasharray="4 3"/>
+  <rect x="24" y="276" width="244" height="170" rx="8" fill="#fff" stroke="#d5dee6"/>
+  <text x="36" y="296" font-size="12" fill="#14263f" font-weight="700">Saturation</text>
+  <path d="M68 308 V420 H256" fill="none" stroke="#d5dee6"/>
+  <text x="32" y="368.0" font-size="10" fill="#5b6b7d">%</text>
+  <text x="256" y="438" font-size="10" fill="#5b6b7d" text-anchor="end">time →</text>
+  <rect x="71" y="375" width="21" height="45" fill="#0e9384"/>
+  <rect x="98" y="370" width="21" height="50" fill="#0e9384"/>
+  <rect x="125" y="364" width="21" height="56" fill="#0e9384"/>
+  <rect x="152" y="366" width="21" height="54" fill="#0e9384"/>
+  <rect x="178" y="342" width="21" height="78" fill="#0e9384"/>
+  <rect x="205" y="336" width="21" height="84" fill="#0e9384"/>
+  <rect x="232" y="339" width="21" height="81" fill="#0e9384"/>
+  <rect x="278" y="276" width="498" height="170" rx="8" fill="#eef3f7" stroke="#d5dee6"/>
+  <text x="294" y="302" font-size="13" fill="#14263f" font-weight="700">SLO and error budget</text>
+  <text x="294" y="332" font-size="13" fill="#14263f">Availability SLI vs target (placeholder)</text>
+  <rect x="294" y="346" width="466" height="14" rx="7" fill="#fff" stroke="#d5dee6"/>
+  <rect x="294" y="346" width="160" height="14" rx="7" fill="#b26a00"/>
+  <text x="294" y="384" font-size="13" fill="#b26a00" font-weight="700">Budget remaining: NN% (placeholder)</text>
+  <text x="294" y="410" font-size="11" fill="#5b6b7d">Dashed line = threshold (placeholder)</text>
+  <text x="24" y="470" font-size="10" fill="#5b6b7d">Sample only · placeholder values · not a solution</text>
+</svg>

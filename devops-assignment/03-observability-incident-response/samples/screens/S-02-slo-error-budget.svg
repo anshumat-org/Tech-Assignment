@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Inter, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">SLO and error budget view</title>
+  <desc id="d">Sample SLO table and burn-down chart with placeholder targets, windows and budget values. Illustrative only.</desc>
+  <rect width="800" height="480" fill="#ffffff"/>
+  <rect width="800" height="56" fill="#14263f"/>
+  <text x="24" y="35" font-size="16" fill="#ffffff" font-weight="700">SLOs and error budget</text>
+  <rect x="24" y="76" width="752" height="38" rx="6" fill="#eef3f7" stroke="#d5dee6"/>
+  <text x="40" y="98" font-size="12" fill="#5b6b7d" font-weight="700">SLI</text>
+  <text x="224" y="98" font-size="12" fill="#5b6b7d" font-weight="700">Target</text>
+  <text x="344" y="98" font-size="12" fill="#5b6b7d" font-weight="700">Window</text>
+  <text x="464" y="98" font-size="12" fill="#5b6b7d" font-weight="700">Budget left</text>
+  <text x="604" y="98" font-size="12" fill="#5b6b7d" font-weight="700">Burn rate</text>
+  <rect x="24" y="120" width="752" height="38" rx="6" fill="#fff" stroke="#d5dee6"/>
+  <text x="40" y="142" font-size="13" fill="#14263f">Availability</text>
+  <text x="224" y="142" font-size="13" fill="#14263f">(placeholder)</text>
+  <text x="344" y="142" font-size="13" fill="#14263f">(placeholder)</text>
+  <text x="464" y="142" font-size="13" fill="#14263f">NN%</text>
+  <text x="604" y="142" font-size="12" fill="#b26a00" font-weight="700">! warning</text>
+  <rect x="24" y="164" width="752" height="38" rx="6" fill="#fff" stroke="#d5dee6"/>
+  <text x="40" y="186" font-size="13" fill="#14263f">Latency</text>
+  <text x="224" y="186" font-size="13" fill="#14263f">(placeholder)</text>
+  <text x="344" y="186" font-size="13" fill="#14263f">(placeholder)</text>
+  <text x="464" y="186" font-size="13" fill="#14263f">NN%</text>
+  <text x="604" y="186" font-size="12" fill="#1a7f4b" font-weight="700">✓ passed</text>
+  <rect x="24" y="220" width="752" height="220" rx="8" fill="#fff" stroke="#d5dee6"/>
+  <text x="36" y="240" font-size="12" fill="#14263f" font-weight="700">Error budget remaining over window (illustrative shape)</text>
+  <path d="M68 252 V414 H764" fill="none" stroke="#d5dee6"/>
+  <text x="32" y="337.0" font-size="10" fill="#5b6b7d">budget</text>
+  <text x="764" y="432" font-size="10" fill="#5b6b7d" text-anchor="end">time →</text>
+  <path d="M68 252 L167 260 L267 268 L366 275 L466 284 L565 314 L665 333 L764 339" fill="none" stroke="#b26a00" stroke-width="2"/>
+  <text x="24" y="470" font-size="10" fill="#5b6b7d">Sample only · placeholder values · not a solution</text>
+</svg>

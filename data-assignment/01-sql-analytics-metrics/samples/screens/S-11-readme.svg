@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Inter, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">README preview</title>
+  <desc id="d">README outline with setup, assumptions, handling rules, scenario answers and AI disclosure. Illustrative only.</desc>
+  <rect width="800" height="480" fill="#ffffff"/>
+  <rect width="800" height="56" fill="#14263f"/>
+  <text x="24" y="35" font-size="16" fill="#ffffff" font-weight="700">README.md</text>
+  <rect x="714" y="14" width="62" height="28" rx="14" fill="#fff4e0" stroke="#b26a00"/>
+  <text x="745.0" y="33" font-size="12" fill="#b26a00" font-weight="700" text-anchor="middle">DRAFT</text>
+  <rect x="24" y="72" width="752" height="380" rx="8" fill="#ffffff" stroke="#d5dee6"/>
+  <rect x="24" y="72" width="752" height="30" rx="8" fill="#eef3f7" stroke="#d5dee6"/>
+  <text x="38" y="92" font-size="12" fill="#5b6b7d" font-weight="700" font-family="Menlo, Consolas, monospace" xml:space="preserve">README.md</text>
+  <text x="44" y="128" font-size="14" fill="#14263f" font-weight="700">Setup</text>
+  <rect x="44" y="142" width="623" height="8" rx="4" fill="#d5dee6"/>
+  <rect x="44" y="158" width="450" height="8" rx="4" fill="#d5dee6"/>
+  <text x="44" y="188" font-size="14" fill="#14263f" font-weight="700">Assumptions</text>
+  <rect x="44" y="202" width="623" height="8" rx="4" fill="#d5dee6"/>
+  <rect x="44" y="218" width="450" height="8" rx="4" fill="#d5dee6"/>
+  <text x="44" y="248" font-size="14" fill="#14263f" font-weight="700">Handling rules</text>
+  <rect x="44" y="262" width="623" height="8" rx="4" fill="#d5dee6"/>
+  <rect x="44" y="278" width="450" height="8" rx="4" fill="#d5dee6"/>
+  <text x="44" y="308" font-size="14" fill="#14263f" font-weight="700">Scenario answers</text>
+  <rect x="44" y="322" width="623" height="8" rx="4" fill="#d5dee6"/>
+  <rect x="44" y="338" width="450" height="8" rx="4" fill="#d5dee6"/>
+  <text x="44" y="368" font-size="14" fill="#14263f" font-weight="700">AI disclosure</text>
+  <rect x="44" y="382" width="623" height="8" rx="4" fill="#d5dee6"/>
+</svg>

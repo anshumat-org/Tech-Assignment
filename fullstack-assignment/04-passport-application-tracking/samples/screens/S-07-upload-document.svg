@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Inter, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Upload document wireframe</title>
+  <desc id="d">Fallback upload with file picker, document type and an in-progress upload. Illustrative only.</desc>
+  <rect width="800" height="480" fill="#ffffff"/>
+  <rect x="0" y="0" width="800" height="56" rx="0" fill="#14263f"/>
+  <text x="24" y="35" fill="#ffffff" font-size="16" font-weight="700">Passport assistance (demo)</text>
+  <rect x="477" y="15" width="299" height="26" rx="13" fill="#ffffff"/>
+  <text x="626.5" y="32" fill="#b26a00" font-size="12" font-weight="700" text-anchor="middle">Simulated. Not the official passport system</text>
+  <text x="24" y="92" fill="#14263f" font-size="16" font-weight="700">Upload a document</text>
+  <text x="24" y="114" fill="#5b6b7d" font-size="12">Use this when DigiLocker (mock) is unavailable or not used.</text>
+  <text x="24" y="134" fill="#5b6b7d" font-size="12">Document type</text><rect x="24" y="142" width="360" height="34" rx="6" fill="#ffffff" stroke="#d5dee6"/><text x="36" y="164" fill="#14263f" font-size="13">Proof of date of birth ▾</text>
+  <rect x="24" y="200" width="752" height="120" rx="8" fill="#eef3f7" stroke="#5b6b7d" stroke-dasharray="6 4"/>
+  <text x="400" y="252" fill="#14263f" font-size="14" text-anchor="middle">Drag a file here or choose a file</text>
+  <text x="400" y="274" fill="#5b6b7d" font-size="12" text-anchor="middle">PDF, JPG or PNG · up to 5 MB (placeholder limits)</text>
+  <rect x="24" y="336" width="752" height="60" rx="8" fill="#ffffff" stroke="#d5dee6"/>
+  <text x="40" y="360" fill="#14263f" font-size="13" font-weight="700">sample-document.pdf · 1.2 MB</text>
+  <text x="760" y="360" fill="#1d6fe0" font-size="12" font-weight="700" text-anchor="end">Uploading… 60%</text>
+  <rect x="40" y="372" width="720" height="8" rx="4" fill="#eef3f7"/>
+  <rect x="40" y="372" width="432" height="8" rx="4" fill="#1d6fe0"/>
+  <text x="24" y="420" fill="#5b6b7d" font-size="12">When done, this joins your checklist as “Pending”.</text>
+  <rect x="536" y="420" width="110" height="36" rx="8" fill="#ffffff" stroke="#14263f"/><text x="591.0" y="443.0" fill="#14263f" font-size="14" text-anchor="middle">Cancel</text>
+  <rect x="656" y="420" width="120" height="36" rx="8" fill="#eef3f7" stroke="#d5dee6"/><text x="716.0" y="443.0" fill="#5b6b7d" font-size="14" text-anchor="middle">Upload</text>
+</svg>

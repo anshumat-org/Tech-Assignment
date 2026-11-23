@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 720" font-family="Inter, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Sign out confirm wireframe</title>
+  <desc id="d">Sample wireframe: confirm dialog explaining that saved posts and tokens are removed from this device. Illustrative only.</desc>
+  <rect width="360" height="720" fill="#ffffff"/>
+  <rect width="360" height="80" fill="#14263f"/>
+  <text x="16" y="17" font-size="11" fill="#ffffff">9:41</text><text x="344" y="17" font-size="11" fill="#ffffff" text-anchor="end">LTE 80%</text>
+  <text x="16" y="57" font-size="18" fill="#ffffff" font-weight="700">Feed</text>
+  <text x="344" y="57" font-size="13" fill="#ffffff" font-weight="600" text-anchor="end">Sign out</text>
+  <rect x="16" y="96" width="328" height="96" rx="8" fill="#ffffff" stroke="#d5dee6"/><rect x="28" y="108" width="72" height="72" rx="6" fill="#eef3f7"/><text x="64" y="149" font-size="11" fill="#5b6b7d" text-anchor="middle">img</text><text x="112" y="128" font-size="14" fill="#14263f" font-weight="700">Post title 1 (placeholder)</text><text x="112" y="148" font-size="12" fill="#5b6b7d">Short summary text</text><text x="112" y="168" font-size="11" fill="#5b6b7d">Author A · 2h</text>
+  <rect width="360" height="720" fill="#14263f" fill-opacity="0.45"/>
+  <rect x="32" y="250" width="296" height="196" rx="12" fill="#ffffff" stroke="#d5dee6"/>
+  <text x="52" y="288" font-size="18" fill="#14263f" font-weight="700">Sign out?</text>
+  <text x="52" y="318" font-size="12" fill="#5b6b7d">Saved posts and your session</text>
+  <text x="52" y="336" font-size="12" fill="#5b6b7d">will be removed from this device.</text>
+  <text x="52" y="360" font-size="12" fill="#5b6b7d">Useful on a shared phone.</text>
+  <rect x="52" y="386" width="120" height="40" rx="8" fill="#ffffff" stroke="#d5dee6"/><text x="112.0" y="411.0" font-size="14" fill="#14263f" font-weight="600" text-anchor="middle">Cancel</text><rect x="188" y="386" width="120" height="40" rx="8" fill="#b42318"/><text x="248.0" y="411.0" font-size="14" fill="#ffffff" font-weight="600" text-anchor="middle">Sign out</text>
+  <rect x="130" y="704" width="100" height="4" rx="2" fill="#d5dee6"/>
+</svg>

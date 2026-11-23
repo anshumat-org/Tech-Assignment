@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Inter, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">KPI tiles</title>
+  <desc id="d">Four KPI tiles with placeholder values and labelled small sample and incomplete flags. Illustrative only.</desc>
+  <rect width="800" height="480" fill="#ffffff"/>
+  <rect width="800" height="56" fill="#14263f"/>
+  <text x="24" y="35" font-size="16" fill="#ffffff" font-weight="700">KPI tiles</text>
+  <rect x="618" y="14" width="158" height="28" rx="14" fill="#fff4e0" stroke="#b26a00"/>
+  <text x="697.0" y="33" font-size="12" fill="#b26a00" font-weight="700" text-anchor="middle">INCOMPLETE PERIOD</text>
+  <rect x="24" y="76" width="176" height="150" rx="8" fill="#eef3f7" stroke="#d5dee6"/>
+  <text x="38" y="100" font-size="12" fill="#5b6b7d" font-weight="700">KPI A</text>
+  <text x="38" y="136" font-size="26" fill="#14263f" font-weight="700">n,nnn</text>
+  <text x="38" y="162" font-size="11" fill="#14263f">vs prior period: ±x.x%</text>
+  <text x="38" y="180" font-size="11" fill="#5b6b7d">(placeholder)</text>
+  <rect x="214" y="76" width="176" height="150" rx="8" fill="#eef3f7" stroke="#d5dee6"/>
+  <text x="228" y="100" font-size="12" fill="#5b6b7d" font-weight="700">KPI B (ratio)</text>
+  <text x="228" y="136" font-size="26" fill="#14263f" font-weight="700">n,nnn</text>
+  <text x="228" y="162" font-size="11" fill="#14263f">vs prior period: ±x.x%</text>
+  <text x="228" y="180" font-size="11" fill="#5b6b7d">(placeholder)</text>
+  <text x="228" y="206" font-size="11" fill="#5b6b7d">base n = nn</text>
+  <rect x="404" y="76" width="176" height="150" rx="8" fill="#eef3f7" stroke="#d5dee6"/>
+  <text x="418" y="100" font-size="12" fill="#5b6b7d" font-weight="700">KPI C</text>
+  <text x="418" y="136" font-size="26" fill="#14263f" font-weight="700">n,nnn</text>
+  <text x="418" y="162" font-size="11" fill="#14263f">vs prior period: ±x.x%</text>
+  <text x="418" y="180" font-size="11" fill="#5b6b7d">(placeholder)</text>
+  <rect x="418" y="193" width="96" height="18" rx="9" fill="#fff4e0" stroke="#b26a00"/>
+  <text x="466.0" y="206" font-size="10" fill="#b26a00" font-weight="700" text-anchor="middle">SMALL SAMPLE</text>
+  <rect x="594" y="76" width="176" height="150" rx="8" fill="#eef3f7" stroke="#d5dee6"/>
+  <text x="608" y="100" font-size="12" fill="#5b6b7d" font-weight="700">KPI D</text>
+  <text x="608" y="136" font-size="26" fill="#14263f" font-weight="700">n,nnn</text>
+  <text x="608" y="162" font-size="11" fill="#14263f">vs prior period: ±x.x%</text>
+  <text x="608" y="180" font-size="11" fill="#5b6b7d">(placeholder)</text>
+  <rect x="608" y="193" width="82" height="18" rx="9" fill="#fff4e0" stroke="#b26a00"/>
+  <text x="649.0" y="206" font-size="10" fill="#b26a00" font-weight="700" text-anchor="middle">INCOMPLETE</text>
+  <rect x="24" y="246" width="752" height="34" rx="6" fill="#fff4e0" stroke="#b26a00"/>
+  <text x="38" y="268" font-size="12" fill="#b26a00" font-weight="700">Incomplete:</text>
+  <text x="129.6" y="268" font-size="12" fill="#14263f">current period is not finished; change vs prior period may mislead.</text>
+  <text x="24" y="466" font-size="11" fill="#5b6b7d">Sample layout · all names and values are placeholders · Illustrative only.</text>
+</svg>

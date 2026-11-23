@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Inter, Arial, 'Noto Sans Devanagari', 'Nirmala UI', Mangal, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Export wireframe</title>
+  <desc id="d">Export form for report, date, format and language, in the done state. Illustrative only.</desc>
+  <rect width="800" height="480" fill="#ffffff"/>
+  <rect x="0" y="0" width="800" height="56" rx="0" fill="#14263f"/><text x="24" y="35" fill="#ffffff" font-size="16" font-weight="700">Sample Kirana Store (demo)</text><rect x="640" y="14" width="136" height="28" rx="14" fill="none" stroke="#ffffff"/>
+  <rect x="708" y="14" width="68" height="28" rx="14" fill="#0e9384"/>
+  <text x="674" y="33" fill="#ffffff" font-size="12" text-anchor="middle">हिंदी</text>
+  <text x="742" y="33" fill="#ffffff" font-size="12" font-weight="700" text-anchor="middle">English</text>
+  <rect x="180" y="76" width="440" height="384" rx="8" fill="#ffffff" stroke="#d5dee6"/><text x="196" y="102" fill="#14263f" font-size="14" font-weight="700">Export a report</text>
+  <text x="204" y="120" fill="#5b6b7d" font-size="12">Report</text><rect x="204" y="128" width="392" height="34" rx="6" fill="#ffffff" stroke="#d5dee6"/><text x="216" y="150" fill="#14263f" font-size="13">Daily sales report ▾</text>
+  <text x="204" y="186" fill="#5b6b7d" font-size="12">Date</text><rect x="204" y="194" width="392" height="34" rx="6" fill="#ffffff" stroke="#d5dee6"/><text x="216" y="216" fill="#14263f" font-size="13">23 Nov 2026</text>
+  <text x="204" y="254" fill="#5b6b7d" font-size="12">Format</text>
+  <rect x="204" y="262" width="51" height="22" rx="11" fill="#0e9384" stroke="#0e9384"/><text x="229.5" y="277" fill="#ffffff" font-size="11" font-weight="700" text-anchor="middle">✓ CSV</text>
+  <rect x="266" y="262" width="37" height="22" rx="11" fill="#ffffff" stroke="#0e9384"/><text x="284.5" y="277" fill="#0e9384" font-size="11" font-weight="700" text-anchor="middle">PDF</text>
+  <text x="204" y="312" fill="#5b6b7d" font-size="12">Language</text>
+  <rect x="204" y="320" width="51" height="22" rx="11" fill="#ffffff" stroke="#0e9384"/><text x="229.5" y="335" fill="#0e9384" font-size="11" font-weight="700" text-anchor="middle">हिंदी</text>
+  <rect x="260" y="320" width="77" height="22" rx="11" fill="#0e9384" stroke="#0e9384"/><text x="298.5" y="335" fill="#ffffff" font-size="11" font-weight="700" text-anchor="middle">✓ English</text>
+  <rect x="204" y="358" width="392" height="34" rx="6" fill="#ffffff" stroke="#1a7f4b" stroke-width="1.5"/><rect x="204" y="358" width="5" height="34" rx="2" fill="#1a7f4b"/><text x="220" y="380.0" fill="#1a7f4b" font-size="13" font-weight="700">✓ Done</text><text x="271.6" y="380.0" fill="#14263f" font-size="12">sales-2026-11-23.csv</text>
+  <rect x="204" y="404" width="180" height="36" rx="8" fill="#0e9384"/><text x="294.0" y="427.0" fill="#ffffff" font-size="14" font-weight="700" text-anchor="middle">Download</text>
+  <rect x="396" y="404" width="200" height="36" rx="8" fill="#ffffff" stroke="#14263f"/><text x="496.0" y="427.0" fill="#14263f" font-size="14" text-anchor="middle">Export another</text>
+</svg>

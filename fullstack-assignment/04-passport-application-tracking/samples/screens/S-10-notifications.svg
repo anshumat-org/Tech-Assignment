@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Inter, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Notifications wireframe</title>
+  <desc id="d">In-app notifications with unread state in text and an action link where applicant input is required. Illustrative only.</desc>
+  <rect width="800" height="480" fill="#ffffff"/>
+  <rect x="0" y="0" width="800" height="56" rx="0" fill="#14263f"/>
+  <text x="24" y="35" fill="#ffffff" font-size="16" font-weight="700">Passport assistance (demo)</text>
+  <rect x="477" y="15" width="299" height="26" rx="13" fill="#ffffff"/>
+  <text x="626.5" y="32" fill="#b26a00" font-size="12" font-weight="700" text-anchor="middle">Simulated. Not the official passport system</text>
+  <text x="24" y="92" fill="#14263f" font-size="16" font-weight="700">Notifications</text>
+  <text x="776" y="92" fill="#1d6fe0" font-size="13" text-anchor="end">Mark all as read</text>
+  <rect x="24" y="112" width="752" height="72" rx="8" fill="#eef3f7" stroke="#d5dee6"/>
+  <rect x="24" y="112" width="5" height="72" rx="2" fill="#1d6fe0"/>
+  <text x="44" y="138" fill="#14263f" font-size="13" font-weight="700">● Unread · Action needed</text>
+  <text x="44" y="160" fill="#14263f" font-size="13">Photo identity was rejected: image is blurred.</text>
+  <text x="760" y="150" fill="#1d6fe0" font-size="13" font-weight="700" text-anchor="end">Re-upload →</text>
+  <rect x="24" y="194" width="752" height="72" rx="8" fill="#eef3f7" stroke="#d5dee6"/>
+  <rect x="24" y="194" width="5" height="72" rx="2" fill="#1d6fe0"/>
+  <text x="44" y="220" fill="#14263f" font-size="13" font-weight="700">● Unread · Status changed</text>
+  <text x="44" y="242" fill="#14263f" font-size="13">Your application moved to Corrections requested.</text>
+  <text x="760" y="232" fill="#1d6fe0" font-size="13" font-weight="700" text-anchor="end">View timeline →</text>
+  <rect x="24" y="276" width="752" height="72" rx="8" fill="#ffffff" stroke="#d5dee6"/>
+  <rect x="24" y="276" width="5" height="72" rx="2" fill="#d5dee6"/>
+  <text x="44" y="302" fill="#5b6b7d" font-size="13">Read · Consent recorded</text>
+  <text x="44" y="324" fill="#5b6b7d" font-size="13">You agreed to share from DigiLocker (mock).</text>
+  <text x="760" y="314" fill="#1d6fe0" font-size="13" font-weight="700" text-anchor="end">View consent →</text>
+  <rect x="24" y="358" width="752" height="72" rx="8" fill="#ffffff" stroke="#d5dee6"/>
+  <rect x="24" y="358" width="5" height="72" rx="2" fill="#d5dee6"/>
+  <text x="44" y="384" fill="#5b6b7d" font-size="13">Read · Profile saved</text>
+  <text x="44" y="406" fill="#5b6b7d" font-size="13">Your details were saved as a draft.</text>
+  <text x="760" y="396" fill="#1d6fe0" font-size="13" font-weight="700" text-anchor="end"></text>
+</svg>

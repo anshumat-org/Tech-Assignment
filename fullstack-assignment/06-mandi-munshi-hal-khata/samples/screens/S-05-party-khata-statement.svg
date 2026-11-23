@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Inter, Arial, 'Noto Sans Devanagari', 'Nirmala UI', Mangal, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Party khata statement wireframe</title>
+  <desc id="d">Party statement with Dr, Cr and running balance, a reversed entry and its reversal marked in text and icon, and export. Illustrative only.</desc>
+  <rect width="800" height="480" fill="#ffffff"/>
+  <rect x="0" y="0" width="800" height="56" rx="0" fill="#14263f"/><text x="24" y="35" fill="#ffffff" font-size="16" font-weight="700">Sample Aadhat Firm (demo)</text><rect x="640" y="14" width="136" height="28" rx="14" fill="none" stroke="#ffffff"/>
+  <rect x="708" y="14" width="68" height="28" rx="14" fill="#0e9384"/>
+  <text x="674" y="33" fill="#ffffff" font-size="12" text-anchor="middle">हिंदी</text>
+  <text x="742" y="33" fill="#ffffff" font-size="12" font-weight="700" text-anchor="middle">English</text>
+  <text x="24" y="90" fill="#14263f" font-size="16" font-weight="700">Khata · Ramesh Traders (sample)</text>
+  <rect x="24" y="100" width="156" height="22" rx="11" fill="#ffffff" stroke="#14263f"/><text x="102.0" y="115" fill="#14263f" font-size="11" font-weight="700" text-anchor="middle">1 Nov – 23 Nov 2026 ▾</text>
+  <rect x="656" y="94" width="120" height="32" rx="8" fill="#ffffff" stroke="#14263f"/><text x="716.0" y="115.0" fill="#14263f" font-size="14" text-anchor="middle">Export</text>
+  <rect x="24" y="140" width="752" height="204" rx="8" fill="#ffffff" stroke="#d5dee6"/>
+  <rect x="24" y="140" width="752" height="34" rx="8" fill="#eef3f7" stroke="#d5dee6"/>
+  <text x="34" y="161.0" fill="#5b6b7d" font-size="12" font-weight="700">Date</text><text x="124" y="161.0" fill="#5b6b7d" font-size="12" font-weight="700">Narration</text><text x="519" y="161.0" fill="#5b6b7d" font-size="12" font-weight="700" text-anchor="end">Dr</text><text x="634" y="161.0" fill="#5b6b7d" font-size="12" font-weight="700" text-anchor="end">Cr</text><text x="766" y="161.0" fill="#5b6b7d" font-size="12" font-weight="700" text-anchor="end">Balance</text>
+  <line x1="24" y1="174" x2="776" y2="174" stroke="#d5dee6" stroke-width="1"/>
+  <text x="34" y="195.0" fill="#14263f" font-size="12">01 Nov</text><text x="124" y="195.0" fill="#14263f" font-size="12">Opening balance</text><text x="519" y="195.0" fill="#14263f" font-size="12" text-anchor="end"></text><text x="634" y="195.0" fill="#14263f" font-size="12" text-anchor="end"></text><text x="766" y="195.0" fill="#14263f" font-size="12" text-anchor="end">₹50,000.00 Dr</text>
+  <line x1="24" y1="208" x2="776" y2="208" stroke="#d5dee6" stroke-width="1"/>
+  <text x="34" y="229.0" fill="#14263f" font-size="12">12 Nov</text><text x="124" y="229.0" fill="#14263f" font-size="12">Sale L-0012 · 20 qtl @ ₹2,500.00</text><text x="519" y="229.0" fill="#14263f" font-size="12" text-anchor="end">₹50,000.00</text><text x="634" y="229.0" fill="#14263f" font-size="12" text-anchor="end"></text><text x="766" y="229.0" fill="#14263f" font-size="12" text-anchor="end">₹1,00,000.00 Dr</text>
+  <rect x="25" y="242" width="750" height="34" rx="0" fill="#eef3f7"/>
+  <line x1="24" y1="242" x2="776" y2="242" stroke="#d5dee6" stroke-width="1"/>
+  <text x="34" y="263.0" fill="#14263f" font-size="12">15 Nov</text><text x="124" y="263.0" fill="#14263f" font-size="12">↺ REVERSED · Receipt #102 (wrong party)</text><text x="519" y="263.0" fill="#14263f" font-size="12" text-anchor="end"></text><text x="634" y="263.0" fill="#14263f" font-size="12" text-anchor="end">₹26,544.00</text><text x="766" y="263.0" fill="#14263f" font-size="12" text-anchor="end">₹73,456.00 Dr</text>
+  <rect x="25" y="276" width="750" height="34" rx="0" fill="#eef3f7"/>
+  <line x1="24" y1="276" x2="776" y2="276" stroke="#d5dee6" stroke-width="1"/>
+  <text x="34" y="297.0" fill="#14263f" font-size="12">16 Nov</text><text x="124" y="297.0" fill="#14263f" font-size="12">↺ REVERSAL of #102 · reason: wrong party</text><text x="519" y="297.0" fill="#14263f" font-size="12" text-anchor="end">₹26,544.00</text><text x="634" y="297.0" fill="#14263f" font-size="12" text-anchor="end"></text><text x="766" y="297.0" fill="#14263f" font-size="12" text-anchor="end">₹1,00,000.00 Dr</text>
+  <line x1="24" y1="310" x2="776" y2="310" stroke="#d5dee6" stroke-width="1"/>
+  <text x="34" y="331.0" fill="#14263f" font-size="12">20 Nov</text><text x="124" y="331.0" fill="#14263f" font-size="12">Sale L-0014 · 10 qtl @ ₹2,345.60</text><text x="519" y="331.0" fill="#14263f" font-size="12" text-anchor="end">₹23,456.00</text><text x="634" y="331.0" fill="#14263f" font-size="12" text-anchor="end"></text><text x="766" y="331.0" fill="#14263f" font-size="12" text-anchor="end">₹1,23,456.00 Dr</text>
+  <text x="24" y="376" fill="#5b6b7d" font-size="12">↺ Reversed entries stay visible. Corrections never edit in place.</text>
+  <text x="24" y="398" fill="#14263f" font-size="14" font-weight="700">Closing: ₹1,23,456.00 Dr</text>
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Inter, Arial, sans-serif" font-size="12" fill="#14263f" role="img" aria-labelledby="t d">
+  <title id="t">Toast section specimen board</title>
+  <desc id="d">Sample specimen board: Toast shown while the user types in a focused field, plus hidden, shown, paused and dismissed states. Illustrative only.</desc>
+  <rect width="800" height="480" fill="#ffffff"/>
+  <rect x="0" y="0" width="800" height="44" fill="#14263f"/>
+  <text x="24" y="28" fill="#fff" font-size="15" font-weight="700">Component library demo (sample)</text>
+  <rect x="640" y="10" width="136" height="24" rx="12" fill="#fff"/>
+  <text x="708" y="26" font-weight="700" text-anchor="middle">Theme: Light ▾</text>
+  <text x="24" y="76" font-size="18" font-weight="700">Toast</text>
+  <text x="24" y="96" fill="#5b6b7d">Announced politely while the user keeps typing. Pauses on hover or focus.</text>
+  <rect x="24" y="116" width="480" height="320" rx="8" fill="#eef3f7" stroke="#d5dee6"/>
+  <text x="44" y="148" font-weight="700">Notes</text><rect x="44" y="156" width="300" height="32" rx="6" fill="#fff" stroke="#14263f"/><rect x="41" y="153" width="306" height="38" rx="9" fill="none" stroke="#1d6fe0" stroke-width="2"/><text x="54" y="177.0" font-size="13">Typing continues here|</text>
+  <rect x="44" y="208" width="140" height="32" rx="6" fill="#0e9384"/><text x="114.0" y="229.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">Show toast</text>
+  <text x="44" y="270" fill="#5b6b7d" font-size="11">Focus stays in Notes while toast appears.</text>
+  <rect x="204" y="352" width="284" height="64" rx="8" fill="#fff" stroke="#1a7f4b" stroke-width="1.5"/>
+  <rect x="204" y="352" width="5" height="64" rx="2" fill="#1a7f4b"/>
+  <text x="222" y="376" fill="#1a7f4b" font-size="13" font-weight="700">✓ Draft copied (sample)</text>
+  <text x="222" y="396" fill="#5b6b7d" font-size="11">Closes in 6s · paused on hover</text>
+  <text x="470" y="378" font-size="13" font-weight="700" text-anchor="middle">✕</text>
+  <rect x="204" y="326" width="143" height="20" rx="10" fill="#fff" stroke="#5b6b7d"/><text x="275.5" y="340" fill="#5b6b7d" font-size="11" font-weight="700" text-anchor="middle">role=status · polite</text>
+  <rect x="528" y="116" width="248" height="68" rx="8" fill="#fff" stroke="#d5dee6"/>
+  <rect x="544" y="128" width="54" height="20" rx="10" fill="#fff" stroke="#5b6b7d"/><text x="571.0" y="142" fill="#5b6b7d" font-size="11" font-weight="700" text-anchor="middle">Hidden</text>
+  <text x="544" y="168" fill="#5b6b7d">Nothing announced</text>
+  <rect x="528" y="196" width="248" height="68" rx="8" fill="#fff" stroke="#d5dee6"/>
+  <rect x="544" y="208" width="47" height="20" rx="10" fill="#fff" stroke="#1a7f4b"/><text x="567.5" y="222" fill="#1a7f4b" font-size="11" font-weight="700" text-anchor="middle">Shown</text>
+  <text x="544" y="248" fill="#5b6b7d">Announced once</text>
+  <rect x="528" y="276" width="248" height="68" rx="8" fill="#fff" stroke="#d5dee6"/>
+  <rect x="544" y="288" width="54" height="20" rx="10" fill="#fff" stroke="#b26a00"/><text x="571.0" y="302" fill="#b26a00" font-size="11" font-weight="700" text-anchor="middle">Paused</text>
+  <text x="544" y="328" fill="#5b6b7d">Hover or focus stops timer</text>
+  <rect x="528" y="356" width="248" height="68" rx="8" fill="#fff" stroke="#d5dee6"/>
+  <rect x="544" y="368" width="73" height="20" rx="10" fill="#fff" stroke="#5b6b7d"/><text x="580.5" y="382" fill="#5b6b7d" font-size="11" font-weight="700" text-anchor="middle">Dismissed</text>
+  <text x="544" y="408" fill="#5b6b7d">Close or timeout</text>
+  <text x="24" y="462" fill="#5b6b7d">Close control is a real button. Toast never takes focus.</text>
+</svg>

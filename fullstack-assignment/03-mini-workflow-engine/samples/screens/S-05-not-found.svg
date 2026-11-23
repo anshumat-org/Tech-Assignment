@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Inter, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Task not found wireframe</title>
+  <desc id="d">Sample wireframe: message for an unknown task ID with a way back to the list. Illustrative only.</desc>
+  <rect width="800" height="480" fill="#ffffff"/>
+  <rect width="800" height="56" fill="#14263f"/>
+  <text x="24" y="35" fill="#fff" font-size="16" font-weight="700">Tasks</text>
+  <rect x="200" y="120" width="400" height="240" rx="12" fill="#eef3f7" stroke="#d5dee6"/>
+  <text x="400" y="196" fill="#5b6b7d" font-size="40" font-weight="700" text-anchor="middle">?</text>
+  <text x="400" y="236" fill="#14263f" font-size="20" font-weight="700" text-anchor="middle">Task not found</text>
+  <text x="400" y="266" fill="#5b6b7d" font-size="13" text-anchor="middle">It may have been deleted, or the link is wrong.</text>
+  <rect x="310" y="296" width="180" height="36" rx="8" fill="#0e9384"/><text x="400" y="319" fill="#fff" font-size="14" text-anchor="middle">‹ Back to task list</text>
+</svg>

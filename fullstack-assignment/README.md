@@ -1,6 +1,6 @@
 # Full-Stack Assignment
 
-**v1.1 — 2026-11-23** · added Assignment 06
+**v1.2 — 2026-11-23** · added Assignment 06, product briefs and developer guides
 
 | # | Assignment | Best for | Focus | Folder |
 |---|---|---|---|---|
@@ -33,7 +33,9 @@
 | File / folder | Purpose |
 |---|---|
 | `README.md` | Overview, scope, what is evaluated |
+| `product-brief.md` | Start here. What you build: product, personas, journey, capabilities, user stories with acceptance criteria |
 | `requirements-and-directives.md` | Part 1 requirements and scenarios. Part 2 do / don't rules, deliverables, constraints, discussion |
 | `resources.md` | Reference links for the topic. Starting points, not solutions |
+| `developer-guide.md` | Build order, directions, and before / during / after checklists |
 | `design-system/` | UI guidance specific to this assignment |
 | `samples/` | Wireframe images showing the expected look and feel (not solutions). Present for 01 and 02 only |

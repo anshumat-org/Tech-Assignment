@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Inter, Arial, sans-serif" font-size="12" fill="#14263f" role="img" aria-labelledby="t d">
+  <title id="t">Tokens section wireframe</title>
+  <desc id="d">Sample wireframe: colour swatches for light and dark, spacing, radius, type scale and focus ring samples. Illustrative only.</desc>
+  <rect width="800" height="480" fill="#ffffff"/>
+  <rect x="0" y="0" width="800" height="44" fill="#14263f"/>
+  <text x="24" y="28" fill="#fff" font-size="15" font-weight="700">Component library demo (sample)</text>
+  <rect x="640" y="10" width="136" height="24" rx="12" fill="#fff"/>
+  <text x="708" y="26" font-weight="700" text-anchor="middle">Theme: Light ▾</text>
+  <text x="24" y="76" font-size="18" font-weight="700">Tokens</text>
+  <text x="24" y="96" fill="#5b6b7d">Colour, spacing, radius, type and focus ring samples. Form of display is yours.</text>
+  <text x="24" y="128" font-weight="700">Colour · light</text>
+  <rect x="24" y="138" width="64" height="40" rx="6" fill="#ffffff" stroke="#d5dee6"/>
+  <text x="24" y="194" font-size="11" font-weight="700">bg</text>
+  <text x="24" y="208" fill="#5b6b7d" font-size="10">#ffffff</text>
+  <rect x="100" y="138" width="64" height="40" rx="6" fill="#eef3f7" stroke="#d5dee6"/>
+  <text x="100" y="194" font-size="11" font-weight="700">surface</text>
+  <text x="100" y="208" fill="#5b6b7d" font-size="10">#eef3f7</text>
+  <rect x="176" y="138" width="64" height="40" rx="6" fill="#d5dee6" stroke="#d5dee6"/>
+  <text x="176" y="194" font-size="11" font-weight="700">border</text>
+  <text x="176" y="208" fill="#5b6b7d" font-size="10">#d5dee6</text>
+  <rect x="252" y="138" width="64" height="40" rx="6" fill="#14263f" stroke="#d5dee6"/>
+  <text x="252" y="194" font-size="11" font-weight="700">text</text>
+  <text x="252" y="208" fill="#5b6b7d" font-size="10">#14263f</text>
+  <rect x="328" y="138" width="64" height="40" rx="6" fill="#5b6b7d" stroke="#d5dee6"/>
+  <text x="328" y="194" font-size="11" font-weight="700">muted</text>
+  <text x="328" y="208" fill="#5b6b7d" font-size="10">#5b6b7d</text>
+  <rect x="404" y="138" width="64" height="40" rx="6" fill="#0e9384" stroke="#d5dee6"/>
+  <text x="404" y="194" font-size="11" font-weight="700">primary</text>
+  <text x="404" y="208" fill="#5b6b7d" font-size="10">#0e9384</text>
+  <rect x="480" y="138" width="64" height="40" rx="6" fill="#1a7f4b" stroke="#d5dee6"/>
+  <text x="480" y="194" font-size="11" font-weight="700">success</text>
+  <text x="480" y="208" fill="#5b6b7d" font-size="10">#1a7f4b</text>
+  <rect x="556" y="138" width="64" height="40" rx="6" fill="#b26a00" stroke="#d5dee6"/>
+  <text x="556" y="194" font-size="11" font-weight="700">warning</text>
+  <text x="556" y="208" fill="#5b6b7d" font-size="10">#b26a00</text>
+  <rect x="632" y="138" width="64" height="40" rx="6" fill="#b42318" stroke="#d5dee6"/>
+  <text x="632" y="194" font-size="11" font-weight="700">danger</text>
+  <text x="632" y="208" fill="#5b6b7d" font-size="10">#b42318</text>
+  <rect x="708" y="138" width="64" height="40" rx="6" fill="#1d6fe0" stroke="#d5dee6"/>
+  <text x="708" y="194" font-size="11" font-weight="700">focus</text>
+  <text x="708" y="208" fill="#5b6b7d" font-size="10">#1d6fe0</text>
+  <text x="24" y="234" font-weight="700">Colour · dark</text>
+  <rect x="24" y="242" width="64" height="24" rx="6" fill="#0e1726" stroke="#d5dee6"/>
+  <rect x="100" y="242" width="64" height="24" rx="6" fill="#16233a" stroke="#d5dee6"/>
+  <rect x="176" y="242" width="64" height="24" rx="6" fill="#2a3a55" stroke="#d5dee6"/>
+  <rect x="252" y="242" width="64" height="24" rx="6" fill="#e8eef6" stroke="#d5dee6"/>
+  <rect x="328" y="242" width="64" height="24" rx="6" fill="#9fb0c4" stroke="#d5dee6"/>
+  <rect x="404" y="242" width="64" height="24" rx="6" fill="#2dc4b2" stroke="#d5dee6"/>
+  <rect x="480" y="242" width="64" height="24" rx="6" fill="#4cc38a" stroke="#d5dee6"/>
+  <rect x="556" y="242" width="64" height="24" rx="6" fill="#f0b35a" stroke="#d5dee6"/>
+  <rect x="632" y="242" width="64" height="24" rx="6" fill="#ff7b72" stroke="#d5dee6"/>
+  <rect x="708" y="242" width="64" height="24" rx="6" fill="#6aa8ff" stroke="#d5dee6"/>
+  <text x="24" y="296" font-weight="700">Spacing</text>
+  <rect x="24" y="306" width="16" height="12" rx="2" fill="#0e9384"/>
+  <text x="160" y="317" fill="#5b6b7d" font-size="11">space-1 · 4px</text>
+  <rect x="24" y="328" width="32" height="12" rx="2" fill="#0e9384"/>
+  <text x="160" y="339" fill="#5b6b7d" font-size="11">space-2 · 8px</text>
+  <rect x="24" y="350" width="48" height="12" rx="2" fill="#0e9384"/>
+  <text x="160" y="361" fill="#5b6b7d" font-size="11">space-3 · 12px</text>
+  <rect x="24" y="372" width="64" height="12" rx="2" fill="#0e9384"/>
+  <text x="160" y="383" fill="#5b6b7d" font-size="11">space-4 · 16px</text>
+  <rect x="24" y="394" width="96" height="12" rx="2" fill="#0e9384"/>
+  <text x="160" y="405" fill="#5b6b7d" font-size="11">space-6 · 24px</text>
+  <rect x="24" y="416" width="128" height="12" rx="2" fill="#0e9384"/>
+  <text x="160" y="427" fill="#5b6b7d" font-size="11">space-8 · 32px</text>
+  <text x="300" y="296" font-weight="700">Radius</text>
+  <rect x="300" y="306" width="48" height="48" rx="4" fill="#eef3f7" stroke="#5b6b7d"/>
+  <text x="300" y="370" fill="#5b6b7d" font-size="11">4px</text>
+  <rect x="364" y="306" width="48" height="48" rx="8" fill="#eef3f7" stroke="#5b6b7d"/>
+  <text x="364" y="370" fill="#5b6b7d" font-size="11">8px</text>
+  <rect x="428" y="306" width="48" height="48" rx="12" fill="#eef3f7" stroke="#5b6b7d"/>
+  <text x="428" y="370" fill="#5b6b7d" font-size="11">12px</text>
+  <text x="520" y="296" font-weight="700">Type scale</text>
+  <text x="520" y="316">Aa 12px</text>
+  <text x="520" y="336" font-size="14">Aa 14px</text>
+  <text x="520" y="358" font-size="16">Aa 16px</text>
+  <text x="520" y="384" font-size="20" font-weight="700">Aa 20px</text>
+  <text x="520" y="418" font-size="28" font-weight="700">Aa 28px</text>
+  <text x="300" y="400" font-weight="700">Focus ring</text>
+  <rect x="300" y="414" width="120" height="32" rx="6" fill="#fff" stroke="#5b6b7d"/>
+  <rect x="297" y="411" width="126" height="38" rx="9" fill="none" stroke="#1d6fe0" stroke-width="2"/>
+  <text x="360" y="435" text-anchor="middle">Focused</text>
+  <text x="300" y="466" fill="#5b6b7d" font-size="11">2px #1d6fe0 · 3px offset</text>
+</svg>

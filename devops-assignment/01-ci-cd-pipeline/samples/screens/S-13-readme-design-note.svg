@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Inter, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">README and design note preview</title>
+  <desc id="d">Sample document preview with section headings for the README and design note; body text is placeholder bars. Illustrative only.</desc>
+  <rect width="800" height="480" fill="#ffffff"/>
+  <rect width="800" height="56" fill="#14263f"/>
+  <text x="24" y="35" font-size="16" fill="#ffffff" font-weight="700">README.md · design note (preview)</text>
+  <text x="776" y="35" font-size="12" fill="#c9d6e3" text-anchor="end">draft</text>
+  <rect x="24" y="72" width="360" height="380" rx="8" fill="#fff" stroke="#d5dee6"/>
+  <text x="44" y="104" font-size="14" fill="#14263f" font-weight="700">Stage diagram</text>
+  <rect x="44" y="118" width="320" height="7" rx="3" fill="#eef3f7"/>
+  <rect x="44" y="132" width="260" height="7" rx="3" fill="#eef3f7"/>
+  <text x="44" y="162" font-size="14" fill="#14263f" font-weight="700">Gate rules</text>
+  <rect x="44" y="176" width="320" height="7" rx="3" fill="#eef3f7"/>
+  <rect x="44" y="190" width="320" height="7" rx="3" fill="#eef3f7"/>
+  <rect x="44" y="204" width="260" height="7" rx="3" fill="#eef3f7"/>
+  <text x="44" y="234" font-size="14" fill="#14263f" font-weight="700">Rollback steps and time</text>
+  <rect x="44" y="248" width="320" height="7" rx="3" fill="#eef3f7"/>
+  <rect x="44" y="262" width="320" height="7" rx="3" fill="#eef3f7"/>
+  <rect x="44" y="276" width="260" height="7" rx="3" fill="#eef3f7"/>
+  <text x="44" y="306" font-size="14" fill="#14263f" font-weight="700">Assumptions</text>
+  <rect x="44" y="320" width="320" height="7" rx="3" fill="#eef3f7"/>
+  <rect x="44" y="334" width="260" height="7" rx="3" fill="#eef3f7"/>
+  <rect x="416" y="72" width="360" height="380" rx="8" fill="#fff" stroke="#d5dee6"/>
+  <text x="436" y="104" font-size="14" fill="#14263f" font-weight="700">Scenario answers (section D)</text>
+  <rect x="436" y="118" width="320" height="7" rx="3" fill="#eef3f7"/>
+  <rect x="436" y="132" width="320" height="7" rx="3" fill="#eef3f7"/>
+  <rect x="436" y="146" width="320" height="7" rx="3" fill="#eef3f7"/>
+  <rect x="436" y="160" width="260" height="7" rx="3" fill="#eef3f7"/>
+  <text x="436" y="190" font-size="14" fill="#14263f" font-weight="700">Trade-offs</text>
+  <rect x="436" y="204" width="320" height="7" rx="3" fill="#eef3f7"/>
+  <rect x="436" y="218" width="320" height="7" rx="3" fill="#eef3f7"/>
+  <rect x="436" y="232" width="260" height="7" rx="3" fill="#eef3f7"/>
+  <text x="436" y="262" font-size="14" fill="#14263f" font-weight="700">Open questions</text>
+  <rect x="436" y="276" width="320" height="7" rx="3" fill="#eef3f7"/>
+  <rect x="436" y="290" width="260" height="7" rx="3" fill="#eef3f7"/>
+  <text x="24" y="470" font-size="10" fill="#5b6b7d">Sample only · placeholder values · not a solution</text>
+</svg>

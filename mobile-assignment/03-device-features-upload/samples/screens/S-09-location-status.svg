@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 720" font-family="Inter, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Location status wireframe</title>
+  <desc id="d">Sample wireframe: location timed out with reason, Try again, Enter place by hand and Save without. Illustrative only.</desc>
+  <rect width="360" height="720" fill="#ffffff"/>
+  <rect width="360" height="80" fill="#14263f"/>
+  <text x="16" y="17" font-size="11" fill="#ffffff">9:41</text><text x="344" y="17" font-size="11" fill="#ffffff" text-anchor="end">LTE 80%</text>
+  <text x="16" y="58" font-size="20" fill="#ffffff">←</text><text x="48" y="57" font-size="17" fill="#ffffff" font-weight="700">Location</text>
+  <rect x="16" y="96" width="328" height="64" rx="8" fill="#eef3f7" stroke="#d5dee6"/><text x="32" y="122" font-size="13" fill="#14263f" font-weight="600">↻ Getting location…</text><text x="32" y="144" font-size="11" fill="#5b6b7d">Earlier state, shown while locating</text>
+  <rect x="16" y="176" width="328" height="52" rx="8" fill="#eef3f7" stroke="#b26a00"/><rect x="16" y="176" width="6" height="52" rx="3" fill="#b26a00"/><text x="32" y="194" font-size="12" fill="#14263f" font-weight="600">⏱ Could not get a location fix</text><text x="32" y="210" font-size="11" fill="#5b6b7d">Timed out after 15 s (placeholder).</text><text x="332" y="207.0" font-size="12" fill="#0e9384" font-weight="700" text-anchor="end">Try again</text>
+  <text x="16" y="256" font-size="12" fill="#5b6b7d" font-weight="600">Enter place by hand</text><rect x="16" y="262" width="328" height="44" rx="8" fill="#ffffff" stroke="#1d6fe0" stroke-width="2"/><text x="28" y="289.0" font-size="14" fill="#14263f">Sample Street gate (placeholder)</text>
+  <rect x="16" y="340" width="328" height="48" rx="8" fill="#0e9384"/><text x="180.0" y="369.0" font-size="14" fill="#ffffff" font-weight="600" text-anchor="middle">Use this place</text>
+  <rect x="16" y="400" width="328" height="48" rx="8" fill="#ffffff" stroke="#d5dee6"/><text x="180.0" y="429.0" font-size="14" fill="#14263f" font-weight="600" text-anchor="middle">Save without location</text>
+  <rect x="16" y="480" width="328" height="96" rx="8" fill="#ffffff" stroke="#d5dee6" stroke-dasharray="4 4"/>
+  <text x="32" y="506" font-size="12" fill="#5b6b7d" font-weight="700">Other reasons shown the same way:</text>
+  <text x="32" y="528" font-size="12" fill="#14263f">• Location services off</text><text x="32" y="548" font-size="12" fill="#14263f">• Permission denied</text>
+  <rect x="130" y="704" width="100" height="4" rx="2" fill="#d5dee6"/>
+</svg>

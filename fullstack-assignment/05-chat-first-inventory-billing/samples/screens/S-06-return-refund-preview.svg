@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Inter, Arial, 'Noto Sans Devanagari', 'Nirmala UI', Mangal, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Return or refund preview wireframe</title>
+  <desc id="d">Return preview showing original order, items returned, refund amount, restock impact and Confirm. Illustrative only.</desc>
+  <rect width="800" height="480" fill="#ffffff"/>
+  <rect x="0" y="0" width="800" height="56" rx="0" fill="#14263f"/><text x="24" y="35" fill="#ffffff" font-size="16" font-weight="700">Sample Kirana Store (demo)</text><rect x="640" y="14" width="136" height="28" rx="14" fill="none" stroke="#ffffff"/>
+  <rect x="708" y="14" width="68" height="28" rx="14" fill="#0e9384"/>
+  <text x="674" y="33" fill="#ffffff" font-size="12" text-anchor="middle">हिंदी</text>
+  <text x="742" y="33" fill="#ffffff" font-size="12" font-weight="700" text-anchor="middle">English</text>
+  <rect x="24" y="72" width="400" height="392" rx="8" fill="#ffffff" stroke="#d5dee6"/>
+  <rect x="200" y="86" width="212" height="32" rx="10" fill="#0e9384"/><text x="212" y="108" fill="#ffffff" font-size="13">return 1 oil from ORD-0102</text>
+  <rect x="36" y="128" width="198" height="50" rx="10" fill="#eef3f7" stroke="#d5dee6"/><text x="48" y="150" fill="#14263f" font-size="13">Return preview is ready.</text><text x="48" y="168" fill="#14263f" font-size="13">Refund goes back by UPI.</text>
+  <rect x="36" y="412" width="300" height="40" rx="20" fill="#ffffff" stroke="#d5dee6"/>
+  <text x="54" y="437" fill="#5b6b7d" font-size="13">Type a message…</text>
+  <rect x="346" y="412" width="66" height="40" rx="20" fill="#0e9384"/>
+  <text x="379" y="437" fill="#ffffff" font-size="13" font-weight="700" text-anchor="middle">Send</text>
+  <rect x="444" y="72" width="332" height="392" rx="8" fill="#ffffff" stroke="#d5dee6"/>
+  <text x="460" y="98" fill="#14263f" font-size="15" font-weight="700">Return for ORD-0102</text>
+  <rect x="650" y="82" width="84" height="22" rx="11" fill="#ffffff" stroke="#b26a00"/><text x="692.0" y="97" fill="#b26a00" font-size="11" font-weight="700" text-anchor="middle">◔ Proposed</text>
+  <text x="460" y="118" fill="#5b6b7d" font-size="12">Original: Rahul · 23 Nov · ₹748.13</text>
+  <rect x="456" y="130" width="308" height="56" rx="8" fill="#ffffff" stroke="#d5dee6"/>
+  <rect x="456" y="130" width="308" height="28" rx="8" fill="#eef3f7" stroke="#d5dee6"/>
+  <text x="466" y="148.0" fill="#5b6b7d" font-size="12" font-weight="700">Item returned</text><text x="646" y="148.0" fill="#5b6b7d" font-size="12" font-weight="700" text-anchor="end">Qty</text><text x="754" y="148.0" fill="#5b6b7d" font-size="12" font-weight="700" text-anchor="end">Refund</text>
+  <line x1="456" y1="158" x2="764" y2="158" stroke="#d5dee6" stroke-width="1"/>
+  <text x="466" y="176.0" fill="#14263f" font-size="12">Oil 1 L</text><text x="646" y="176.0" fill="#14263f" font-size="12" text-anchor="end">1</text><text x="754" y="176.0" fill="#14263f" font-size="12" text-anchor="end">₹149.63</text>
+  <text x="460" y="216" fill="#14263f" font-size="14" font-weight="700">Refund amount</text>
+  <text x="760" y="216" fill="#14263f" font-size="14" font-weight="700" text-anchor="end">₹149.63</text>
+  <text x="460" y="236" fill="#5b6b7d" font-size="11">Includes share of discount and tax</text>
+  <rect x="456" y="250" width="308" height="56" rx="6" fill="#eef3f7" stroke="#d5dee6"/>
+  <text x="468" y="272" fill="#5b6b7d" font-size="12" font-weight="700">Restock impact</text>
+  <text x="468" y="292" fill="#14263f" font-size="12">Oil 1 L: 5 → 6</text>
+  <text x="460" y="330" fill="#14263f" font-size="12" font-weight="700">Confirm refund of ₹149.63 to Rahul?</text>
+  <text x="460" y="348" fill="#14263f" font-size="12">Stock will be increased.</text>
+  <rect x="460" y="366" width="140" height="36" rx="8" fill="#ffffff" stroke="#14263f"/><text x="530.0" y="389.0" fill="#14263f" font-size="14" text-anchor="middle">Cancel</text>
+  <rect x="616" y="366" width="144" height="36" rx="8" fill="#0e9384"/><text x="688.0" y="389.0" fill="#ffffff" font-size="14" font-weight="700" text-anchor="middle">Confirm</text>
+</svg>

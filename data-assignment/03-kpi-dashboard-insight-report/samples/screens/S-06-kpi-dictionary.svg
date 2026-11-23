@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Inter, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">KPI dictionary preview</title>
+  <desc id="d">kpis.md table with placeholder KPIs in draft state. Illustrative only.</desc>
+  <rect width="800" height="480" fill="#ffffff"/>
+  <rect width="800" height="56" fill="#14263f"/>
+  <text x="24" y="35" font-size="16" fill="#ffffff" font-weight="700">kpis.md</text>
+  <rect x="714" y="14" width="62" height="28" rx="14" fill="#fff4e0" stroke="#b26a00"/>
+  <text x="745.0" y="33" font-size="12" fill="#b26a00" font-weight="700" text-anchor="middle">DRAFT</text>
+  <rect x="24" y="76" width="752" height="170" rx="6" fill="#ffffff" stroke="#d5dee6"/>
+  <rect x="24" y="76" width="752" height="34" rx="6" fill="#eef3f7" stroke="#d5dee6"/>
+  <text x="34" y="97.0" font-size="9" fill="#5b6b7d" font-weight="700">KPI</text>
+  <text x="106.10958904109589" y="97.0" font-size="9" fill="#5b6b7d" font-weight="700">Definition</text>
+  <text x="219.42465753424656" y="97.0" font-size="9" fill="#5b6b7d" font-weight="700">Numerator</text>
+  <text x="332.73972602739724" y="97.0" font-size="9" fill="#5b6b7d" font-weight="700">Denominator</text>
+  <text x="446.05479452054794" y="97.0" font-size="9" fill="#5b6b7d" font-weight="700">Grain</text>
+  <text x="538.7671232876712" y="97.0" font-size="9" fill="#5b6b7d" font-weight="700">Window</text>
+  <text x="631.4794520547945" y="97.0" font-size="9" fill="#5b6b7d" font-weight="700">Owner</text>
+  <text x="693.2876712328766" y="97.0" font-size="9" fill="#5b6b7d" font-weight="700">Limits</text>
+  <text x="34" y="131.0" font-size="10" fill="#14263f">KPI A</text>
+  <text x="106.10958904109589" y="131.0" font-size="10" fill="#14263f">(placeholder)</text>
+  <text x="219.42465753424656" y="131.0" font-size="10" fill="#14263f">(placeholder)</text>
+  <text x="332.73972602739724" y="131.0" font-size="10" fill="#14263f">(placeholder)</text>
+  <text x="446.05479452054794" y="131.0" font-size="10" fill="#14263f">(placeholder)</text>
+  <text x="538.7671232876712" y="131.0" font-size="10" fill="#14263f">(placeholder)</text>
+  <text x="631.4794520547945" y="131.0" font-size="10" fill="#14263f">role</text>
+  <text x="693.2876712328766" y="131.0" font-size="10" fill="#14263f">(placeholder)</text>
+  <line x1="24" y1="144" x2="776" y2="144" stroke="#d5dee6"/>
+  <text x="34" y="165.0" font-size="10" fill="#14263f">KPI B</text>
+  <text x="106.10958904109589" y="165.0" font-size="10" fill="#14263f">(placeholder)</text>
+  <text x="219.42465753424656" y="165.0" font-size="10" fill="#14263f">(placeholder)</text>
+  <text x="332.73972602739724" y="165.0" font-size="10" fill="#14263f">(placeholder)</text>
+  <text x="446.05479452054794" y="165.0" font-size="10" fill="#14263f">(placeholder)</text>
+  <text x="538.7671232876712" y="165.0" font-size="10" fill="#14263f">(placeholder)</text>
+  <text x="631.4794520547945" y="165.0" font-size="10" fill="#14263f">role</text>
+  <text x="693.2876712328766" y="165.0" font-size="10" fill="#14263f">(placeholder)</text>
+  <line x1="24" y1="178" x2="776" y2="178" stroke="#d5dee6"/>
+  <text x="34" y="199.0" font-size="10" fill="#14263f">KPI C</text>
+  <text x="106.10958904109589" y="199.0" font-size="10" fill="#14263f">(placeholder)</text>
+  <text x="219.42465753424656" y="199.0" font-size="10" fill="#14263f">(placeholder)</text>
+  <text x="332.73972602739724" y="199.0" font-size="10" fill="#14263f">(placeholder)</text>
+  <text x="446.05479452054794" y="199.0" font-size="10" fill="#14263f">(placeholder)</text>
+  <text x="538.7671232876712" y="199.0" font-size="10" fill="#14263f">(placeholder)</text>
+  <text x="631.4794520547945" y="199.0" font-size="10" fill="#14263f">role</text>
+  <text x="693.2876712328766" y="199.0" font-size="10" fill="#14263f">(placeholder)</text>
+  <line x1="24" y1="212" x2="776" y2="212" stroke="#d5dee6"/>
+  <text x="34" y="233.0" font-size="10" fill="#14263f">KPI D</text>
+  <text x="106.10958904109589" y="233.0" font-size="10" fill="#14263f">(placeholder)</text>
+  <text x="219.42465753424656" y="233.0" font-size="10" fill="#14263f">(placeholder)</text>
+  <text x="332.73972602739724" y="233.0" font-size="10" fill="#14263f">(placeholder)</text>
+  <text x="446.05479452054794" y="233.0" font-size="10" fill="#14263f">(placeholder)</text>
+  <text x="538.7671232876712" y="233.0" font-size="10" fill="#14263f">(placeholder)</text>
+  <text x="631.4794520547945" y="233.0" font-size="10" fill="#14263f">role</text>
+  <text x="693.2876712328766" y="233.0" font-size="10" fill="#14263f">(placeholder)</text>
+  <rect x="24" y="268" width="752" height="34" rx="6" fill="#fff4e0" stroke="#b26a00"/>
+  <text x="38" y="290" font-size="12" fill="#b26a00" font-weight="700">Draft:</text>
+  <text x="91.6" y="290" font-size="12" fill="#14263f">agree one definition per KPI before building tiles.</text>
+  <text x="24" y="466" font-size="11" fill="#5b6b7d">Sample layout · all names and values are placeholders · Illustrative only.</text>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Inter, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Per-environment variable file change</title>
+  <desc id="d">Sample generic code-host diff of a per-environment variable file. Lines are grey bars, not real configuration; no secret values. Illustrative only.</desc>
+  <rect width="800" height="480" fill="#ffffff"/>
+  <rect width="800" height="56" fill="#14263f"/>
+  <text x="24" y="35" font-size="16" fill="#ffffff" font-weight="700">Code host (generic)</text>
+  <text x="776" y="35" font-size="12" fill="#c9d6e3" text-anchor="end">PR #(placeholder) · infra change</text>
+  <text x="24" y="90" font-size="13" fill="#14263f" font-weight="700">Files changed (2) · envs/staging (placeholder) · envs/prod (placeholder)</text>
+  <rect x="24" y="104" width="520" height="232" rx="8" fill="#fff" stroke="#d5dee6"/>
+  <rect x="60" y="119" width="120" height="7" rx="3" fill="#d5dee6"/>
+  <rect x="60" y="139" width="173" height="7" rx="3" fill="#d5dee6"/>
+  <rect x="32" y="152" width="504" height="20" rx="0" fill="#fbe9e7"/>
+  <text x="40" y="166" font-size="12" fill="#b42318" font-family="ui-monospace, Menlo, monospace">-</text>
+  <rect x="60" y="159" width="226" height="7" rx="3" fill="#d5dee6"/>
+  <rect x="32" y="172" width="504" height="20" rx="0" fill="#e6f4ec"/>
+  <text x="40" y="186" font-size="12" fill="#1a7f4b" font-family="ui-monospace, Menlo, monospace">+</text>
+  <rect x="60" y="179" width="279" height="7" rx="3" fill="#d5dee6"/>
+  <rect x="60" y="199" width="332" height="7" rx="3" fill="#d5dee6"/>
+  <rect x="60" y="219" width="125" height="7" rx="3" fill="#d5dee6"/>
+  <rect x="60" y="239" width="178" height="7" rx="3" fill="#d5dee6"/>
+  <rect x="32" y="252" width="504" height="20" rx="0" fill="#e6f4ec"/>
+  <text x="40" y="266" font-size="12" fill="#1a7f4b" font-family="ui-monospace, Menlo, monospace">+</text>
+  <rect x="60" y="259" width="231" height="7" rx="3" fill="#d5dee6"/>
+  <rect x="60" y="279" width="284" height="7" rx="3" fill="#d5dee6"/>
+  <rect x="60" y="299" width="337" height="7" rx="3" fill="#d5dee6"/>
+  <rect x="60" y="319" width="130" height="7" rx="3" fill="#d5dee6"/>
+  <rect x="560" y="104" width="216" height="232" rx="8" fill="#eef3f7" stroke="#d5dee6"/>
+  <text x="576" y="130" font-size="13" fill="#14263f" font-weight="700">Changes per env</text>
+  <text x="576" y="160" font-size="12" fill="#14263f" font-family="ui-monospace, Menlo, monospace">size: (placeholder)</text>
+  <text x="576" y="186" font-size="12" fill="#14263f" font-family="ui-monospace, Menlo, monospace">count: (placeholder)</text>
+  <text x="576" y="212" font-size="12" fill="#14263f" font-family="ui-monospace, Menlo, monospace">replicas: (placeholder)</text>
+  <text x="576" y="238" font-size="12" fill="#14263f" font-family="ui-monospace, Menlo, monospace">tags: (placeholder)</text>
+  <text x="576" y="280" font-size="12" fill="#1a7f4b" font-weight="700">No secret values</text>
+  <text x="576" y="310" font-size="12" fill="#1a7f4b" font-weight="700">✓ reviewed</text>
+  <text x="24" y="370" font-size="12" fill="#5b6b7d">Content intentionally hidden — your variable files are yours to design.</text>
+  <text x="24" y="470" font-size="10" fill="#5b6b7d">Sample only · placeholder values · not a solution</text>
+</svg>

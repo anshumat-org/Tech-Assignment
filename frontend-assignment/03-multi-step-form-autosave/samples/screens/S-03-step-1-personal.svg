@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Inter, Arial, sans-serif" font-size="12" fill="#14263f" role="img" aria-labelledby="t d">
+  <title id="t">Step 1 Personal wireframe</title>
+  <desc id="d">Sample wireframe: Step 1 Personal with labelled synthetic fields, hints, one field error with icon and text, and a focused field. Illustrative only.</desc>
+  <rect width="800" height="480" fill="#ffffff"/>
+  <rect x="0" y="0" width="800" height="56" fill="#14263f"/>
+  <text x="24" y="34" fill="#fff" font-size="15" font-weight="700">Sample application form (synthetic)</text>
+  <rect x="670" y="15" width="106" height="26" rx="13" fill="#fff" stroke="#1a7f4b"/><text x="723.0" y="33" fill="#1a7f4b" font-weight="700" text-anchor="middle">✓ Saved 10:42</text>
+  <circle cx="38" cy="88" r="13" fill="#0e9384" stroke="#0e9384" stroke-width="1.5"/>
+  <text x="38" y="93" fill="#fff" font-weight="700" text-anchor="middle">1</text>
+  <text x="58" y="93" font-weight="700">Personal (current)</text>
+  <rect x="180" y="87" width="26" height="2" fill="#d5dee6"/>
+  <circle cx="228" cy="88" r="13" fill="#fff" stroke="#5b6b7d" stroke-width="1.5"/>
+  <text x="228" y="93" fill="#5b6b7d" font-weight="700" text-anchor="middle">2</text>
+  <text x="248" y="93" fill="#5b6b7d">Contact</text>
+  <rect x="370" y="87" width="26" height="2" fill="#d5dee6"/>
+  <circle cx="418" cy="88" r="13" fill="#fff" stroke="#5b6b7d" stroke-width="1.5"/>
+  <text x="418" y="93" fill="#5b6b7d" font-weight="700" text-anchor="middle">3</text>
+  <text x="438" y="93" fill="#5b6b7d">Details</text>
+  <rect x="560" y="87" width="26" height="2" fill="#d5dee6"/>
+  <circle cx="608" cy="88" r="13" fill="#fff" stroke="#5b6b7d" stroke-width="1.5"/>
+  <text x="608" y="93" fill="#5b6b7d" font-weight="700" text-anchor="middle">4</text>
+  <text x="628" y="93" fill="#5b6b7d">Review</text>
+  <rect x="24" y="116" width="752" height="304" rx="8" fill="#fff" stroke="#d5dee6"/>
+  <text x="48" y="148" font-size="18" font-weight="700">Step 1 of 4 · Personal</text>
+  <rect x="640" y="434" width="136" height="32" rx="6" fill="#0e9384"/><text x="708.0" y="455.0" fill="#fff" font-size="13" font-weight="700" text-anchor="middle">Next</text>
+  <text x="48" y="186" font-weight="700">Full name</text><rect x="48" y="194" width="330" height="32" rx="6" fill="#fff" stroke="#5b6b7d"/><text x="58" y="215.0" font-size="13">Sample Person</text><text x="48" y="242" fill="#5b6b7d" font-size="11">As on your ID (synthetic).</text>
+  <text x="400" y="186" font-weight="700">Date of birth</text><rect x="400" y="194" width="330" height="32" rx="6" fill="#fff" stroke="#b42318" stroke-width="2"/><text x="410" y="215.0" font-size="13">31/02/1990</text><text x="400" y="242" fill="#b42318" font-size="11" font-weight="700">⚠ Enter a real date</text><text x="400" y="257" fill="#5b6b7d" font-size="11">DD/MM/YYYY</text>
+  <text x="48" y="276" font-weight="700">Preferred name (optional)</text><rect x="48" y="284" width="330" height="32" rx="6" fill="#fff" stroke="#5b6b7d"/>
+  <text x="400" y="276" font-weight="700">Reference number</text><rect x="400" y="284" width="330" height="32" rx="6" fill="#fff" stroke="#14263f"/><rect x="397" y="281" width="336" height="38" rx="9" fill="none" stroke="#1d6fe0" stroke-width="2"/><text x="410" y="305.0" font-size="13">ABC-0001</text><text x="400" y="332" fill="#5b6b7d" font-size="11">Format: 3 letters, dash, 4 digits.</text>
+  <rect x="48" y="374" width="181" height="20" rx="10" fill="#fff" stroke="#b42318"/><text x="138.5" y="388" fill="#b42318" font-size="11" font-weight="700" text-anchor="middle">⚠ State shown: field error</text>
+  <text x="48" y="410" fill="#5b6b7d" font-size="11">Error appears after leaving the field or on Next.</text>
+</svg>

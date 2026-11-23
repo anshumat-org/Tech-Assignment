@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Inter, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Applicant home wireframe</title>
+  <desc id="d">Applicant home with current status, next action, unread notifications and the simulated badge. Illustrative only.</desc>
+  <rect width="800" height="480" fill="#ffffff"/>
+  <rect x="0" y="0" width="800" height="56" rx="0" fill="#14263f"/>
+  <text x="24" y="35" fill="#ffffff" font-size="16" font-weight="700">Passport assistance (demo)</text>
+  <rect x="477" y="15" width="299" height="26" rx="13" fill="#ffffff"/>
+  <text x="626.5" y="32" fill="#b26a00" font-size="12" font-weight="700" text-anchor="middle">Simulated. Not the official passport system</text>
+  <text x="24" y="92" fill="#14263f" font-size="18" font-weight="700">Welcome, Applicant A (placeholder)</text>
+  <rect x="24" y="108" width="460" height="160" rx="8" fill="#ffffff" stroke="#d5dee6"/><text x="40" y="134" fill="#14263f" font-size="14" font-weight="700">Your application</text>
+  <text x="40" y="160" fill="#5b6b7d" font-size="12">Status</text>
+  <rect x="40" y="168" width="143" height="22" rx="11" fill="#ffffff" stroke="#b26a00"/><text x="111.5" y="183" fill="#b26a00" font-size="11" font-weight="700" text-anchor="middle">● Documents pending</text>
+  <text x="40" y="222" fill="#14263f" font-size="13">Next: add 2 missing documents</text>
+  <rect x="330" y="200" width="138" height="36" rx="8" fill="#0e9384"/><text x="399.0" y="223.0" fill="#ffffff" font-size="14" font-weight="700" text-anchor="middle">Open checklist</text>
+  <rect x="24" y="284" width="460" height="172" rx="8" fill="#ffffff" stroke="#d5dee6"/><text x="40" y="310" fill="#14263f" font-size="14" font-weight="700">Timeline preview</text>
+  <text x="40" y="336" fill="#1a7f4b" font-size="13">✓ Profile submitted · 2 days ago</text>
+  <text x="40" y="362" fill="#14263f" font-size="13" font-weight="700">▶ Documents pending · current step</text>
+  <text x="40" y="388" fill="#5b6b7d" font-size="13">○ Operator review · next</text>
+  <text x="40" y="432" fill="#5b6b7d" font-size="12">Simulated submission. No real application has been filed.</text>
+  <rect x="504" y="76" width="272" height="380" rx="8" fill="#ffffff" stroke="#d5dee6"/><text x="520" y="102" fill="#14263f" font-size="14" font-weight="700">Notifications · 2 unread</text>
+  <rect x="520" y="112" width="240" height="64" rx="6" fill="#eef3f7" stroke="#d5dee6"/>
+  <text x="532" y="134" fill="#b42318" font-size="12" font-weight="700">● Unread · Action needed</text>
+  <text x="532" y="156" fill="#14263f" font-size="12">Document B was rejected. Re-upload.</text>
+  <rect x="520" y="184" width="240" height="64" rx="6" fill="#eef3f7" stroke="#d5dee6"/>
+  <text x="532" y="206" fill="#1d6fe0" font-size="12" font-weight="700">● Unread</text>
+  <text x="532" y="228" fill="#14263f" font-size="12">Consent recorded for DigiLocker (mock)</text>
+  <rect x="520" y="256" width="240" height="64" rx="6" fill="#ffffff" stroke="#d5dee6"/>
+  <text x="532" y="278" fill="#5b6b7d" font-size="12">Read</text>
+  <text x="532" y="300" fill="#5b6b7d" font-size="12">Profile saved</text>
+</svg>

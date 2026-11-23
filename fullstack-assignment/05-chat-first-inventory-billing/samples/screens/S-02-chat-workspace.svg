@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Inter, Arial, 'Noto Sans Devanagari', 'Nirmala UI', Mangal, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Chat workspace wireframe</title>
+  <desc id="d">Chat workspace with user, assistant and system messages, a language toggle and a side panel, in the AI unavailable state. Illustrative only.</desc>
+  <rect width="800" height="480" fill="#ffffff"/>
+  <rect x="0" y="0" width="800" height="56" rx="0" fill="#14263f"/><text x="24" y="35" fill="#ffffff" font-size="16" font-weight="700">Sample Kirana Store (demo)</text><rect x="640" y="14" width="136" height="28" rx="14" fill="none" stroke="#ffffff"/>
+  <rect x="708" y="14" width="68" height="28" rx="14" fill="#0e9384"/>
+  <text x="674" y="33" fill="#ffffff" font-size="12" text-anchor="middle">हिंदी</text>
+  <text x="742" y="33" fill="#ffffff" font-size="12" font-weight="700" text-anchor="middle">English</text>
+  <rect x="24" y="72" width="400" height="392" rx="8" fill="#ffffff" stroke="#d5dee6"/>
+  <rect x="36" y="86" width="360" height="32" rx="10" fill="#ffffff" stroke="#d5dee6" stroke-dasharray="4 3"/><text x="48" y="108" fill="#5b6b7d" font-size="13">AI assistant unavailable. Simple command mode is on.</text>
+  <rect x="235" y="128" width="177" height="32" rx="10" fill="#0e9384"/><text x="247" y="150" fill="#ffffff" font-size="13">sale Rahul rice-5kg 2</text>
+  <rect x="36" y="170" width="331" height="50" rx="10" fill="#eef3f7" stroke="#d5dee6"/><text x="48" y="192" fill="#14263f" font-size="13">Understood: sale to Rahul, Rice 5 kg × 2.</text><text x="48" y="210" fill="#14263f" font-size="13">Preview is on the right. Nothing saved yet.</text>
+  <rect x="312" y="230" width="100" height="32" rx="10" fill="#0e9384"/><text x="324" y="252" fill="#ffffff" font-size="13">stock rice</text>
+  <rect x="36" y="412" width="300" height="40" rx="20" fill="#ffffff" stroke="#d5dee6"/>
+  <text x="54" y="437" fill="#5b6b7d" font-size="13">Type a message…</text>
+  <rect x="346" y="412" width="66" height="40" rx="20" fill="#0e9384"/>
+  <text x="379" y="437" fill="#ffffff" font-size="13" font-weight="700" text-anchor="middle">Send</text>
+  <rect x="444" y="72" width="332" height="392" rx="8" fill="#ffffff" stroke="#d5dee6"/><text x="460" y="98" fill="#14263f" font-size="14" font-weight="700">Side panel · Preview</text>
+  <rect x="456" y="110" width="308" height="34" rx="6" fill="#ffffff" stroke="#b26a00" stroke-width="1.5"/><rect x="456" y="110" width="5" height="34" rx="2" fill="#b26a00"/><text x="472" y="132.0" fill="#b26a00" font-size="13" font-weight="700">⚠ AI unavailable</text><text x="597.6" y="132.0" fill="#14263f" font-size="12">Mock parser in use</text>
+  <text x="460" y="176" fill="#5b6b7d" font-size="12" font-weight="700">Commands that work now:</text>
+  <text x="460" y="200" fill="#14263f" font-size="12">sale &lt;customer&gt; &lt;product&gt; &lt;qty&gt;</text>
+  <text x="460" y="222" fill="#14263f" font-size="12">stock &lt;product&gt;</text>
+  <text x="460" y="244" fill="#14263f" font-size="12">report sales today</text>
+  <text x="460" y="266" fill="#14263f" font-size="12">return &lt;order no.&gt;</text>
+  <rect x="460" y="300" width="300" height="120" rx="8" fill="#eef3f7" stroke="#d5dee6"/>
+  <text x="476" y="326" fill="#14263f" font-size="13" font-weight="700">Last preview: Order for Rahul</text>
+  <text x="476" y="350" fill="#5b6b7d" font-size="12">Rice 5 kg × 2 · ₹X total</text>
+  <text x="476" y="374" fill="#b26a00" font-size="12" font-weight="700">Status: ◔ Proposed (not confirmed)</text>
+  <text x="476" y="400" fill="#1d6fe0" font-size="12" font-weight="700">Open card →</text>
+</svg>

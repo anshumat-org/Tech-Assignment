@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 720" font-family="Inter, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Delete confirm wireframe</title>
+  <desc id="d">Sample wireframe: confirm dialog naming the note, with Delete and Cancel. Illustrative only.</desc>
+  <rect width="360" height="720" fill="#ffffff"/>
+  <rect width="360" height="80" fill="#14263f"/>
+  <text x="16" y="17" font-size="11" fill="#ffffff">9:41</text><text x="344" y="17" font-size="11" fill="#ffffff" text-anchor="end">LTE 80%</text>
+  <text x="16" y="58" font-size="20" fill="#ffffff">←</text><text x="48" y="57" font-size="17" fill="#ffffff" font-weight="700">Edit note</text>
+  <text x="16" y="120" font-size="16" fill="#14263f" font-weight="700">Meeting notes (placeholder)</text>
+  <rect width="360" height="720" fill="#14263f" fill-opacity="0.45"/>
+  <rect x="32" y="250" width="296" height="196" rx="12" fill="#ffffff" stroke="#d5dee6"/>
+  <text x="52" y="288" font-size="18" fill="#14263f" font-weight="700">Delete this note?</text>
+  <text x="52" y="318" font-size="13" fill="#14263f" font-weight="600">“Meeting notes (placeholder)”</text>
+  <text x="52" y="342" font-size="12" fill="#5b6b7d">It will be removed from all devices</text>
+  <text x="52" y="360" font-size="12" fill="#5b6b7d">after the next sync.</text>
+  <rect x="52" y="386" width="120" height="40" rx="8" fill="#ffffff" stroke="#d5dee6"/><text x="112.0" y="411.0" font-size="14" fill="#14263f" font-weight="600" text-anchor="middle">Cancel</text><rect x="188" y="386" width="120" height="40" rx="8" fill="#b42318"/><text x="248.0" y="411.0" font-size="14" fill="#ffffff" font-weight="600" text-anchor="middle">Delete</text>
+  <rect x="130" y="704" width="100" height="4" rx="2" fill="#d5dee6"/>
+</svg>

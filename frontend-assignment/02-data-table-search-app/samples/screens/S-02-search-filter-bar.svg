@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Inter, Arial, sans-serif" font-size="12" fill="#14263f" role="img" aria-labelledby="t d">
+  <title id="t">Search and filter bar wireframe</title>
+  <desc id="d">Sample wireframe: records page with the search and filter bar highlighted, typing in search with a debounced searching badge and an open multi-select with facet counts. Illustrative only.</desc>
+  <rect width="800" height="480" fill="#ffffff"/>
+  <rect x="0" y="0" width="800" height="28" fill="#eef3f7"/>
+  <rect x="12" y="5" width="776" height="18" rx="9" fill="#fff" stroke="#d5dee6"/>
+  <text x="24" y="18" fill="#5b6b7d" font-size="11">localhost/records?q=samp&amp;status=active,pending</text>
+  <rect x="0" y="28" width="800" height="44" fill="#14263f"/>
+  <text x="24" y="56" fill="#fff" font-size="16" font-weight="700">Records (sample data)</text>
+  <text x="24" y="92" font-weight="700">Search records</text><rect x="24" y="100" width="250" height="32" rx="6" fill="#fff" stroke="#5b6b7d"/><text x="34" y="121.0" font-size="13">samp|</text>
+  <text x="290" y="92" font-weight="700">Status (multi-select)</text><rect x="290" y="100" width="170" height="32" rx="6" fill="#fff" stroke="#5b6b7d"/><text x="300" y="121.0" font-size="13">Active, Pending</text>
+  <text x="444" y="121" font-size="13">▾</text>
+  <text x="476" y="92" font-weight="700">Category</text><rect x="476" y="100" width="140" height="32" rx="6" fill="#fff" stroke="#5b6b7d"/><text x="486" y="121.0" font-size="13">Any</text>
+  <text x="600" y="121" font-size="13">▾</text>
+  <rect x="632" y="100" width="144" height="32" rx="6" fill="#fff" stroke="#d5dee6"/><text x="704.0" y="121.0" font-size="13" font-weight="700" text-anchor="middle">Clear filters</text>
+  <text x="24" y="162" font-size="13" font-weight="700">Showing 1–25 of 1,240 records</text>
+  <rect x="24" y="172" width="752" height="252" rx="6" fill="#fff" stroke="#d5dee6"/><rect x="24" y="172" width="752" height="28" rx="6" fill="#eef3f7" stroke="#d5dee6"/>
+  <text x="36" y="191" font-weight="700">ID</text>
+  <text x="110" y="191" font-weight="700">Name</text>
+  <text x="240" y="191" font-weight="700">Category</text>
+  <text x="340" y="191" font-weight="700">Status</text>
+  <text x="444" y="191" font-weight="700">Owner</text>
+  <text x="540" y="191" font-weight="700">Amount</text>
+  <text x="636" y="191" font-weight="700">Updated ▼</text>
+  <rect x="24" y="232" width="752" height="1" fill="#d5dee6"/>
+  <text x="36" y="221" fill="#0e9384">R-00041</text>
+  <text x="110" y="221" fill="#0e9384" font-weight="700">Sample item 041</text>
+  <text x="240" y="221">Hardware</text>
+  <text x="340" y="221" fill="#1a7f4b" font-weight="700">✓ Active</text>
+  <text x="444" y="221">Owner A</text>
+  <text x="590" y="221" text-anchor="end">12,400</text>
+  <text x="636" y="221" fill="#5b6b7d">2026-11-20</text>
+  <rect x="24" y="264" width="752" height="1" fill="#d5dee6"/>
+  <text x="36" y="253" fill="#0e9384">R-00042</text>
+  <text x="110" y="253" fill="#0e9384" font-weight="700">Sample item 042</text>
+  <text x="240" y="253">Services</text>
+  <text x="340" y="253" fill="#b26a00" font-weight="700">⚠ Pending</text>
+  <text x="444" y="253">Owner B</text>
+  <text x="590" y="253" text-anchor="end">8,150</text>
+  <text x="636" y="253" fill="#5b6b7d">2026-11-19</text>
+  <rect x="24" y="296" width="752" height="1" fill="#d5dee6"/>
+  <text x="36" y="285" fill="#0e9384">R-00043</text>
+  <text x="110" y="285" fill="#0e9384" font-weight="700">Sample item 043</text>
+  <text x="240" y="285">Hardware</text>
+  <text x="340" y="285" fill="#1a7f4b" font-weight="700">✓ Active</text>
+  <text x="444" y="285">Owner C</text>
+  <text x="590" y="285" text-anchor="end">4,900</text>
+  <text x="636" y="285" fill="#5b6b7d">2026-11-19</text>
+  <rect x="24" y="328" width="752" height="1" fill="#d5dee6"/>
+  <text x="36" y="317" fill="#0e9384">R-00044</text>
+  <text x="110" y="317" fill="#0e9384" font-weight="700">Sample item 044</text>
+  <text x="240" y="317">Software</text>
+  <text x="340" y="317" fill="#5b6b7d" font-weight="700">✕ Closed</text>
+  <text x="444" y="317">Owner A</text>
+  <text x="590" y="317" text-anchor="end">3,275</text>
+  <text x="636" y="317" fill="#5b6b7d">2026-11-18</text>
+  <rect x="24" y="360" width="752" height="1" fill="#d5dee6"/>
+  <text x="36" y="349" fill="#0e9384">R-00045</text>
+  <text x="110" y="349" fill="#0e9384" font-weight="700">Sample item 045</text>
+  <text x="240" y="349">Services</text>
+  <text x="340" y="349" fill="#1a7f4b" font-weight="700">✓ Active</text>
+  <text x="444" y="349">Owner D</text>
+  <text x="590" y="349" text-anchor="end">2,040</text>
+  <text x="636" y="349" fill="#5b6b7d">2026-11-17</text>
+  <rect x="24" y="392" width="752" height="1" fill="#d5dee6"/>
+  <text x="36" y="381" fill="#0e9384">R-00046</text>
+  <text x="110" y="381" fill="#0e9384" font-weight="700">Sample item 046</text>
+  <text x="240" y="381">Software</text>
+  <text x="340" y="381" fill="#b26a00" font-weight="700">⚠ Pending</text>
+  <text x="444" y="381">Owner B</text>
+  <text x="590" y="381" text-anchor="end">1,880</text>
+  <text x="636" y="381" fill="#5b6b7d">2026-11-16</text>
+  <text x="36" y="413" fill="#0e9384">R-00047</text>
+  <text x="110" y="413" fill="#0e9384" font-weight="700">Sample item 047</text>
+  <text x="240" y="413">Hardware</text>
+  <text x="340" y="413" fill="#1a7f4b" font-weight="700">✓ Active</text>
+  <text x="444" y="413">Owner C</text>
+  <text x="590" y="413" text-anchor="end">1,210</text>
+  <text x="636" y="413" fill="#5b6b7d">2026-11-15</text>
+  <text x="24" y="452" fill="#5b6b7d">Page 1 of 200</text>
+  <rect x="560" y="436" width="90" height="32" rx="6" fill="#eef3f7" stroke="#d5dee6"/><text x="605.0" y="457.0" fill="#5b6b7d" font-size="13" font-weight="700" text-anchor="middle">‹ Previous</text>
+  <rect x="660" y="436" width="116" height="32" rx="6" fill="#fff" stroke="#d5dee6"/><text x="718.0" y="457.0" font-size="13" font-weight="700" text-anchor="middle">Next ›</text>
+  <rect x="21" y="97" width="256" height="38" rx="9" fill="none" stroke="#1d6fe0" stroke-width="2"/>
+  <rect x="124" y="107" width="156" height="20" rx="10" fill="#fff" stroke="#b26a00"/><text x="202.0" y="121" fill="#b26a00" font-size="11" font-weight="700" text-anchor="middle">Searching… (debounced)</text>
+  <rect x="290" y="138" width="170" height="136" rx="6" fill="#fff" stroke="#d5dee6"/>
+  <rect x="302" y="146" width="16" height="16" rx="3" fill="#0e9384"/><path d="M306 154l3 3 6-6" fill="none" stroke="#fff" stroke-width="2"/><text x="328" y="159" font-size="13">Active</text>
+  <text x="448" y="159" fill="#5b6b7d" font-size="11" text-anchor="end">812</text>
+  <rect x="302" y="176" width="16" height="16" rx="3" fill="#0e9384"/><path d="M306 184l3 3 6-6" fill="none" stroke="#fff" stroke-width="2"/><text x="328" y="189" font-size="13">Pending</text>
+  <text x="448" y="189" fill="#5b6b7d" font-size="11" text-anchor="end">428</text>
+  <rect x="302" y="206" width="16" height="16" rx="3" fill="#fff" stroke="#14263f" stroke-width="1.5"/><text x="328" y="219" font-size="13">Closed</text>
+  <text x="448" y="219" fill="#5b6b7d" font-size="11" text-anchor="end">0</text>
+  <rect x="302" y="236" width="16" height="16" rx="3" fill="#fff" stroke="#14263f" stroke-width="1.5"/><text x="328" y="249" font-size="13">Archived</text>
+  <text x="448" y="249" fill="#5b6b7d" font-size="11" text-anchor="end">37</text>
+  <rect x="18" y="74" width="764" height="70" rx="10" fill="none" stroke="#0e9384" stroke-width="2" stroke-dasharray="6 4"/><rect x="590" y="40" width="194" height="20" rx="4" fill="#0e9384"/><text x="687.0" y="54" fill="#fff" font-size="11" font-weight="700" text-anchor="middle">S-02 · Search and filter bar</text>
+</svg>

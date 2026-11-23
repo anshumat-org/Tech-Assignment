@@ -1,6 +1,6 @@
 # Tech-Assignment
 
-**v1.1 — 2026-11-06** · Full-stack product engineer assignments. Complete only the assignment selected for you.
+**v1.2 — 2026-11-23** · Full-stack product engineer assignments. Complete only the assignment selected for you.
 
 ## Repo structure
 
@@ -12,20 +12,24 @@
 │   ├── README.md
 │   ├── 01-assessment-intelligence-platform/
 │   │   ├── README.md                # overview
+│   │   ├── product-brief.md         # start here: product, personas, user stories
 │   │   ├── requirements-and-directives.md   # scope, scenarios, do / don't, deliverables
 │   │   ├── resources.md             # reference links
+│   │   ├── developer-guide.md       # build order + checklists
 │   │   ├── design-system/README.md
 │   │   └── samples/                 # wireframe SVGs + prototype.html
 │   ├── 02-ai-daily-knowledge-system/
 │   │   ├── README.md
+│   │   ├── product-brief.md         # start here: product, personas, user stories
 │   │   ├── requirements-and-directives.md
 │   │   ├── resources.md
+│   │   ├── developer-guide.md       # build order + checklists
 │   │   ├── design-system/README.md
 │   │   └── samples/                 # wireframe SVGs + prototype.html
-│   ├── 03-mini-workflow-engine/             # README, requirements-and-directives, resources, design-system
-│   ├── 04-passport-application-tracking/    # README, requirements-and-directives, resources, design-system
-│   ├── 05-chat-first-inventory-billing/     # README, requirements-and-directives, resources, design-system
-│   ├── 06-mandi-munshi-hal-khata/           # README, requirements-and-directives, resources, design-system
+│   ├── 03-mini-workflow-engine/             # README, product-brief, requirements, developer-guide, resources, design-system
+│   ├── 04-passport-application-tracking/    # README, product-brief, requirements, developer-guide, resources, design-system
+│   ├── 05-chat-first-inventory-billing/     # README, product-brief, requirements, developer-guide, resources, design-system
+│   ├── 06-mandi-munshi-hal-khata/           # README, product-brief, requirements, developer-guide, resources, design-system
 │   └── developer-instructions.md       # mandatory for all six
 ├── shared/design-system/            # tokens.css + shared guidance
 ├── qa/RUBRIC.md                     # scoring rubric (hiring team)
@@ -36,7 +40,7 @@
 
 | Doc | Purpose |
 |---|---|
-| [fullstack-assignment/README.md](fullstack-assignment/README.md) | Compare the five assignments |
+| [fullstack-assignment/README.md](fullstack-assignment/README.md) | Compare the six assignments |
 | [fullstack-assignment/developer-instructions.md](fullstack-assignment/developer-instructions.md) | Mandatory developer principles |
 | [SUBMISSION_FORMATS.md](SUBMISSION_FORMATS.md) | Required format for every deliverable and diagram |
 | [shared/design-system/README.md](shared/design-system/README.md) | Shared tokens and components |

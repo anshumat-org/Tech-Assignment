@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Inter, Arial, 'Noto Sans Devanagari', 'Nirmala UI', Mangal, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Mandi settings wireframe</title>
+  <desc id="d">Deduction rules, users and roles, language and timezone, after saving. Illustrative only.</desc>
+  <rect width="800" height="480" fill="#ffffff"/>
+  <rect x="0" y="0" width="800" height="56" rx="0" fill="#14263f"/><text x="24" y="35" fill="#ffffff" font-size="16" font-weight="700">Sample Aadhat Firm (demo)</text><rect x="640" y="14" width="136" height="28" rx="14" fill="none" stroke="#ffffff"/>
+  <rect x="708" y="14" width="68" height="28" rx="14" fill="#0e9384"/>
+  <text x="674" y="33" fill="#ffffff" font-size="12" text-anchor="middle">हिंदी</text>
+  <text x="742" y="33" fill="#ffffff" font-size="12" font-weight="700" text-anchor="middle">English</text>
+  <text x="24" y="90" fill="#14263f" font-size="16" font-weight="700">Settings</text>
+  <rect x="24" y="102" width="752" height="36" rx="6" fill="#ffffff" stroke="#1a7f4b" stroke-width="1.5"/><rect x="24" y="102" width="5" height="36" rx="2" fill="#1a7f4b"/><text x="40" y="125.0" fill="#1a7f4b" font-size="13" font-weight="700">✓ Saved</text><text x="99.0" y="125.0" fill="#14263f" font-size="12">New rules apply to settlements created from now.</text>
+  <text x="24" y="166" fill="#14263f" font-size="13" font-weight="700">Deduction rules</text>
+  <rect x="24" y="176" width="420" height="128" rx="8" fill="#ffffff" stroke="#d5dee6"/>
+  <rect x="24" y="176" width="420" height="32" rx="8" fill="#eef3f7" stroke="#d5dee6"/>
+  <text x="34" y="196.0" fill="#5b6b7d" font-size="12" font-weight="700">Deduction</text><text x="274" y="196.0" fill="#5b6b7d" font-size="12" font-weight="700" text-anchor="end">Rate</text><text x="294" y="196.0" fill="#5b6b7d" font-size="12" font-weight="700">Base</text>
+  <line x1="24" y1="208" x2="444" y2="208" stroke="#d5dee6" stroke-width="1"/>
+  <text x="34" y="228.0" fill="#14263f" font-size="12">Commission</text><text x="274" y="228.0" fill="#14263f" font-size="12" text-anchor="end">2%</text><text x="294" y="228.0" fill="#14263f" font-size="12">Gross sale</text>
+  <line x1="24" y1="240" x2="444" y2="240" stroke="#d5dee6" stroke-width="1"/>
+  <text x="34" y="260.0" fill="#14263f" font-size="12">Hammali</text><text x="274" y="260.0" fill="#14263f" font-size="12" text-anchor="end">₹15.00</text><text x="294" y="260.0" fill="#14263f" font-size="12">Per bag</text>
+  <line x1="24" y1="272" x2="444" y2="272" stroke="#d5dee6" stroke-width="1"/>
+  <text x="34" y="292.0" fill="#14263f" font-size="12">Market fee</text><text x="274" y="292.0" fill="#14263f" font-size="12" text-anchor="end">1%</text><text x="294" y="292.0" fill="#14263f" font-size="12">Gross sale</text>
+  <text x="460" y="166" fill="#14263f" font-size="13" font-weight="700">Users and roles</text>
+  <rect x="460" y="176" width="316" height="128" rx="8" fill="#ffffff" stroke="#d5dee6"/>
+  <rect x="460" y="176" width="316" height="32" rx="8" fill="#eef3f7" stroke="#d5dee6"/>
+  <text x="470" y="196.0" fill="#5b6b7d" font-size="12" font-weight="700">User</text><text x="640" y="196.0" fill="#5b6b7d" font-size="12" font-weight="700">Role</text>
+  <line x1="460" y1="208" x2="776" y2="208" stroke="#d5dee6" stroke-width="1"/>
+  <text x="470" y="228.0" fill="#14263f" font-size="12">Owner O</text><text x="640" y="228.0" fill="#14263f" font-size="12">Owner</text>
+  <line x1="460" y1="240" x2="776" y2="240" stroke="#d5dee6" stroke-width="1"/>
+  <text x="470" y="260.0" fill="#14263f" font-size="12">Munshi M</text><text x="640" y="260.0" fill="#14263f" font-size="12">Munshi</text>
+  <line x1="460" y1="272" x2="776" y2="272" stroke="#d5dee6" stroke-width="1"/>
+  <text x="470" y="292.0" fill="#14263f" font-size="12">Viewer V</text><text x="640" y="292.0" fill="#14263f" font-size="12">Viewer</text>
+  <text x="24" y="340" fill="#5b6b7d" font-size="12">Language</text>
+  <rect x="24" y="348" width="64" height="22" rx="11" fill="#0e9384" stroke="#0e9384"/><text x="56.0" y="363" fill="#ffffff" font-size="11" font-weight="700" text-anchor="middle">✓ हिंदी</text>
+  <rect x="92" y="348" width="64" height="22" rx="11" fill="#ffffff" stroke="#0e9384"/><text x="124.0" y="363" fill="#0e9384" font-size="11" font-weight="700" text-anchor="middle">English</text>
+  <text x="460" y="332" fill="#5b6b7d" font-size="12">Timezone</text><rect x="460" y="340" width="316" height="34" rx="6" fill="#ffffff" stroke="#d5dee6"/><text x="472" y="362" fill="#14263f" font-size="13">Asia/Kolkata (UTC+05:30)</text>
+</svg>

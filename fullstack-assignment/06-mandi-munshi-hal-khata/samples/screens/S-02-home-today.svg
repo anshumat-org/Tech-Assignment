@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" font-family="Inter, Arial, 'Noto Sans Devanagari', 'Nirmala UI', Mangal, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Home today wireframe</title>
+  <desc id="d">Day at a glance with rokad totals, open lots, top outstanding and large quick-entry buttons. Illustrative only.</desc>
+  <rect width="800" height="480" fill="#ffffff"/>
+  <rect x="0" y="0" width="800" height="56" rx="0" fill="#14263f"/><text x="24" y="35" fill="#ffffff" font-size="16" font-weight="700">Sample Aadhat Firm (demo)</text><rect x="640" y="14" width="136" height="28" rx="14" fill="none" stroke="#ffffff"/>
+  <rect x="708" y="14" width="68" height="28" rx="14" fill="#0e9384"/>
+  <text x="674" y="33" fill="#ffffff" font-size="12" text-anchor="middle">हिंदी</text>
+  <text x="742" y="33" fill="#ffffff" font-size="12" font-weight="700" text-anchor="middle">English</text>
+  <text x="24" y="90" fill="#14263f" font-size="16" font-weight="700">Today · 23 Nov 2026</text>
+  <rect x="24" y="104" width="140" height="56" rx="10" fill="#0e9384" stroke="#0e9384"/>
+  <text x="94" y="128" fill="#ffffff" font-size="14" font-weight="700" text-anchor="middle">+ Aamad</text>
+  <text x="94" y="148" fill="#ffffff" font-size="12" text-anchor="middle">आमद</text>
+  <rect x="176" y="104" width="140" height="56" rx="10" fill="#0e9384" stroke="#0e9384"/>
+  <text x="246" y="128" fill="#ffffff" font-size="14" font-weight="700" text-anchor="middle">+ Bikri</text>
+  <text x="246" y="148" fill="#ffffff" font-size="12" text-anchor="middle">बिक्री</text>
+  <rect x="328" y="104" width="140" height="56" rx="10" fill="#ffffff" stroke="#0e9384"/>
+  <text x="398" y="128" fill="#0e9384" font-size="14" font-weight="700" text-anchor="middle">+ Advance</text>
+  <text x="398" y="148" fill="#0e9384" font-size="12" text-anchor="middle">पेशगी</text>
+  <rect x="480" y="104" width="140" height="56" rx="10" fill="#ffffff" stroke="#0e9384"/>
+  <text x="550" y="128" fill="#0e9384" font-size="14" font-weight="700" text-anchor="middle">+ Receipt</text>
+  <text x="550" y="148" fill="#0e9384" font-size="12" text-anchor="middle">जमा</text>
+  <rect x="632" y="104" width="140" height="56" rx="10" fill="#ffffff" stroke="#0e9384"/>
+  <text x="702" y="128" fill="#0e9384" font-size="14" font-weight="700" text-anchor="middle">+ Payment</text>
+  <text x="702" y="148" fill="#0e9384" font-size="12" text-anchor="middle">भुगतान</text>
+  <rect x="24" y="176" width="240" height="280" rx="8" fill="#ffffff" stroke="#d5dee6"/><text x="40" y="202" fill="#14263f" font-size="14" font-weight="700">Rokad today</text>
+  <text x="40" y="226" fill="#5b6b7d" font-size="12">Cash in</text>
+  <text x="248" y="226" fill="#14263f" font-size="13" font-weight="700" text-anchor="end">₹48,500.00</text>
+  <text x="40" y="252" fill="#5b6b7d" font-size="12">Cash out</text>
+  <text x="248" y="252" fill="#14263f" font-size="13" font-weight="700" text-anchor="end">₹1,20,000.00</text>
+  <text x="40" y="278" fill="#5b6b7d" font-size="12">Bank in</text>
+  <text x="248" y="278" fill="#14263f" font-size="13" font-weight="700" text-anchor="end">₹2,15,000.00</text>
+  <text x="40" y="304" fill="#5b6b7d" font-size="12">Bank out</text>
+  <text x="248" y="304" fill="#14263f" font-size="13" font-weight="700" text-anchor="end">₹60,000.00</text>
+  <line x1="40" y1="318" x2="248" y2="318" stroke="#d5dee6" stroke-width="1"/>
+  <text x="40" y="342" fill="#5b6b7d" font-size="12">Closing cash</text>
+  <text x="248" y="342" fill="#14263f" font-size="13" font-weight="700" text-anchor="end">₹23,500.00</text>
+  <rect x="280" y="176" width="240" height="280" rx="8" fill="#ffffff" stroke="#d5dee6"/><text x="296" y="202" fill="#14263f" font-size="14" font-weight="700">Open lots · 4</text>
+  <text x="296" y="226" fill="#14263f" font-size="12">L-0012 Wheat · 18 of 60 qtl left</text>
+  <text x="296" y="256" fill="#14263f" font-size="12">L-0013 Mustard · 40 of 40 qtl</text>
+  <text x="296" y="286" fill="#14263f" font-size="12">L-0014 Wheat · 5 of 25 qtl left</text>
+  <text x="296" y="316" fill="#14263f" font-size="12">L-0015 Gram · 30 of 30 qtl</text>
+  <rect x="536" y="176" width="240" height="280" rx="8" fill="#ffffff" stroke="#d5dee6"/><text x="552" y="202" fill="#14263f" font-size="14" font-weight="700">Top outstanding</text>
+  <text x="552" y="226" fill="#14263f" font-size="12" font-weight="700">Buyer B (sample)</text>
+  <text x="552" y="244" fill="#5b6b7d" font-size="12">₹1,23,456.00 Dr</text>
+  <text x="552" y="270" fill="#14263f" font-size="12" font-weight="700">Buyer C (sample)</text>
+  <text x="552" y="288" fill="#5b6b7d" font-size="12">₹82,000.00 Dr</text>
+  <text x="552" y="314" fill="#14263f" font-size="12" font-weight="700">Farmer F (sample)</text>
+  <text x="552" y="332" fill="#5b6b7d" font-size="12">₹40,250.00 Cr</text>
+  <text x="552" y="420" fill="#1d6fe0" font-size="12" font-weight="700">View all →</text>
+</svg>
