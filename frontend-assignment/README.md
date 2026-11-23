@@ -1,6 +1,6 @@
 # Frontend / Web Assignments
 
-**v0.3 DRAFT — 2026-11-23**
+**v0.4 DRAFT — 2026-11-23**
 
 | # | Assignment | Focus | Effort | Review | Folder |
 |---|---|---|---|---|---|
@@ -9,6 +9,16 @@
 | 03 | Multi-Step Form with Autosave | Validation, autosave, resume, network recovery | 5–7 h | 30–45 min | [03-multi-step-form-autosave](03-multi-step-form-autosave/README.md) |
 
 **Choose any one assignment below and complete only that one.** Not sure? 01 is the smallest (fundamentals), 02 suits data-heavy UI, 03 suits forms and resilience.
+
+## Tech stack
+
+Any framework. TypeScript preferred. Mock APIs only; no secrets or real endpoints in client code.
+
+| # | Language / framework | Database / storage | Tools, mocks and hosting | Flexibility |
+|---|---|---|---|---|
+| 01 | Any framework, TypeScript preferred | Not needed | Design tokens (shared or your own); headless libraries only if you can explain them | Any framework |
+| 02 | Any framework, TypeScript preferred | Mock API data: 5,000+ synthetic rows from a seed script | MSW, json-server or similar | Any framework; works at 360 px and by keyboard |
+| 03 | Any framework, TypeScript preferred | Mock API (drafts saved server-side) | MSW, json-server or similar; shared schema (for example Zod) | Any framework; works at 360 px and by keyboard |
 
 ## Rules for candidates
 

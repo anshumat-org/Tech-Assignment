@@ -1,6 +1,6 @@
 # UX/UI Assignments
 
-**v0.3 DRAFT — 2026-11-23**
+**v0.4 DRAFT — 2026-11-23**
 
 | # | Assignment | Focus | Effort | Review | Folder |
 |---|---|---|---|---|---|
@@ -9,6 +9,16 @@
 | 03 | Consent Onboarding Flow | Plain-language consent, error and recovery, withdrawal, content design | 5–7 h | 30–45 min | [03-consent-onboarding-flow](03-consent-onboarding-flow/README.md) |
 
 **Choose any one assignment below and complete only that one.** Not sure? 01 covers the end-to-end design process, 02 suits system thinking, 03 suits sensitive flows and content.
+
+## Tech stack
+
+Any design tool. Fonts and icons must be freely licensed. Synthetic content and no real brands.
+
+| # | Design tool | Tokens / data | Deliverable format | Flexibility |
+|---|---|---|---|---|
+| 01 | Any design tool | — | Figma link or exported PDF/PNG, plus a short rationale doc | Light and dark theme for the dashboard |
+| 02 | Any design tool | Tokens as a table or file | Figma link or exported PDF/PNG, plus a rationale doc; may start from the shared design system | Light and dark both required |
+| 03 | Any design tool | — | Figma link or exported PDF/PNG, plus a rationale and content doc | Mobile first plus one desktop layout |
 
 ## Rules for candidates
 

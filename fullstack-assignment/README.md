@@ -1,6 +1,6 @@
 # Full-Stack Assignment
 
-**v1.3 — 2026-11-23** · "Choose any one assignment" rule and checklist section added. v1.2 added Assignment 06, product briefs and developer guides.
+**v1.4 — 2026-11-23** · Tech stack section added. "Choose any one assignment" rule and checklist section added. v1.2 added Assignment 06, product briefs and developer guides.
 
 > **Choose any one assignment from the table below and complete only that one.** Do not submit more than one. Pick the one that best shows your strengths.
 
@@ -23,6 +23,19 @@
 | Integrations, security, consent, workflows | 04 |
 | Commerce, chat interfaces, bilingual apps | 05 |
 | Ledgers, money correctness, accounting logic | 06 |
+
+## Tech stack
+
+Preferred choices come from each assignment's constraints. You may use something else: justify major choices in your README.
+
+| # | Language / framework | Database / storage | Tools, mocks and hosting | Flexibility |
+|---|---|---|---|---|
+| 01 | TypeScript, Node.js backend, React or Next.js frontend | PostgreSQL (SQLite acceptable) | Docker optional. Runs locally | TypeScript where practical; justify major choices |
+| 02 | TypeScript, React or Next.js PWA, Node.js API | IndexedDB on the device, PostgreSQL on the server | Provider-independent AI service, mock AI if no key | TypeScript where practical; no paid infrastructure required |
+| 03 | Any language and framework, TypeScript preferred | Relational database: PostgreSQL preferred, SQLite acceptable | None required | Any stack; keep it small |
+| 04 | TypeScript preferred | PostgreSQL preferred | DigiLocker adapter with a mock implementation | Mock provider expected without authorised credentials |
+| 05 | TypeScript preferred | PostgreSQL preferred | Chat or LLM adapter, mock or deterministic parser if no AI key | Must work without an AI key |
+| 06 | TypeScript preferred | PostgreSQL preferred (integer paise or decimal for money) | No real payment integration; voice or photo input optional | Runs locally from a clean clone |
 
 **Rules for candidates**
 - Choose any one assignment and complete only that one.

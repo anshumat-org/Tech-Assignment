@@ -1,6 +1,6 @@
 # Mobile App Assignments
 
-**v0.3 DRAFT — 2026-11-23**
+**v0.4 DRAFT — 2026-11-23**
 
 | # | Assignment | Focus | Effort | Review | Folder |
 |---|---|---|---|---|---|
@@ -9,6 +9,16 @@
 | 03 | Device Features and Upload | Camera/photo, location, permission denial, resilient upload | 6–8 h | 30–45 min | [03-device-features-upload](03-device-features-upload/README.md) |
 
 **Choose any one assignment below and complete only that one.** Not sure? 01 covers offline resilience, 02 suits security and sessions, 03 suits device features.
+
+## Tech stack
+
+React Native, Flutter, Kotlin or Swift. State your choice and why. Mocked backend only.
+
+| # | Language / framework | Database / storage | Tools, mocks and hosting | Flexibility |
+|---|---|---|---|---|
+| 01 | React Native, Flutter, Kotlin or Swift | Local database on the device | Mocked sync API | Works on at least two screen sizes |
+| 02 | React Native, Flutter, Kotlin or Swift | Device cache; secure token storage | Mocked API issuing short-lived tokens | Two screen sizes and large text |
+| 03 | React Native, Flutter, Kotlin or Swift | Persisted upload queue on the device | Mocked upload endpoint with progress and failures | Two screen sizes and large text; no real personal photos |
 
 **Rules for candidates**
 - Complete only the assignment selected for you.

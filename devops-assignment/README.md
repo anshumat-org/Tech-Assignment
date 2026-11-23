@@ -1,6 +1,6 @@
 # DevOps Assignments
 
-**v0.4 DRAFT — 2026-11-23**
+**v0.5 DRAFT — 2026-11-23**
 
 | # | Assignment | Focus | Effort | Review | Folder |
 |---|---|---|---|---|---|
@@ -9,6 +9,16 @@
 | 03 | Observability & Incident Response | Metrics, logs, alerts, SLOs, runbook, blameless incident write-up | 6–8 hours | 30–45 min | [03-observability-incident-response](03-observability-incident-response/README.md) |
 
 **Choose any one assignment below and complete only that one.** Not sure? 01 covers CI/CD, 02 suits infrastructure as code, 03 suits observability and incident response.
+
+## Tech stack
+
+Free tiers and local tools only. No real accounts, keys or paid resources.
+
+| # | Language / framework | Database / storage | Tools, mocks and hosting | Flexibility |
+|---|---|---|---|---|
+| 01 | Any language for a small sample HTTP service | Not required | GitHub Actions preferred (equivalents allowed), Docker for packaging | Any CI system; say what is simulated |
+| 02 | Terraform or OpenTofu preferred | As the module needs | Local providers, containers or mocked cloud (for example LocalStack) | Equivalents allowed with a short reason |
+| 03 | Any stack for the sample service | Not required | Prometheus, Grafana and a log aggregator via Docker Compose suggested | Equivalents allowed; local or free tools only |
 
 ## Rules for candidates
 

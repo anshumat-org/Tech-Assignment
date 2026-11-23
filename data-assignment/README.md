@@ -1,6 +1,6 @@
 # Data Assignments
 
-**v0.4 DRAFT — 2026-11-23**
+**v0.5 DRAFT — 2026-11-23**
 
 | # | Assignment | Best for | Focus | Effort | Review | Folder |
 |---|---|---|---|---|---|---|
@@ -9,6 +9,16 @@
 | 03 | KPI Dashboard & Insight Report | Analysts, BI developers | KPI definitions, caveats, reconciliation, honest charts | 6–8 h | 30–45 min | [03-kpi-dashboard-insight-report](03-kpi-dashboard-insight-report/README.md) |
 
 **Choose any one assignment below and complete only that one.** Not sure? 01 covers SQL and metrics, 02 suits data engineering, 03 suits analysis and reporting.
+
+## Tech stack
+
+SQL is required in every assignment. The rest is your choice.
+
+| # | Language / framework | Database / storage | Tools, mocks and hosting | Flexibility |
+|---|---|---|---|---|
+| 01 | SQL for all analysis; any language for data generation | PostgreSQL, DuckDB or SQLite | No BI tool needed | Any language for the data generator |
+| 02 | Any language; SQL for transforms | PostgreSQL, DuckDB or SQLite | Plain script or Makefile is fine; orchestrator optional | No streaming, Kubernetes, paid tools or mandatory cloud |
+| 03 | SQL for metrics; any BI tool or code (Streamlit, Metabase, Superset, notebook, static HTML) | PostgreSQL, DuckDB or SQLite | No paid tool or cloud service required | Any BI tool |
 
 ## Rules for candidates
 
