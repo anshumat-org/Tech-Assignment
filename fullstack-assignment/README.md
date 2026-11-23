@@ -1,6 +1,6 @@
 # Full-Stack Assignment
 
-**v1.0 — 2026-11-06**
+**v1.1 — 2026-11-23** · added Assignment 06
 
 | # | Assignment | Best for | Focus | Folder |
 |---|---|---|---|---|
@@ -9,8 +9,9 @@
 | 03 | Mini Workflow Engine | Initial screen for any full-stack candidate | Fundamentals, code quality, transactions, API design | [03-mini-workflow-engine](03-mini-workflow-engine/README.md) |
 | 04 | Passport Application & Tracking (DigiLocker) | Integrations, security, workflows | State machine, consent, adapters, audit trail | [04-passport-application-tracking](04-passport-application-tracking/README.md) |
 | 05 | Chat-First Inventory & Billing | Commerce, conversational apps | Chat-to-action, inventory ledger, bilingual UX, reports | [05-chat-first-inventory-billing](05-chat-first-inventory-billing/README.md) |
+| 06 | Mandi Munshi: Digital Hal Khata | Fintech, ledgers, accounting logic | Double-entry ledger, settlement, reversals, reports | [06-mandi-munshi-hal-khata](06-mandi-munshi-hal-khata/README.md) |
 
-**Recommended funnel:** start with 03, then choose 01, 02, 04 or 05 by the candidate's backend, product, integration or commerce focus. Do not ask every applicant to complete all five.
+**Recommended funnel:** start with 03, then choose 01, 02, 04, 05 or 06 by the candidate's backend, product, integration, commerce or ledger focus. Do not ask every applicant to complete all six.
 
 **Rules for candidates**
 - Complete only the assignment selected for you.
@@ -21,7 +22,7 @@
 | 01, 02 | 8–12 hours | 30–45 min |
 | 03 | 3–4 hours | 20–30 min |
 | 04 | 6–8 hours | 30–45 min |
-| 05 | 8–10 hours | 30–45 min |
+| 05, 06 | 8–10 hours | 30–45 min |
 
 - Submission window 3 calendar days, then a technical discussion.
 - Use synthetic data. Do not reproduce OnRole production systems.

@@ -1,6 +1,6 @@
 # FullStack Assignment — All Assignments and Directives
 
-**v1.0 — 2026-11-06** · One-file summary of Assignments 01–05. Full detail lives in each assignment folder.
+**v1.1 — 2026-11-23** · One-file summary of Assignments 01–06. Full detail lives in each assignment folder.
 
 ## 1. Overview
 
@@ -11,8 +11,9 @@
 | 03 | Mini Workflow Engine | Fundamentals, code quality, transactions, API design | 3–4 h | 20–30 min | [03](03-mini-workflow-engine/README.md) |
 | 04 | Passport Application & Tracking (DigiLocker) | State machine, consent, adapters, security, audit | 6–8 h | 30–45 min | [04](04-passport-application-tracking/README.md) |
 | 05 | Chat-First Inventory & Billing | Chat-to-action, ledger, bilingual UX, reports | 8–10 h | 30–45 min | [05](05-chat-first-inventory-billing/README.md) |
+| 06 | Mandi Munshi: Digital Hal Khata | Double-entry ledger, settlement, reversals, reports | 8–10 h | 30–45 min | [06](06-mandi-munshi-hal-khata/README.md) |
 
-**Funnel:** start with 03, then 01 (backend/data), 02 (product/platform), 04 (integration/security) or 05 (commerce). Do not ask every applicant to complete all five.
+**Funnel:** start with 03, then 01 (backend/data), 02 (product/platform), 04 (integration/security) 05 (commerce) or 06 (ledger). Do not ask every applicant to complete all six.
 
 ## 2. Rules for every assignment
 
@@ -128,10 +129,29 @@ Core principle: AI can assist implementation. Humans own the instructions, appro
 **Constraints:** TypeScript and PostgreSQL preferred · mock chat or LLM acceptable · layers separated · runs locally.
 **Discussion (30–45 min):** message-to-persisted-action pipeline, ledger and report formulas, retry safety, live return or refund change.
 
+### 06 — Mandi Munshi: Digital Hal Khata
+
+| ✅ Do | ❌ Don't |
+|---|---|
+| Store money as integer paise or a decimal type | Use floating point for money |
+| Post balanced journal entries in a DB transaction | Update a balance column directly |
+| Correct by reversal and re-posting with reason and actor | Edit or delete a posted entry |
+| Derive every report from ledger lines | Keep separately typed totals that can drift |
+| Use idempotency keys on every posting endpoint | Allow double credits or deductions on retry |
+| Lock or constrain concurrent sales against a lot | Let two clerks oversell a lot |
+| Enforce business and role scope on every query | Trust a business ID or role from the client |
+| Preview settlements and require confirmation before posting | Post a settlement with no preview |
+| State rounding, day boundary and closed-period rules | Leave them implicit |
+| Use synthetic data only | Use real farmer, trader or business data |
+
+**Deliverables:** app (parties, lots, sales, advances, receipts, payments, settlement, reversal) · party statement, rokad, outstanding ageing, lot summary · schema, HLD, ER diagram, API docs, README · at least 8 tests (balanced entries, rounding, settlement, reversal, duplicate retry, oversell race, report reconciliation, role access) · seed data · demo.
+**Constraints:** TypeScript and PostgreSQL preferred · no real payments · layers separated · runs locally.
+**Discussion (30–45 min):** ledger model, settlement formula, reversal and history, retry and concurrency, report reconciliation, live correction.
+
 ## 4. Evaluation weights
 
 Each assignment has its own area names and weights (each adds to 100%). See the "Evaluation weights" table in each README:
-[01](01-assessment-intelligence-platform/README.md) · [02](02-ai-daily-knowledge-system/README.md) · [03](03-mini-workflow-engine/README.md) · [04](04-passport-application-tracking/README.md) · [05](05-chat-first-inventory-billing/README.md)
+[01](01-assessment-intelligence-platform/README.md) · [02](02-ai-daily-knowledge-system/README.md) · [03](03-mini-workflow-engine/README.md) · [04](04-passport-application-tracking/README.md) · [05](05-chat-first-inventory-billing/README.md) · [06](06-mandi-munshi-hal-khata/README.md)
 
 ## 5. Open items
 

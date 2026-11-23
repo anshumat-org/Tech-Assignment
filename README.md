@@ -25,7 +25,8 @@
 │   ├── 03-mini-workflow-engine/             # README, requirements-and-directives, resources, design-system
 │   ├── 04-passport-application-tracking/    # README, requirements-and-directives, resources, design-system
 │   ├── 05-chat-first-inventory-billing/     # README, requirements-and-directives, resources, design-system
-│   └── developer-instructions.md       # mandatory for all five
+│   ├── 06-mandi-munshi-hal-khata/           # README, requirements-and-directives, resources, design-system
+│   └── developer-instructions.md       # mandatory for all six
 ├── shared/design-system/            # tokens.css + shared guidance
 ├── qa/RUBRIC.md                     # scoring rubric (hiring team)
 └── .claude/agents/qa-assessor.md    # QA agent (hiring team)

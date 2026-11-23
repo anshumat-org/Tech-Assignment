@@ -75,6 +75,20 @@ Red flags: scraping government portals, asking for DigiLocker passwords or OTPs,
 
 Red flag: the AI computes or invents stock, prices, totals or report figures.
 
+## Assignment 06 — Mandi Munshi: Digital Hal Khata
+
+| Area | Weight | Look for |
+|---|---|---|
+| Ledger design and money correctness | 25% | Integer paise or decimal, balanced journal lines, balances derived, append-only enforced, stated rounding rule |
+| Settlement (hisaab) and deduction logic | 20% | Formula as briefed, per-line deductions, advances carried forward, preview equals posted, rate changes handled |
+| Corrections, reversals, audit trail and idempotency | 15% | Reversal links and reasons, no in-place edits, idempotency keys, audit events with actor |
+| Reports: statement, rokad, outstanding ageing | 15% | Reports reconcile to ledger lines, date filters, ageing buckets, exports in both languages |
+| Backend / API and role-based access | 10% | Business and role checks on every query, concurrency control on lot quantity, API matches brief |
+| Frontend usability, bilingual and fast entry | 5% | Language toggle, preview before post, statement view, reversed entries marked |
+| Tests, error handling and documentation | 10% | At least 8 tests: balanced entries, rounding, settlement, reversal, duplicate retry, oversell race, report reconciliation, role access |
+
+Red flags: floating-point money, editable or deletable posted entries, a stored balance that can drift from the ledger, reports with separately typed totals.
+
 ## Required-deliverable gate
 
 | Item | Pass condition |
