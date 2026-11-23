@@ -12,6 +12,14 @@
 | Where | Runs locally, no mandatory paid infrastructure |
 | Which | The shortest full-stack option. Choose it to show clean fundamentals in limited time |
 
+## Tech stack
+
+| Layer | Stack | Logos |
+|---|---|---|
+| Language / framework | Any. TypeScript preferred | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/typescript/typescript-original.svg" alt="TypeScript" title="TypeScript" height="32"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/nodejs/nodejs-original.svg" alt="Node.js" title="Node.js (example)" height="32"> |
+| Database | PostgreSQL preferred, SQLite acceptable | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" title="PostgreSQL" height="32"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/sqlite/sqlite-original.svg" alt="SQLite" title="SQLite" height="32"> |
+| Tools | None required. Keep it small | — |
+
 ## Evaluation weights
 
 | Area | Weight |

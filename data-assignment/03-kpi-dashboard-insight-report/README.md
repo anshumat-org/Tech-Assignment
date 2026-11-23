@@ -12,6 +12,15 @@
 | Where | Runs locally or as exported files, no mandatory paid tool |
 | Which | Choose it to show analysis, reporting and communication depth |
 
+## Tech stack
+
+| Layer | Stack | Logos |
+|---|---|---|
+| Metrics | SQL (required) | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/postgresql/postgresql-original.svg" alt="SQL" title="SQL" height="32"> |
+| Database | PostgreSQL, DuckDB or SQLite | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" title="PostgreSQL" height="32"> <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/duckdb.svg" alt="DuckDB" title="DuckDB" height="32"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/sqlite/sqlite-original.svg" alt="SQLite" title="SQLite" height="32"> |
+| Dashboard | Any BI tool or code: Streamlit, Metabase, Superset, notebook, static HTML | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/streamlit/streamlit-original.svg" alt="Streamlit" title="Streamlit" height="32"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/jupyter/jupyter-original.svg" alt="Jupyter" title="Jupyter notebook" height="32"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/python/python-original.svg" alt="Python" title="Python" height="32"> |
+| Not required | Paid tool or cloud service | — |
+
 ## Evaluation weights
 
 | Area | Weight |

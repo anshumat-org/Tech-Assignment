@@ -12,6 +12,15 @@
 | Where | Runs locally from a clean checkout, no paid infrastructure |
 | Which | Choose it to show data engineering depth |
 
+## Tech stack
+
+| Layer | Stack | Logos |
+|---|---|---|
+| Language | Any language. SQL required for transforms | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/python/python-original.svg" alt="Python" title="Python (example)" height="32"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/postgresql/postgresql-original.svg" alt="SQL" title="SQL" height="32"> |
+| Database | PostgreSQL, DuckDB or SQLite | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" title="PostgreSQL" height="32"> <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/duckdb.svg" alt="DuckDB" title="DuckDB" height="32"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/sqlite/sqlite-original.svg" alt="SQLite" title="SQLite" height="32"> |
+| Orchestration | Plain script or Makefile is fine. Orchestrator optional | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/bash/bash-original.svg" alt="Shell" title="Shell / Makefile" height="32"> |
+| Not required | Streaming, Kubernetes, paid tools, mandatory cloud | — |
+
 ## Evaluation weights
 
 | Area | Weight |

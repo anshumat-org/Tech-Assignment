@@ -12,6 +12,15 @@
 | Where | Runs locally, no paid infrastructure |
 | Which | Choose it to show SQL and metric-definition depth |
 
+## Tech stack
+
+| Layer | Stack | Logos |
+|---|---|---|
+| Analysis | SQL (required) | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/postgresql/postgresql-original.svg" alt="SQL" title="SQL" height="32"> |
+| Database | PostgreSQL, DuckDB or SQLite | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" title="PostgreSQL" height="32"> <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/duckdb.svg" alt="DuckDB" title="DuckDB" height="32"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/sqlite/sqlite-original.svg" alt="SQLite" title="SQLite" height="32"> |
+| Data generation | Any language | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/python/python-original.svg" alt="Python" title="Python (example)" height="32"> |
+| Tools | No BI tool needed. Runs locally | — |
+
 ## Evaluation weights
 
 | Area | Weight |

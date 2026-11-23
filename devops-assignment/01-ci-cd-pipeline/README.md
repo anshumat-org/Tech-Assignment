@@ -12,6 +12,15 @@
 | Where | Runs on a free CI tier and locally. Deploy targets can be Docker Compose or a local cluster. No real cloud accounts |
 | Which | Recommended first assignment of the DevOps track. Next is 02 |
 
+## Tech stack
+
+| Layer | Stack | Logos |
+|---|---|---|
+| Sample service | Any language, a tiny HTTP API is fine | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/nodejs/nodejs-original.svg" alt="Node.js" title="Node.js (example)" height="32"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/python/python-original.svg" alt="Python" title="Python (example)" height="32"> |
+| CI/CD | GitHub Actions preferred, equivalents allowed | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/githubactions/githubactions-original.svg" alt="GitHub Actions" title="GitHub Actions" height="32"> |
+| Packaging | Docker | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/docker/docker-original.svg" alt="Docker" title="Docker" height="32"> |
+| Deploy targets | Docker Compose or a local cluster. No real cloud accounts | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/docker/docker-original.svg" alt="Docker Compose" title="Docker Compose" height="32"> |
+
 ## Evaluation weights
 
 | Area | Weight |

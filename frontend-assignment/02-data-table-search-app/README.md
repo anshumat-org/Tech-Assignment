@@ -12,6 +12,15 @@
 | Where | Runs locally, no paid infrastructure |
 | Which | Frontend track, after 01 or as an alternative to 03 |
 
+## Tech stack
+
+| Layer | Stack | Logos |
+|---|---|---|
+| Language | TypeScript preferred | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/typescript/typescript-original.svg" alt="TypeScript" title="TypeScript" height="32"> |
+| Framework | Any framework | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/react/react-original.svg" alt="React" title="React (example)" height="32"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/vuejs/vuejs-original.svg" alt="Vue" title="Vue (example)" height="32"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/svelte/svelte-original.svg" alt="Svelte" title="Svelte (example)" height="32"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/angularjs/angularjs-original.svg" alt="Angular" title="Angular (example)" height="32"> |
+| Data | Mock API, 5,000+ synthetic rows from a seed script | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/javascript/javascript-original.svg" alt="Seed script" title="Seed script" height="32"> |
+| Mocking | MSW, json-server or similar | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/nodejs/nodejs-original.svg" alt="Node.js" title="Mock server" height="32"> |
+
 ## Evaluation weights
 
 | Area | Weight |

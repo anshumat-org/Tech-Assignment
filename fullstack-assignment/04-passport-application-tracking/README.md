@@ -12,6 +12,14 @@
 | Where | Runs locally. No real credentials or real personal data |
 | Which | Integration and security depth. Used after the Assignment 03 screen |
 
+## Tech stack
+
+| Layer | Stack | Logos |
+|---|---|---|
+| Language | TypeScript preferred | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/typescript/typescript-original.svg" alt="TypeScript" title="TypeScript" height="32"> |
+| Database | PostgreSQL preferred | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" title="PostgreSQL" height="32"> |
+| Integration | DigiLocker adapter with a mock implementation. No real credentials | — |
+
 ## Important boundary
 
 | Rule | Detail |

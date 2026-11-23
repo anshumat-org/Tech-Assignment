@@ -12,6 +12,14 @@
 | Where | Desktop first, with a usable small-screen layout |
 | Which | Recommended first assignment of the UX/UI track |
 
+## Tech stack
+
+| Layer | Stack | Logos |
+|---|---|---|
+| Design tool | Any design tool | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/figma/figma-original.svg" alt="Figma" title="Figma (example)" height="32"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/sketch/sketch-original.svg" alt="Sketch" title="Sketch (example)" height="32"> |
+| Deliverable | Figma link or exported PDF/PNG, plus a short rationale doc | — |
+| Themes | Light and dark for the dashboard | — |
+
 ## Evaluation weights
 
 | Area | Weight |

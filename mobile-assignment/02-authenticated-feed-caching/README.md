@@ -12,6 +12,14 @@
 | Where | Emulator or device. No paid infrastructure |
 | Which | Second assignment of the Mobile track, after 01 |
 
+## Tech stack
+
+| Layer | Stack | Logos |
+|---|---|---|
+| Platform | React Native, Flutter, Kotlin or Swift. State your choice and why | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/react/react-original.svg" alt="React Native" title="React Native" height="32"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/flutter/flutter-original.svg" alt="Flutter" title="Flutter" height="32"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/kotlin/kotlin-original.svg" alt="Kotlin" title="Kotlin" height="32"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/swift/swift-original.svg" alt="Swift" title="Swift" height="32"> |
+| Storage | Device cache. Secure token storage | — |
+| Backend | Mocked API issuing short-lived tokens | — |
+
 ## Evaluation weights
 
 | Area | Weight |

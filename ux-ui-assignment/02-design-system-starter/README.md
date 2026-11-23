@@ -12,6 +12,14 @@
 | Where | Web product, desktop and small screens |
 | Which | After 01, or on its own for system-focused roles |
 
+## Tech stack
+
+| Layer | Stack | Logos |
+|---|---|---|
+| Design tool | Any design tool | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/figma/figma-original.svg" alt="Figma" title="Figma (example)" height="32"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/sketch/sketch-original.svg" alt="Sketch" title="Sketch (example)" height="32"> |
+| Tokens | Table or file. May start from the shared design system | — |
+| Deliverable | Figma link or exported PDF/PNG, plus a rationale doc. Light and dark both required | — |
+
 ## Evaluation weights
 
 | Area | Weight |

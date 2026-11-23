@@ -12,6 +12,15 @@
 | Where | Runs locally. No backend needed |
 | Which | Recommended first frontend assignment. Candidates then move to 02 or 03 |
 
+## Tech stack
+
+| Layer | Stack | Logos |
+|---|---|---|
+| Language | TypeScript preferred | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/typescript/typescript-original.svg" alt="TypeScript" title="TypeScript" height="32"> |
+| Framework | Any framework | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/react/react-original.svg" alt="React" title="React (example)" height="32"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/vuejs/vuejs-original.svg" alt="Vue" title="Vue (example)" height="32"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/svelte/svelte-original.svg" alt="Svelte" title="Svelte (example)" height="32"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/angularjs/angularjs-original.svg" alt="Angular" title="Angular (example)" height="32"> |
+| Tokens | Shared design system or your own | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/figma/figma-original.svg" alt="Design tokens" title="Design tokens" height="32"> |
+| Backend | Not needed | — |
+
 ## Evaluation weights
 
 | Area | Weight |

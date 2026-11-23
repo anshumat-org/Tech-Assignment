@@ -12,6 +12,15 @@
 | Where | Runs locally. No real accounts or paid services |
 | Which | Third assignment of the DevOps track, after 01 and 02. Can stand alone |
 
+## Tech stack
+
+| Layer | Stack | Logos |
+|---|---|---|
+| Sample service | Any stack | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/nodejs/nodejs-original.svg" alt="Node.js" title="Node.js (example)" height="32"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/python/python-original.svg" alt="Python" title="Python (example)" height="32"> |
+| Metrics and dashboards | Prometheus and Grafana suggested, equivalents allowed | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/prometheus/prometheus-original.svg" alt="Prometheus" title="Prometheus" height="32"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/grafana/grafana-original.svg" alt="Grafana" title="Grafana" height="32"> |
+| Logs | A log aggregator of your choice | — |
+| Runtime | Docker Compose. Local or free tools only | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/docker/docker-original.svg" alt="Docker" title="Docker Compose" height="32"> |
+
 ## Evaluation weights
 
 | Area | Weight |

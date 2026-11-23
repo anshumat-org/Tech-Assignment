@@ -12,6 +12,14 @@
 | Where | Runs locally. Synthetic data only |
 | Which | Ledger and finance depth. Used after the Assignment 03 screen |
 
+## Tech stack
+
+| Layer | Stack | Logos |
+|---|---|---|
+| Language | TypeScript preferred | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/typescript/typescript-original.svg" alt="TypeScript" title="TypeScript" height="32"> |
+| Database | PostgreSQL preferred. Integer paise or decimal for money | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" title="PostgreSQL" height="32"> |
+| Input | Voice or photo optional. No real payment integration | — |
+
 ## Core idea
 
 The paper hal khata is an append-only story of who owes whom. The digital version keeps that property: **entries are never edited or deleted, only reversed and re-posted**. Balances, daily cash book (rokad), outstanding lists and settlement slips (hisaab / patti) are all **derived from the ledger**, never typed in.

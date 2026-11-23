@@ -12,6 +12,16 @@
 | Where | Runs locally, no mandatory paid infrastructure |
 | Which | Two assessment types: technical and psychometric |
 
+## Tech stack
+
+| Layer | Stack | Logos |
+|---|---|---|
+| Language | TypeScript where practical | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/typescript/typescript-original.svg" alt="TypeScript" title="TypeScript" height="32"> |
+| Backend | Node.js | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/nodejs/nodejs-original.svg" alt="Node.js" title="Node.js" height="32"> |
+| Frontend | React or Next.js | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/react/react-original.svg" alt="React" title="React" height="32"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/nextjs/nextjs-original.svg" alt="Next.js" title="Next.js" height="32"> |
+| Database | PostgreSQL (SQLite acceptable) | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" title="PostgreSQL" height="32"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/sqlite/sqlite-original.svg" alt="SQLite" title="SQLite" height="32"> |
+| Tools | Docker optional. Runs locally | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/docker/docker-original.svg" alt="Docker" title="Docker (optional)" height="32"> |
+
 ## Assessment types
 
 | Technical | Psychometric |

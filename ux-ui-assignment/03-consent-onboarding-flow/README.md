@@ -12,6 +12,14 @@
 | Where | Mobile first, with a desktop layout. Fictional service and synthetic data only |
 | Which | After 01, or on its own for content-heavy and trust-focused roles |
 
+## Tech stack
+
+| Layer | Stack | Logos |
+|---|---|---|
+| Design tool | Any design tool | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/figma/figma-original.svg" alt="Figma" title="Figma (example)" height="32"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/sketch/sketch-original.svg" alt="Sketch" title="Sketch (example)" height="32"> |
+| Deliverable | Figma link or exported PDF/PNG, plus a rationale and content doc | — |
+| Layouts | Mobile first plus one desktop layout | — |
+
 ## Evaluation weights
 
 | Area | Weight |

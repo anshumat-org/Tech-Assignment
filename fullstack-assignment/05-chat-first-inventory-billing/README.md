@@ -12,6 +12,14 @@
 | Where | Runs locally. Synthetic data only |
 | Which | Commerce depth. Used after the Assignment 03 screen |
 
+## Tech stack
+
+| Layer | Stack | Logos |
+|---|---|---|
+| Language | TypeScript preferred | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/typescript/typescript-original.svg" alt="TypeScript" title="TypeScript" height="32"> |
+| Database | PostgreSQL preferred | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" title="PostgreSQL" height="32"> |
+| Chat / AI | Chat or LLM adapter. Mock or deterministic parser if no AI key | — |
+
 ## Core idea
 
 The assistant converts instructions into structured actions, reads figures from the database, and **previews consequential changes before the owner confirms**. The AI never invents stock, prices, tax, totals, payment status or report figures.

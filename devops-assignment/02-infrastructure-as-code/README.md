@@ -12,6 +12,15 @@
 | Where | Runs locally. No real cloud account or paid resources. Plan output is acceptable where apply is impossible |
 | Which | Second assignment of the DevOps track, after 01. Can stand alone |
 
+## Tech stack
+
+| Layer | Stack | Logos |
+|---|---|---|
+| IaC | Terraform or OpenTofu preferred, equivalents allowed | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/terraform/terraform-original.svg" alt="Terraform" title="Terraform / OpenTofu" height="32"> |
+| Providers | Local providers, containers or mocked cloud (for example LocalStack) | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/docker/docker-original.svg" alt="Docker" title="Docker" height="32"> |
+| Storage | As the module needs | — |
+| Rules | Reuse modules across environments. No real cloud account or paid resources | — |
+
 ## Evaluation weights
 
 | Area | Weight |
