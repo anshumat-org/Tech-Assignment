@@ -1,41 +1,81 @@
 # Full-Stack Assignment
 
-**v1.2 — 2026-11-23** · added Assignment 06, product briefs and developer guides
+**v1.3 — 2026-11-23** · "Choose any one assignment" rule and checklist section added. v1.2 added Assignment 06, product briefs and developer guides.
 
-| # | Assignment | Best for | Focus | Folder |
-|---|---|---|---|---|
-| 01 | Assessment & Intelligence Platform | Backend, SQL, data engineering | DB design, SQL, allocation engine, scoring | [01-assessment-intelligence-platform](01-assessment-intelligence-platform/README.md) |
-| 02 | AI-Powered Daily Knowledge System | Product, frontend, local-first, AI apps | Outliner UX, offline sync, AI extraction | [02-ai-daily-knowledge-system](02-ai-daily-knowledge-system/README.md) |
-| 03 | Mini Workflow Engine | Initial screen for any full-stack candidate | Fundamentals, code quality, transactions, API design | [03-mini-workflow-engine](03-mini-workflow-engine/README.md) |
-| 04 | Passport Application & Tracking (DigiLocker) | Integrations, security, workflows | State machine, consent, adapters, audit trail | [04-passport-application-tracking](04-passport-application-tracking/README.md) |
-| 05 | Chat-First Inventory & Billing | Commerce, conversational apps | Chat-to-action, inventory ledger, bilingual UX, reports | [05-chat-first-inventory-billing](05-chat-first-inventory-billing/README.md) |
-| 06 | Mandi Munshi: Digital Hal Khata | Fintech, ledgers, accounting logic | Double-entry ledger, settlement, reversals, reports | [06-mandi-munshi-hal-khata](06-mandi-munshi-hal-khata/README.md) |
+> **Choose any one assignment from the table below and complete only that one.** Do not submit more than one. Pick the one that best shows your strengths.
 
-**Recommended funnel:** start with 03, then choose 01, 02, 04, 05 or 06 by the candidate's backend, product, integration, commerce or ledger focus. Do not ask every applicant to complete all six.
+| # | Assignment | Best for | Focus | Effort | Folder |
+|---|---|---|---|---|---|
+| 01 | Assessment & Intelligence Platform | Backend, SQL, data engineering | DB design, SQL, allocation engine, scoring | 8–12 h | [01-assessment-intelligence-platform](01-assessment-intelligence-platform/README.md) |
+| 02 | AI-Powered Daily Knowledge System | Product, frontend, local-first, AI apps | Outliner UX, offline sync, AI extraction | 8–12 h | [02-ai-daily-knowledge-system](02-ai-daily-knowledge-system/README.md) |
+| 03 | Mini Workflow Engine | Fundamentals, shortest option | Code quality, transactions, API design | 3–4 h | [03-mini-workflow-engine](03-mini-workflow-engine/README.md) |
+| 04 | Passport Application & Tracking (DigiLocker) | Integrations, security, workflows | State machine, consent, adapters, audit trail | 6–8 h | [04-passport-application-tracking](04-passport-application-tracking/README.md) |
+| 05 | Chat-First Inventory & Billing | Commerce, conversational apps | Chat-to-action, inventory ledger, bilingual UX, reports | 8–10 h | [05-chat-first-inventory-billing](05-chat-first-inventory-billing/README.md) |
+| 06 | Mandi Munshi: Digital Hal Khata | Fintech, ledgers, accounting logic | Double-entry ledger, settlement, reversals, reports | 8–10 h | [06-mandi-munshi-hal-khata](06-mandi-munshi-hal-khata/README.md) |
+
+**How to choose**
+
+| If you are strongest in… | Choose |
+|---|---|
+| Backend, SQL, data modelling | 01 |
+| Product UX, offline-first, AI features | 02 |
+| Clean fundamentals, limited time | 03 |
+| Integrations, security, consent, workflows | 04 |
+| Commerce, chat interfaces, bilingual apps | 05 |
+| Ledgers, money correctness, accounting logic | 06 |
 
 **Rules for candidates**
-- Complete only the assignment selected for you.
+- Choose any one assignment and complete only that one.
 - Read [developer-instructions.md](developer-instructions.md). It applies to every assignment.
-
-| Assignment | Expected effort | Review |
-|---|---|---|
-| 01, 02 | 8–12 hours | 30–45 min |
-| 03 | 3–4 hours | 20–30 min |
-| 04 | 6–8 hours | 30–45 min |
-| 05, 06 | 8–10 hours | 30–45 min |
-
-- Submission window 3 calendar days, then a technical discussion.
+- Submission window 3 calendar days, then a technical discussion (20–45 min, depending on the assignment).
 - Use synthetic data. Do not reproduce OnRole production systems.
 - Follow [../SUBMISSION_FORMATS.md](../SUBMISSION_FORMATS.md) and submit via the form linked in the root README.
+
+## Checklist
+
+Tick these for the one assignment you chose. Your assignment's `developer-guide.md` has the detailed, assignment-specific version.
+
+### Before you start
+- [ ] Choose one assignment and note its expected effort
+- [ ] Read, in order: `product-brief.md` → `requirements-and-directives.md` → `developer-guide.md` → `design-system/README.md` → `samples/`
+- [ ] Read [developer-instructions.md](developer-instructions.md) and [../SUBMISSION_FORMATS.md](../SUBMISSION_FORMATS.md)
+- [ ] Write down your assumptions where the brief is silent
+- [ ] Choose your stack (TypeScript and PostgreSQL preferred); note and justify any change
+- [ ] Check your runtime, database and package manager work locally
+- [ ] Create the repo with a README skeleton and `.gitignore`; no `.env` or secrets committed
+- [ ] Sketch the HLD and ER diagram before coding
+- [ ] Map the build order in `developer-guide.md` to your available hours
+- [ ] List the tests the brief requires and plan synthetic seed data
+
+### While developing
+- [ ] Build core logic and data model first; UI polish last
+- [ ] Trace every feature to a user story in `product-brief.md`
+- [ ] Validate all input server-side and return consistent errors
+- [ ] Enforce access and scope on the server, never from client-sent IDs or roles
+- [ ] Use DB transactions and make retries safe (idempotency) wherever data is written
+- [ ] Match the screens in `product-brief.md` and their `samples/` for look and feel
+- [ ] Write tests with each build step, not at the end
+- [ ] Commit small and often with meaningful messages
+- [ ] Keep a running list of assumptions, shortcuts and AI tool use
+- [ ] No secrets, tokens or real personal data in code, logs or seed data
+
+### After developing (before you submit)
+- [ ] Fresh clone: follow your own README exactly; setup, seed, run and test all work
+- [ ] All required tests pass and cover the brief's named scenarios
+- [ ] Each user story's acceptance criteria can be shown working
+- [ ] Deliverables present: HLD, ER diagram, schema, API docs, demo (per `SUBMISSION_FORMATS.md`)
+- [ ] README has setup, assumptions, trade-offs, limitations, future work, AI usage disclosure and sources
+- [ ] Rehearse the live follow-up change described in your brief
+- [ ] Submit within 3 calendar days via the form
 
 **Each assignment folder contains**
 
 | File / folder | Purpose |
 |---|---|
 | `README.md` | Overview, scope, what is evaluated |
-| `product-brief.md` | Start here. What you build: product, personas, journey, capabilities, user stories with acceptance criteria |
+| `product-brief.md` | Start here. Product, personas, journey, capabilities, features, screens, configuration, user stories with acceptance criteria |
 | `requirements-and-directives.md` | Part 1 requirements and scenarios. Part 2 do / don't rules, deliverables, constraints, discussion |
 | `resources.md` | Reference links for the topic. Starting points, not solutions |
 | `developer-guide.md` | Build order, directions, and before / during / after checklists |
 | `design-system/` | UI guidance specific to this assignment |
-| `samples/` | Wireframe images showing the expected look and feel (not solutions). Present for 01 and 02 only |
+| `samples/` | Wireframe images for each screen, showing the expected look and feel (not solutions) |

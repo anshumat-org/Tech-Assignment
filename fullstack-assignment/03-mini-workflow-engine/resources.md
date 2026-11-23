@@ -1,8 +1,8 @@
 # Assignment 03 — Resources
 
-**v1.0 — 2026-11-06**
+**v1.1 — 2026-11-23**
 
-Reference material for **Mini Workflow Engine**. These are starting points, not solutions. Links were not checked live: verify before sharing.
+Reference material for **Mini Workflow Engine**. These are starting points, not solutions. If a link has moved, search for its title.
 
 | # | Resource | Why it helps |
 |---|---|---|

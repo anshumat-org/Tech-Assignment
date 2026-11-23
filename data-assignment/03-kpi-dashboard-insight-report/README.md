@@ -1,6 +1,6 @@
 # Assignment 03 — KPI Dashboard & Insight Report
 
-**v0.3 DRAFT — 2026-11-23**
+**v0.4 DRAFT — 2026-11-23**
 
 | WH | Answer |
 |---|---|
@@ -10,7 +10,7 @@
 | How | Any BI tool or code (Streamlit, Metabase, Superset, notebook, static HTML). SQL required for the metrics. PostgreSQL, DuckDB or SQLite |
 | When | 6–8 hours of effort. Review 30–45 minutes |
 | Where | Runs locally or as exported files, no mandatory paid tool |
-| Which | Stage 2 of the Data funnel, after 01. Pairs with 02 for candidates who also build pipelines |
+| Which | Choose it to show analysis, reporting and communication depth |
 
 ## Evaluation weights
 

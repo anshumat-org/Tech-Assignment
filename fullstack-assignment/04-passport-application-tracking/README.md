@@ -1,6 +1,6 @@
 # Assignment 04 — Passport Application & Tracking with DigiLocker
 
-**v1.2 — 2026-11-23**
+**v1.3 — 2026-11-23**
 
 | WH | Answer |
 |---|---|
@@ -17,7 +17,7 @@
 | Rule | Detail |
 |---|---|
 | Not the official system | The product helps organise and track an application. It must not pretend to be the Government of India's passport submission system |
-| No production access assumed | Production DigiLocker and Passport Seva APIs are not available. Use an adapter interface and a clearly labelled mock unless the hiring team supplies authorised sandbox credentials and API docs |
+| No production access assumed | Production DigiLocker and Passport Seva APIs are not available. Use an adapter interface and a clearly labelled mock unless you are given authorised sandbox credentials and API docs |
 | Label simulated data | Simulated submission and tracking data is clearly marked as simulated |
 | Never | Scrape government portals. Ask users for DigiLocker passwords, OTPs or authentication secrets |
 

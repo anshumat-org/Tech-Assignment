@@ -1,8 +1,8 @@
 # Assignment 03 — Resources
 
-**v0.1 DRAFT — 2026-11-06**
+**v0.2 DRAFT — 2026-11-23**
 
-Reference material for **Device Features and Upload**. These are starting points, not solutions. Links were not checked live: verify before sharing.
+Reference material for **Device Features and Upload**. These are starting points, not solutions. If a link has moved, search for its title.
 
 | # | Resource | Why it helps |
 |---|---|---|

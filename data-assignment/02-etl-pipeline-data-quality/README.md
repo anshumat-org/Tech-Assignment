@@ -1,6 +1,6 @@
 # Assignment 02 — ETL Pipeline & Data Quality
 
-**v0.3 DRAFT — 2026-11-23**
+**v0.4 DRAFT — 2026-11-23**
 
 | WH | Answer |
 |---|---|
@@ -10,7 +10,7 @@
 | How | Any language. SQL required for transforms. PostgreSQL, DuckDB or SQLite. Orchestrators optional, a plain script or Makefile is fine |
 | When | 6–8 hours of effort. Review 30–45 minutes |
 | Where | Runs locally from a clean checkout, no paid infrastructure |
-| Which | Stage 2 of the Data funnel, after 01. Pairs with 03 for candidates who also report |
+| Which | Choose it to show data engineering depth |
 
 ## Evaluation weights
 

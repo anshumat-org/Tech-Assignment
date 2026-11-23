@@ -1,16 +1,16 @@
 # Assignment 03 — Mini Workflow Engine
 
-**v1.2 — 2026-11-23**
+**v1.3 — 2026-11-23**
 
 | WH | Answer |
 |---|---|
 | What | A small task workflow app: create and manage tasks, move them through statuses, inspect change history |
-| Why | Initial screen for fundamentals and engineering depth. Intentionally smaller than a product build |
+| Why | Tests fundamentals and engineering depth. Intentionally smaller than a product build |
 | Who | A user who creates, edits, filters and tracks tasks |
 | How | Any language and framework. TypeScript preferred. SQLite acceptable, PostgreSQL preferred |
 | When | 3–4 hours of effort. Review 20–30 minutes |
 | Where | Runs locally, no mandatory paid infrastructure |
-| Which | Stage 1 of the funnel. Candidates then move to 01 (backend and data depth) or 02 (product and platform depth) |
+| Which | The shortest full-stack option. Choose it to show clean fundamentals in limited time |
 
 ## Evaluation weights
 

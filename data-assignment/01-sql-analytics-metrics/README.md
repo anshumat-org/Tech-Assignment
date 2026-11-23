@@ -1,16 +1,16 @@
 # Assignment 01 — SQL Analytics & Metrics
 
-**v0.3 DRAFT — 2026-11-23**
+**v0.4 DRAFT — 2026-11-23**
 
 | WH | Answer |
 |---|---|
 | What | Answer business questions on a synthetic retail sales dataset using SQL: metric definitions, window functions, CTEs and a cohort retention query |
-| Why | Tests SQL depth, precise metric definitions, denominators and awareness of messy data. First screen for the Data track |
+| Why | Tests SQL depth, precise metric definitions, denominators and awareness of messy data |
 | Who | An analyst who turns a business question into a defined, verifiable number |
 | How | SQL required. PostgreSQL, DuckDB or SQLite. Any language for data generation. Candidate generates data or builds from the given schema |
 | When | 4–6 hours of effort. Review 20–30 minutes |
 | Where | Runs locally, no paid infrastructure |
-| Which | Stage 1 of the Data funnel. Candidates then move to 02 (engineering) or 03 (analysis and reporting) |
+| Which | Choose it to show SQL and metric-definition depth |
 
 ## Evaluation weights
 

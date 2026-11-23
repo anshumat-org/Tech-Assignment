@@ -1,8 +1,6 @@
 # DevOps Assignments
 
-**v0.2 DRAFT — 2026-11-23**
-
-> DRAFT: scope, effort and weights may change before release to candidates.
+**v0.4 DRAFT — 2026-11-23**
 
 | # | Assignment | Focus | Effort | Review | Folder |
 |---|---|---|---|---|---|
@@ -10,7 +8,7 @@
 | 02 | Infrastructure as Code | Staging and production environments, secrets, least privilege, rebuild from clean | 6–8 hours | 30–45 min | [02-infrastructure-as-code](02-infrastructure-as-code/README.md) |
 | 03 | Observability & Incident Response | Metrics, logs, alerts, SLOs, runbook, blameless incident write-up | 6–8 hours | 30–45 min | [03-observability-incident-response](03-observability-incident-response/README.md) |
 
-**Recommended order:** 01, then 02, then 03. Each builds on the previous one, but each can also be assigned alone. Do not ask every applicant to complete all three.
+**Choose any one assignment below and complete only that one.** Not sure? 01 covers CI/CD, 02 suits infrastructure as code, 03 suits observability and incident response.
 
 ## Rules for candidates
 
@@ -34,8 +32,3 @@
 | `requirements-and-directives.md` | Part 1 requirements and scenarios. Part 2 do / don't rules, deliverables, constraints, discussion |
 | `resources.md` | Reference links for the topic. Starting points, not solutions |
 | `developer-guide.md` | Build order, directions, and before / during / after checklists |
-
-## Status
-
-- ⚠️ All content is DRAFT (v0.1). No rubric or submission-format mapping exists yet for this track.
-- 💡 Reuse the layout of [../fullstack-assignment/README.md](../fullstack-assignment/README.md) when finalising.

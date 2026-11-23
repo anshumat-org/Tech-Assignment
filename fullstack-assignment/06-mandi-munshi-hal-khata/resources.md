@@ -1,8 +1,8 @@
 # Assignment 06 — Resources
 
-**v1.0 — 2026-11-23**
+**v1.1 — 2026-11-23**
 
-Reference material for **Mandi Munshi: Digital Hal Khata**. These are starting points, not solutions. Links were not checked live: verify before sharing.
+Reference material for **Mandi Munshi: Digital Hal Khata**. These are starting points, not solutions. If a link has moved, search for its title.
 
 | # | Resource | Why it helps |
 |---|---|---|

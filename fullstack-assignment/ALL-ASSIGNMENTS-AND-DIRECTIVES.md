@@ -1,6 +1,6 @@
 # FullStack Assignment — All Assignments and Directives
 
-**v1.1 — 2026-11-23** · One-file summary of Assignments 01–06. Full detail lives in each assignment folder.
+**v1.3 — 2026-11-23** · One-file summary of Assignments 01–06. Full detail lives in each assignment folder.
 
 ## 1. Overview
 
@@ -13,13 +13,13 @@
 | 05 | Chat-First Inventory & Billing | Chat-to-action, ledger, bilingual UX, reports | 8–10 h | 30–45 min | [05](05-chat-first-inventory-billing/README.md) |
 | 06 | Mandi Munshi: Digital Hal Khata | Double-entry ledger, settlement, reversals, reports | 8–10 h | 30–45 min | [06](06-mandi-munshi-hal-khata/README.md) |
 
-**Funnel:** start with 03, then 01 (backend/data), 02 (product/platform), 04 (integration/security) 05 (commerce) or 06 (ledger). Do not ask every applicant to complete all six.
+**Choice:** candidates choose any one assignment: 01 (backend/data), 02 (product/platform), 03 (fundamentals, shortest), 04 (integration/security), 05 (commerce) or 06 (ledger). Submit only one.
 
 ## 2. Rules for every assignment
 
 | Rule | Detail |
 |---|---|
-| Scope | Complete only the assignment selected for you |
+| Scope | Choose any one assignment and complete only that one |
 | Window | 3 calendar days, then a technical discussion |
 | Data | Synthetic only. No real personal data. No secrets in the repo |
 | Stack | Any language. TypeScript preferred. Relational DB (PostgreSQL preferred, SQLite acceptable for 03) |
@@ -152,11 +152,3 @@ Core principle: AI can assist implementation. Humans own the instructions, appro
 
 Each assignment has its own area names and weights (each adds to 100%). See the "Evaluation weights" table in each README:
 [01](01-assessment-intelligence-platform/README.md) · [02](02-ai-daily-knowledge-system/README.md) · [03](03-mini-workflow-engine/README.md) · [04](04-passport-application-tracking/README.md) · [05](05-chat-first-inventory-billing/README.md) · [06](06-mandi-munshi-hal-khata/README.md)
-
-## 5. Open items
-
-| Item | Status |
-|---|---|
-| [../qa/RUBRIC.md](../qa/RUBRIC.md) | Scores 01 and 02 only |
-| [../SUBMISSION_FORMATS.md](../SUBMISSION_FORMATS.md) | Says "Applies to Assignment 01 and Assignment 02" |
-| `samples/` wireframes | Exist for 01 and 02 only |

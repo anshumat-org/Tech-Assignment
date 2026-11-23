@@ -1,8 +1,6 @@
 # UX/UI Assignments
 
-**v0.2 DRAFT — 2026-11-23**
-
-> DRAFT: these assignments are not final. Scope, effort and weights may change before use.
+**v0.3 DRAFT — 2026-11-23**
 
 | # | Assignment | Focus | Effort | Review | Folder |
 |---|---|---|---|---|---|
@@ -10,7 +8,7 @@
 | 02 | Design System Starter | Tokens, 8–10 components, accessibility, light and dark | 6–8 h | 30–45 min | [02-design-system-starter](02-design-system-starter/README.md) |
 | 03 | Consent Onboarding Flow | Plain-language consent, error and recovery, withdrawal, content design | 5–7 h | 30–45 min | [03-consent-onboarding-flow](03-consent-onboarding-flow/README.md) |
 
-**Recommended order:** 01 first (end-to-end design process), then 02 (system thinking) or 03 (sensitive flows and content), by the role being hired. Do not ask every applicant to complete all three.
+**Choose any one assignment below and complete only that one.** Not sure? 01 covers the end-to-end design process, 02 suits system thinking, 03 suits sensitive flows and content.
 
 ## Rules for candidates
 

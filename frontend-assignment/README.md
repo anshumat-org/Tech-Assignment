@@ -1,8 +1,6 @@
 # Frontend / Web Assignments
 
-**v0.2 DRAFT — 2026-11-23**
-
-> DRAFT: these assignments are not final. Scope, effort and weights may change before release.
+**v0.3 DRAFT — 2026-11-23**
 
 | # | Assignment | Focus | Effort | Review | Folder |
 |---|---|---|---|---|---|
@@ -10,7 +8,7 @@
 | 02 | Data Table & Search App | Mocked API, filters, URL state, performance | 6–8 h | 30–45 min | [02-data-table-search-app](02-data-table-search-app/README.md) |
 | 03 | Multi-Step Form with Autosave | Validation, autosave, resume, network recovery | 5–7 h | 30–45 min | [03-multi-step-form-autosave](03-multi-step-form-autosave/README.md) |
 
-**Recommended order:** 01 first (fundamentals, smallest), then 02 or 03 by the candidate's interest (data-heavy UI or form and resilience depth). Do not ask every applicant to complete all three.
+**Choose any one assignment below and complete only that one.** Not sure? 01 is the smallest (fundamentals), 02 suits data-heavy UI, 03 suits forms and resilience.
 
 ## Rules for candidates
 

@@ -1,8 +1,6 @@
 # Data Assignments
 
-**v0.2 DRAFT — 2026-11-23**
-
-> DRAFT: content is not final and may change before it is sent to candidates.
+**v0.4 DRAFT — 2026-11-23**
 
 | # | Assignment | Best for | Focus | Effort | Review | Folder |
 |---|---|---|---|---|---|---|
@@ -10,7 +8,7 @@
 | 02 | ETL Pipeline & Data Quality | Data engineers | Idempotent loads, incremental runs, DQ tests, bad rows, lineage | 6–8 h | 30–45 min | [02-etl-pipeline-data-quality](02-etl-pipeline-data-quality/README.md) |
 | 03 | KPI Dashboard & Insight Report | Analysts, BI developers | KPI definitions, caveats, reconciliation, honest charts | 6–8 h | 30–45 min | [03-kpi-dashboard-insight-report](03-kpi-dashboard-insight-report/README.md) |
 
-**Recommended order:** start with 01 for every Data candidate. Then choose 02 (engineering focus) or 03 (analysis and communication focus). Do not ask every applicant to complete all three.
+**Choose any one assignment below and complete only that one.** Not sure? 01 covers SQL and metrics, 02 suits data engineering, 03 suits analysis and reporting.
 
 ## Rules for candidates
 
@@ -32,9 +30,6 @@
 | `resources.md` | Reference links for the topic. Starting points, not solutions |
 | `developer-guide.md` | Build order, directions, and before / during / after checklists |
 
-## Status
+## Data
 
-| Item | State |
-|---|---|
-| Content | DRAFT v0.1, under review |
-| Sample data | Candidate generates it, or receives only the schema. No dataset is shipped yet |
+No dataset is shipped. Generate synthetic data yourself, or work from the schema described in your assignment.

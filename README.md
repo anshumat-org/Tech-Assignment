@@ -1,6 +1,6 @@
 # Tech-Assignment
 
-**v1.2 — 2026-11-23** · Full-stack product engineer assignments. Complete only the assignment selected for you.
+**v1.4 — 2026-11-23** · Full-stack product engineer assignments. Choose any one assignment and complete only that one.
 
 ## Repo structure
 
@@ -31,9 +31,7 @@
 │   ├── 05-chat-first-inventory-billing/     # README, product-brief, requirements, developer-guide, resources, design-system
 │   ├── 06-mandi-munshi-hal-khata/           # README, product-brief, requirements, developer-guide, resources, design-system
 │   └── developer-instructions.md       # mandatory for all six
-├── shared/design-system/            # tokens.css + shared guidance
-├── qa/RUBRIC.md                     # scoring rubric (hiring team)
-└── .claude/agents/qa-assessor.md    # QA agent (hiring team)
+└── shared/design-system/            # tokens.css + shared guidance
 ```
 
 ## Where to start
@@ -44,13 +42,4 @@
 | [fullstack-assignment/developer-instructions.md](fullstack-assignment/developer-instructions.md) | Mandatory developer principles |
 | [SUBMISSION_FORMATS.md](SUBMISSION_FORMATS.md) | Required format for every deliverable and diagram |
 | [shared/design-system/README.md](shared/design-system/README.md) | Shared tokens and components |
-| [Submission form](https://forms.gle/U7Hzh3P6ZMDEqxcw7) | Where candidates submit (see Section 10 of the format guide) |
-
-## Hiring team only
-
-| Doc | Purpose |
-|---|---|
-| [qa/RUBRIC.md](qa/RUBRIC.md) | Scoring rubric and weights |
-| [.claude/agents/qa-assessor.md](.claude/agents/qa-assessor.md) | QA agent that assesses a submission |
-
-⚠️ `qa/` and `.claude/` are visible to anyone who downloads this repo. Move them to a private repo if candidates should not see how they are scored.
+| [Submission form](https://forms.gle/U7Hzh3P6ZMDEqxcw7) | Where you submit (see Section 10 of the format guide) |

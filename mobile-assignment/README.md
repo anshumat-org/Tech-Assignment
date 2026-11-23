@@ -1,8 +1,6 @@
 # Mobile App Assignments
 
-**v0.2 DRAFT — 2026-11-23**
-
-> DRAFT: content is under review and may change before use with candidates.
+**v0.3 DRAFT — 2026-11-23**
 
 | # | Assignment | Focus | Effort | Review | Folder |
 |---|---|---|---|---|---|
@@ -10,7 +8,7 @@
 | 02 | Authenticated Feed with Caching | Secure tokens, refresh, expired session, paginated cache | 6–8 h | 30–45 min | [02-authenticated-feed-caching](02-authenticated-feed-caching/README.md) |
 | 03 | Device Features and Upload | Camera/photo, location, permission denial, resilient upload | 6–8 h | 30–45 min | [03-device-features-upload](03-device-features-upload/README.md) |
 
-**Recommended order:** start with 01 (resilience fundamentals), then 02 (security and sessions), then 03 (platform integration). Do not ask every applicant to complete all three. Assign one by the role's focus.
+**Choose any one assignment below and complete only that one.** Not sure? 01 covers offline resilience, 02 suits security and sessions, 03 suits device features.
 
 **Rules for candidates**
 - Complete only the assignment selected for you.

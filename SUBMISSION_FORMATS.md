@@ -1,7 +1,7 @@
 # FullStack Assignment — Submission Format Guide
 
-**v1.4 — 2026-11-23** · Applies to Assignments 01–06 (FullStack track)
-**Changelog:** v1.4 — scope extended to Assignment 06. v1.3 — scope extended to Assignments 03, 04, 05. v1.2 — added Section 11 (diagram standards: Mermaid, Excalidraw, text sitemap, charts). v1.1 — added Section 10 (how to submit) with the Google Form link. v1.0 — first version: HLD, Database, SQL, API, Design System, Tests, README, Demo formats.
+**v1.5 — 2026-11-23** · Applies to Assignments 01–06 (FullStack track)
+**Changelog:** v1.5 — candidates choose any one assignment. v1.4 — scope extended to Assignment 06. v1.3 — scope extended to Assignments 03, 04, 05. v1.2 — added Section 11 (diagram standards: Mermaid, Excalidraw, text sitemap, charts). v1.1 — added Section 10 (how to submit) with the Google Form link. v1.0 — first version: HLD, Database, SQL, API, Design System, Tests, README, Demo formats.
 
 > This guide defines **how** to present deliverables. It contains **no solutions**. Use synthetic data only.
 
@@ -239,7 +239,7 @@ Each query gets one file `NN_name.sql` and one entry in `docs/sql.md`:
 
 **Warnings**
 - ⚠️ Do not include secrets, API keys or real personal data in the repo or the form.
-- ⚠️ Submit the assignment selected for you. Do not build both.
+- ⚠️ Submit only the one assignment you chose. Do not build more than one.
 
 ---
 
